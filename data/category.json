@@ -2,6 +2,7 @@
     "categories": {
         "general coding task": {},
         "program testing": {
+            "general testing": {},
             "fuzzing": {},
             "library testing": {},
             "DBMS testing": {},

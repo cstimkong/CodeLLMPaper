@@ -7352,6 +7352,38 @@
         ],
         "url": "https://arxiv.org/pdf/2306.12338.pdf"
     },
+    "Specification-Driven Code Translation Powered by Large Language Models: How Far Are We?": {
+        "type": "article",
+        "key": "arXiv:2412.04590",
+        "title": "Specification-Driven Code Translation Powered by Large Language Models: How Far Are We?",
+        "author": "Soumit Kanti Saha, Fazle Rabbi, Song Wang, Jinqiu Yang",
+        "journal": "arXiv preprint arXiv:2412.04590",
+        "year": "2024",
+        "venue": "arXiv2024",
+        "abstract": "Large Language Models (LLMs) are increasingly being applied across various domains, including code-related tasks such as code translation. Previous studies have explored using LLMs for translating code between different programming languages. Since LLMs are more effective with natural language, using natural language as an intermediate representation in code translation tasks presents a promising approach. In this work, we investigate using NL-specification as an intermediate representation for code translation. We evaluate our method using three datasets, five popular programming languages, and 29 language pair permutations. Our results show that using NL-specification alone does not lead to performance improvements. However, when combined with source code, it provides a slight improvement over the baseline in certain language pairs. Besides analyzing the performance of code translation, we also investigate the quality of the translated code and provide insights into the issues present in the translated code.",
+        "labels": [
+            "code generation",
+            "program transformation"
+        ],
+        "url": "https://arxiv.org/pdf/2412.04590"
+    },
+    "You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects": {
+        "type": "article",
+        "key": "arXiv:2412.10133",
+        "title": "You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects",
+        "author": "Islem Bouzenia, Michael Pradel",
+        "journal": "arXiv preprint arXiv:2412.10133",
+        "year": "2024",
+        "venue": "arXiv2024",
+        "abstract": "The ability to execute the test suite of a project is essential in many scenarios, e.g., to assess code quality and code coverage, to validate code changes made by developers or automated tools, and to ensure compatibility with dependencies. Despite its importance, executing the test suite of a project can be challenging in practice because different projects use different programming languages, software ecosystems, build systems, testing frameworks, and other tools. These challenges make it difficult to create a reliable, universal test execution method that works across different projects. This paper presents ExecutionAgent, an automated technique that installs arbitrary projects, configures them to run test cases, and produces project-specific scripts to reproduce the setup. Inspired by the way a human developer would address this task, our approach is a large language model-based agent that autonomously executes commands and interacts with the host system. The agent uses meta-prompting to gather guidelines on the latest technologies related to the given project, and it iteratively refines its process based on feedback from the previous steps. Our evaluation applies ExecutionAgent to 50 open-source projects that use 14 different programming languages and many different build and testing tools. The approach successfully executes the test suites of 33/55 projects, while matching the test results of ground truth test suite executions with a deviation of only 7.5%. These results improve over the best previously available technique by 6.6x. The costs imposed by the approach are reasonable, with an execution time of 74 minutes and LLM costs of 0.16 dollars, on average per project. We envision ExecutionAgent to serve as a valuable tool for developers, automated programming tools, and researchers that need to execute tests across a wide variety of projects.",
+        "labels": [
+            "program testing",
+            "general testing",
+            "agent design",
+            "planning"
+        ],
+        "url": "https://arxiv.org/pdf/2412.10133"
+    },
     "Large language model-powered smart contract vulnerability detection: New perspectives": {
         "type": "inproceedings",
         "key": "hu2023large",
@@ -7435,6 +7467,21 @@
             "program verification"
         ],
         "url": "https://arxiv.org/abs/2311.02433"
+    },
+    "Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models": {
+        "type": "inproceedings",
+        "key": "Ruibang24Arxiv",
+        "title": "Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models",
+        "author": "Ruibang Liu, Guoqiang Li, Minyu Chen, Ling-I Wu, Jingyu Ke",
+        "booktitle": "arXiv",
+        "year": "2024",
+        "venue": "arXiv2024",
+        "abstract": "Automated program verification has always been an important component of building trustworthy software. While the analysis of real-world programs remains a theoretical challenge, the automation of loop invariant analysis has effectively resolved the problem. However, real-world programs that often mix complex data structures and control flows pose challenges to traditional loop invariant generation tools. To enhance the applicability of invariant generation techniques, we proposed ACInv, an Automated Complex program loop Invariant generation tool, which combines static analysis with Large Language Models (LLMs) to generate the proper loop invariants. We utilize static analysis to extract the necessary information for each loop and embed it into prompts for the LLM to generate invariants for each loop. Subsequently, we employ an LLM-based evaluator to assess the generated invariants, refining them by either strengthening, weakening, or rejecting them based on their correctness, ultimately obtaining enhanced invariants. We conducted experiments on ACInv, which showed that ACInv outperformed previous tools on data sets with data structures, and maintained similar performance to the state-of-the-art tool AutoSpec on numerical programs without data structures. For the total data set, ACInv can solve 21% more examples than AutoSpec and can generate reference data structure templates.",
+        "labels": [
+            "static analysis",
+            "program verification"
+        ],
+        "url": "https://arxiv.org/pdf/2412.10483"
     },
     "Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus": {
         "type": "inproceedings",
@@ -7687,6 +7734,20 @@
             "fuzzing"
         ],
         "url": "https://arxiv.org/pdf/2312.17677.pdf"
+    },
+    "Formal Mathematical Reasoning: A New Frontier in AI": {
+        "type": "article",
+        "key": "formalmathreason",
+        "title": "Formal Mathematical Reasoning: A New Frontier in AI",
+        "author": "Kaiyu Yang, Gabriel Poesia, Jingxuan He, Wenda Li, Kristin Lauter, Swarat Chaudhuri, Dawn Song",
+        "journal": "arXiv preprint arXiv:2412.16075",
+        "year": "2024",
+        "venue": "arXiv2024",
+        "abstract": "AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic feedback. In this position paper, we advocate for formal mathematical reasoning and argue that it is indispensable for advancing AI4Math to the next level. In recent years, we have seen steady progress in using AI to perform formal reasoning, including core tasks such as theorem proving and autoformalization, as well as emerging applications such as verifiable generation of code and hardware designs. However, significant challenges remain to be solved for AI to truly master mathematics and achieve broader impact. We summarize existing progress, discuss open challenges, and envision critical milestones to measure future success. At this inflection point for formal mathematical reasoning, we call on the research community to come together to drive transformative advancements in this field.",
+        "labels": [
+            "survey"
+        ],
+        "url": "https://arxiv.org/pdf/2412.16075"
     },
     "Llm4fuzz: Guided fuzzing of smart contracts with large language models": {
         "type": "article",

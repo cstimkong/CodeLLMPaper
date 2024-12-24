@@ -72,6 +72,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Program Repair](data/papers/labels/program_repair.md)   ({c5})
   - [Program Transformation](data/papers/labels/program_transformation.md)   ({c6})
 - [Program Testing](data/papers/labels/program_testing.md)   ({c7})
+  - [General Testing](data/papers/labels/general_testing.md)   ({c59})
   - [Fuzzing](data/papers/labels/fuzzing.md)   ({c8})
   - [Library Testing](data/papers/labels/library_testing.md)   ({c9})
   - [DBMS Testing](data/papers/labels/DBMS_testing.md)   ({c10})

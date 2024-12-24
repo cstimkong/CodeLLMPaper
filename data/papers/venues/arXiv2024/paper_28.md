@@ -1,11 +1,11 @@
-# Large language model-based agents for software engineering: A survey
+# Llm4fuzz: Guided fuzzing of smart contracts with large language models
 
-**Authors**: Liu, Junwei and Wang, Kaixin and Chen, Yixuan and Peng, Xin and Chen, Zhenpeng and Zhang, Lingming and Lou, Yiling
+**Authors**: Shou, Chaofan and Liu, Jing and Lu, Doudou and Sen, Koushik
 
 **Abstract**:
 
-The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further promise in tackling complex real-world SE problems. In this work, we present a comprehensive and systematic survey on LLM-based agents for SE. We collect 106 papers and categorize them from two perspectives, i.e., the SE and agent perspectives. In addition, we discuss open challenges and future directions in this critical domain. The repository of this survey is at https://github.com/FudanSELab/Agent4SE-Paper-List.
+As blockchain platforms grow exponentially, millions of lines of smart contract code are being deployed to manage extensive digital assets. However, vulnerabilities in this mission-critical code have led to significant exploitations and asset losses. Thorough automated security analysis of smart contracts is thus imperative. This paper introduces LLM4Fuzz to optimize automated smart contract security analysis by leveraging large language models (LLMs) to intelligently guide and prioritize fuzzing campaigns. While traditional fuzzing suffers from low efficiency in exploring the vast state space, LLM4Fuzz employs LLMs to direct fuzzers towards high-value code regions and input sequences more likely to trigger vulnerabilities. Additionally, LLM4Fuzz can leverage LLMs to guide fuzzers based on user-defined invariants, reducing blind exploration overhead. Evaluations of LLM4Fuzz on real-world DeFi projects show substantial gains in efficiency, coverage, and vulnerability detection compared to baseline fuzzing. LLM4Fuzz also uncovered five critical vulnerabilities that can lead to a loss of more than $247k.
 
-**Link**: [Read Paper](https://arxiv.org/pdf/2409.02977)
+**Link**: [Read Paper](https://arxiv.org/pdf/2401.11108.pdf)
 
-**Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md)
+**Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)

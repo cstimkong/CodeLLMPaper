@@ -66,12 +66,13 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Code Generation](data/papers/labels/code_generation.md)   (188)
+- [Code Generation](data/papers/labels/code_generation.md)   (189)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (81)
   - [Code Completion](data/papers/labels/code_completion.md)   (22)
   - [Program Repair](data/papers/labels/program_repair.md)   (38)
-  - [Program Transformation](data/papers/labels/program_transformation.md)   (29)
-- [Program Testing](data/papers/labels/program_testing.md)   (49)
+  - [Program Transformation](data/papers/labels/program_transformation.md)   (30)
+- [Program Testing](data/papers/labels/program_testing.md)   (50)
+  - [General Testing](data/papers/labels/general_testing.md)   (1)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (20)
   - [Library Testing](data/papers/labels/library_testing.md)   (1)
   - [DBMS Testing](data/papers/labels/DBMS_testing.md)   (1)
@@ -83,7 +84,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (121)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (122)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
@@ -93,7 +94,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
   - [Bug Detection](data/papers/labels/bug_detection.md)   (58)
-  - [Program Verification](data/papers/labels/program_verification.md)   (17)
+  - [Program Verification](data/papers/labels/program_verification.md)   (18)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (3)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (8)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (8)
@@ -120,12 +121,12 @@ This category concentrates on the LLMs' ability in understanding different forms
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (11)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (18)
+- [Agent Design](data/papers/labels/agent_design.md)   (19)
   - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (36)
     - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (7)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
-  - [Planning](data/papers/labels/planning.md)   (8)
+  - [Planning](data/papers/labels/planning.md)   (9)
 
 ### C.3. Research Paradigm
 
@@ -133,7 +134,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 - [Benchmark](data/papers/labels/benchmark.md)   (45)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (76)
-- [Survey](data/papers/labels/survey.md)   (15)
+- [Survey](data/papers/labels/survey.md)   (16)
 
 ## D. How to Contribute
 
