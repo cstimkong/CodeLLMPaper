@@ -8,4 +8,4 @@ AI for Mathematics (AI4Math) is not only intriguing intellectually but also cruc
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2412.16075)
 
-**Labels**: [survey](../../labels/survey.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)

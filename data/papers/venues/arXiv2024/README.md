@@ -83,7 +83,7 @@ Number of papers: 37
 - **Authors**: Kaiyu Yang, Gabriel Poesia, Jingxuan He, Wenda Li, Kristin Lauter, Swarat Chaudhuri, Dawn Song
 - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2412.16075)
-- **Labels**: [survey](../../labels/survey.md)
+- **Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)
 
 
 ## [Generating API Parameter Security Rules with LLM for API Misuse Detection](paper_19.md)

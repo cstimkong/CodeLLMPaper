@@ -18,6 +18,12 @@
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
 
+- [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
+  - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
+
+
 - [Gsm-symbolic: Understanding the limitations of mathematical reasoning in large language models](../venues/Apple2024/paper_1.md), ([Apple2024](../venues/Apple2024/README.md))
 
   - **Abstract**: Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. ...

@@ -60,6 +60,11 @@
   - **Abstract**: The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), leading to remarkable advancements in text understanding and generation. Nevertheless, alongside these strides, LLMs exhibit a critical tendency to produce hallucinations, resulting in content that is inconsistent with real-world facts or user inputs. This phenomenon poses substantial challenges to their practical deployment and raises concerns over the reliability of LLMs in...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
 
+- [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
+  - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
+
 ## Program Testing
 
 - [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))

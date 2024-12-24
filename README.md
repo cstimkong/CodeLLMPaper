@@ -119,7 +119,7 @@ This category concentrates on the LLMs' ability in understanding different forms
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (14)
   - [Code Model Security](data/papers/labels/code_model_security.md)   (20)
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
-- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (11)
+- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (12)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
 - [Agent Design](data/papers/labels/agent_design.md)   (19)
   - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (36)
