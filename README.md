@@ -84,7 +84,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (123)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (124)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
@@ -95,7 +95,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
   - [Bug Detection](data/papers/labels/bug_detection.md)   (59)
   - [Program Verification](data/papers/labels/program_verification.md)   (18)
-  - [Program Optimization](data/papers/labels/program_optimization.md)   (3)
+  - [Program Optimization](data/papers/labels/program_optimization.md)   (4)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (8)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (8)
   - [Code Search](data/papers/labels/code_search.md)   (5)
@@ -134,7 +134,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 - [Benchmark](data/papers/labels/benchmark.md)   (45)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (77)
-- [Survey](data/papers/labels/survey.md)   (16)
+- [Survey](data/papers/labels/survey.md)   (17)
 
 ## D. How to Contribute
 

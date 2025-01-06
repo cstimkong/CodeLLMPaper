@@ -5906,6 +5906,24 @@
         ],
         "url": "https://arxiv.org/pdf/2410.15631"
     },
+    "Language Models for Code Optimization: Survey, Challenges and Future Directions": {
+        "type": "article",
+        "key": "arxiv2025codeoptimization",
+        "title": "Language Models for Code Optimization: Survey, Challenges and Future Directions",
+        "author": "Jingzhi Gong, Vardan Voskanyan, Paul Brookes, Fan Wu, Wei Jie, Jie Xu, Rafail Giavrimis, Mike Basios, Leslie Kanthan, Zheng Wang",
+        "journal": "arXiv preprint arXiv:2501.01277",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "arXiv2025",
+        "abstract": "Language models (LMs) built upon deep neural networks (DNNs) have recently demonstrated breakthrough effectiveness in software engineering tasks such as code generation, completion, and repair. This has paved the way for the emergence of LM-based code optimization techniques, which are crucial for enhancing the performance of existing programs, such as accelerating program execution time. However, a comprehensive survey dedicated to this specific application has been lacking. To fill this gap, we present a systematic literature review of over 50 primary studies, identifying emerging trends and addressing 11 specialized questions. Our findings reveal five critical open challenges, such as balancing model complexity with practical usability, cross-language/performance generalizability, and building trust in AI-driven solutions. Furthermore, we provide eight future research directions to facilitate more efficient, robust, and reliable LM-based code optimization. Thereby, this study aims to provide actionable insights and foundational references for both researchers and practitioners in this rapidly evolving field.",
+        "labels": [
+            "static analysis",
+            "program optimization",
+            "survey"
+        ],
+        "url": "https://arxiv.org/abs/2501.01277"
+    },
     "SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI": {
         "type": "article",
         "key": "secdoeplt",

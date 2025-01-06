@@ -84,6 +84,11 @@
 
 ## Static Analysis
 
+- [Language Models for Code Optimization: Survey, Challenges and Future Directions](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Language models (LMs) built upon deep neural networks (DNNs) have recently demonstrated breakthrough effectiveness in software engineering tasks such as code generation, completion, and repair. This has paved the way for the emergence of LM-based code optimization techniques, which are crucial for enhancing the performance of existing programs, such as accelerating program execution time. However, a comprehensive survey dedicated to this specific application has been lacking. To fill this gap, w...
+  - **Labels**: [static analysis](static_analysis.md), [program optimization](program_optimization.md), [survey](survey.md)
+
 - [Survey of Code Search Based on Deep Learning](../venues/TOSEM2024/paper_10.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Code writing is repetitive and predictable, inspiring us to develop various code intelligence techniques. This survey focuses on code search, that is, to retrieve code that matches a given natural language query by effectively capturing the semantic similarity between the query and code. Deep learning, being able to extract complex semantics information, has achieved great success in this field. Recently, various deep learning methods, such as graph neural networks and pretraining models, have b...
