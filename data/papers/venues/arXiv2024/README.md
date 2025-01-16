@@ -1,6 +1,6 @@
 # arXiv2024
 
-Number of papers: 37
+Number of papers: 38
 
 ## [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](paper_14.md)
 - **Authors**: Benjamin Steenhoek and Md Mahbubur Rahman and Monoshi Kumar Roy and Mirza Sanjida Alam and Earl T. Barr and Wei Le
@@ -98,6 +98,13 @@ Number of papers: 37
 - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2401.00812.pdf)
 - **Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md), [reason with code](../../labels/reason_with_code.md)
+
+
+## [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](paper_38.md)
+- **Authors**: Chenyuan Yang, Zijie Zhao and Lingming Zhang
+- **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2401.00563)
+- **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
 ## [LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](paper_20.md)
