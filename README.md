@@ -66,11 +66,11 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Code Generation](data/papers/labels/code_generation.md)   (192)
+- [Code Generation](data/papers/labels/code_generation.md)   (193)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (81)
   - [Code Completion](data/papers/labels/code_completion.md)   (22)
   - [Program Repair](data/papers/labels/program_repair.md)   (40)
-  - [Program Transformation](data/papers/labels/program_transformation.md)   (30)
+  - [Program Transformation](data/papers/labels/program_transformation.md)   (31)
 - [Program Testing](data/papers/labels/program_testing.md)   (53)
   - [General Testing](data/papers/labels/general_testing.md)   (1)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (22)
