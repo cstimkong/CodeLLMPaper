@@ -17,7 +17,7 @@ def extract_papers_by_venue(json_files):
     venue_dict = defaultdict(list)
     
     for json_file in json_files:
-        with open(json_file, 'r') as f:
+        with open(json_file, 'r', encoding='utf8') as f:
             try:
                 data = json.load(f)
                 for title in data:
@@ -50,8 +50,9 @@ def export_papers_to_readme(venue_dict, output_dir):
         os.makedirs(venue_dir, exist_ok=True)
         
         readme_path = os.path.join(venue_dir, "README.md")
+        readme_path = readme_path.replace('\\', '/')
 
-        with open(readme_path, "w") as readme_file:
+        with open(readme_path, "w", encoding='utf8') as readme_file:
             readme_file.write(f"# {venue}\n\n")
             readme_file.write(f"Number of papers: {len(papers)}\n\n")
 
@@ -60,9 +61,10 @@ def export_papers_to_readme(venue_dict, output_dir):
             for idx, paper in enumerate(papers, start=1):
                 markdown_filename = f"paper_{idx}.md"
                 markdown_path = os.path.join(venue_dir, markdown_filename)
+                markdown_path = markdown_path.replace('\\', '/')
                 
                 # Save individual paper as a markdown file
-                with open(markdown_path, "w") as paper_file:
+                with open(markdown_path, "w", encoding='utf8') as paper_file:
                     paper_file.write(f"# {paper['title']}\n\n")
                     paper_file.write(f"**Authors**: {paper['author']}\n\n")
                     paper_file.write(f"**Abstract**:\n\n{paper['abstract']}\n\n")
@@ -211,7 +213,7 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
             readme_content = generate_readme_from_label(label, label_category, label_paper_dict, title_to_path, venue_to_path)
 
         output_path = os.path.join(output_directory, f"{label.replace(' ', '_')}.md")
-        with open(output_path, 'w') as output_file:
+        with open(output_path, 'w', encoding='utf8') as output_file:
             output_file.write(readme_content)
             label_to_path[label] = output_path
     return label_to_path, label_paper_dict
