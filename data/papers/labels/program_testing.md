@@ -46,7 +46,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_40.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -82,7 +82,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [library testing](library_testing.md)
 
 
-- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)

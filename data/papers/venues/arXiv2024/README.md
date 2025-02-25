@@ -1,6 +1,6 @@
 # arXiv2024
 
-Number of papers: 39
+Number of papers: 40
 
 ## [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](paper_15.md)
 - **Authors**: Benjamin Steenhoek and Md Mahbubur Rahman and Monoshi Kumar Roy and Mirza Sanjida Alam and Earl T. Barr and Wei Le
@@ -100,7 +100,7 @@ Number of papers: 39
 - **Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md), [reason with code](../../labels/reason_with_code.md)
 
 
-## [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](paper_39.md)
+## [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](paper_40.md)
 - **Authors**: Chenyuan Yang, Zijie Zhao and Lingming Zhang
 - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2401.00563)
@@ -135,7 +135,7 @@ Number of papers: 39
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
-## [Large Language Models Based Fuzzing Techniques: A Survey](paper_38.md)
+## [Large Language Models Based Fuzzing Techniques: A Survey](paper_39.md)
 - **Authors**: Misu, Md Rakib Hossain and Lopes, Cristina V. and Ma, Iris and Noble, James
 - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2402.00350)
@@ -245,6 +245,13 @@ Number of papers: 39
 - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
 - **Link**: [Read Paper](https://arxiv.org/abs/2405.11514)
 - **Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md), [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
+
+
+## [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](paper_38.md)
+- **Authors**: Jinbao Chen, Hongjing Xiang, Luhao Li, Yu Zhang, Boyao Ding, Qingwei Li
+- **Abstract**: Static Application Security Testing(SAST) tools are crucial for early bug detection and code quality but often generate false positives that slow development. Automating false positive mitigation is thus essential for advancing SAST tools. Past efforts use static/dynamic analysis or machine learning. The advent of Large Language Models, adept at understanding natural language and code, offers promising ways to improve the accuracy and usability of SAST tools. However, existing LLM-based methods ...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2411.03079)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
 ## [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](paper_35.md)
