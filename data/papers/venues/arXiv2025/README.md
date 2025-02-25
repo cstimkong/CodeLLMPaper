@@ -1,6 +1,13 @@
 # arXiv2025
 
-Number of papers: 1
+Number of papers: 2
+
+## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_2.md)
+- **Authors**: Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni
+- **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2501.07857)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+
 
 ## [Language Models for Code Optimization: Survey, Challenges and Future Directions](paper_1.md)
 - **Authors**: Jingzhi Gong, Vardan Voskanyan, Paul Brookes, Fan Wu, Wei Jie, Jie Xu, Rafail Giavrimis, Mike Basios, Leslie Kanthan, Zheng Wang
