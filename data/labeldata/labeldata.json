@@ -9920,6 +9920,7 @@
         "labels": [
             "static analysis",
             "code summarization",
+            "agent design",
             "prompt strategy",
             "retrieval-augmented generation"
         ],
