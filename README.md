@@ -66,10 +66,10 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Code Generation](data/papers/labels/code_generation.md)   (190)
+- [Code Generation](data/papers/labels/code_generation.md)   (192)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (81)
   - [Code Completion](data/papers/labels/code_completion.md)   (22)
-  - [Program Repair](data/papers/labels/program_repair.md)   (39)
+  - [Program Repair](data/papers/labels/program_repair.md)   (40)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (30)
 - [Program Testing](data/papers/labels/program_testing.md)   (53)
   - [General Testing](data/papers/labels/general_testing.md)   (1)
@@ -84,16 +84,16 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (125)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (127)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
   - [Data-flow Analysis](data/papers/labels/data-flow_analysis.md)   (8)
   - [Type Inference](data/papers/labels/type_inference.md)   (3)
-  - [Specification Inference](data/papers/labels/specification_inference.md)   (7)
+  - [Specification Inference](data/papers/labels/specification_inference.md)   (8)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (59)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (60)
   - [Program Verification](data/papers/labels/program_verification.md)   (18)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (4)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (8)
@@ -134,7 +134,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 - [Benchmark](data/papers/labels/benchmark.md)   (45)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (77)
-- [Survey](data/papers/labels/survey.md)   (17)
+- [Survey](data/papers/labels/survey.md)   (18)
 
 ## D. How to Contribute
 

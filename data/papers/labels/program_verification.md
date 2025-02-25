@@ -72,7 +72,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
-- [QEDCartographer: Automating Formal Verification Using Reward-Free Reinforcement Learning](../venues/ICSE2025/paper_2.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [QEDCartographer: Automating Formal Verification Using Reward-Free Reinforcement Learning](../venues/ICSE2025/paper_3.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Formal verification is a promising method for producing reliable software, but the difficulty of manually writing verification proofs severely limits its utility in practice. Recent methods have automated some proof synthesis by guiding a search through the proof space using a theorem prover. Unfortunately, the theorem prover provides only the crudest estimate of progress, resulting in effectively undirected search. To address this problem, we create QEDCartographer, an automated proof-synthesis...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
