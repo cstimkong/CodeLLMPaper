@@ -1,12 +1,19 @@
 # arXiv2025
 
-Number of papers: 4
+Number of papers: 5
 
 ## [AI Software Engineer: Programming with Trust](paper_3.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
 - **Abstract**: Large Language Models (LLMs) have shown surprising proficiency in generating code snippets, promising to automate large parts of software engineering via artificial intelligence (AI). We argue that successfully deploying AI software engineers requires a level of trust equal to or even greater than the trust established by human-driven software engineering practices. The recent trend toward LLM agents offers a path toward integrating the power of LLMs to create new code with the power of analysis...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2502.13767)
 - **Labels**: [code generation](../../labels/code_generation.md), [survey](../../labels/survey.md)
+
+
+## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_5.md)
+- **Authors**: Vikram Nitin, Rahul Krishna, Luiz Lemos do Valle, Baishakhi Ray
+- **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2501.14257)
+- **Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md)
 
 
 ## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_4.md)
