@@ -8,4 +8,4 @@ Recent work has shown how to prompt large language models with explanations to o
 
 **Link**: [Read Paper](https://arxiv.org/abs/2302.04813)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)

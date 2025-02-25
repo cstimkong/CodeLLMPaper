@@ -8,4 +8,4 @@ Android is the most popular mobile operating system. However, Android developmen
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695063)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)

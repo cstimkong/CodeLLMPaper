@@ -6,7 +6,7 @@ Number of papers: 32
 - **Authors**: Ahmed, Toufique and Pai, Kunal Suresh and Devanbu, Premkumar and Barr, Earl
 - **Abstract**: Large Language Models (LLM) are a new class of computation engines, "programmed" via prompt engineering. Researchers are still learning how to best "program" these LLMs to help developers. We start with the intuition that developers tend to consciously and unconsciously collect semantics facts, from the code, while working. Mostly these are shallow, simple facts arising from a quick read. For a function, such facts might include parameter and local variable names, return expressions, simple pre-...
 - **Link**: [Read Paper](https://doi.org/10.1145/3597503.3639183)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
 
 
 ## [BinaryAI: Binary Software Composition Analysis via Intelligent Binary Source Code Matching](paper_31.md)

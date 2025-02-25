@@ -8,4 +8,4 @@ With the success of large language models (LLMs) of code and their use as code a
 
 **Link**: [Read Paper](https://proceedings.mlr.press/v202/shrivastava23a.html)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)

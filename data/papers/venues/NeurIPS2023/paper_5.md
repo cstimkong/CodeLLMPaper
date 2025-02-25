@@ -8,4 +8,4 @@ Prior work has combined chain-of-thought prompting in large language models (LLM
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2305.09656.pdf)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

@@ -8,4 +8,4 @@ Reasoning is a fundamental component of language understanding. Recent prompting
 
 **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.629)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

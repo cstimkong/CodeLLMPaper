@@ -8,4 +8,4 @@ Breaking down a problem into intermediate steps has demonstrated impressive perf
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2305.00633.pdf)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

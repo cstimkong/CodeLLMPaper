@@ -8,4 +8,4 @@ A popular approach for improving the correctness of output from large language m
 
 **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.emnlp-main.761)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)

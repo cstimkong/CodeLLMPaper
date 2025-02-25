@@ -20,7 +20,7 @@ Number of papers: 39
 - **Authors**: Yang, Yuan and Xiong, Siheng and Payani, Ali and Shareghi, Ehsan and Fekri, Faramarz
 - **Abstract**: Large Language Models (LLMs) have shown superior capability to solve reasoning problems with programs. While being a promising direction, most of such frameworks are trained and evaluated in settings with a prior knowledge of task requirements. However, as LLMs become more capable, it is necessary to assess their reasoning abilities in more realistic scenarios where many real-world problems are open-ended with ambiguous scope, and often require multiple formalisms to solve. To investigate this, ...
 - **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.573)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing](paper_34.md)
@@ -34,7 +34,7 @@ Number of papers: 39
 - **Authors**: Puerto, Haritz and Tutek, Martin and Aditya, Somak and Zhu, Xiaodan and Gurevych, Iryna
 - **Abstract**: Reasoning is a fundamental component of language understanding. Recent prompting techniques, such as chain of thought, have consistently improved LLMs’ performance on various reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs in the inference stage. In this paper, we investigate the effect of the input representation on the reasoning abilities of LLMs. We hypothesize that representing natural language tasks as code can enhance specific...
 - **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.629)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [CodeAgent: Autonomous Communicative Agents for Code Review](paper_26.md)
@@ -104,14 +104,14 @@ Number of papers: 39
 - **Authors**: Shi, Wenqi and Xu, Ran and Zhuang, Yuchen and Yu, Yue and Zhang, Jieyu and Wu, Hang and Zhu, Yuanda and Ho, Joyce C. and Yang, Carl and Wang, May Dongmei
 - **Abstract**: Clinicians often rely on data engineers to retrieve complex patient information from electronic health record (EHR) systems, a process that is both inefficient and time-consuming. We propose EHRAgent, a large language model (LLM) agent empowered with accumulative domain knowledge and robust coding capability. EHRAgent enables autonomous code generation and execution to facilitate clinicians in directly interacting with EHRs using natural language. Specifically, we formulate a multi-tabular reaso...
 - **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.1245)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Empowering Multi-step Reasoning across Languages via Program-Aided Language Models](paper_27.md)
 - **Authors**: Ranaldi, Leonardo and Pucci, Giulia and Haddow, Barry and Birch, Alexandra
 - **Abstract**: In-context learning methods are popular inference strategies where Large Language Models (LLMs) are elicited to solve a task using provided demonstrations without parameter updates. Among these approaches are the reasoning methods, best exemplified by Chain-of-Thought (CoT) and Program-Aided Language Models (PAL), which elicit LLMs to generate reasoning paths, thus promoting accuracy and attracting increasing attention. However, despite the success of these methods, the ability to deliver multi-...
 - **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.678)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Enhancing Discourse Dependency Parsing with Sentence Dependency Parsing: A Unified Generative Method Based on Code Representation](paper_14.md)
@@ -125,7 +125,7 @@ Number of papers: 39
 - **Authors**: Su, Hongjin and Jiang, Shuyang and Lai, Yuhang and Wu, Haoyuan and Shi, Boao and Liu, Che and Liu, Qian and Yu, Tao
 - **Abstract**: Recently the retrieval-augmented generation (RAG) has been successfully applied in code generation. However, existing pipelines for retrieval-augmented code generation (RACG) employ static knowledge bases with a single source, limiting the adaptation capabilities of Large Language Models (LLMs) to domains they have insufficient knowledge of. In this work, we develop a novel pipeline, EVOR, that employs the synchronous evolution of both queries and diverse knowledge bases. On two realistic settin...
 - **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.143)
-- **Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [source code model](../../labels/source_code_model.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [source code model](../../labels/source_code_model.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
 
 
 ## [How Do Humans Write Code? Large Models Do It the Same Way Too](paper_20.md)
@@ -174,7 +174,7 @@ Number of papers: 39
 - **Authors**: Chae, Hyungjoo and Kim, Yeonghyeon and Kim, Seungone and Ong, Kai Tzu-iunn and Kwak, Beong-woo and Kim, Moohyeon and Kim, Sunghwan and Kwon, Taeyoon and Chung, Jiwan and Yu, Youngjae and Yeo, Jinyoung
 - **Abstract**: Algorithmic reasoning tasks that involve complex logical patterns, such as completing Dyck language, pose challenges for large language models (LLMs), despite their recent success. Prior work has used LLMs to generate programming language and applied external compilers for such tasks. Yet, when on the fly, it is hard to generate an executable code with the correct logic for the solution. Even so, code for one instance cannot be reused for others, although they might require the same logic to sol...
 - **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.1253)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Language-to-Code Translation with a Single Labeled Example](paper_23.md)
@@ -216,7 +216,7 @@ Number of papers: 39
 - **Authors**: Xu, Xiaohan and Tao, Chongyang and Shen, Tao and Xu, Can and Xu, Hongbo and Long, Guodong and Lou, Jian-Guang and Ma, Shuai
 - **Abstract**: To enhance the reasoning capabilities of off-the-shelf Large Language Models (LLMs), we introduce a simple, yet general and effective prompting method, RE2, i.e., Re-Reading the question as input. Unlike most thought-eliciting prompting methods, such as Chain-of-Thought (CoT), which aim to elicit the reasoning process in the output, RE2 shifts the focus to the input by processing questions twice, thereby enhancing the understanding process. Consequently, RE2 demonstrates strong generality and co...
 - **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.871)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)
 
 
 ## [RealVul: Can We Detect Vulnerabilities in Web Applications with LLM?](paper_24.md)

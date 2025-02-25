@@ -8,4 +8,4 @@ In the realm of embodied artificial intelligence, the reasoning capabilities of 
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2308.15452)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)

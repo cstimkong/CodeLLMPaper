@@ -8,4 +8,4 @@ Large Language Models (LLMs) have shown superior capability to solve reasoning p
 
 **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.573)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

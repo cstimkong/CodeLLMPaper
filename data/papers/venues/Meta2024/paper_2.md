@@ -8,4 +8,4 @@ Tools for rewriting, refactoring and optimizing code should be fast and correct.
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2410.08806)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

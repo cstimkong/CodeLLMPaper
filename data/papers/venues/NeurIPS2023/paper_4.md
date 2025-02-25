@@ -8,4 +8,4 @@ Large language models (LLMs) have been increasingly used to interact with extern
 
 **Link**: [Read Paper](https://arxiv.org/abs/2303.11366)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

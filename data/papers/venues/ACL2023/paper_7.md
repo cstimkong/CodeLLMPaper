@@ -8,4 +8,4 @@ Large language models (LLMs) have exhibited remarkable capabilities in learning 
 
 **Link**: [Read Paper](https://arxiv.org/abs/2211.13892)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)

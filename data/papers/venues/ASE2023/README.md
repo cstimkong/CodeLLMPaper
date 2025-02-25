@@ -20,7 +20,7 @@ Number of papers: 18
 - **Authors**: Ahmed, Toufique and Devanbu, Premkumar
 - **Abstract**: Large Language models (LLMs) can be induced to solve non-trivial problems with “few-shot” prompts including illustrative problem-solution examples. Now if the few-shots also include “chain of thought” ($\mathcal{C}oT$) explanations, which are of the form problem-explanation-solution, LLMs will generate a “explained” solution, and perform even better. Recently an exciting, substantially better technique, self-consistency [1] ($\mathcal{S}-C$) has emerged, based on the intuition that there are man...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2306.00108)
-- **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [prompt strategy](../../labels/prompt_strategy.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)
 
 
 ## [CAT-LM training language models on aligned code and tests](paper_13.md)

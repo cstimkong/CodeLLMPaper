@@ -8,4 +8,4 @@ While a lot of recent research focuses on enhancing the textual reasoning capabi
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2410.03524)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

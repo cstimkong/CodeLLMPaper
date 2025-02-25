@@ -8,4 +8,4 @@ Question answering plays a pivotal role in human daily life because it involves 
 
 **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.emnlp-main.787)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

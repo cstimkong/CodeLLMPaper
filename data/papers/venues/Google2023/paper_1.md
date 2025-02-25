@@ -8,4 +8,4 @@ Code provides a general syntactic structure to build complex programs and perfor
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2312.04474.pdf)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

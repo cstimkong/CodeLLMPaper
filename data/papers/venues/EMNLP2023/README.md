@@ -41,7 +41,7 @@ Number of papers: 18
 - **Authors**: Ye, Xi and Durrett, Greg
 - **Abstract**: Recent work has shown how to prompt large language models with explanations to obtain strong performance on textual reasoning tasks, i.e., the chain-of-thought paradigm. However, subtly different explanations can yield widely varying downstream task accuracy. Explanations that have not been "tuned" for a task, such as off-the-shelf explanations written by nonexperts, may lead to mediocre performance. This paper tackles the problem of how to optimize explanation-infused prompts in a blackbox fash...
 - **Link**: [Read Paper](https://arxiv.org/abs/2302.04813)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Exploring Distributional Shifts in Large Language Models for Code Analysis](paper_11.md)
@@ -69,7 +69,7 @@ Number of papers: 18
 - **Authors**: Aggarwal, Pranjal and Madaan, Aman and Yang, Yiming and Mausam
 - **Abstract**: A popular approach for improving the correctness of output from large language models (LLMs) is Self-Consistency - poll the LLM multiple times and output the most frequent solution. Existing Self-Consistency techniques always generate a constant number of samples per question, where a better approach will be to non-uniformly distribute the available budget based on the amount of agreement in the samples generated so far. In response, we introduce Adaptive-Consistency, a cost-efficient, model-agn...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.emnlp-main.761)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
 
 
 ## [MiniChain: A Small Library for Coding with Large Language Models](paper_12.md)
@@ -97,21 +97,21 @@ Number of papers: 18
 - **Authors**: Mishra, Mayank and Kumar, Prince and Bhat, Riyaz and Murthy, Rudra and Contractor, Danish and Tamilselvam, Srikanth
 - **Abstract**: Prompting with natural language instructions has recently emerged as a popular method of harnessing the capabilities of large language models (LLM). Given the inherent ambiguity present in natural language, it is intuitive to consider the possible advantages of prompting with less ambiguous prompt styles, like pseudo-code. In this paper, we explore if prompting via pseudo-code instructions helps improve the performance of pre-trained language models. We manually create a dataset of pseudo-code p...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.emnlp-main.939)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Question Answering as Programming for Solving Time-Sensitive Questions](paper_7.md)
 - **Authors**: Zhu, Xinyu and Yang, Cheng and Chen, Bei and Li, Siheng and Lou, Jian-Guang and Yang, Yujiu
 - **Abstract**: Question answering plays a pivotal role in human daily life because it involves our acquisition of knowledge about the world. However, due to the dynamic and ever-changing nature of real-world facts, the answer can be completely different when the time constraint in the question changes. Recently, Large Language Models (LLMs) have shown remarkable intelligence in question answering, while our experiments reveal that the aforementioned problems still pose a significant challenge to existing LLMs....
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.emnlp-main.787)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Ranking llm-generated loop invariants for program verification](paper_13.md)
 - **Authors**: Chakraborty, Saikat and Lahiri, Shuvendu K and Fakhoury, Sarah and Musuvathi, Madanlal and Lal, Akash and Rastogi, Aseem and Senthilnathan, Aditya and Sharma, Rahul and Swamy, Nikhil
 - **Abstract**: Synthesizing inductive loop invariants is fundamental to automating program verification. In this work, we observe that Large Language Models (such as gpt-3.5 or gpt-4) are capable of synthesizing loop invariants for a class of programs in a 0-shot setting, yet require several samples to generate the correct invariants. This can lead to a large number of calls to a program verifier to establish an invariant. To address this issue, we propose a {\it re-ranking} approach for the generated results ...
 - **Link**: [Read Paper](https://aclanthology.org/2023.findings-emnlp.614.pdf)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
 
 
 ## [Symbolic Planning and Code Generation for Grounded Dialogue](paper_4.md)

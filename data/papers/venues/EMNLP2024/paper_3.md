@@ -8,4 +8,4 @@ Recently the retrieval-augmented generation (RAG) has been successfully applied 
 
 **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.143)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [source code model](../../labels/source_code_model.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [source code model](../../labels/source_code_model.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)

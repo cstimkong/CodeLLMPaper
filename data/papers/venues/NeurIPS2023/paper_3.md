@@ -8,4 +8,4 @@ Language models are increasingly being deployed for general problem solving acro
 
 **Link**: [Read Paper](https://arxiv.org/abs/2305.10601)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

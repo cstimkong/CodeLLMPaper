@@ -8,4 +8,4 @@ Large Language Models (LLM) are a new class of computation engines, "programmed"
 
 **Link**: [Read Paper](https://doi.org/10.1145/3597503.3639183)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)

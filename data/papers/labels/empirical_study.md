@@ -7,10 +7,25 @@
   - **Abstract**: Empirical software engineering research on production systems has brought forth a better understanding of the software engineering process for practitioners and researchers alike. However, only a small subset of production systems is studied, limiting the impact of this research. While software engineering practitioners could benefit from replicating research on their own data, this poses its own set of challenges, since performing replications requires a deep understanding of research methodolo...
   - **Labels**: [empirical study](empirical_study.md), [agent design](agent_design.md)
 
+- [Complementary explanations for effective in-context learning](../venues/ACL2023/paper_7.md), ([ACL2023](../venues/ACL2023/README.md))
+
+  - **Abstract**: Large language models (LLMs) have exhibited remarkable capabilities in learning from explanations in prompts, but there has been limited understanding of exactly how these explanations function or why they are effective. This work aims to better understand the mechanisms by which explanations are used for in-context learning. We first study the impact of two different factors on the performance of prompts with explanations: the computation trace (the way the solution is decomposed) and the natur...
+  - **Labels**: [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md), [empirical study](empirical_study.md)
+
+- [Explanation selection using unlabeled data for chain-of-thought prompting](../venues/EMNLP2023/paper_14.md), ([EMNLP2023](../venues/EMNLP2023/README.md))
+
+  - **Abstract**: Recent work has shown how to prompt large language models with explanations to obtain strong performance on textual reasoning tasks, i.e., the chain-of-thought paradigm. However, subtly different explanations can yield widely varying downstream task accuracy. Explanations that have not been "tuned" for a task, such as off-the-shelf explanations written by nonexperts, may lead to mediocre performance. This paper tackles the problem of how to optimize explanation-infused prompts in a blackbox fash...
+  - **Labels**: [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md), [empirical study](empirical_study.md)
+
 - [Self-Planning Code Generation with Large Language Models](../venues/TOSEM2024/paper_2.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Although large language models (LLMs) have demonstrated impressive ability in code generation, they are still struggling to address the complicated intent provided by humans. It is widely acknowledged that humans typically employ planning to decompose complex problems and schedule solution steps prior to implementation. To this end, we introduce planning into code generation to help the model understand complex intent and reduce the difficulty of problem-solving. This paper proposes a self-plann...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [planning](planning.md), [empirical study](empirical_study.md)
+
+- [When Do Program-of-Thought Works for Reasoning?](../venues/AAAI2024/paper_1.md), ([AAAI2024](../venues/AAAI2024/README.md))
+
+  - **Abstract**: In the realm of embodied artificial intelligence, the reasoning capabilities of Large Language Models (LLMs) play a pivotal role. Although there are effective methods like program-of-thought prompting for LLMs which uses programming language to tackle complex reasoning tasks, the specific impact of code data on the improvement of reasoning capabilities remains under-explored. To address this gap, we propose complexity-impacted reasoning score CIRS, which combines structural and logical attribute...
+  - **Labels**: [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md), [empirical study](empirical_study.md)
 
 ## Code Generation
 

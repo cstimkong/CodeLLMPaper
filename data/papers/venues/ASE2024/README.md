@@ -118,7 +118,7 @@ Number of papers: 45
 - **Authors**: Yu, Xinran and Li, Chun and Pan, Minxue and Li, Xuandong
 - **Abstract**: Android is the most popular mobile operating system. However, Android development requires extensive coding, especially for unique features such as lifecycle callbacks and UI widgets. Existing code completion methods typically utilize Retrieval-Augmented Generation (RAG) to provide contextual information for pre-trained code large language models (Code LLMs) to perform completion. Despite considerable progress in these methods, their effectiveness in Android development remains limited. This is ...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695063)
-- **Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
 
 
 ## [Dynamic Scoring Code Token Tree: A Novel Decoding Strategy for Generating High-Performance Code](paper_20.md)
@@ -160,7 +160,7 @@ Number of papers: 45
 - **Authors**: Lu, Jiawei and Wang, Haoye and Liu, Zhongxin and Liang, Keyu and Bao, Lingfeng and Yang, Xiaohu
 - **Abstract**: Recent studies proposed to leverage large language models (LLMs) with In-Context Learning (ICL) to handle code intelligence tasks without fine-tuning. ICL employs task instructions and a set of examples as demonstrations to guide the model in generating accurate answers without updating its parameters. While ICL has proven effective for code intelligence tasks, its performance heavily relies on the selected examples. Previous work has achieved some success in using BM25 to retrieve examples for ...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3694997)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
 
 
 ## [JavaBench: A Benchmark of Object-Oriented Code Generation for Evaluating Large Language Models](paper_17.md)

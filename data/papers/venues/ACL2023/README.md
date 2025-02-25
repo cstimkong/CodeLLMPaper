@@ -27,7 +27,7 @@ Number of papers: 13
 - **Authors**: Ye, Xi and Iyer, Srinivasan and Celikyilmaz, Asli and Stoyanov, Ves and Durrett, Greg and Pasunuru, Ramakanth
 - **Abstract**: Large language models (LLMs) have exhibited remarkable capabilities in learning from explanations in prompts, but there has been limited understanding of exactly how these explanations function or why they are effective. This work aims to better understand the mechanisms by which explanations are used for in-context learning. We first study the impact of two different factors on the performance of prompts with explanations: the computation trace (the way the solution is decomposed) and the natur...
 - **Link**: [Read Paper](https://arxiv.org/abs/2211.13892)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Domain-specific transformer models for query translation](paper_11.md)
@@ -41,7 +41,7 @@ Number of papers: 13
 - **Authors**: Pan, Liangming and Wu, Xiaobao and Lu, Xinyuan and Luu, Anh Tuan and Wang, William Yang and Kan, Min-Yen and Nakov, Preslav
 - **Abstract**: Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning. In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, w...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.acl-long.386)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Large Language Models Meet NL2Code: A Survey](paper_4.md)
@@ -55,7 +55,7 @@ Number of papers: 13
 - **Authors**: Li, Yifei and Lin, Zeqi and Zhang, Shizhuo and Fu, Qiang and Chen, Bei and Lou, Jian-Guang and Chen, Weizhu
 - **Abstract**: Few-shot learning is a challenging task that requires language models to generalize from limited examples. Large language models like GPT-3 and PaLM have made impressive progress in this area, but they still face difficulties in reasoning tasks such as GSM8K, a benchmark for arithmetic problems. To improve their reasoning skills, previous work has proposed to guide the language model with prompts that elicit a series of reasoning steps before giving the final answer, achieving a significant impr...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.acl-long.291)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
 
 
 ## [Multitask Pretraining with Structured Knowledge for Text-to-SQL Generation](paper_9.md)

@@ -8,4 +8,4 @@ Fact-checking real-world claims often requires collecting multiple pieces of evi
 
 **Link**: [Read Paper](https://doi.org/10.18653/v1/2023.acl-long.386)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

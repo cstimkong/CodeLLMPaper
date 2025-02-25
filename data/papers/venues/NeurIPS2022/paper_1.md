@@ -8,4 +8,4 @@ While large language models (LLMs) have demonstrated impressive capabilities acr
 
 **Link**: [Read Paper](https://arxiv.org/abs/2210.03629)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

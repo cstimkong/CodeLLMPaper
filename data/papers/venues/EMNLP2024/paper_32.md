@@ -8,4 +8,4 @@ To enhance the reasoning capabilities of off-the-shelf Large Language Models (LL
 
 **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.871)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

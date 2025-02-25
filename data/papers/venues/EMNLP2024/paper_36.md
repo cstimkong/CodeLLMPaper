@@ -8,4 +8,4 @@ Clinicians often rely on data engineers to retrieve complex patient information 
 
 **Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.1245)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

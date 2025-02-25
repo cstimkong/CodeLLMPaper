@@ -17,6 +17,11 @@
   - **Abstract**: The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further ...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md)
 
+- [Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing](../venues/ACMSurvey2023/paper_1.md), ([ACMSurvey2023](../venues/ACMSurvey2023/README.md))
+
+  - **Abstract**: This article surveys and organizes research works in a new paradigm in natural language processing, which we dub “prompt-based learning.” Unlike traditional supervised learning, which trains a model to take in an input x and predict an output y as P(y|x), prompt-based learning is based on language models that model the probability of text directly. To use these models to perform prediction tasks, the original input x is modified using a template into a textual string prompt x′ that has some unfi...
+  - **Labels**: [survey](survey.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md)
+
 - [The rise and potential of large language model based agents: A survey](../venues/arXiv2023/paper_16.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the commu...

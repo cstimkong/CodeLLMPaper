@@ -8,4 +8,4 @@ Large Language models (LLMs) can be induced to solve non-trivial problems with â
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2306.00108)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

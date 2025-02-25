@@ -20,7 +20,7 @@ Number of papers: 16
 - **Authors**: Zhang, Yifan and Yang, Jingqin and Yuan, Yang and Yao, Andrew Chi-Chih
 - **Abstract**: While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, \ournameb streamlines the problem-solving process, ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2308.04371.pdf)
-- **Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+- **Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)
 
 
 ## [Do Language Models Learn Semantics of Code? {A} Case Study in Vulnerability Detection](paper_7.md)

@@ -8,4 +8,4 @@ While language models are powerful and versatile, they often fail to address hig
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2308.04371.pdf)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)

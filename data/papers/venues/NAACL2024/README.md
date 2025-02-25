@@ -20,14 +20,14 @@ Number of papers: 6
 - **Authors**: Zhu, Xuekai and Qi, Biqing and Zhang, Kaiyan and Long, Xinwei and Lin, Zhouhan and Zhou, Bowen
 - **Abstract**: While large language models (LLMs) excel in various natural language processing tasks, their huge size and the inaccessibility of parameters present challenges for practical deployment. Previous studies try to distill task-specific ability from LLMs to smaller models, using data synthesis and chain-of-thought (CoT) fine-tuning. However, synthetic CoT data often contains faulty reasoning, which deteriorates the quality of distillation, especially in reasoning capabilities. In this work, we propos...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2024.naacl-long.142)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [Program-Aided Reasoners (Better) Know What They Know](paper_2.md)
 - **Authors**: Kabra, Anubha and Rangreji, Sanketh and Mathur, Yash and Madaan, Aman and Liu, Emmy and Neubig, Graham
 - **Abstract**: Prior work shows that program-aided reasoning, in which large language models (LLMs) are combined with programs written in programming languages such as Python, can significantly improve accuracy on various reasoning tasks. However, while accuracy is essential, it is also important for such reasoners to “know what they know”, which can be quantified through the calibration of the model. In this paper, we compare the calibration of Program Aided Language Models (PAL) and text-based Chain-of-thoug...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2024.naacl-long.125)
-- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+- **Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 
 
 ## [UICoder: Finetuning Large Language Models to Generate User Interface Code through Automated Feedback](paper_5.md)

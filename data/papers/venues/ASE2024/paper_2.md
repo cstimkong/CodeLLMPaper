@@ -8,4 +8,4 @@ Recent studies proposed to leverage large language models (LLMs) with In-Context
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3694997)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
+**Labels**: [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)

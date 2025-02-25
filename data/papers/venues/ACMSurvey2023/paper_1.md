@@ -8,4 +8,4 @@ This article surveys and organizes research works in a new paradigm in natural l
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2107.13586)
 
-**Labels**: [survey](../../labels/survey.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md)
