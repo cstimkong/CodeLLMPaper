@@ -162,6 +162,12 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [TAPChecker: Model Checking in Trigger-Action Rules Generation Using Large Language Models](../venues/CCS2024/paper_7.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: The integration of large language models (LLMs) in smart home systems holds significant promise for automating the generation of Trigger-Action Programming (TAP) rules, potentially streamlining smart home user experiences and enhancing convenience. However, LLMs lack of holistic view of smart home IoT deployments and may introduce TAP rules that result in hazards. This paper explores the application of LLM for generating TAP rules and applying formal verification to validate and ensure the safet...
+  - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
 ## Equivalence Checking
 
 - [Evaluating the effectiveness of deep learning models for foundational program analysis tasks](../venues/OOPSLA2024/paper_8.md), ([OOPSLA2024](../venues/OOPSLA2024/README.md))
@@ -208,6 +214,12 @@
 
   - **Abstract**: Large Language Models (LLMs) have demonstrated great potential for code generation and other software engineering tasks. Vulnerability detection is of crucial importance to maintaining the security, integrity, and trustworthiness of software systems. Precise vulnerability detection requires reasoning about the code, making it a good case study for exploring the limits of LLMs' reasoning capabilities. Although recent work has applied LLMs to vulnerability detection using generic prompting techniq...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
+
+
+- [An Exploration of Large Language Models in Malicious Source Code Detection](../venues/CCS2024/paper_5.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: Embedding malicious code within the software supply chain has become a significant concern in the information technology field. Current methods for detecting malicious code, based on signatures, behavior analysis, and traditional machine learning models, lack result interpretability. This study proposes a novel malicious code detection framework, Mal-LLM, which leverages the cost advantages of traditional machine learning models and the interpretability of LLMs. Initially, traditional machine le...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
 - [Assisting Static Analysis with Large Language Models: A ChatGPT Experiment](../venues/FSE2023/paper_6.md), ([FSE2023](../venues/FSE2023/README.md))

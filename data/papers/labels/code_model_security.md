@@ -54,6 +54,12 @@
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
 
 
+- [Demystifying RCE Vulnerabilities in LLM-Integrated Apps](../venues/CCS2024/paper_3.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) show promise in transforming software development, with a growing interest in integrating them into more intelligent apps. Frameworks like LangChain aid LLM-integrated app development, offering code execution utility/APIs for custom actions. However, these capabilities theoretically introduce Remote Code Execution (RCE) vulnerabilities, enabling remote code execution through prompt injections. No prior research systematically investigates these frameworks' RCE vulner...
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
+
+
 - [Instruction tuning for secure code generation](../venues/ICML2024/paper_1.md), ([ICML2024](../venues/ICML2024/README.md))
 
   - **Abstract**: Modern language models (LMs) have gained widespread acceptance in everyday and professional contexts, particularly in programming. An essential procedure enabling this adoption is instruction tuning, which substantially enhances LMs' practical utility by training them to follow user instructions and human preferences. However, existing instruction tuning schemes overlook a crucial aspect: the security of generated code. As a result, even the state-of-the-art instruction-tuned LMs frequently prod...
@@ -84,10 +90,22 @@
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
 
 
+- [PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)](../venues/CCS2024/paper_4.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: The capability of generating high-quality source code using large language models (LLMs) reduces software development time and costs. However, recent literature and our empirical investigation in this work show that while LLMs can generate functioning code, they inherently tend to introduce security vulnerabilities, limiting their potential. This problem is mainly due to their training on massive open-source corpora exhibiting insecure and inefficient programming practices. Therefore, automatic ...
+  - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [code model](code_model.md), [code model security](code_model_security.md)
+
+
 - [RedAgent: Red Teaming Large Language Models with Context-aware Autonomous Language Agent](../venues/arXiv2024/paper_3.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Recently, advanced Large Language Models (LLMs) such as GPT-4 have been integrated into many real-world applications like Code Copilot. These applications have significantly expanded the attack surface of LLMs, exposing them to a variety of threats. Among them, jailbreak attacks that induce toxic responses through jailbreak prompts have raised critical safety concerns. To identify these threats, a growing number of red teaming approaches simulate potential adversarial scenarios by crafting jailb...
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [benchmark](benchmark.md)
+
+
+- [SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code](../venues/CCS2024/paper_9.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: This paper introduces SGCode, a flexible prompt-optimizing system to generate secure code with large language models (LLMs). SGCode integrates recent prompt-optimization approaches with LLMs in a unified system accessible through front-end and back-end APIs, enabling users to 1) generate secure code, which is free of vulnerabilities, 2) review and share security analysis, and 3) easily switch from one prompt optimization approach to another, while providing insights on model and system performan...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [code model](code_model.md), [code model security](code_model_security.md)
 
 
 - [SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI](../venues/arXiv2024/paper_2.md), ([arXiv2024](../venues/arXiv2024/README.md))

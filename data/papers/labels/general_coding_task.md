@@ -138,6 +138,12 @@
   - **Labels**: [general coding task](general_coding_task.md), [benchmark](benchmark.md)
 
 
+- [PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)](../venues/CCS2024/paper_4.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: The capability of generating high-quality source code using large language models (LLMs) reduces software development time and costs. However, recent literature and our empirical investigation in this work show that while LLMs can generate functioning code, they inherently tend to introduce security vulnerabilities, limiting their potential. This problem is mainly due to their training on massive open-source corpora exhibiting insecure and inefficient programming practices. Therefore, automatic ...
+  - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [code model](code_model.md), [code model security](code_model_security.md)
+
+
 - [Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning](../venues/ICSE2023/paper_10.md), ([ICSE2023](../venues/ICSE2023/README.md))
 
   - **Abstract**: Large language models trained on massive code corpora can generalize to new tasks without the need for task-specific fine-tuning. In few-shot learning, these models take as input a prompt, composed of natural language instructions, a few instances of task demonstration, and a query and generate an output. However, the creation of an effective prompt for code-related tasks in few-shot learning has received little attention. We present a technique for prompt creation that automatically retrieves c...

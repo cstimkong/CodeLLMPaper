@@ -46,3 +46,9 @@
 
   - **Abstract**: Autonomous program improvement typically involves automatically producing bug fixes and feature additions. Such program improvement can be accomplished by a combination of large language model (LLM) and program analysis capabilities, in the form of an LLM agent. Since program repair or program improvement typically requires a specification of intended behavior - specification inference can be useful for producing high quality program patches. In this work, we examine efficient and low-cost workf...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [TAPChecker: Model Checking in Trigger-Action Rules Generation Using Large Language Models](../venues/CCS2024/paper_7.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: The integration of large language models (LLMs) in smart home systems holds significant promise for automating the generation of Trigger-Action Programming (TAP) rules, potentially streamlining smart home user experiences and enhancing convenience. However, LLMs lack of holistic view of smart home IoT deployments and may introduce TAP rules that result in hazards. This paper explores the application of LLM for generating TAP rules and applying formal verification to validate and ensure the safet...
+  - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)

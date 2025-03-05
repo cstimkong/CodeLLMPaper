@@ -182,6 +182,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
 
 
+- [Enhance Hardware Domain Specific Large Language Model with Reinforcement Learning for Resilience](../venues/CCS2024/paper_8.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: To enhance the performance of large language models (LLMs) on hardware design tasks, we focus on training with reinforcement learning(RL) to improve LLMs' syntax synthesis and functional verification performance. We observed significant gains in power, performance, and area (PPA) metrics by applying RL. Specifically, DeepSeek Code saw a 23.6\% performance increase, while the RTLCoder improved by 7.86\%. Our findings demonstrate the effectiveness of RL in refining LLMs for more accurate hardware ...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
 - [Enhancing Discourse Dependency Parsing with Sentence Dependency Parsing: A Unified Generative Method Based on Code Representation](../venues/EMNLP2024/paper_14.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Due to the high complexity of Discourse Dependency Parsing (DDP) tasks, their existing annotation resources are relatively scarce compared to other NLP tasks, and different DDP tasks also have significant differences in annotation schema. These issues have led to the dilemma of low resources for DDP tasks. Thanks to the powerful capabilities of Large Language Models (LLMs) in cross-task learning, we can use LLMs to model dependency parsing under different annotation schema in an unified manner, ...
@@ -384,6 +390,12 @@
 
   - **Abstract**: Modular programming, which aims to construct the final program by integrating smaller, independent building blocks, has been regarded as a desirable practice in software development. However, with the rise of recent code generation agents built upon large language models (LLMs), a question emerges: is this traditional practice equally effective for these new tools? In this work, we assess the impact of modularity in code generation by introducing a novel metric for its quantitative measurement. ...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
+
+
+- [SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code](../venues/CCS2024/paper_9.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: This paper introduces SGCode, a flexible prompt-optimizing system to generate secure code with large language models (LLMs). SGCode integrates recent prompt-optimization approaches with LLMs in a unified system accessible through front-end and back-end APIs, enabling users to 1) generate secure code, which is free of vulnerabilities, 2) review and share security analysis, and 3) easily switch from one prompt optimization approach to another, while providing insights on model and system performan...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [code model](code_model.md), [code model security](code_model_security.md)
 
 
 - [SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI](../venues/arXiv2024/paper_2.md), ([arXiv2024](../venues/arXiv2024/README.md))
@@ -802,6 +814,12 @@
 
   - **Abstract**: Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience. This paper introduces RepairAgent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM). Unlike existing deep learning-based approaches, which prompt a model with a fixed prompt or in a fixed feedback loop, our work treats the LLM as an agent capable of autonomously planning and executin...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [agent design](agent_design.md), [planning](planning.md)
+
+
+- [Repairing Bugs with the Introduction of New Variables: A Multi-Agent Large Language Model](../venues/CCS2024/paper_6.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: Trained on billions of tokens, large language models (LLMs) have a broad range of empirical knowledge which enables them to generate software patches with complex repair patterns. We leverage the powerful code-fixing capabilities of LLMs and propose VarPatch, a multi-agent conversational automated program repair (APR) technique that iteratively queries the LLM to generate software patches by providing various prompts and context information. VarPatch focuses on the variable addition repair patte...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 - [Self-Edit: Fault-Aware Code Editor for Code Generation](../venues/ACL2023/paper_1.md), ([ACL2023](../venues/ACL2023/README.md))

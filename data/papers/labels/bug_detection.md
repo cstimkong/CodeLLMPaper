@@ -6,6 +6,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
+- [An Exploration of Large Language Models in Malicious Source Code Detection](../venues/CCS2024/paper_5.md), ([CCS2024](../venues/CCS2024/README.md))
+
+  - **Abstract**: Embedding malicious code within the software supply chain has become a significant concern in the information technology field. Current methods for detecting malicious code, based on signatures, behavior analysis, and traditional machine learning models, lack result interpretability. This study proposes a novel malicious code detection framework, Mal-LLM, which leverages the cost advantages of traditional machine learning models and the interpretability of LLMs. Initially, traditional machine le...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [Assisting Static Analysis with Large Language Models: A ChatGPT Experiment](../venues/FSE2023/paper_6.md), ([FSE2023](../venues/FSE2023/README.md))
 
   - **Abstract**: Recent advances of Large Language Models (LLMs), e.g., ChatGPT, exhibited strong capabilities of comprehending and responding to questions across a variety of domains. Surprisingly, ChatGPT even possesses a strong understanding of program code. In this paper, we investigate where and how LLMs can assist static analysis by asking appropriate questions. In particular, we target a specific bug-finding tool, which produces many false positives from the static analysis. In our evaluation, we find tha...

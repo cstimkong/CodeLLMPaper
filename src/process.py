@@ -223,12 +223,12 @@ class Classifier:
 
         for title in matching_dict:
             paper = matching_dict[title]
-            abstract = paper.get('abstract', '')
-            prompt = get_prompt(title, abstract)
-            output = Classifier.get_openai_response(prompt)
-            answer = parse_output(output)
-            if answer == "YES":
-                related_papers[title] = paper
+            # abstract = paper.get('abstract', '')
+            # prompt = get_prompt(title, abstract)
+            # output = Classifier.get_openai_response(prompt)
+            # answer = parse_output(output)
+            # if answer == "YES":
+            related_papers[title] = paper
         return related_papers
         
     
@@ -292,27 +292,29 @@ if __name__ == "__main__":
     parser = Parser()
 
     bibs_with_abstract = [
-        "../data/rawdata/2024/ICSE2024.bib",
-        "../data/rawdata/2024/FSE2024.bib",
-        "../data/rawdata/2024/ASE2024.bib",
-        "../data/rawdata/2024/ISSTA2024.bib",
-        "../data/rawdata/2024/TOSEM2024.bib",
-        "../data/rawdata/2024/TSE2024.bib",
-        "../data/rawdata/2024/PLDI2024.bib",
-        "../data/rawdata/2024/OOPSLA2024.bib",
-        "../data/rawdata/2024/S&P2024.bib",
+        # "../data/rawdata/2024/ICSE2024.bib",
+        # "../data/rawdata/2024/FSE2024.bib",
+        # "../data/rawdata/2024/ASE2024.bib",
+        # "../data/rawdata/2024/ISSTA2024.bib",
+        # "../data/rawdata/2024/TOSEM2024.bib",
+        # "../data/rawdata/2024/TSE2024.bib",
+        # "../data/rawdata/2024/PLDI2024.bib",
+        # "../data/rawdata/2024/OOPSLA2024.bib",
+        # "../data/rawdata/2024/S&P2024.bib",
 
-        "../data/rawdata/2023/ICSE2023.bib",
-        "../data/rawdata/2023/FSE2023.bib",
-        "../data/rawdata/2023/ASE2023.bib",
-        "../data/rawdata/2023/ISSTA2023.bib",
-        "../data/rawdata/2023/TOSEM2023.bib",
-        "../data/rawdata/2023/TSE2023.bib",
-        "../data/rawdata/2023/PLDI2023.bib",
-        "../data/rawdata/2023/OOPSLA2023.bib",
-        "../data/rawdata/2023/S&P2023.bib",   
-        "../data/rawdata/2023/USENIXSec2023.bib",
-        "../data/rawdata/2023/CCS2023.bib",
+        # "../data/rawdata/2023/ICSE2023.bib",
+        # "../data/rawdata/2023/FSE2023.bib",
+        # "../data/rawdata/2023/ASE2023.bib",
+        # "../data/rawdata/2023/ISSTA2023.bib",
+        # "../data/rawdata/2023/TOSEM2023.bib",
+        # "../data/rawdata/2023/TSE2023.bib",
+        # "../data/rawdata/2023/PLDI2023.bib",
+        # "../data/rawdata/2023/OOPSLA2023.bib",
+        # "../data/rawdata/2023/S&P2023.bib",   
+        # "../data/rawdata/2023/USENIXSec2023.bib",
+        # "../data/rawdata/2023/CCS2023.bib",
+
+        "../data/rawdata/2024/CCS2024.bib",
     ]
 
     for bib_with_abstract in bibs_with_abstract:
