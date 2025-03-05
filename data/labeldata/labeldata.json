@@ -6282,15 +6282,15 @@
         ],
         "url": "https://dl.acm.org/doi/pdf/10.5555/3327144.3327276"
     },
-    "Meta large language model compiler: Foundation models of compiler optimization": {
+    "LLM Compiler: Foundation Language Models for Compiler Optimization": {
         "type": "article",
         "key": "cummins2024meta",
-        "title": "Meta large language model compiler: Foundation models of compiler optimization",
+        "title": "LLM Compiler: Foundation Language Models for Compiler Optimization",
         "author": "Cummins, Chris and Seeker, Volker and Grubisic, Dejan and Roziere, Baptiste and Gehring, Jonas and Synnaeve, Gabriel and Leather, Hugh",
-        "journal": "arXiv preprint arXiv:2407.02524",
-        "year": "2024",
-        "venue": "Meta2024",
-        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a variety of software engineering and coding tasks. However, their application in the domain of code and compiler optimization remains underexplored. Training LLMs is resource-intensive, requiring substantial GPU hours and extensive data collection, which can be prohibitive. To address this gap, we introduce Meta Large Language Model Compiler (LLM Compiler), a suite of robust, openly available, pre-trained models specifically designed for code optimization tasks. Built on the foundation of Code Llama, LLM Compiler enhances the understanding of compiler intermediate representations (IRs), assembly language, and optimization techniques. The model has been trained on a vast corpus of 546 billion tokens of LLVM-IR and assembly code and has undergone instruction fine-tuning to interpret compiler behavior. LLM Compiler is released under a bespoke commercial license to allow wide reuse and is available in two sizes: 7 billion and 13 billion parameters. We also present fine-tuned versions of the model, demonstrating its enhanced capabilities in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR. These achieve 77% of the optimising potential of an autotuning search, and 45% disassembly round trip (14% exact match). This release aims to provide a scalable, cost-effective foundation for further research and development in compiler optimization by both academic researchers and industry practitioners.",
+        "journal": "CC",
+        "year": "2025",
+        "venue": "CC2025",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a variety of software engineering and coding tasks. However, their application in the domain of code and compiler optimization remains underexplored. Training LLMs is resource-intensive, requiring substantial GPU hours and extensive data collection, which can be prohibitive. To address this gap, we introduce LLM Compiler, a suite of robust, openly available, pre-trained models specifically designed for compiler tasks. Built on the foundation of Code Llama, LLM Compiler enhances the understanding of compiler intermediate representations (IRs), assembly language, and optimization techniques. The models have been trained on a vast corpus of 546 billion tokens of LLVM-IR and assembly code and have undergone instruction fine-tuning to interpret compiler behavior. To demonstrate the utility of these research tools, we also present fine-tuned versions of the models with enhanced capabilities in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR. These achieve 77 % of the optimising potential of an autotuning search, and 45 % disassembly round trip (14 % exact match). LLM Compiler is released under a bespoke commercial license to allow wide reuse and is available in two sizes: 7 billion and 13 billion parameters. Our aim is to provide scalable, cost-effective foundational models for further research and development in compiler optimization by both academic researchers and industry practitioners. Since we released LLM Compiler the community has quantized, repackaged, and downloaded the models over 250k times.",
         "labels": [
             "static analysis",
             "program optimization",
@@ -6298,7 +6298,7 @@
             "code model training",
             "IR code model"
         ],
-        "url": "https://arxiv.org/pdf/2302.05319"
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3708493.3712691"
     },
     "CompilerGym: robust, performant compiler optimization environments for AI research": {
         "type": "article",
@@ -6515,6 +6515,51 @@
             "binary code model"
         ],
         "url": "https://arxiv.org/pdf/2311.13721"
+    },
+    "Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs": {
+        "type": "article",
+        "key": "Rohit2025arXiv",
+        "title": "Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs",
+        "author": "Rohit Gheyi, Marcio Ribeiro, Jonhnanthan Oliveira",
+        "journal": "arXiv preprint arXiv:2502.18454",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study evaluates the effectiveness of Small Language Models (SLMs) in detecting two types of refactoring bugs in Java and Python: (i) transformations that introduce errors or behavioral changes (Type I) and (ii) transformations unnecessarily blocked by IDEs despite being valid (Type II). We assess whether Llama 3.2 3B, Mistral 7B, Gemma 2 9B, DeepSeek-R1 14B, Phi-4 14B, o1-mini, and o3-mini-high can accurately detect 100 refactoring bugs reported in widely used Java and Python IDEs, such as Eclipse and NetBeans. The study covers 16 refactoring types and employs zero-shot prompting on consumer-grade hardware to evaluate the models' ability to reason about refactoring correctness without explicit prior training. The proprietary o3-mini-high model achieved the highest detection rate, identifying 84.3% of Type I bugs. The open-source Phi-4 14B performed comparably well, demonstrating strong effectiveness across both bug types. However, o3-mini-high struggled with Type II bugs, correctly identifying and applying valid but blocked transformations in only 40% of cases. The findings highlight the potential of SLMs for efficiently detecting refactoring bugs, particularly in verifying behavioral changes. Additionally, SLMs offer a more adaptable solution capable of generalizing across different refactoring types and programming languages, addressing key limitations of traditional approaches.",
+        "labels": [
+            "static analysis",
+            "bug detection"
+        ],
+        "url": "https://arxiv.org/abs/2502.18454"
+    },
+    "Combining Large Language Models with Static Analyzers for Code Review Generation": {
+        "type": "article",
+        "key": "Rohit2025arXiv",
+        "title": "Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs",
+        "author": "Rohit Gheyi, Marcio Ribeiro, Jonhnanthan Oliveira",
+        "journal": "arXiv preprint arXiv:2502.06633",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Code review is a crucial but often complex, subjective, and time-consuming activity in software development. Over the past decades, significant efforts have been made to automate this process. Early approaches focused on knowledge-based systems (KBS) that apply rule-based mechanisms to detect code issues, providing precise feedback but struggling with complex, context-dependent cases. More recent work has shifted toward fine-tuning pre-trained language models for code review, enabling broader issue coverage but often at the expense of precision. In this paper, we propose a hybrid approach that combines the strengths of KBS and learning-based systems (LBS) to generate high-quality, comprehensive code reviews. Our method integrates knowledge at three distinct stages of the language model pipeline: during data preparation (Data-Augmented Training, DAT), at inference (Retrieval-Augmented Generation, RAG), and after inference (Naive Concatenation of Outputs, NCO). We empirically evaluate our combination strategies against standalone KBS and LBS fine-tuned on a real-world dataset. Our results show that these hybrid strategies enhance the relevance, completeness, and overall quality of review comments, effectively bridging the gap between rule-based tools and deep learning models.",
+        "labels": [
+            "static analysis",
+            "bug detection"
+        ],
+        "url": "https://arxiv.org/pdf/2502.06633"
+    },
+    "ClassInvGen: Class Invariant Synthesis using Large Language Models": {
+        "type": "article",
+        "key": "chunyue2025arXiv",
+        "title": "ClassInvGen: Class Invariant Synthesis using Large Language Models",
+        "author": "Chuyue Sun, Viraj Agashe, Saikat Chakraborty, Jubi Taneja, Clark Barrett, David Dill, Xiaokang Qiu, Shuvendu K. Lahiri",
+        "journal": "arXiv preprint arXiv:2502.18917",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the need to express them in a declarative manner. Prior work has demonstrated the potential of large language models (LLMs) for synthesizing high-quality method pre/postconditions for Python and Java, but does not consider class invariants.\n In this work, we describe ClassInvGen, a method for co-generating executable class invariants and test inputs to produce high-quality class invariants for a mainstream language such as C++, leveraging LLMs' ability to synthesize pure functions. We show that ClassInvGen outperforms a pure LLM-based technique to generate specifications (from code) as well as prior data-driven invariant inference techniques such as Daikon. We contribute a benchmark of standard C++ data structures along with a harness that can help measure both the correctness and completeness of generated specifications using tests and mutants. We also demonstrate its applicability to real-world code by performing a case study on several classes within a widely used and high-integrity C++ codebase.",
+        "labels": [
+            "static analysis",
+            "program verification"
+        ],
+        "url": "https://www.arxiv.org/abs/2502.18917"
     },
     "Refining Decompiled C Code with Large Language Models": {
         "type": "article",

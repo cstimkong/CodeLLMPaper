@@ -1,15 +1,36 @@
 # arXiv2025
 
-Number of papers: 4
+Number of papers: 7
 
-## [AI Software Engineer: Programming with Trust](paper_3.md)
+## [AI Software Engineer: Programming with Trust](paper_6.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
 - **Abstract**: Large Language Models (LLMs) have shown surprising proficiency in generating code snippets, promising to automate large parts of software engineering via artificial intelligence (AI). We argue that successfully deploying AI software engineers requires a level of trust equal to or even greater than the trust established by human-driven software engineering practices. The recent trend toward LLM agents offers a path toward integrating the power of LLMs to create new code with the power of analysis...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2502.13767)
 - **Labels**: [code generation](../../labels/code_generation.md), [survey](../../labels/survey.md)
 
 
-## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_4.md)
+## [ClassInvGen: Class Invariant Synthesis using Large Language Models](paper_5.md)
+- **Authors**: Chuyue Sun, Viraj Agashe, Saikat Chakraborty, Jubi Taneja, Clark Barrett, David Dill, Xiaokang Qiu, Shuvendu K. Lahiri
+- **Abstract**: Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the n...
+- **Link**: [Read Paper](https://www.arxiv.org/abs/2502.18917)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)
+
+
+## [Combining Large Language Models with Static Analyzers for Code Review Generation](paper_4.md)
+- **Authors**: Rohit Gheyi, Marcio Ribeiro, Jonhnanthan Oliveira
+- **Abstract**: Code review is a crucial but often complex, subjective, and time-consuming activity in software development. Over the past decades, significant efforts have been made to automate this process. Early approaches focused on knowledge-based systems (KBS) that apply rule-based mechanisms to detect code issues, providing precise feedback but struggling with complex, context-dependent cases. More recent work has shifted toward fine-tuning pre-trained language models for code review, enabling broader is...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2502.06633)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+
+
+## [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](paper_3.md)
+- **Authors**: Rohit Gheyi, Marcio Ribeiro, Jonhnanthan Oliveira
+- **Abstract**: Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study ...
+- **Link**: [Read Paper](https://arxiv.org/abs/2502.18454)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+
+
+## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_7.md)
 - **Authors**: Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni
 - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.07857)
