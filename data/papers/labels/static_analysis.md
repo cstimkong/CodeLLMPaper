@@ -120,6 +120,12 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [empirical study](empirical_study.md)
 
 
+- [CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications](../venues/USENIXSec2024/paper_6.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: In recent years, there has been a growing focus on scrutinizing the security of cellular networks, often attributing security vulnerabilities to issues in the underlying protocol design descriptions. These protocol design specifications, typically extensive documents that are thousands of pages long, can harbor inaccuracies, underspecifications, implicit assumptions, and internal inconsistencies. In light of the evolving landscape, we introduce CellularLint—a semi-automatic framework for inconsi...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
+
+
 - [DAInfer: Inferring API Aliasing Specifications from Library Documentation via Neurosymbolic Optimization](../venues/FSE2024/paper_28.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: Modern software systems heavily rely on various libraries, necessitating understanding API semantics in static analysis. However, summarizing API semantics remains challenging due to complex implementations or the unavailability of library code. This paper presents DAInfer, a novel approach for inferring API aliasing specifications from library documentation. Specifically, we employ Natural Language Processing (NLP) models to interpret informal semantic information provided by the documentation,...
@@ -136,6 +142,12 @@
 
   - **Abstract**: In this paper, we present a new framework, named GPTAid, for automatic APSRs generation by analyzing API source code with LLM and detecting API misuse caused by incorrect parameter use. To validate the correctness of the LLM-generated APSRs, we propose an execution feedback-checking approach based on the observation that security-critical API misuse is often caused by APSRs violations, and most of them result in runtime errors. Specifically, GPTAid first uses LLM to generate raw APSRs and the Ri...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
+- [Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications](../venues/USENIXSec2024/paper_5.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: In this paper, we present Hermes, an end-to-end framework to automatically generate formal representations from natural language cellular specifications. We first develop a neural constituency parser, NEUTREX, to process transition-relevant texts and extract transition components (i.e., states, conditions, and actions). We also design a domain-specific language to translate these transition components to logical formulas by leveraging dependency parse trees. Finally, we compile these logical for...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
 
 
 - [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_12.md), ([arXiv2023](../venues/arXiv2023/README.md))
@@ -166,6 +178,12 @@
 
   - **Abstract**: The integration of large language models (LLMs) in smart home systems holds significant promise for automating the generation of Trigger-Action Programming (TAP) rules, potentially streamlining smart home user experiences and enhancing convenience. However, LLMs lack of holistic view of smart home IoT deployments and may introduce TAP rules that result in hazards. This paper explores the application of LLM for generating TAP rules and applying formal verification to validate and ensure the safet...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
+- [When Threads Meet Interrupts: Effective Static Detection of Interrupt-Based Deadlocks in Linux](../venues/USENIXSec2024/paper_3.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: Deadlocking is an unresponsive state of software that arises when threads hold locks while trying to acquire other locks that are already held by other threads, resulting in a circular lock dependency. Interrupt-based deadlocks, a specific and prevalent type of deadlocks that occur within the OS kernel due to interrupt preemption, pose significant risks to system functionality, performance, and security. However, existing static analysis tools focus on resource-based deadlocks without characteri...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
 
 
 ## Equivalence Checking
@@ -238,6 +256,12 @@
 
   - **Abstract**: As software projects progress, quality of code assumes paramount importance as it affects reliability, maintainability and security of software. For this reason, static analysis tools are used in developer workflows to flag code quality issues. However, developers need to spend extra efforts to revise their code to improve code quality based on the tool findings. In this work, we investigate the use of (instruction-following) large language models (LLMs) to assist developers in revising code to ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
+- [CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications](../venues/USENIXSec2024/paper_6.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: In recent years, there has been a growing focus on scrutinizing the security of cellular networks, often attributing security vulnerabilities to issues in the underlying protocol design descriptions. These protocol design specifications, typically extensive documents that are thousands of pages long, can harbor inaccuracies, underspecifications, implicit assumptions, and internal inconsistencies. In light of the evolving landscape, we introduce CellularLint—a semi-automatic framework for inconsi...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
 
 
 - [Closing the Gap: A User Study on the Real-world Usefulness of AI-powered Vulnerability Detection & Repair in the IDE](../venues/ICSE2025/paper_1.md), ([ICSE2025](../venues/ICSE2025/README.md))
@@ -352,6 +376,12 @@
 
   - **Abstract**: This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive eva...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
+- [Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications](../venues/USENIXSec2024/paper_5.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: In this paper, we present Hermes, an end-to-end framework to automatically generate formal representations from natural language cellular specifications. We first develop a neural constituency parser, NEUTREX, to process transition-relevant texts and extract transition components (i.e., states, conditions, and actions). We also design a domain-specific language to translate these transition components to logical formulas by leveraging dependency parse trees. Finally, we compile these logical for...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
 
 
 - [How Far Have We Gone in Vulnerability Detection Using Large Language Models](../venues/arXiv2023/paper_5.md), ([arXiv2023](../venues/arXiv2023/README.md))
@@ -568,6 +598,12 @@
 
   - **Abstract**: In the context of the rising interest in code language models (code LMs) and vulnerability detection, we study the effectiveness of code LMs for detecting vulnerabilities. Our analysis reveals significant shortcomings in existing vulnerability datasets, including poor data quality, low label accuracy, and high duplication rates, leading to unreliable model performance in realistic vulnerability detection scenarios. Additionally, the evaluation methods used with these datasets are not representat...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
+
+
+- [When Threads Meet Interrupts: Effective Static Detection of Interrupt-Based Deadlocks in Linux](../venues/USENIXSec2024/paper_3.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: Deadlocking is an unresponsive state of software that arises when threads hold locks while trying to acquire other locks that are already held by other threads, resulting in a circular lock dependency. Interrupt-based deadlocks, a specific and prevalent type of deadlocks that occur within the OS kernel due to interrupt preemption, pose significant risks to system functionality, performance, and security. However, existing static analysis tools focus on resource-based deadlocks without characteri...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
 
 
 - [Where is it? Tracing the Vulnerability-relevant Files from Vulnerability Reports](../venues/ICSE2024/paper_18.md), ([ICSE2024](../venues/ICSE2024/README.md))

@@ -34,6 +34,12 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
+- [Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing](../venues/USENIXSec2024/paper_4.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: BusyBox, an open-source software bundling over 300 essential Linux commands into a single executable, is ubiquitous in Linux-based embedded devices. Vulnerabilities in BusyBox can have far-reaching consequences, affecting a wide array of devices. This research, driven by the extensive use of BusyBox, delved into its analysis. The study revealed the prevalence of older BusyBox versions in real-world embedded products, prompting us to conduct fuzz testing on BusyBox. Fuzzing, a pivotal software te...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
 - [Fuzzing JavaScript Interpreters with Coverage-Guided Reinforcement Learning for LLM-Based Mutation](../venues/ISSTA2024/paper_22.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
   - **Abstract**: JavaScript interpreters, crucial for modern web browsers, require an effective fuzzing method to identify security-related bugs. However, the strict grammatical requirements for input present significant challenges. Recent efforts to integrate language models for context- aware mutation in fuzzing are promising but lack the necessary coverage guidance to be fully effective. This paper presents a novel technique called CovRL (Coverage-guided Reinforcement Learning) that combines Large Language Mo...

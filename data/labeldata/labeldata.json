@@ -7442,6 +7442,37 @@
         ],
         "url": "https://www.usenix.org/system/files/usenixsecurity24-zhao.pdf"
     },
+    "When Threads Meet Interrupts: Effective Static Detection of Interrupt-Based Deadlocks in Linux": {
+        "type": "inproceedings",
+        "key": "chengfeng2024",
+        "title": "When Threads Meet Interrupts: Effective Static Detection of Interrupt-Based Deadlocks in Linux",
+        "author": "Chengfeng Ye, Yuandao Cai, and Charles Zhang,",
+        "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+        "year": "2024",
+        "venue": "USENIXSec2024",
+        "abstract": "Deadlocking is an unresponsive state of software that arises when threads hold locks while trying to acquire other locks that are already held by other threads, resulting in a circular lock dependency. Interrupt-based deadlocks, a specific and prevalent type of deadlocks that occur within the OS kernel due to interrupt preemption, pose significant risks to system functionality, performance, and security. However, existing static analysis tools focus on resource-based deadlocks without characterizing the interrupt preemption. In this paper, we introduce Archerfish, the first static analysis approach for effectively identifying interrupt-based deadlocks in the large-scale Linux kernel. At its core, Archerfish utilizes an Interrupt-Aware Lock Graph (ILG) to capture both regular and interrupt-related lock dependencies, reducing the deadlock detection problem to graph cycle discovery and refinement. Furthermore, Archerfish incorporates four effective analysis components to construct ILG and refine the deadlock cycles, addressing three core challenges, including the extensive interrupt-involving concurrency space, identifying potential interrupt handlers, and validating the feasibility of deadlock cycles. Our experimental results show that Archerfish can precisely analyze the Linux kernel (19.8 MLoC) in approximately one hour. At the time of writing, we have discovered 76 previously unknown deadlocks, with 53 bugs confirmed, 46 bugs already fixed by the Linux community, and 2 CVE IDs assigned. Notably, those found deadlocks are long-latent, hiding for an average of 9.9 years.",
+        "labels": [
+            "static analysis",
+            "bug detection",
+            "specification inference"
+        ],
+        "url": "https://www.usenix.org/system/files/usenixsecurity24-zhao.pdf"
+    },
+    "Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing": {
+        "type": "inproceedings",
+        "key": "Asmita2024",
+        "title": "Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing",
+        "author": "Asmita, Yaroslav Oliinyk,  Michael Scott, Ryan Tsang, Chongzhou Fang, and Houman Homayoun",
+        "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+        "year": "2024",
+        "venue": "USENIXSec2024",
+        "abstract": "BusyBox, an open-source software bundling over 300 essential Linux commands into a single executable, is ubiquitous in Linux-based embedded devices. Vulnerabilities in BusyBox can have far-reaching consequences, affecting a wide array of devices. This research, driven by the extensive use of BusyBox, delved into its analysis. The study revealed the prevalence of older BusyBox versions in real-world embedded products, prompting us to conduct fuzz testing on BusyBox. Fuzzing, a pivotal software testing method, aims to induce crashes that are subsequently scrutinized to uncover vulnerabilities. Within this study, we introduce two techniques to fortify software testing. The first technique enhances fuzzing by leveraging Large Language Models (LLM) to generate target-specific initial seeds. Our study showed a substantial increase in crashes when using LLM-generated initial seeds, highlighting the potential of LLM to efficiently tackle the typically labor-intensive task of generating target-specific initial seeds. The second technique involves repurposing previously acquired crash data from similar fuzzed targets before initiating fuzzing on a new target. This approach streamlines the time-consuming fuzz testing process by providing crash data directly to the new target before commencing fuzzing. We successfully identified crashes in the latest BusyBox target without conducting traditional fuzzing, emphasizing the effectiveness of LLM and crash reuse techniques in enhancing software testing and improving vulnerability detection in embedded systems. Additionally, manual triaging was performed to identify the nature of crashes in the latest BusyBox.",
+        "labels": [
+            "program testing",
+            "fuzzing"
+        ],
+        "url": "https://www.usenix.org/system/files/usenixsecurity24-asmita.pdf"
+    },
     "Gptscan: Detecting logic vulnerabilities in smart contracts by combining gpt with program analysis": {
         "type": "inproceedings",
         "key": "sun2024gptscan",
@@ -10045,6 +10076,8 @@
         ]
     },
     "Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs": {
+        "type": "INPROCEEDINGS",
+        "key": "nilesh2025",
         "author": "Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni",
         "title": "Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs",
         "url": "https://arxiv.org/pdf/2501.07857",
@@ -10059,6 +10092,8 @@
         "venue": "arXiv2025"
     },
     "Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation": {
+        "type": "INPROCEEDINGS",
+        "key": "jinbao2024",
         "author": "Jinbao Chen, Hongjing Xiang, Luhao Li, Yu Zhang, Boyao Ding, Qingwei Li",
         "title": "Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation",
         "url": "https://arxiv.org/pdf/2411.03079",
@@ -10068,6 +10103,34 @@
           "bug detection"
         ],
         "venue": "arXiv2024"
+    },
+    "Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications": {
+        "type": "INPROCEEDINGS",
+        "key": "hermes2024",
+        "author": "Abdullah Al Ishtiaq, Sarkar Snigdha Sarathi Das, Syed Md Mukit Rashid, Ali Ranjbar, Kai Tu, Tianwei Wu, Zhezheng Song, Weixuan Wang, Mujtahid Akon, Rui Zhang, Syed Rafiul Hussain",
+        "title": "Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications",
+        "url": "https://arxiv.org/abs/2310.04381",
+        "abstract": "In this paper, we present Hermes, an end-to-end framework to automatically generate formal representations from natural language cellular specifications. We first develop a neural constituency parser, NEUTREX, to process transition-relevant texts and extract transition components (i.e., states, conditions, and actions). We also design a domain-specific language to translate these transition components to logical formulas by leveraging dependency parse trees. Finally, we compile these logical formulas to generate transitions and create the formal model as finite state machines. To demonstrate the effectiveness of Hermes, we evaluate it on 4G NAS, 5G NAS, and 5G RRC specifications and obtain an overall accuracy of 81-87%, which is a substantial improvement over the state-of-the-art. Our security analysis of the extracted models uncovers 3 new vulnerabilities and identifies 19 previous attacks in 4G and 5G specifications, and 7 deviations in commercial 4G basebands.",
+        "labels": [
+          "static analysis",
+          "bug detection",
+          "specification inference"
+        ],
+        "venue": "USENIXSec2024"
+    },
+    "CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications": {
+        "type": "INPROCEEDINGS",
+        "key": "CellularLint2024",
+        "author": "Mirza Masfiqur Rahman, Imtiaz Karim, and Elisa Bertino",
+        "title": "CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications",
+        "url": "https://www.usenix.org/system/files/usenixsecurity24-rahman.pdf",
+        "abstract": "In recent years, there has been a growing focus on scrutinizing the security of cellular networks, often attributing security vulnerabilities to issues in the underlying protocol design descriptions. These protocol design specifications, typically extensive documents that are thousands of pages long, can harbor inaccuracies, underspecifications, implicit assumptions, and internal inconsistencies. In light of the evolving landscape, we introduce CellularLint—a semi-automatic framework for inconsistency detection within the standards of 4G and 5G, capitalizing on a suite of natural language processing techniques. Our proposed method uses a revamped few-shot learning mechanism on domain-adapted large language models. Pre-trained on a vast corpus of cellular network protocols, this method enables CellularLint to simultaneously detect inconsistencies at various levels of semantics and practical use cases. In doing so, CellularLint significantly advances the automated analysis of protocol specifications in a scalable fashion. In our investigation, we focused on the Non-Access Stratum (NAS) and the security specifications of 4G and 5G networks, ultimately uncovering 157 inconsistencies with 82.67% accuracy. After verification of these inconsistencies on open-source implementations and 17 commercial devices, we confirm that they indeed have a substantial impact on design decisions, potentially leading to concerns related to privacy, integrity, availability, and interoperability.",
+        "labels": [
+          "static analysis",
+          "bug detection",
+          "specification inference"
+        ],
+        "venue": "USENIXSec2024"
     },
     "C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques": {
         "author": "Vikram Nitin, Rahul Krishna, Luiz Lemos do Valle, Baishakhi Ray",
