@@ -3,7 +3,7 @@
 This repository provides a curated list of research papers focused on Large Language Models (LLMs) for code. It aims to facilitate researchers and practitioners in exploring the rapidly growing body of literature on this topic. The papers are systematically collected from various top-tier venues, categorized, and labeled for easier navigation.
 
 ## 📍 News
-- :star: We updated the papers published in CCS 2024, USENIX Sec 2024, and NDSS 2025.
+- :star: We updated the papers published in CCS 2024, USENIX Sec 2024, and NDSS 2025. (03/05/2025)
 
 ## Table of Contents
 
