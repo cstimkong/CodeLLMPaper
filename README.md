@@ -33,12 +33,13 @@ We have systematically selected papers from the following venues, which are top-
 - Security (Sec)
   - [S&P2023](data/papers/venues/S&P2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [CCS2023](data/papers/venues/CCS2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md)
   - [S&P2024](data/papers/venues/S&P2024/README.md), [USENIXSec2024](data/papers/venues/USENIXSec2024/README.md), [NDSS2024](data/papers/venues/NDSS2024/README.md), [CCS2024](data/papers/venues/CCS2024/README.md)
+  - [NDSS2025](data/papers/venues/NDSS2025/README.md)
 
 - Natural Language Processing (NLP)
   - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
   - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
 
-The papers accepted by USENIXSec2024 and CCS2024 have not been published in the proceedings. Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
+Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
 
 
 ## B. Selection Strategy
@@ -84,20 +85,20 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (136)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (143)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
   - [Data-flow Analysis](data/papers/labels/data-flow_analysis.md)   (8)
   - [Type Inference](data/papers/labels/type_inference.md)   (3)
-  - [Specification Inference](data/papers/labels/specification_inference.md)   (12)
+  - [Specification Inference](data/papers/labels/specification_inference.md)   (15)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (67)
-  - [Program Verification](data/papers/labels/program_verification.md)   (19)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (73)
+  - [Program Verification](data/papers/labels/program_verification.md)   (20)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (4)
-  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (8)
-  - [Code Summarization](data/papers/labels/code_summarization.md)   (9)
+  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (9)
+  - [Code Summarization](data/papers/labels/code_summarization.md)   (10)
   - [Code Search](data/papers/labels/code_search.md)   (5)
   - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   (3)
 - [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (18)
@@ -112,18 +113,18 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (110)
-  - [Code Model Training](data/papers/labels/code_model_training.md)   (83)
+- [Code Model](data/papers/labels/code_model.md)   (111)
+  - [Code Model Training](data/papers/labels/code_model_training.md)   (84)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (64)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
-    - [Binary Code Model](data/papers/labels/binary_code_model.md)   (14)
+    - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)
   - [Code Model Security](data/papers/labels/code_model_security.md)   (23)
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (12)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (57)
-  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (38)
-    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (8)
+- [Agent Design](data/papers/labels/agent_design.md)   (58)
+  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (39)
+    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (9)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
   - [Planning](data/papers/labels/planning.md)   (9)
@@ -133,7 +134,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
 - [Benchmark](data/papers/labels/benchmark.md)   (45)
-- [Empirical Study](data/papers/labels/empirical_study.md)   (77)
+- [Empirical Study](data/papers/labels/empirical_study.md)   (78)
 - [Survey](data/papers/labels/survey.md)   (18)
 
 ## D. How to Contribute

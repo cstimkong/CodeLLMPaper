@@ -301,6 +301,7 @@ if __name__ == "__main__":
         # "../data/rawdata/2024/PLDI2024.bib",
         # "../data/rawdata/2024/OOPSLA2024.bib",
         # "../data/rawdata/2024/S&P2024.bib",
+        # "../data/rawdata/2024/CCS2024.bib",
 
         # "../data/rawdata/2023/ICSE2023.bib",
         # "../data/rawdata/2023/FSE2023.bib",
@@ -314,11 +315,12 @@ if __name__ == "__main__":
         # "../data/rawdata/2023/USENIXSec2023.bib",
         # "../data/rawdata/2023/CCS2023.bib",
 
-        "../data/rawdata/2024/CCS2024.bib",
+        
+
+        "../data/rawdata/2025/NDSS2025.html",
     ]
 
-    for bib_with_abstract in bibs_with_abstract:
-        parser.parse_from_bib(bib_with_abstract)
+    parser.parse_ndss_html("../data/rawdata/2025/NDSS2025.html")
 
     # parser.parse_ndss_html("../data/rawdata/2024/NDSS2024.html")
     # parser.parse_ndss_html("../data/rawdata/2023/NDSS2023.html")

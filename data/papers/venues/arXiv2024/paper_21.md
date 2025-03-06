@@ -1,11 +1,11 @@
-# LLM-Assisted Static Analysis for Detecting Security Vulnerabilities
+# Specification-Driven Code Translation Powered by Large Language Models: How Far Are We?
 
-**Authors**: Li, Ziyang and Dutta, Saikat and Naik, Mayur
+**Authors**: Soumit Kanti Saha, Fazle Rabbi, Song Wang, Jinqiu Yang
 
 **Abstract**:
 
-Software is prone to security vulnerabilities. Program analysis tools to detect them have limited effectiveness in practice due to their reliance on human labeled specifications. Large language models (or LLMs) have shown impressive code generation capabilities but they cannot do complex reasoning over code to detect such vulnerabilities especially since this task requires whole-repository analysis. We propose IRIS, a neuro-symbolic approach that systematically combines LLMs with static analysis to perform whole-repository reasoning for security vulnerability detection. Specifically, IRIS leverages LLMs to infer taint specifications and perform contextual analysis, alleviating needs for human specifications and inspection. For evaluation, we curate a new dataset, CWE-Bench-Java, comprising 120 manually validated security vulnerabilities in real-world Java projects. A state-of-the-art static analysis tool CodeQL detects only 27 of these vulnerabilities whereas IRIS with GPT-4 detects 55 (+28) and improves upon CodeQL's average false discovery rate by 5% points. Furthermore, IRIS identifies 6 previously unknown vulnerabilities which cannot be found by existing tools.
+Large Language Models (LLMs) are increasingly being applied across various domains, including code-related tasks such as code translation. Previous studies have explored using LLMs for translating code between different programming languages. Since LLMs are more effective with natural language, using natural language as an intermediate representation in code translation tasks presents a promising approach. In this work, we investigate using NL-specification as an intermediate representation for code translation. We evaluate our method using three datasets, five popular programming languages, and 29 language pair permutations. Our results show that using NL-specification alone does not lead to performance improvements. However, when combined with source code, it provides a slight improvement over the baseline in certain language pairs. Besides analyzing the performance of code translation, we also investigate the quality of the translated code and provide insights into the issues present in the translated code.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2405.17238)
+**Link**: [Read Paper](https://arxiv.org/pdf/2412.04590)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md)
