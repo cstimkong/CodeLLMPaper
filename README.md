@@ -1,4 +1,4 @@
-# CodeLLM Paper
+# CodeLLM Paper <a href=https://github.com/PurCL/CodeLLMPaper><img src='https://img.shields.io/github/stars/PurCL/CodeLLMPaper' width="120" height="26" /></a>
 
 This repository provides a curated list of research papers focused on Large Language Models (LLMs) for code. It aims to facilitate researchers and practitioners in exploring the rapidly growing body of literature on this topic. The papers are systematically collected from various top-tier venues, categorized, and labeled for easier navigation.
 
