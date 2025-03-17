@@ -1,11 +1,11 @@
-# Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs
+# Is Your Benchmark (Still) Useful? Dynamic Benchmarking for Code Language Models
 
-**Authors**: Rohit Gheyi, Marcio Ribeiro, Jonhnanthan Oliveira
+**Authors**: Batu Guan, Xiao Wu, Yuanyuan Yuan, Shaohua Li
 
 **Abstract**:
 
-Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study evaluates the effectiveness of Small Language Models (SLMs) in detecting two types of refactoring bugs in Java and Python: (i) transformations that introduce errors or behavioral changes (Type I) and (ii) transformations unnecessarily blocked by IDEs despite being valid (Type II). We assess whether Llama 3.2 3B, Mistral 7B, Gemma 2 9B, DeepSeek-R1 14B, Phi-4 14B, o1-mini, and o3-mini-high can accurately detect 100 refactoring bugs reported in widely used Java and Python IDEs, such as Eclipse and NetBeans. The study covers 16 refactoring types and employs zero-shot prompting on consumer-grade hardware to evaluate the models' ability to reason about refactoring correctness without explicit prior training. The proprietary o3-mini-high model achieved the highest detection rate, identifying 84.3% of Type I bugs. The open-source Phi-4 14B performed comparably well, demonstrating strong effectiveness across both bug types. However, o3-mini-high struggled with Type II bugs, correctly identifying and applying valid but blocked transformations in only 40% of cases. The findings highlight the potential of SLMs for efficiently detecting refactoring bugs, particularly in verifying behavioral changes. Additionally, SLMs offer a more adaptable solution capable of generalizing across different refactoring types and programming languages, addressing key limitations of traditional approaches.
+In this paper, we tackle a critical challenge in model evaluation: how to keep code benchmarks useful when models might have already seen them during training. We introduce a novel solution, dynamic benchmarking framework, to address this challenge. Given a code understanding or reasoning benchmark, our framework dynamically transforms each input, i.e., programs, with various semantic-preserving mutations to build a syntactically new while semantically identical benchmark. We evaluated ten popular language models on our dynamic benchmarks. Our evaluation reveals several interesting or surprising findings: (1) all models perform significantly worse than before, (2) the ranking between some models shifts dramatically, and (3) our dynamic benchmarks can resist against the data contamination problem.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2502.18454)
+**Link**: [Read Paper](https://arxiv.org/abs/2503.06643)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+**Labels**: [benchmark](../../labels/benchmark.md)

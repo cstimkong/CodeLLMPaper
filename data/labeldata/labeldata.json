@@ -6516,6 +6516,68 @@
         ],
         "url": "https://arxiv.org/pdf/2311.13721"
     },
+    "Is Your Benchmark (Still) Useful? Dynamic Benchmarking for Code Language Models": {
+        "type": "article",
+        "key": "shaohua_arxiv25",
+        "title": "Is Your Benchmark (Still) Useful? Dynamic Benchmarking for Code Language Models",
+        "author": "Batu Guan, Xiao Wu, Yuanyuan Yuan, Shaohua Li",
+        "journal": "arXiv preprint arXiv:2503.06643",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "In this paper, we tackle a critical challenge in model evaluation: how to keep code benchmarks useful when models might have already seen them during training. We introduce a novel solution, dynamic benchmarking framework, to address this challenge. Given a code understanding or reasoning benchmark, our framework dynamically transforms each input, i.e., programs, with various semantic-preserving mutations to build a syntactically new while semantically identical benchmark. We evaluated ten popular language models on our dynamic benchmarks. Our evaluation reveals several interesting or surprising findings: (1) all models perform significantly worse than before, (2) the ranking between some models shifts dramatically, and (3) our dynamic benchmarks can resist against the data contamination problem.",
+        "labels": [
+            "benchmark"
+        ],
+        "url": "https://arxiv.org/abs/2503.06643"
+    },
+    "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers": {
+        "type": "article",
+        "key": "knighter_2025",
+        "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
+        "author": "Chenyuan Yang, Zijie Zhao, Zichen Xie, Haoyu Li, Lingming Zhang",
+        "journal": "arXiv preprint arXiv:2503.09002v1",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, timeconsuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large codebases remains impractical due to computational constraints and contextual limitations. We present KNighter, the first approach that unlocks practical LLM-based static analysis by automatically synthesizing static analyzers from historical bug patterns. Rather than using LLMs to directly analyze massive codebases, our key insight is leveraging LLMs to generate specialized static analyzers guided by historical patch knowledge. KNighter implements this vision through a multi-stage synthesis pipeline that validates checker correctness against original patches and employs an automated refinement process to iteratively reduce false positives. Our evaluation on the Linux kernel demonstrates that KNighter generates high-precision checkers capable of detecting diverse bug patterns overlooked by existing human-written analyzers. To date, KNighter-synthesized checkers have discovered 70 new bugs/vulnerabilities in the Linux kernel, with 56 confirmed and 41 already fixed. 11 of these findings have been assigned CVE numbers. This work establishes an entirely new paradigm for scalable, reliable, and traceable LLM-based static analysis for real-world systems via checker synthesis.",
+        "labels": [
+            "static analysis",
+            "bug detection"
+        ],
+        "url": "https://arxiv.org/pdf/2503.09002"
+    },
+    "Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference": {
+        "type": "article",
+        "key": "knighter_2025",
+        "title": "Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference",
+        "author": "Thanh Le-Cong, Bach Le, Toby Murray",
+        "journal": "arXiv preprint arXiv:2503.04779",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Large Language Models (LLMs) are increasingly being used to automate programming tasks. Yet, LLMs' capabilities in reasoning about program semantics are still inadequately studied, leaving significant potential for further exploration. This paper introduces FormalBench, a comprehensive benchmark designed to evaluate LLMs' reasoning abilities on program semantics, particularly via the task of synthesizing formal program specifications to assist verifying program correctness. This task requires both comprehensive reasoning over all possible program executions and the generation of precise, syntactically correct expressions that adhere to formal syntax and semantics. Using this benchmark, we evaluated the ability of LLMs in synthesizing consistent and complete specifications. Our findings show that LLMs perform well with simple control flows but struggle with more complex structures, especially loops, even with advanced prompting. Additionally, LLMs exhibit limited robustness against semantic-preserving transformations. We also highlight common failure patterns and design self-repair prompts, improving success rates by 25%.",
+        "labels": [
+            "static analysis",
+            "specification inference",
+            "benchmark",
+            "empirical study"
+        ],
+        "url": "https://arxiv.org/abs/2503.04779"
+    },
+    "Type-Aware Constraining for Code LLMs": {
+        "type": "article",
+        "key": "knighter_2025",
+        "title": "Type-Aware Constraining for Code LLMs",
+        "author": "Niels Mündler, Jingxuan He, Hao Wang, Koushik Sen, Dawn Song, Martin Vechev",
+        "journal": "ICLR 2025 workshop",
+        "year": "2025",
+        "venue": "ICLR2025",
+        "abstract": "Large Language Models (LLMs) have achieved notable success in code generation. However, they still frequently produce invalid code, as they do not precisely model formal aspects of programming languages. Constrained decoding is a promising approach to alleviate this issue and has been successfully applied to domain-specific languages and syntactic features, but is not able to enforce more semantic features, such as well-typedness. To address this issue, we introduce type-aware constrained decoding. We develop a novel prefix automata formalism and introduce a sound approach to guarantee existence of a type-safe completion of a partial program based on type inference and a search over inhabitable types. We implement type-aware constraining first for a foundational simply-typed language, then extend it to TypeScript. In our evaluation across state-of-the-art open-weight LLMs of up to 34B parameters and various model families, type-aware constraining reduces compilation errors by on average 70.9% and increases functional correctness by 16.2% in code synthesis, translation, and repair tasks.",
+        "labels": [
+            "code generation",
+            "code completion",
+            "code model"
+        ],
+        "url": "https://openreview.net/forum?id=DNAapYMXkc"
+    },
     "Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs": {
         "type": "article",
         "key": "Rohit2025arXiv",

@@ -1,9 +1,6 @@
-# CodeLLM Paper <img src='https://img.shields.io/github/stars/PurCL/CodeLLMPaper' width="120" height="26" />
+# CodeLLM Paper
 
 This repository provides a curated list of research papers focused on Large Language Models (LLMs) for code. It aims to facilitate researchers and practitioners in exploring the rapidly growing body of literature on this topic. The papers are systematically collected from various top-tier venues, categorized, and labeled for easier navigation.
-
-## 📍 News
-- :star: We updated the papers published in CCS 2024, USENIX Sec 2024, and NDSS 2025. (03/05/2025)
 
 ## Table of Contents
 
@@ -70,9 +67,9 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (32)
-- [Code Generation](data/papers/labels/code_generation.md)   (197)
+- [Code Generation](data/papers/labels/code_generation.md)   (198)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (83)
-  - [Code Completion](data/papers/labels/code_completion.md)   (22)
+  - [Code Completion](data/papers/labels/code_completion.md)   (23)
   - [Program Repair](data/papers/labels/program_repair.md)   (41)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (31)
 - [Program Testing](data/papers/labels/program_testing.md)   (55)
@@ -88,16 +85,16 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (143)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (145)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
   - [Data-flow Analysis](data/papers/labels/data-flow_analysis.md)   (8)
   - [Type Inference](data/papers/labels/type_inference.md)   (3)
-  - [Specification Inference](data/papers/labels/specification_inference.md)   (15)
+  - [Specification Inference](data/papers/labels/specification_inference.md)   (16)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (73)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (74)
   - [Program Verification](data/papers/labels/program_verification.md)   (20)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (4)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (9)
@@ -116,7 +113,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (111)
+- [Code Model](data/papers/labels/code_model.md)   (112)
   - [Code Model Training](data/papers/labels/code_model_training.md)   (84)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (64)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
@@ -136,8 +133,8 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (45)
-- [Empirical Study](data/papers/labels/empirical_study.md)   (78)
+- [Benchmark](data/papers/labels/benchmark.md)   (47)
+- [Empirical Study](data/papers/labels/empirical_study.md)   (79)
 - [Survey](data/papers/labels/survey.md)   (18)
 
 ## D. How to Contribute
