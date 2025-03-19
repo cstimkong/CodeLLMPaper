@@ -193,6 +193,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
 
 
+- [If At First You Don’t Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems](../venues/SOSP2024/paper_1.md), ([SOSP2024](../venues/SOSP2024/README.md))
+
+  - **Abstract**: Retry—the re-execution of a task on failure—is a common mechanism to enable resilient software systems. Yet, despite its commonality and long history, retry remains difficult to implement and test. Guided by our study of real-world retry issues, we propose a novel suite of static and dynamic techniques to detect retry problems in software. We find that the ad-hoc nature of retry implementation poses challenges for traditional program analysis but can be well suited for large language models; and...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [Interleaving Static Analysis and LLM Prompting](../venues/SOAP2024/paper_1.md), ([SOAP2024](../venues/SOAP2024/README.md))
 
   - **Abstract**: This paper presents a new approach for using Large Language Models (LLMs) to improve static program analysis. Specifically, during program analysis, we interleave calls to the static analyzer and queries to the LLM: the prompt used to query the LLM is constructed using intermediate results from the static analysis, and the result from the LLM query is used for subsequent analysis of the program. We apply this novel approach to the problem of error-specification inference of functions in systems ...
