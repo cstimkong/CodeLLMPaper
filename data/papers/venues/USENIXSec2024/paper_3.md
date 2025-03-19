@@ -1,6 +1,6 @@
 # When Threads Meet Interrupts: Effective Static Detection of Interrupt-Based Deadlocks in Linux
 
-**Authors**: Chengfeng Ye, Yuandao Cai, and Charles Zhang,
+**Authors**: Chengfeng Ye, Yuandao Cai, and Charles Zhang
 
 **Abstract**:
 

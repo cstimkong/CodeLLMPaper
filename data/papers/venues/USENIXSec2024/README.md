@@ -38,7 +38,7 @@ Number of papers: 6
 
 
 ## [When Threads Meet Interrupts: Effective Static Detection of Interrupt-Based Deadlocks in Linux](paper_3.md)
-- **Authors**: Chengfeng Ye, Yuandao Cai, and Charles Zhang,
+- **Authors**: Chengfeng Ye, Yuandao Cai, and Charles Zhang
 - **Abstract**: Deadlocking is an unresponsive state of software that arises when threads hold locks while trying to acquire other locks that are already held by other threads, resulting in a circular lock dependency. Interrupt-based deadlocks, a specific and prevalent type of deadlocks that occur within the OS kernel due to interrupt preemption, pose significant risks to system functionality, performance, and security. However, existing static analysis tools focus on resource-based deadlocks without characteri...
 - **Link**: [Read Paper](https://www.usenix.org/system/files/usenixsecurity24-zhao.pdf)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [specification inference](../../labels/specification_inference.md)
