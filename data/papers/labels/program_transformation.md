@@ -78,6 +78,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [LLM-Driven Multi-step Translation from C to Rust using Static Analysis](../venues/ICLR2025/paper_3.md), ([ICLR2025](../venues/ICLR2025/README.md))
+
+  - **Abstract**: Translating software written in legacy languages to modern languages, such as C to Rust, has significant benefits in improving memory safety while maintaining high performance. However, manual translation is cumbersome, error-prone, and produces unidiomatic code. Large language models (LLMs) have demonstrated promise in producing idiomatic translations, but offer no correctness guarantees as they lack the ability to capture all the semantics differences between the source and target languages. T...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [LPR: Large Language Models-Aided Program Reduction](../venues/ISSTA2024/paper_5.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
   - **Abstract**: Program reduction is a widely used technique to facilitate debugging                compilers by automatically minimizing programs that trigger                compiler bugs. Existing program reduction techniques are either                generic to a wide range of languages (such as Perses and Vulcan)                or specifically optimized for one certain language by exploiting                language-specific knowledge (e.g., C-Reduce). However, synergistically                combining both g...
