@@ -1,6 +1,13 @@
 # NeurIPS2024
 
-Number of papers: 7
+Number of papers: 8
+
+## [Can LLMs Implicitly Learn Numeric Parameter Constraints in Data Science APIs?](paper_8.md)
+- **Authors**: Yinlin Deng, Chunqiu Steven Xia, Zhezhen Cao, Meiziniu Li, Lingming Zhang
+- **Abstract**: Data science (DS) programs, typically built on popular DS libraries (such as PyTorch and NumPy) with thousands of APIs, serve as the cornerstone for various mission-critical domains such as financial systems, autonomous driving software, and coding assistants. Recently, large language models (LLMs) have been widely applied to generate DS programs across diverse scenarios, such as assisting users for DS programming or detecting critical vulnerabilities in DS frameworks. Such applications have all...
+- **Link**: [Read Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/617ffb01ea5b57769b0d63d5e9fefd3f-Paper-Conference.pdf)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [specification inference](../../labels/specification_inference.md)
+
 
 ## [Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search](paper_5.md)
 - **Authors**: Nicola Dainese and Matteo Merler and Minttu Alakuijala and Pekka Marttinen
