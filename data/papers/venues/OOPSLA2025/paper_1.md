@@ -1,11 +1,11 @@
-# Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis
+# Show Me Why It’s Correct: Saving 1/3 of Debugging Time in Program Repair with Interactive Runtime Comparison
 
-**Authors**: Yuchen Ji, Ting Dai, Zhichao Zhou, Yutian Tang, Jingzhu He
+**Authors**: Ruixin Wang, Zhongkai Zhao, Le Fang, Nan Jiang, Yiling Lou, Lin Tan, Tianyi Zhang
 
 **Abstract**:
 
-Server-side request forgery (SSRF) vulnerabilities are inevitable in PHP web applications. Existing static tools in detecting vulnerabilities in PHP web applications neither contain SSRF-related features to enhance detection accuracy nor consider PHP’s dynamic type features. In this paper, we present Artemis, a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications. First, Artemis extracts both PHP built-in and third-party functions as candidate source and sink functions. Second, Artemis constructs both explicit and implicit call graphs to infer functions’ relationships. Third, Artemis performs taint analysis based on a set of rules that prevent over-tainting and pauses when SSRF exploitation is impossible. Fourth, Artemis analyzes the compatibility of path conditions to prune false positives. We have implemented a prototype of Artemis and evaluated it on 250 PHP web applications. Artemis reports 207 true vulnerable paths (106 true SSRFs) with 15 false positives. Of the 106 detected SSRFs, 35 are newly found and reported to developers, with 24 confirmed and assigned CVE IDs.
+Automated Program Repair (APR) holds the promise of alleviating the burden of debugging and fixing software bugs. Despite this, developers still need to manually inspect each patch to confirm its correctness, which is tedious and time-consuming. This challenge is exacerbated in the presence of plausible patches, which accidentally pass test cases but may not correctly fix the bug. To address this challenge, we propose an interactive approach called iFix to facilitate patch understanding and comparison based on their runtime difference. iFix performs static analysis to identify runtime variables related to the buggy statement and captures their runtime values during execution for each patch. These values are then aligned across different patch candidates, allowing users to compare and contrast their runtime behavior. To evaluate iFix, we conducted a within-subjects user study with 28 participants. Compared with manual inspection and a state-of-the-art interactive patch filtering technique, iFix reduced participants’ task completion time by 36% and 33% while also improving their confidence by 50% and 20%, respectively. Besides, quantitative experiments demonstrate that iFix improves the ranking of correct patches by at least 39% compared with other patch ranking methods and is generalizable to different APR tools.
 
-**Link**: [Read Paper](https://dl.acm.org/doi/10.1145/3720488)
+**Link**: [Read Paper](https://dl.acm.org/doi/10.1145/3720510)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [program testing](../../labels/program_testing.md), [debugging](../../labels/debugging.md)
