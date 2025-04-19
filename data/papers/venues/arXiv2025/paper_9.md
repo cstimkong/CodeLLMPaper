@@ -1,11 +1,12 @@
-# CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities
+# ClassInvGen: Class Invariant Synthesis using Large Language Models
 
-**Authors**: Yuxuan Zhu, Antony Kellermann, Dylan Bowman, Philip Li, Akul Gupta, Adarsh Danda, Richard Fang, Conner Jensen, Eric Ihli, Jason Benn, Jet Geronimo, Avi Dhir, Sudhit Rao, Kaicheng Yu, Twm Stone, Daniel Kang
+**Authors**: Chuyue Sun, Viraj Agashe, Saikat Chakraborty, Jubi Taneja, Clark Barrett, David Dill, Xiaokang Qiu, Shuvendu K. Lahiri
 
 **Abstract**:
 
-Large language model (LLM) agents are increasingly capable of autonomously conducting cyberattacks, posing significant threats to existing applications. This growing risk highlights the urgent need for a real-world benchmark to evaluate the ability of LLM agents to exploit web application vulnerabilities. However, existing benchmarks fall short as they are limited to abstracted Capture the Flag competitions or lack comprehensive coverage. Building a benchmark for real-world vulnerabilities involves both specialized expertise to reproduce exploits and a systematic approach to evaluating unpredictable threats. To address this challenge, we introduce CVE-Bench, a real-world cybersecurity benchmark based on critical-severity Common Vulnerabilities and Exposures. In CVE-Bench, we design a sandbox framework that enables LLM agents to exploit vulnerable web applications in scenarios that mimic real-world conditions, while also providing effective evaluation of their exploits. Our evaluation shows that the state-of-the-art agent framework can resolve up to 13% of vulnerabilities.
+Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the need to express them in a declarative manner. Prior work has demonstrated the potential of large language models (LLMs) for synthesizing high-quality method pre/postconditions for Python and Java, but does not consider class invariants.
+ In this work, we describe ClassInvGen, a method for co-generating executable class invariants and test inputs to produce high-quality class invariants for a mainstream language such as C++, leveraging LLMs' ability to synthesize pure functions. We show that ClassInvGen outperforms a pure LLM-based technique to generate specifications (from code) as well as prior data-driven invariant inference techniques such as Daikon. We contribute a benchmark of standard C++ data structures along with a harness that can help measure both the correctness and completeness of generated specifications using tests and mutants. We also demonstrate its applicability to real-world code by performing a case study on several classes within a widely used and high-integrity C++ codebase.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2503.17332)
+**Link**: [Read Paper](https://www.arxiv.org/abs/2502.18917)
 
-**Labels**: [program testing](../../labels/program_testing.md), [vulnerability exploitation](../../labels/vulnerability_exploitation.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)

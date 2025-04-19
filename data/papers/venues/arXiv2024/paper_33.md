@@ -1,11 +1,11 @@
-# If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents
+# Large language model-based agents for software engineering: A survey
 
-**Authors**: Yang, Ke and Liu, Jiateng and Wu, John and Yang, Chaoqi and Fung, Yi R and Li, Sha and Huang, Zixuan and Cao, Xu and Wang, Xingyao and Wang, Yiquan and others
+**Authors**: Liu, Junwei and Wang, Kaixin and Chen, Yixuan and Peng, Xin and Chen, Zhenpeng and Zhang, Lingming and Lou, Yiling
 
 **Abstract**:
 
-The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Specifically, beyond enhancing LLMs in code generation, we observe that these unique properties of code help (i) unlock the reasoning ability of LLMs, enabling their applications to a range of more complex natural language tasks; (ii) steer LLMs to produce structured and precise intermediate steps, which can then be connected to external execution ends through function calls; and (iii) take advantage of code compilation and execution environment, which also provides diverse feedback for model improvement. In addition, we trace how these profound capabilities of LLMs, brought by code, have led to their emergence as intelligent agents (IAs) in situations where the ability to understand instructions, decompose goals, plan and execute actions, and refine from feedback are crucial to their success on downstream tasks. Finally, we present several key challenges and future directions of empowering LLMs with code.
+The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further promise in tackling complex real-world SE problems. In this work, we present a comprehensive and systematic survey on LLM-based agents for SE. We collect 106 papers and categorize them from two perspectives, i.e., the SE and agent perspectives. In addition, we discuss open challenges and future directions in this critical domain. The repository of this survey is at https://github.com/FudanSELab/Agent4SE-Paper-List.
 
-**Link**: [Read Paper](https://arxiv.org/pdf/2401.00812.pdf)
+**Link**: [Read Paper](https://arxiv.org/pdf/2409.02977)
 
-**Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md)

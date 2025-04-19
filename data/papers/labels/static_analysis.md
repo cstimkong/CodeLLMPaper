@@ -62,7 +62,7 @@
   - **Labels**: [static analysis](static_analysis.md), [data-flow analysis](data-flow_analysis.md), [call graph analysis](call_graph_analysis.md), [data-flow analysis](data-flow_analysis.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md), [empirical study](empirical_study.md)
 
 
-- [Program Slicing in the Era of Large Language Models](../venues/arXiv2024/paper_26.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Program Slicing in the Era of Large Language Models](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Program slicing is a critical technique in software engineering, enabling developers to isolate relevant portions of code for tasks such as bug detection, code comprehension, and debugging. In this study, we investigate the application of large language models (LLMs) to both static and dynamic program slicing, with a focus on Java programs. We evaluate the performance of four state-of-the-art LLMs- GPT-4o, GPT-3.5 Turbo, Llama-2, and Gemma-7B leveraging advanced prompting techniques, including f...
   - **Labels**: [static analysis](static_analysis.md), [data-flow analysis](data-flow_analysis.md)
@@ -120,7 +120,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Large Language Models (LLMs) are increasingly being used to automate programming tasks. Yet, LLMs' capabilities in reasoning about program semantics are still inadequately studied, leaving significant potential for further exploration. This paper introduces FormalBench, a comprehensive benchmark designed to evaluate LLMs' reasoning abilities on program semantics, particularly via the task of synthesizing formal program specifications to assist verifying program correctness. This task requires bo...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
@@ -142,6 +142,12 @@
 
   - **Abstract**: Modern software systems heavily rely on various libraries, necessitating understanding API semantics in static analysis. However, summarizing API semantics remains challenging due to complex implementations or the unavailability of library code. This paper presents DAInfer, a novel approach for inferring API aliasing specifications from library documentation. Specifically, we employ Natural Language Processing (NLP) models to interpret informal semantic information provided by the documentation,...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
+- [DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts](../venues/arXiv2024/paper_22.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Differential testing can be an effective way to find bugs in software systems with multiple implementations that conform to the same specification, like compilers, network protocol parsers, and language runtimes. Specifications for such systems are often standardized in natural language documents, like Instruction Set Architecture (ISA) specifications, Wasm specifications or IETF RFC's. Large Language Models (LLMs) have demonstrated potential in both generating tests and handling large volumes o...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
 - [EAGLEYE: Exposing Hidden Web Interfaces in IoT Devices via Routing Analysis](../venues/NDSS2025/paper_5.md), ([NDSS2025](../venues/NDSS2025/README.md))
@@ -180,13 +186,13 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_26.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limit...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In software development, formal program specifications play a crucial role in various stages. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated specification generation methods have emerged. However, existing methods usually ...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
@@ -276,6 +282,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis](../venues/OOPSLA2025/paper_1.md), ([OOPSLA2025](../venues/OOPSLA2025/README.md))
+
+  - **Abstract**: Server-side request forgery (SSRF) vulnerabilities are inevitable in PHP web applications. Existing static tools in detecting vulnerabilities in PHP web applications neither contain SSRF-related features to enhance detection accuracy nor consider PHP’s dynamic type features. In this paper, we present Artemis, a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications. First, Artemis extracts both PHP built-in and third-party functions as candidate source and sink fun...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [Assisting Static Analysis with Large Language Models: A ChatGPT Experiment](../venues/FSE2023/paper_6.md), ([FSE2023](../venues/FSE2023/README.md))
 
   - **Abstract**: Recent advances of Large Language Models (LLMs), e.g., ChatGPT, exhibited strong capabilities of comprehending and responding to questions across a variety of domains. Surprisingly, ChatGPT even possesses a strong understanding of program code. In this paper, we investigate where and how LLMs can assist static analysis by asking appropriate questions. In particular, we target a specific bug-finding tool, which produces many false positives from the static analysis. In our evaluation, we find tha...
@@ -331,7 +343,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [agent design](agent_design.md)
 
 
-- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Code review is a crucial but often complex, subjective, and time-consuming activity in software development. Over the past decades, significant efforts have been made to automate this process. Early approaches focused on knowledge-based systems (KBS) that apply rule-based mechanisms to detect code issues, providing precise feedback but struggling with complex, context-dependent cases. More recent work has shifted toward fine-tuning pre-trained language models for code review, enabling broader is...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -391,7 +403,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -475,13 +487,13 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
 
 
-- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_4.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, timeconsuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large codebases remains impractical due to computational constraints and contextual limitations. We present KNighter, the first approach that unlocks p...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [LAMD: Context-driven Android Malware Detection and Classification with LLMs](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [LAMD: Context-driven Android Malware Detection and Classification with LLMs](../venues/arXiv2025/paper_2.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: The rapid growth of mobile applications has escalated Android malware threats. Although there are numerous detection methods, they often struggle with evolving attacks, dataset biases, and limited explainability. Large Language Models (LLMs) offer a promising alternative with their zero-shot inference and reasoning capabilities. However, applying LLMs to Android malware detection presents two key challenges: (1)the extensive support code in Android applications, often spanning thousands of class...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -625,6 +637,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
+- [The Hitchhiker's Guide to Program Analysis, Part II: Deep Thoughts by LLMs](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Static analysis is a cornerstone for software vulnerability detection, yet it often struggles with the classic precision-scalability trade-off. In practice, such tools often produce high false positive rates, particularly in large codebases like the Linux kernel. This imprecision can arise from simplified vulnerability modeling and over-approximation of path and data constraints. While large language models (LLMs) show promise in code understanding, their naive application to program analysis yi...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [The Midas Touch: Triggering the Capability of LLMs for RM-API Misuse Detection](../venues/NDSS2025/paper_3.md), ([NDSS2025](../venues/NDSS2025/README.md))
 
   - **Abstract**: As the basis of software resource management (RM), strictly following the RM-API constraints guarantees secure resource management and software. To enhance the RM-API application, researchers find it effective in detecting RM-API misuse on open-source software according to RM-API constraints retrieved from documentation and code. However, the current pattern-matching constraint retrieval methods have limitations: the documentation-based methods leave many API constraints irregularly distributed ...
@@ -649,7 +667,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Static Application Security Testing(SAST) tools are crucial for early bug detection and code quality but often generate false positives that slow development. Automating false positive mitigation is thus essential for advancing SAST tools. Past efforts use static/dynamic analysis or machine learning. The advent of Large Language Models, adept at understanding natural language and code, offers promising ways to improve the accuracy and usability of SAST tools. However, existing LLM-based methods ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -747,7 +765,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
-- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_9.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the n...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -765,7 +783,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](../venues/arXiv2024/paper_23.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automated program verification has always been an important component of building trustworthy software. While the analysis of real-world programs remains a theoretical challenge, the automation of loop invariant analysis has effectively resolved the problem. However, real-world programs that often mix complex data structures and control flows pose challenges to traditional loop invariant generation tools. To enhance the applicability of invariant generation techniques, we proposed ACInv, an Auto...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -792,6 +810,12 @@
 - [LLM-Generated Invariants for Bounded Model Checking Without Loop Unrolling](../venues/ASE2024/paper_23.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: We investigate a modification of the classical Bounded Model Checking (BMC) procedure that does not handle loops through unrolling but via modifications to the control flow graph (CFG). A portion of the CFG representing a loop is replaced by a node asserting invariants of the loop. We generate these invariants using Large Language Models (LLMs) and use a first-order theorem prover to ensure the correctness of the generated statements. We thus transform programs to loop-free variants in a sound m...
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
+
+
+- [Laurel: Unblocking Automated Verification with Large Language Models](../venues/OOPSLA2025/paper_2.md), ([OOPSLA2025](../venues/OOPSLA2025/README.md))
+
+  - **Abstract**: Program verifiers such as Dafny automate proofs by outsourcing them to an SMT solver. This automation is not perfect, however, and the solver often requires hints in the form of assertions, creating a burden for the proof engineer. In this paper, we propose, a tool that alleviates this burden by automatically generating assertions using large language models (LLMs). To improve the success rate of LLMs in this task, we design two domain-specific prompting techniques. First, we help the LLM determ...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
@@ -831,7 +855,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_34.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -857,7 +881,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program optimization](program_optimization.md), [code model](code_model.md), [code model training](code_model_training.md), [IR code model](IR_code_model.md)
 
 
-- [Language Models for Code Optimization: Survey, Challenges and Future Directions](../venues/arXiv2025/paper_2.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Language Models for Code Optimization: Survey, Challenges and Future Directions](../venues/arXiv2025/paper_3.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Language models (LMs) built upon deep neural networks (DNNs) have recently demonstrated breakthrough effectiveness in software engineering tasks such as code generation, completion, and repair. This has paved the way for the emergence of LM-based code optimization techniques, which are crucial for enhancing the performance of existing programs, such as accelerating program execution time. However, a comprehensive survey dedicated to this specific application has been lacking. To fill this gap, w...
   - **Labels**: [static analysis](static_analysis.md), [program optimization](program_optimization.md), [survey](survey.md)
@@ -895,7 +919,7 @@
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [empirical study](empirical_study.md)
 
 
-- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_11.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_12.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)

@@ -6,7 +6,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Large Language Models (LLMs) are increasingly being used to automate programming tasks. Yet, LLMs' capabilities in reasoning about program semantics are still inadequately studied, leaving significant potential for further exploration. This paper introduces FormalBench, a comprehensive benchmark designed to evaluate LLMs' reasoning abilities on program semantics, particularly via the task of synthesizing formal program specifications to assist verifying program correctness. This task requires bo...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
@@ -28,6 +28,12 @@
 
   - **Abstract**: Modern software systems heavily rely on various libraries, necessitating understanding API semantics in static analysis. However, summarizing API semantics remains challenging due to complex implementations or the unavailability of library code. This paper presents DAInfer, a novel approach for inferring API aliasing specifications from library documentation. Specifically, we employ Natural Language Processing (NLP) models to interpret informal semantic information provided by the documentation,...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
+- [DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts](../venues/arXiv2024/paper_22.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Differential testing can be an effective way to find bugs in software systems with multiple implementations that conform to the same specification, like compilers, network protocol parsers, and language runtimes. Specifications for such systems are often standardized in natural language documents, like Instruction Set Architecture (ISA) specifications, Wasm specifications or IETF RFC's. Large Language Models (LLMs) have demonstrated potential in both generating tests and handling large volumes o...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
 - [EAGLEYE: Exposing Hidden Web Interfaces in IoT Devices via Routing Analysis](../venues/NDSS2025/paper_5.md), ([NDSS2025](../venues/NDSS2025/README.md))
@@ -66,13 +72,13 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_26.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limit...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In software development, formal program specifications play a crucial role in various stages. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated specification generation methods have emerged. However, existing methods usually ...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)

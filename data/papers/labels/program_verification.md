@@ -24,7 +24,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
-- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_9.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the n...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -42,7 +42,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](../venues/arXiv2024/paper_23.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automated program verification has always been an important component of building trustworthy software. While the analysis of real-world programs remains a theoretical challenge, the automation of loop invariant analysis has effectively resolved the problem. However, real-world programs that often mix complex data structures and control flows pose challenges to traditional loop invariant generation tools. To enhance the applicability of invariant generation techniques, we proposed ACInv, an Auto...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -69,6 +69,12 @@
 - [LLM-Generated Invariants for Bounded Model Checking Without Loop Unrolling](../venues/ASE2024/paper_23.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: We investigate a modification of the classical Bounded Model Checking (BMC) procedure that does not handle loops through unrolling but via modifications to the control flow graph (CFG). A portion of the CFG representing a loop is replaced by a node asserting invariants of the loop. We generate these invariants using Large Language Models (LLMs) and use a first-order theorem prover to ensure the correctness of the generated statements. We thus transform programs to loop-free variants in a sound m...
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
+
+
+- [Laurel: Unblocking Automated Verification with Large Language Models](../venues/OOPSLA2025/paper_2.md), ([OOPSLA2025](../venues/OOPSLA2025/README.md))
+
+  - **Abstract**: Program verifiers such as Dafny automate proofs by outsourcing them to an SMT solver. This automation is not perfect, however, and the solver often requires hints in the form of assertions, creating a burden for the proof engineer. In this paper, we propose, a tool that alleviates this burden by automatically generating assertions using large language models (LLMs). To improve the success rate of LLMs in this task, we design two domain-specific prompting techniques. First, we help the LLM determ...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
@@ -108,7 +114,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_34.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)

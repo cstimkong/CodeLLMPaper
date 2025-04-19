@@ -18,6 +18,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis](../venues/OOPSLA2025/paper_1.md), ([OOPSLA2025](../venues/OOPSLA2025/README.md))
+
+  - **Abstract**: Server-side request forgery (SSRF) vulnerabilities are inevitable in PHP web applications. Existing static tools in detecting vulnerabilities in PHP web applications neither contain SSRF-related features to enhance detection accuracy nor consider PHP’s dynamic type features. In this paper, we present Artemis, a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications. First, Artemis extracts both PHP built-in and third-party functions as candidate source and sink fun...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [Assisting Static Analysis with Large Language Models: A ChatGPT Experiment](../venues/FSE2023/paper_6.md), ([FSE2023](../venues/FSE2023/README.md))
 
   - **Abstract**: Recent advances of Large Language Models (LLMs), e.g., ChatGPT, exhibited strong capabilities of comprehending and responding to questions across a variety of domains. Surprisingly, ChatGPT even possesses a strong understanding of program code. In this paper, we investigate where and how LLMs can assist static analysis by asking appropriate questions. In particular, we target a specific bug-finding tool, which produces many false positives from the static analysis. In our evaluation, we find tha...
@@ -73,7 +79,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [agent design](agent_design.md)
 
 
-- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Code review is a crucial but often complex, subjective, and time-consuming activity in software development. Over the past decades, significant efforts have been made to automate this process. Early approaches focused on knowledge-based systems (KBS) that apply rule-based mechanisms to detect code issues, providing precise feedback but struggling with complex, context-dependent cases. More recent work has shifted toward fine-tuning pre-trained language models for code review, enabling broader is...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -133,7 +139,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -217,13 +223,13 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
 
 
-- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_4.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, timeconsuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large codebases remains impractical due to computational constraints and contextual limitations. We present KNighter, the first approach that unlocks p...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [LAMD: Context-driven Android Malware Detection and Classification with LLMs](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [LAMD: Context-driven Android Malware Detection and Classification with LLMs](../venues/arXiv2025/paper_2.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: The rapid growth of mobile applications has escalated Android malware threats. Although there are numerous detection methods, they often struggle with evolving attacks, dataset biases, and limited explainability. Large Language Models (LLMs) offer a promising alternative with their zero-shot inference and reasoning capabilities. However, applying LLMs to Android malware detection presents two key challenges: (1)the extensive support code in Android applications, often spanning thousands of class...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -367,6 +373,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
+- [The Hitchhiker's Guide to Program Analysis, Part II: Deep Thoughts by LLMs](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Static analysis is a cornerstone for software vulnerability detection, yet it often struggles with the classic precision-scalability trade-off. In practice, such tools often produce high false positive rates, particularly in large codebases like the Linux kernel. This imprecision can arise from simplified vulnerability modeling and over-approximation of path and data constraints. While large language models (LLMs) show promise in code understanding, their naive application to program analysis yi...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [The Midas Touch: Triggering the Capability of LLMs for RM-API Misuse Detection](../venues/NDSS2025/paper_3.md), ([NDSS2025](../venues/NDSS2025/README.md))
 
   - **Abstract**: As the basis of software resource management (RM), strictly following the RM-API constraints guarantees secure resource management and software. To enhance the RM-API application, researchers find it effective in detecting RM-API misuse on open-source software according to RM-API constraints retrieved from documentation and code. However, the current pattern-matching constraint retrieval methods have limitations: the documentation-based methods leave many API constraints irregularly distributed ...
@@ -391,7 +403,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Static Application Security Testing(SAST) tools are crucial for early bug detection and code quality but often generate false positives that slow development. Automating false positive mitigation is thus essential for advancing SAST tools. Past efforts use static/dynamic analysis or machine learning. The advent of Large Language Models, adept at understanding natural language and code, offers promising ways to improve the accuracy and usability of SAST tools. However, existing LLM-based methods ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)

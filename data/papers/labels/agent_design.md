@@ -22,7 +22,7 @@
   - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md), [source code model](source_code_model.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
 
 
-- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_11.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_12.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
@@ -114,7 +114,7 @@
   - **Labels**: [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
 
 
-- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_33.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_34.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md), [reason with code](reason_with_code.md)
@@ -234,7 +234,7 @@
   - **Labels**: [agent design](agent_design.md), [planning](planning.md)
 
 
-- [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](../venues/arXiv2024/paper_22.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](../venues/arXiv2024/paper_23.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: The ability to execute the test suite of a project is essential in many scenarios, e.g., to assess code quality and code coverage, to validate code changes made by developers or automated tools, and to ensure compatibility with dependencies. Despite its importance, executing the test suite of a project can be challenging in practice because different projects use different programming languages, software ecosystems, build systems, testing frameworks, and other tools. These challenges make it dif...
   - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md), [agent design](agent_design.md), [planning](planning.md)
