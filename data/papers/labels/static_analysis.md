@@ -186,6 +186,12 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
+- [Large Language Models for Validating Network Protocol Parsers](../venues/LangSec2025/paper_1.md), ([LangSec2025](../venues/LangSec2025/README.md))
+
+  - **Abstract**: Network protocol parsers are essential for enabling correct and secure communication between devices. Bugs in these parsers can introduce critical vulnerabilities, including memory corruption, information leakage, and denial-of-service attacks. An intuitive way to assess parser correctness is to compare the implementation with its official protocol standard. However, this comparison is challenging because protocol standards are typically written in natural language, whereas implementations are i...
+  - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [bug detection](bug_detection.md)
+
+
 - [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_26.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limit...
@@ -533,6 +539,12 @@
 
   - **Abstract**: Large language models (LLMs) have demonstrated significant potential in the realm of natural language understanding and programming code processing tasks. Their capacity to comprehend and generate human-like code has spurred research into harnessing LLMs for code analysis purposes. However, the existing body of literature falls short in delivering a systematic evaluation and assessment of LLMs' effectiveness in code analysis, particularly in the context of obfuscated code.This paper seeks to bri...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
+
+
+- [Large Language Models for Validating Network Protocol Parsers](../venues/LangSec2025/paper_1.md), ([LangSec2025](../venues/LangSec2025/README.md))
+
+  - **Abstract**: Network protocol parsers are essential for enabling correct and secure communication between devices. Bugs in these parsers can introduce critical vulnerabilities, including memory corruption, information leakage, and denial-of-service attacks. An intuitive way to assess parser correctness is to compare the implementation with its official protocol standard. However, this comparison is challenging because protocol standards are typically written in natural language, whereas implementations are i...
+  - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [bug detection](bug_detection.md)
 
 
 - [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))

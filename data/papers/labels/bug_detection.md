@@ -271,6 +271,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
+- [Large Language Models for Validating Network Protocol Parsers](../venues/LangSec2025/paper_1.md), ([LangSec2025](../venues/LangSec2025/README.md))
+
+  - **Abstract**: Network protocol parsers are essential for enabling correct and secure communication between devices. Bugs in these parsers can introduce critical vulnerabilities, including memory corruption, information leakage, and denial-of-service attacks. An intuitive way to assess parser correctness is to compare the implementation with its official protocol standard. However, this comparison is challenging because protocol standards are typically written in natural language, whereas implementations are i...
+  - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [bug detection](bug_detection.md)
+
+
 - [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: This paper provides a systematic analysis of the opportunities, challenges, and potential solutions of harnessing Large Language Models (LLMs) such as GPT-4 to dig out vulnerabilities within smart contracts based on our ongoing research. For the task of smart contract vulnerability detection, achieving practical usability hinges on identifying as many true vulnerabilities as possible while minimizing the number of false positives. Nonetheless, our empirical study reveals contradictory yet intere...
