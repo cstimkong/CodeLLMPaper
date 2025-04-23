@@ -84,6 +84,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [DR.FIX: Automatically Fixing Data Races at Industry Scale](../venues/PLDI2025/paper_1.md), ([PLDI2025](../venues/PLDI2025/README.md))
+
+  - **Abstract**: Data races are a prevalent class of concurrency bugs in shared-memory parallel programs, posing significant challenges to software reliability and reproducibility. While there is an extensive body of research on detecting data races and a wealth of practical detection tools across various programming languages, considerably less effort has been directed toward automatically fixing data races at an industrial scale. In large codebases, data races are continuously introduced and exhibit myriad pat...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [Exploring Parameter-Efficient Fine-Tuning of Large Language Model on Automated Program Repair](../venues/ASE2024/paper_14.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Automated Program Repair (APR) aims to fix bugs by generating patches. And existing work has demonstrated that "pre-training and fine-tuning" paradigm enables Large Language Models (LLMs) improve fixing capabilities on APR. However, existing work mainly focuses on Full-Model Fine-Tuning (FMFT) for APR and limited research has been conducted on the execution-based evaluation of Parameter-Efficient Fine-Tuning (PEFT) for APR. Comparing to FMFT, PEFT can reduce computing resource consumption withou...

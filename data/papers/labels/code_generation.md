@@ -726,6 +726,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [DR.FIX: Automatically Fixing Data Races at Industry Scale](../venues/PLDI2025/paper_1.md), ([PLDI2025](../venues/PLDI2025/README.md))
+
+  - **Abstract**: Data races are a prevalent class of concurrency bugs in shared-memory parallel programs, posing significant challenges to software reliability and reproducibility. While there is an extensive body of research on detecting data races and a wealth of practical detection tools across various programming languages, considerably less effort has been directed toward automatically fixing data races at an industrial scale. In large codebases, data races are continuously introduced and exhibit myriad pat...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [Exploring Parameter-Efficient Fine-Tuning of Large Language Model on Automated Program Repair](../venues/ASE2024/paper_14.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Automated Program Repair (APR) aims to fix bugs by generating patches. And existing work has demonstrated that "pre-training and fine-tuning" paradigm enables Large Language Models (LLMs) improve fixing capabilities on APR. However, existing work mainly focuses on Full-Model Fine-Tuning (FMFT) for APR and limited research has been conducted on the execution-based evaluation of Parameter-Efficient Fine-Tuning (PEFT) for APR. Comparing to FMFT, PEFT can reduce computing resource consumption withou...
@@ -914,10 +920,16 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_13.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_14.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
+- [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](../venues/arXiv2025/paper_4.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: C-to-Rust transpilation is essential for modernizing legacy C code while enhancing safety and interoperability with modern Rust ecosystems. However, no dataset currently exists for evaluating whether a system can transpile C into safe Rust that passes a set of test cases. We introduce CRUST-Bench, a dataset of 100 C repositories, each paired with manually-written interfaces in safe Rust as well as test cases that can be used to validate correctness of the transpilation. By considering entire rep...
+  - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
 - [Concrat: An Automatic C-to-Rust Lock API Translator for Concurrent Programs](../venues/ICSE2023/paper_7.md), ([ICSE2023](../venues/ICSE2023/README.md))

@@ -28,7 +28,7 @@ We have systematically selected papers from the following venues, which are top-
 - Programming Languages (PL)
   - [PLDI2023](data/papers/venues/PLDI2023/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md)
   - [OOPSLA2024](data/papers/venues/OOPSLA2024/README.md)
-  - [POPL2025](data/papers/venues/POPL2025/README.md), [OOPSLA2025](data/papers/venues/OOPSLA2025/README.md), [CC2025](data/papers/venues/CC2025/README.md)
+  - [PLDI2025](data/papers/venues/PLDI2025/README.md), [POPL2025](data/papers/venues/POPL2025/README.md), [OOPSLA2025](data/papers/venues/OOPSLA2025/README.md), [CC2025](data/papers/venues/CC2025/README.md)
 
 - Security (Sec)
   - [S&P2023](data/papers/venues/S&P2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [CCS2023](data/papers/venues/CCS2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md)
@@ -67,11 +67,11 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (32)
-- [Code Generation](data/papers/labels/code_generation.md)   (200)
+- [Code Generation](data/papers/labels/code_generation.md)   (202)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (83)
   - [Code Completion](data/papers/labels/code_completion.md)   (23)
-  - [Program Repair](data/papers/labels/program_repair.md)   (42)
-  - [Program Transformation](data/papers/labels/program_transformation.md)   (32)
+  - [Program Repair](data/papers/labels/program_repair.md)   (43)
+  - [Program Transformation](data/papers/labels/program_transformation.md)   (33)
 - [Program Testing](data/papers/labels/program_testing.md)   (58)
   - [General Testing](data/papers/labels/general_testing.md)   (1)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (24)
@@ -133,7 +133,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (47)
+- [Benchmark](data/papers/labels/benchmark.md)   (48)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (79)
 - [Survey](data/papers/labels/survey.md)   (18)
 

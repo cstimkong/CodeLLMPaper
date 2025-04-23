@@ -28,7 +28,7 @@ We have systematically selected papers from the following venues, which are top-
 - Programming Languages (PL)
   - [PLDI2023](data/papers/venues/PLDI2023/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md)
   - [OOPSLA2024](data/papers/venues/OOPSLA2024/README.md)
-  - [POPL2025](data/papers/venues/POPL2025/README.md), [OOPSLA2025](data/papers/venues/OOPSLA2025/README.md), [CC2025](data/papers/venues/CC2025/README.md)
+  - [PLDI2025](data/papers/venues/PLDI2025/README.md), [POPL2025](data/papers/venues/POPL2025/README.md), [OOPSLA2025](data/papers/venues/OOPSLA2025/README.md), [CC2025](data/papers/venues/CC2025/README.md)
 
 - Security (Sec)
   - [S&P2023](data/papers/venues/S&P2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [CCS2023](data/papers/venues/CCS2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md)

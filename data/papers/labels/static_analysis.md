@@ -120,7 +120,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Large Language Models (LLMs) are increasingly being used to automate programming tasks. Yet, LLMs' capabilities in reasoning about program semantics are still inadequately studied, leaving significant potential for further exploration. This paper introduces FormalBench, a comprehensive benchmark designed to evaluate LLMs' reasoning abilities on program semantics, particularly via the task of synthesizing formal program specifications to assist verifying program correctness. This task requires bo...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
@@ -349,7 +349,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [agent design](agent_design.md)
 
 
-- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_9.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Code review is a crucial but often complex, subjective, and time-consuming activity in software development. Over the past decades, significant efforts have been made to automate this process. Early approaches focused on knowledge-based systems (KBS) that apply rule-based mechanisms to detect code issues, providing precise feedback but struggling with complex, context-dependent cases. More recent work has shifted toward fine-tuning pre-trained language models for code review, enabling broader is...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -409,7 +409,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -493,7 +493,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
 
 
-- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, timeconsuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large codebases remains impractical due to computational constraints and contextual limitations. We present KNighter, the first approach that unlocks p...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -777,7 +777,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
-- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_9.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_10.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the n...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -931,7 +931,7 @@
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [empirical study](empirical_study.md)
 
 
-- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_12.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_13.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
