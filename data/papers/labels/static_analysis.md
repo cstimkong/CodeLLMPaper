@@ -300,6 +300,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](../venues/arXiv2025/paper_11.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and class...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [Automatically Inspecting Thousands of Static Bug Warnings with Large Language Model: How Far Are We?](../venues/TKDD2024/paper_1.md), ([TKDD2024](../venues/TKDD2024/README.md))
 
   - **Abstract**: Static analysis tools for capturing bugs and vulnerabilities in software programs are widely employed in practice, as they have the unique advantages of high coverage and independence from the execution environment. However, existing tools for analyzing large codebases often produce a great deal of false warnings over genuine bug reports. As a result, developers are required to manually inspect and confirm each warning, a challenging, time-consuming, and automation-essential task.
@@ -931,7 +937,7 @@
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [empirical study](empirical_study.md)
 
 
-- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_13.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](../venues/arXiv2025/paper_14.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)

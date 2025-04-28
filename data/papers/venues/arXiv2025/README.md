@@ -1,15 +1,22 @@
 # arXiv2025
 
-Number of papers: 14
+Number of papers: 15
 
-## [AI Software Engineer: Programming with Trust](paper_12.md)
+## [AI Software Engineer: Programming with Trust](paper_13.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
 - **Abstract**: Large Language Models (LLMs) have shown surprising proficiency in generating code snippets, promising to automate large parts of software engineering via artificial intelligence (AI). We argue that successfully deploying AI software engineers requires a level of trust equal to or even greater than the trust established by human-driven software engineering practices. The recent trend toward LLM agents offers a path toward integrating the power of LLMs to create new code with the power of analysis...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2502.13767)
 - **Labels**: [code generation](../../labels/code_generation.md), [survey](../../labels/survey.md)
 
 
-## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_14.md)
+## [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](paper_11.md)
+- **Authors**: Penghui Li, Songchen Yao, Josef Sarfati Korich, Changhua Luo, Jianjia Yu, Yinzhi Cao, Junfeng Yang
+- **Abstract**: Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and class...
+- **Link**: [Read Paper](https://arxiv.org/abs/2504.16057)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+
+
+## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_15.md)
 - **Authors**: Vikram Nitin, Rahul Krishna, Luiz Lemos do Valle, Baishakhi Ray
 - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.14257)
@@ -23,7 +30,7 @@ Number of papers: 14
 - **Labels**: [benchmark](../../labels/benchmark.md), [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md)
 
 
-## [CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities](paper_11.md)
+## [CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities](paper_12.md)
 - **Authors**: Yuxuan Zhu, Antony Kellermann, Dylan Bowman, Philip Li, Akul Gupta, Adarsh Danda, Richard Fang, Conner Jensen, Eric Ihli, Jason Benn, Jet Geronimo, Avi Dhir, Sudhit Rao, Kaicheng Yu, Twm Stone, Daniel Kang
 - **Abstract**: Large language model (LLM) agents are increasingly capable of autonomously conducting cyberattacks, posing significant threats to existing applications. This growing risk highlights the urgent need for a real-world benchmark to evaluate the ability of LLM agents to exploit web application vulnerabilities. However, existing benchmarks fall short as they are limited to abstracted Capture the Flag competitions or lack comprehensive coverage. Building a benchmark for real-world vulnerabilities invol...
 - **Link**: [Read Paper](https://arxiv.org/abs/2503.17332)
@@ -58,7 +65,7 @@ Number of papers: 14
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_13.md)
+## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_14.md)
 - **Authors**: Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni
 - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.07857)
