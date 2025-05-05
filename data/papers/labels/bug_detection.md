@@ -103,6 +103,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
+- [Dependency-Aware Code Naturalness](../venues/OOPSLA2024/paper_8.md), ([OOPSLA2024](../venues/OOPSLA2024/README.md))
+
+  - **Abstract**: Code naturalness, which captures repetitiveness and predictability in programming languages, has proven valuable for various code-related tasks in software engineering. However, precisely measuring code naturalness remains a fundamental challenge. Existing methods measure code naturalness over individual lines of code while ignoring the deep semantic relations among different lines, e.g., program dependency, which may negatively affect the precision of the measure. Despite the intuitive appeal o...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [empirical study](empirical_study.md)
+
+
 - [DiverseVul: {A} New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection](../venues/RAID2023/paper_1.md), ([RAID2023](../venues/RAID2023/README.md))
 
   - **Abstract**: We propose and release a new vulnerable source code dataset. We curate the dataset by crawling security issue websites, extracting vulnerability-fixing commits and source codes from the corresponding projects. Our new dataset contains 18,945 vulnerable functions spanning 150 CWEs and 330,492 non-vulnerable functions extracted from 7,514 commits. Our dataset covers 295 more projects than all previous datasets combined.Combining our new dataset with previous datasets, we present an analysis of the...

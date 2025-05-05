@@ -8140,6 +8140,24 @@
         ],
         "url": "https://aashishyadavally.github.io/assets/pdf/pub-oopsla2024.pdf"
     },
+    "Dependency-Aware Code Naturalness": {
+        "type": "article",
+        "key": "chen2024dependency",
+        "title": "Dependency-Aware Code Naturalness",
+        "author": "Chen Yang, Junjie Chen, Jiajun Jiang, Yuliang Huang",
+        "journal": "Proceedings of the ACM on Programming Languages",
+        "year": "2024",
+        "publisher": "ACM New York, NY, USA",
+        "venue": "OOPSLA2024",
+        "abstract": "Code naturalness, which captures repetitiveness and predictability in programming languages, has proven valuable for various code-related tasks in software engineering. However, precisely measuring code naturalness remains a fundamental challenge. Existing methods measure code naturalness over individual lines of code while ignoring the deep semantic relations among different lines, e.g., program dependency, which may negatively affect the precision of the measure. Despite the intuitive appeal of extending the code naturalness measure to the code dependency domain (as there are some work that have initiated the utilization of code dependency for diverse code-related tasks), this assumption remains unexplored and warrants direct investigation. In this study, we aim to perform the first empirical study to investigate whether incorporating code dependency, instead of analyzing individual lines, can enhance the precision of measuring code naturalness. To achieve that, we first propose a new method named DAN for measuring code naturalness by incorporating the rich dependency information in the code. Specifically, DAN extracts multiple sequences of code lines by traversing the program dependency graph, where different code lines are connected by dependencies in each sequence, and then the code naturalness will be measured by taking each sequence as a whole. In this way, the dependency information can be well captured. Finally, we have conducted an extensive study to evaluate the influence of code dependency for measuring code naturalness with DAN, and compared it with the state-of-the-art methods under three emerging application scenarios of code naturalness. The results demonstrate that DAN can not only better distinguish natural and unnatural code, but also substantially boost two important downstream applications of code naturalness, i.e., distinguishing buggy and non-buggy code lines and data cleansing for training better code models, reflecting the significance of code dependency in measuring code naturalness.",
+        "labels": [
+            "static analysis",
+            "bug detection",
+            "code model",
+            "empirical study"
+        ],
+        "url": "https://dl.acm.org/doi/10.1145/3689794"
+    },
     "Evaluating the effectiveness of deep learning models for foundational program analysis tasks": {
         "type": "article",
         "key": "chen2024evaluating",

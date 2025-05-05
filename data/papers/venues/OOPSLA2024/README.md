@@ -1,12 +1,19 @@
 # OOPSLA2024
 
-Number of papers: 8
+Number of papers: 9
 
 ## [A Learning-Based Approach to Static Program Slicing](paper_7.md)
 - **Authors**: Yadavally, Aashish and Li, Yi and Wang, Shaohua and Nguyen, Tien N
 - **Abstract**: Traditional program slicing techniques are crucial for early bug detection and manual/automated debugging of online code snippets. Nevertheless, their inability to handle incomplete code hinders their real-world applicability in such scenarios. To overcome these challenges, we present NS-Slicer, a novel learning-based approach that predicts static program slices for both complete and partial code Our tool leverages a pre-trained language model to exploit its understanding of fine-grained variabl...
 - **Link**: [Read Paper](https://aashishyadavally.github.io/assets/pdf/pub-oopsla2024.pdf)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)
+
+
+## [Dependency-Aware Code Naturalness](paper_8.md)
+- **Authors**: Chen Yang, Junjie Chen, Jiajun Jiang, Yuliang Huang
+- **Abstract**: Code naturalness, which captures repetitiveness and predictability in programming languages, has proven valuable for various code-related tasks in software engineering. However, precisely measuring code naturalness remains a fundamental challenge. Existing methods measure code naturalness over individual lines of code while ignoring the deep semantic relations among different lines, e.g., program dependency, which may negatively affect the precision of the measure. Despite the intuitive appeal o...
+- **Link**: [Read Paper](https://dl.acm.org/doi/10.1145/3689794)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [code model](../../labels/code_model.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models](paper_4.md)
@@ -23,7 +30,7 @@ Number of papers: 8
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Evaluating the effectiveness of deep learning models for foundational program analysis tasks](paper_8.md)
+## [Evaluating the effectiveness of deep learning models for foundational program analysis tasks](paper_9.md)
 - **Authors**: Chen, Qian and Yu, Chenyang and Liu, Ruyan and Zhang, Chi and Wang, Yu and Wang, Ke and Su, Ting and Wang, Linzhang
 - **Abstract**: While deep neural networks provide state-of-the-art solutions to a wide range of programming language tasks, their effectiveness in dealing with foundational program analysis tasks remains under explored. In this paper, we present an empirical study that evaluates four prominent models of code (i.e., CuBERT, CodeBERT, GGNN, and Graph Sandwiches) in two such foundational tasks: (1) alias prediction, in which models predict whether two pointers must alias, may alias or must not alias; and (2) equi...
 - **Link**: [Read Paper](https://dl.acm.org/doi/pdf/10.1145/3649829)
