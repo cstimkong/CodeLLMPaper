@@ -72,7 +72,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Code Completion](data/papers/labels/code_completion.md)   (23)
   - [Program Repair](data/papers/labels/program_repair.md)   (43)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (33)
-- [Program Testing](data/papers/labels/program_testing.md)   (58)
+- [Program Testing](data/papers/labels/program_testing.md)   (59)
   - [General Testing](data/papers/labels/general_testing.md)   (1)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (24)
   - [Library Testing](data/papers/labels/library_testing.md)   (1)
@@ -84,7 +84,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Differential Testing](data/papers/labels/differential_testing.md)   (3)
   - [Debugging](data/papers/labels/debugging.md)   (10)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
-  - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (7)
+  - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (8)
 - [Static Analysis](data/papers/labels/static_analysis.md)   (155)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
@@ -133,7 +133,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (48)
+- [Benchmark](data/papers/labels/benchmark.md)   (49)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (79)
 - [Survey](data/papers/labels/survey.md)   (18)
 
