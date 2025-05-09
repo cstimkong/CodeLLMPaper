@@ -7818,13 +7818,27 @@
         "author": "Yuxuan Zhu, Antony Kellermann, Dylan Bowman, Philip Li, Akul Gupta, Adarsh Danda, Richard Fang, Conner Jensen, Eric Ihli, Jason Benn, Jet Geronimo, Avi Dhir, Sudhit Rao, Kaicheng Yu, Twm Stone, Daniel Kang",
         "journal": "arXiv preprint arXiv:2503.17332",
         "year": "2025",
-        "venue": "arXiv2025",
+        "venue": "ICML2025",
         "abstract": "Large language model (LLM) agents are increasingly capable of autonomously conducting cyberattacks, posing significant threats to existing applications. This growing risk highlights the urgent need for a real-world benchmark to evaluate the ability of LLM agents to exploit web application vulnerabilities. However, existing benchmarks fall short as they are limited to abstracted Capture the Flag competitions or lack comprehensive coverage. Building a benchmark for real-world vulnerabilities involves both specialized expertise to reproduce exploits and a systematic approach to evaluating unpredictable threats. To address this challenge, we introduce CVE-Bench, a real-world cybersecurity benchmark based on critical-severity Common Vulnerabilities and Exposures. In CVE-Bench, we design a sandbox framework that enables LLM agents to exploit vulnerable web applications in scenarios that mimic real-world conditions, while also providing effective evaluation of their exploits. Our evaluation shows that the state-of-the-art agent framework can resolve up to 13% of vulnerabilities.",
         "labels": [
             "program testing",
             "vulnerability exploitation"
         ],
         "url": "https://arxiv.org/abs/2503.17332"
+    },
+    "Leveraging LLMs for Program Verification": {
+        "type": "article",
+        "key": "fmcad2025",
+        "title": "Leveraging LLMs for Program Verification",
+        "author": "Adharsh Kamath, Aditya Senthilnathan, Saikat Chakraborty, Pantazis Deligiannis, Shuvendu Lahiri, Akash Lal, Aseem Rastogi, Subhajit Roy, Rahul Sharma",
+        "year": "2024",
+        "venue": "FMCAD2024",
+        "abstract": "Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop’s behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program’s runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding inductive loop invariants is an undecidable problem, and despite a long history of research towards practical solutions, it remains far from a solved problem. This paper investigates the capabilities of the Large Language Models (LLMs) in offering a new solution towards this old, yet important problem. To that end, we first curate a dataset of verification problems on programs with loops. Next, we design a prompt for exploiting LLMs, obtaining inductive loop invariants, that are checked for correctness using sound symbolic tools. Finally, we explore the effectiveness of using an efficient combination of a symbolic tool and an LLM on our dataset and compare it against a purely symbolic baseline. Our results demonstrate that LLMs can help improve the state-of-the-art in automated program verification.",
+        "labels": [
+            "static analysis",
+            "program verification"
+        ],
+        "url": "https://www.microsoft.com/en-us/research/publication/finding-inductive-loop-invariants-using-large-language-models/"
     },
     "Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis": {
         "type": "article",
@@ -7872,6 +7886,21 @@
             "specification inference"
         ],
         "url": "https://arxiv.org/abs/2410.04249"
+    },
+    "AlphaTrans: A Neuro-Symbolic Compositional Approach for Repository-Level Code Translation and Validation": {
+        "type": "article",
+        "key": "AlphaTrans_FSE25",
+        "title": "AlphaTrans: A Neuro-Symbolic Compositional Approach for Repository-Level Code Translation and Validation",
+        "author": "Ali Reza Ibrahimzada, Kaiyao Ke, Mrigank Pawagi, Muhammad Salman Abid, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand",
+        "journal": "FSE2025",
+        "year": "2025",
+        "venue": "FSE2025",
+        "abstract": "Code translation transforms programs from one programming language (PL) to another. Several rule-based transpilers have been designed to automate code translation between different pairs of PLs. However, the rules can become obsolete as the PLs evolve and cannot generalize to other PLs. Recent studies have explored the automation of code translation using Large Language Models (LLMs). One key observation is that such techniques may work well for crafted benchmarks but fail to generalize to the scale and complexity of real-world projects with dependencies, custom types, PL-specific features, etc. We propose AlphaTrans, a neuro-symbolic approach to automate repository-level code translation. AlphaTrans translates both source and test code, and employs multiple levels of validation to ensure the translation preserves the functionality of the source program. To break down the problem for LLMs, AlphaTrans leverages program analysis to decompose the program into fragments and translates them in the reverse call order. We leveraged AlphaTrans to translate ten real-world open-source projects consisting of <836, 8575, 2719> classes, methods, and tests. AlphaTrans breaks down these projects into 17874 fragments and translates the entire repository. 96.40% of the translated fragments are syntactically correct, and AlphaTrans validates the translations' runtime behavior and functional correctness for 27.03% and 25.14% of fragments. On average, the integrated translation and validation take 34 hours to translate a project, showing its scalability in practice. For the incorrect translations, AlphaTrans generates a report including existing translation, stack trace, test errors, or assertion failures. We provided these artifacts to two developers to fix the translation bugs in four projects. They were able to fix the issues in 20.1 hours on average and achieve all passing tests.",
+        "labels": [
+            "code generation",
+            "program transformation"
+        ],
+        "url": "https://arxiv.org/pdf/2410.24117"
     },
     "You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects": {
         "type": "article",

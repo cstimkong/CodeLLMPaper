@@ -1,8 +1,8 @@
 # arXiv2025
 
-Number of papers: 16
+Number of papers: 15
 
-## [AI Software Engineer: Programming with Trust](paper_14.md)
+## [AI Software Engineer: Programming with Trust](paper_13.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
 - **Abstract**: Large Language Models (LLMs) have shown surprising proficiency in generating code snippets, promising to automate large parts of software engineering via artificial intelligence (AI). We argue that successfully deploying AI software engineers requires a level of trust equal to or even greater than the trust established by human-driven software engineering practices. The recent trend toward LLM agents offers a path toward integrating the power of LLMs to create new code with the power of analysis...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2502.13767)
@@ -16,7 +16,7 @@ Number of papers: 16
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_16.md)
+## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_15.md)
 - **Authors**: Vikram Nitin, Rahul Krishna, Luiz Lemos do Valle, Baishakhi Ray
 - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.14257)
@@ -28,13 +28,6 @@ Number of papers: 16
 - **Abstract**: C-to-Rust transpilation is essential for modernizing legacy C code while enhancing safety and interoperability with modern Rust ecosystems. However, no dataset currently exists for evaluating whether a system can transpile C into safe Rust that passes a set of test cases. We introduce CRUST-Bench, a dataset of 100 C repositories, each paired with manually-written interfaces in safe Rust as well as test cases that can be used to validate correctness of the transpilation. By considering entire rep...
 - **Link**: [Read Paper](https://arxiv.org/abs/2504.15254)
 - **Labels**: [benchmark](../../labels/benchmark.md), [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md)
-
-
-## [CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities](paper_13.md)
-- **Authors**: Yuxuan Zhu, Antony Kellermann, Dylan Bowman, Philip Li, Akul Gupta, Adarsh Danda, Richard Fang, Conner Jensen, Eric Ihli, Jason Benn, Jet Geronimo, Avi Dhir, Sudhit Rao, Kaicheng Yu, Twm Stone, Daniel Kang
-- **Abstract**: Large language model (LLM) agents are increasingly capable of autonomously conducting cyberattacks, posing significant threats to existing applications. This growing risk highlights the urgent need for a real-world benchmark to evaluate the ability of LLM agents to exploit web application vulnerabilities. However, existing benchmarks fall short as they are limited to abstracted Capture the Flag competitions or lack comprehensive coverage. Building a benchmark for real-world vulnerabilities invol...
-- **Link**: [Read Paper](https://arxiv.org/abs/2503.17332)
-- **Labels**: [program testing](../../labels/program_testing.md), [vulnerability exploitation](../../labels/vulnerability_exploitation.md)
 
 
 ## [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](paper_7.md)
@@ -65,7 +58,7 @@ Number of papers: 16
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_15.md)
+## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_14.md)
 - **Authors**: Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni
 - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.07857)
