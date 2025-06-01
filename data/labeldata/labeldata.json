@@ -6302,6 +6302,57 @@
         ],
         "url": "https://arxiv.org/pdf/2405.00218"
     },
+    "PROSEC: Fortifying Code LLMs with Proactive Security Alignment": {
+        "type": "article",
+        "key": "prosec2025",
+        "title": "PROSEC: Fortifying Code LLMs with Proactive Security Alignment",
+        "author": "Xiangzhe Xu, Zian Su, Jinyao Guo, Kaiyuan Zhang, Zhenting Wang, Xiangyu Zhang",
+        "journal": "arXiv preprint arXiv:2411.12882",
+        "year": "2025",
+        "abstract": "Modern language models (LMs) have gained widespread acceptance in everyday and professional contexts, particularly in programming. An essential procedure enabling this adoption is instruction tuning, which substantially enhances LMs' practical utility by training them to follow user instructions and human preferences. However, existing instruction tuning schemes overlook a crucial aspect: the security of generated code. As a result, even the state-of-the-art instruction-tuned LMs frequently produce unsafe code, posing significant security risks. In this work, we introduce SafeCoder to address this gap. SafeCoder performs security-centric fine-tuning using a diverse and high-quality dataset that we collected using an automated pipeline. We integrate the security fine-tuning with standard instruction tuning, to facilitate a joint optimization of both security and utility. Despite its simplicity, we show that SafeCoder is effective across a variety of popular LMs and datasets. It is able to drastically improve security (by about 30%), while preserving utility.",
+        "venue": "ICML2025",
+        "labels": [
+            "code generation",
+            "code model",
+            "code model security"
+        ],
+        "url": "https://arxiv.org/abs/2411.12882"
+    },
+    "Training Language Models to Generate Quality Code with Program Analysis Feedback": {
+        "type": "article",
+        "key": "secureCodeTrain2025",
+        "title": "Training Language Models to Generate Quality Code with Program Analysis Feedback",
+        "author": "Feng Yao, Zilong Wang, Liyuan Liu, Junxia Cui, Li Zhong, Xiaohan Fu, Haohui Mai, Vish Krishnan, Jianfeng Gao, Jingbo Shang",
+        "journal": "arXiv preprint arXiv:2505.22704",
+        "year": "2025",
+        "abstract": "Code generation with large language models (LLMs), often termed vibe coding, is increasingly adopted in production but fails to ensure code quality, particularly in security (e.g., SQL injection vulnerabilities) and maintainability (e.g., missing type annotations). Existing methods, such as supervised fine-tuning and rule-based post-processing, rely on labor-intensive annotations or brittle heuristics, limiting their scalability and effectiveness. We propose REAL, a reinforcement learning framework that incentivizes LLMs to generate production-quality code using program analysis-guided feedback. Specifically, REAL integrates two automated signals: (1) program analysis detecting security or maintainability defects and (2) unit tests ensuring functional correctness. Unlike prior work, our framework is prompt-agnostic and reference-free, enabling scalable supervision without manual intervention. Experiments across multiple datasets and model scales demonstrate that REAL outperforms state-of-the-art methods in simultaneous assessments of functionality and code quality. Our work bridges the gap between rapid prototyping and production-ready code, enabling LLMs to deliver both speed and quality.",
+        "venue": "arXiv2025",
+        "labels": [
+            "code generation",
+            "code model",
+            "code model security"
+        ],
+        "url": "https://arxiv.org/abs/2505.22704"
+    },
+    "RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing": {
+        "type": "article",
+        "key": "repoaudit_2025",
+        "title": "RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing",
+        "author": "Jinyao Guo, Chengpeng Wang, Xiangzhe Xu, Zian Su, Xiangyu Zhang",
+        "journal": "arXiv preprint arXiv:2501.18160",
+        "year": "2025",
+        "abstract": "Code auditing is a code review process with the goal of finding bugs. Large Language Models (LLMs) have shown substantial potential in this task, offering the ability to analyze programs without compilation and enabling customized bug detection following specified prompts. However, applying LLMs to repository-level code auditing presents notable challenges. The inherent context limits and hallucinations of LLMs can lead to the low quality of bug reports. Meanwhile, the large size of software repositories introduces substantial time and token costs, hindering efficiency and scalability in real-world scenarios. This work introduces an autonomous LLM-agent, RepoAudit, designed to enable precise and efficient repository-level code auditing. Equipped with the agent memory, RepoAudit explores the code repository on demand, analyzing data-flow facts along different feasible program paths in individual functions. It also introduces the validator to check the data-flow facts for hallucination mitigation and examine the satisfiability of path conditions of potential buggy paths, which enables RepoAudit to discard false positives in the code auditing. Our experiment shows that RepoAudit powered by Claude 3.5 Sonnet successfully finds 38 true bugs in 15 real-world systems, consuming 0.44 hours and $2.54 per project on average.",
+        "venue": "ICML2025",
+        "labels": [
+            "static analysis",
+            "bug detection",
+            "agent design",
+            "prompt strategy",
+            "retrieval-augmented generation",
+            "planning"
+        ],
+        "url": "https://arxiv.org/abs/2501.18160"
+    },
     "Large language models for code: Security hardening and adversarial testing": {
         "type": "inproceedings",
         "key": "he2023large",

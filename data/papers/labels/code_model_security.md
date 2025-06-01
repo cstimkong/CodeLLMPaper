@@ -84,6 +84,12 @@
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
 
 
+- [PROSEC: Fortifying Code LLMs with Proactive Security Alignment](../venues/ICML2025/paper_1.md), ([ICML2025](../venues/ICML2025/README.md))
+
+  - **Abstract**: Modern language models (LMs) have gained widespread acceptance in everyday and professional contexts, particularly in programming. An essential procedure enabling this adoption is instruction tuning, which substantially enhances LMs' practical utility by training them to follow user instructions and human preferences. However, existing instruction tuning schemes overlook a crucial aspect: the security of generated code. As a result, even the state-of-the-art instruction-tuned LMs frequently prod...
+  - **Labels**: [code generation](code_generation.md), [code model](code_model.md), [code model security](code_model_security.md)
+
+
 - [Poster: Boosting Adversarial Robustness by Adversarial Pre-training](../venues/CCS2023/paper_3.md), ([CCS2023](../venues/CCS2023/README.md))
 
   - **Abstract**: Vision Transformer (ViT) shows superior performance on various tasks, but, similar to other deep learning techniques, it is vulnerable to adversarial attacks. Due to the differences between ViT and traditional CNNs, previous works designed new adversarial training methods as defenses according to the design of ViT, such as blocking attention to individual patches or dropping embeddings with low attention. However, these methods usually focus on fine-tuning stage or the training of the model itse...
@@ -124,6 +130,12 @@
 
   - **Abstract**: Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare ...
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [benchmark](benchmark.md)
+
+
+- [Training Language Models to Generate Quality Code with Program Analysis Feedback](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Code generation with large language models (LLMs), often termed vibe coding, is increasingly adopted in production but fails to ensure code quality, particularly in security (e.g., SQL injection vulnerabilities) and maintainability (e.g., missing type annotations). Existing methods, such as supervised fine-tuning and rule-based post-processing, rely on labor-intensive annotations or brittle heuristics, limiting their scalability and effectiveness. We propose REAL, a reinforcement learning framew...
+  - **Labels**: [code generation](code_generation.md), [code model](code_model.md), [code model security](code_model_security.md)
 
 
 - [TrojanPuzzle: Covertly Poisoning Code-Suggestion Models](../venues/S&P2024/paper_3.md), ([S&P2024](../venues/S&P2024/README.md))

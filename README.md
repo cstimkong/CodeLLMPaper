@@ -69,7 +69,7 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (32)
-- [Code Generation](data/papers/labels/code_generation.md)   (204)
+- [Code Generation](data/papers/labels/code_generation.md)   (206)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (83)
   - [Code Completion](data/papers/labels/code_completion.md)   (23)
   - [Program Repair](data/papers/labels/program_repair.md)   (44)
@@ -87,7 +87,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (10)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (8)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (158)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (159)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
@@ -97,7 +97,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Specification Inference](data/papers/labels/specification_inference.md)   (19)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (82)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (83)
   - [Program Verification](data/papers/labels/program_verification.md)   (22)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (4)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (9)
@@ -116,21 +116,21 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (113)
+- [Code Model](data/papers/labels/code_model.md)   (115)
   - [Code Model Training](data/papers/labels/code_model_training.md)   (84)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (64)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)
-  - [Code Model Security](data/papers/labels/code_model_security.md)   (23)
+  - [Code Model Security](data/papers/labels/code_model_security.md)   (25)
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (13)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (61)
-  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (41)
-    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (11)
+- [Agent Design](data/papers/labels/agent_design.md)   (62)
+  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (42)
+    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (12)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
-  - [Planning](data/papers/labels/planning.md)   (11)
+  - [Planning](data/papers/labels/planning.md)   (12)
 
 ### C.3. Research Paradigm
 
