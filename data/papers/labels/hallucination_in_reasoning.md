@@ -24,6 +24,12 @@
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
 
 
+- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_15.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 t...
+  - **Labels**: [agent design](agent_design.md), [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
+
+
 - [Gsm-symbolic: Understanding the limitations of mathematical reasoning in large language models](../venues/Apple2024/paper_1.md), ([Apple2024](../venues/Apple2024/README.md))
 
   - **Abstract**: Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. ...

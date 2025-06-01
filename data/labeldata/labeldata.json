@@ -7765,6 +7765,21 @@
         ],
         "url": "https://arxiv.org/abs/2504.16057"
     },
+    "Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair": {
+        "type": "article",
+        "key": "williamt2025",
+        "title": "Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair",
+        "author": "Han Zheng, Ilia Shumailov, Tianqi Fan, Aiden Hall, Mathias Payer",
+        "journal": "arXiv preprint arXiv:2505.13103",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "The rapid advancement of bug-finding techniques has led to the discovery of more vulnerabilities than developers can reasonably fix, creating an urgent need for effective Automated Program Repair (APR) methods. However, the complexity of modern bugs often makes precise root cause analysis difficult and unreliable. To address this challenge, we propose crash-site repair to simplify the repair task while still mitigating the risk of exploitation. In addition, we introduce a template-guided patch generation approach that significantly reduces the token cost of Large Language Models (LLMs) while maintaining both efficiency and effectiveness. We implement our prototype system, WILLIAMT, and evaluate it against state-of-the-art APR tools. Our results show that, when combined with the top-performing agent CodeRover-S, WILLIAMT reduces token cost by 45.9% and increases the bug-fixing rate to 73.5% (+29.6%) on ARVO, a ground-truth open source software vulnerabilities benchmark. Furthermore, we demonstrate that WILLIAMT can function effectively even without access to frontier LLMs: even a local model running on a Mac M4 Mini achieves a reasonable repair rate. These findings highlight the broad applicability and scalability of WILLIAMT.",
+        "labels": [
+            "code generation",
+            "program repair"
+        ],
+        "url": "https://arxiv.org/abs/2505.13103"
+    },
     "Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities": {
         "type": "article",
         "key": "EnIGMA",
@@ -8544,13 +8559,45 @@
         ],
         "url": "https://aclanthology.org/2024.naacl-long.424/"
     },
+    "LocAgent: Graph-Guided LLM Agents for Code Localization": {
+        "type": "inproceedings",
+        "key": "tang-etal-2024-codeagent",
+        "title": "LocAgent: Graph-Guided LLM Agents for Code Localization",
+        "author": "Zhaoling Chen, Xiangru Tang, Gangda Deng, Fang Wu, Jialong Wu, Zhiwei Jiang, Viktor Prasanna, Arman Cohan, Xingyao Wang",
+        "year": "2025",
+        "venue": "ACL2025",
+        "abstract": "Code localization--identifying precisely where in a codebase changes need to be made--is a fundamental yet challenging task in software maintenance. Existing approaches struggle to efficiently navigate complex codebases when identifying relevant code sections. The challenge lies in bridging natural language problem descriptions with the appropriate code elements, often requiring reasoning across hierarchical structures and multiple dependencies. We introduce LocAgent, a framework that addresses code localization through graph-based representation. By parsing codebases into directed heterogeneous graphs, LocAgent creates a lightweight representation that captures code structures (files, classes, functions) and their dependencies (imports, invocations, inheritance), enabling LLM agents to effectively search and locate relevant entities through powerful multi-hop reasoning. Experimental results on real-world benchmarks demonstrate that our approach significantly enhances accuracy in code localization. Notably, our method with the fine-tuned Qwen-2.5-Coder-Instruct-32B model achieves comparable results to SOTA proprietary models at greatly reduced cost (approximately 86% reduction), reaching up to 92.7% accuracy on file-level localization while improving downstream GitHub issue resolution success rates by 12% for multiple attempts (Pass@10). Our code is available at this https URL.",
+        "labels": [
+            "agent design",
+            "prompt strategy",
+            "retrieval-augmented generation",
+            "planning"
+        ],
+        "url": "https://arxiv.org/abs/2503.09089"
+    },
+    "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph": {
+        "type": "inproceedings",
+        "key": "repograph-2025",
+        "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+        "author": "Siru Ouyang, Wenhao Yu, Kaixin Ma, Zilin Xiao, Zhihan Zhang, Mengzhao Jia, Jiawei Han, Hongming Zhang, Dong Yu",
+        "year": "2025",
+        "venue": "ICLR2025",
+        "abstract": "Large Language Models (LLMs) excel in code generation yet struggle with modern AI software engineering tasks. Unlike traditional function-level or file-level coding tasks, AI software engineering requires not only basic coding proficiency but also advanced skills in managing and interacting with code repositories. However, existing methods often overlook the need for repository-level code understanding, which is crucial for accurately grasping the broader context and developing effective solutions. On this basis, we present RepoGraph, a plug-in module that manages a repository-level structure for modern AI software engineering solutions. RepoGraph offers the desired guidance and serves as a repository-wide navigation for AI software engineers. We evaluate RepoGraph on the SWE-bench by plugging it into four different methods of two lines of approaches, where RepoGraph substantially boosts the performance of all systems, leading to a new state-of-the-art among open-source frameworks. Our analyses also demonstrate the extensibility and flexibility of RepoGraph by testing on another repo-level coding benchmark, CrossCodeEval. Our code is available at https://github.com/ozyyshr/RepoGraph.",
+        "labels": [
+            "agent design",
+            "prompt strategy",
+            "retrieval-augmented generation",
+            "planning"
+        ],
+        "url": "https://openreview.net/forum?id=dw9VUsSHGB"
+    },
     "Self-contradictory hallucinations of large language models: Evaluation, detection and mitigation": {
         "type": "article",
         "key": "mundler2023self",
         "title": "Self-contradictory hallucinations of large language models: Evaluation, detection and mitigation",
         "author": "M{\\\"u}ndler, Niels and He, Jingxuan and Jenko, Slobodan and Vechev, Martin",
         "journal": "arXiv preprint arXiv:2305.15852",
-        "year": "2023",
+        "year": "2024",
         "venue": "ICLR2024",
         "abstract": "Large language models (large LMs) are susceptible to producing text that contains hallucinated content. An important instance of this problem is self-contradiction, where the LM generates two contradictory sentences within the same context. In this work, we present a comprehensive investigation into self-contradiction for various instruction-tuned LMs, covering evaluation, detection, and mitigation. Our primary evaluation task is open-domain text generation, but we also demonstrate the applicability of our approach to shorter question answering. Our analysis reveals the prevalence of self-contradictions, e.g., in 17.7% of all sentences produced by ChatGPT. We then propose a novel prompting-based framework designed to effectively detect and mitigate self-contradictions. Our detector achieves high accuracy, e.g., around 80% F1 score when prompting ChatGPT. The mitigation algorithm iteratively refines the generated text to remove contradictory information while preserving text fluency and informativeness. Importantly, our entire framework is applicable to black-box LMs and does not require retrieval of external knowledge. Rather, our method complements retrieval-based methods, as a large portion of self-contradictions (e.g., 35.2% for ChatGPT) cannot be verified using online text.",
         "labels": [
@@ -8558,6 +8605,22 @@
             "empirical study"
         ],
         "url": "https://arxiv.org/abs/2305.15852"
+    },
+    "From System 1 to System 2: A Survey of Reasoning Large Language Models": {
+        "type": "article",
+        "key": "system1to2_survey",
+        "title": "From System 1 to System 2: A Survey of Reasoning Large Language Models",
+        "author": "Zhong-Zhi Li, Duzhen Zhang, Ming-Liang Zhang, Jiaxin Zhang, Zengyan Liu, Yuxuan Yao, Haotian Xu, Junhao Zheng, Pei-Jie Wang, Xiuyi Chen, Yingying Zhang, Fei Yin, Jiahua Dong, Zhiwei Li, Bao-Long Bi, Ling-Rui Mei, Junfeng Fang, Zhijiang Guo, Le Song, Cheng-Lin Liu",
+        "journal": "arXiv preprint arXiv:2502.17419",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 thinking. Recently, reasoning LLMs like OpenAI's o1/o3 and DeepSeek's R1 have demonstrated expert-level performance in fields such as mathematics and coding, closely mimicking the deliberate reasoning of System 2 and showcasing human-like cognitive abilities. This survey begins with a brief overview of the progress in foundational LLMs and the early development of System 2 technologies, exploring how their combination has paved the way for reasoning LLMs. Next, we discuss how to construct reasoning LLMs, analyzing their features, the core methods enabling advanced reasoning, and the evolution of various reasoning LLMs. Additionally, we provide an overview of reasoning benchmarks, offering an in-depth comparison of the performance of representative reasoning LLMs. Finally, we explore promising directions for advancing reasoning LLMs and maintain a real-time to track the latest developments. We hope this survey will serve as a valuable resource to inspire innovation and drive progress in this rapidly evolving field.",
+        "labels": [
+            "agent design",
+            "hallucination in reasoning",
+            "survey"
+        ],
+        "url": "https://arxiv.org/abs/2502.17419"
     },
     "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions": {
         "type": "article",
@@ -8573,6 +8636,21 @@
             "survey"
         ],
         "url": "https://arxiv.org/pdf/2406.19508"
+    },
+    "Large Language Model powered Symbolic Execution": {
+        "type": "article",
+        "key": "llmexe",
+        "title": "Large Language Model powered Symbolic Execution",
+        "author": "Yihe Li, Ruijie Meng, Gregory J. Duck",
+        "journal": "arXiv preprint arXiv:2505.13452",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Large Language Models (LLMs) have emerged as a promising alternative to traditional static program analysis methods, such as symbolic execution, offering the ability to reason over code directly without relying on theorem provers or SMT solvers. However, LLMs are also inherently probabilistic by nature, and therefore face significant challenges in relation to the accuracy and scale of the analysis in real-world application. Such issues often necessitate the use of larger LLMs with higher token limits, but this requires enterprise-grade hardware (GPUs) and thus limits accessibility for many users. In this paper, we propose LLM-based symbolic execution -- a novel approach that enhances LLM inference via a path-based decomposition of the program analysis tasks into smaller (more tractable) sub-tasks. The core idea is to generalize path constraints using a generic code-based representation that the LLM can directly reason over, and without translation into another (less-expressive) formal language. We implement our approach in the form of AutoExe, an LLM-based symbolic execution engine that is lightweight and language-agnostic, making it a practical tool for analyzing code that is challenging for traditional approaches. We show that AutoExe can improve both the accuracy and scale of LLM-based program analysis, especially for smaller LLMs that can run on consumer grade hardware.",
+        "labels": [
+            "static analysis",
+            "symbolic execution"
+        ],
+        "url": "https://arxiv.org/pdf/2505.13452"
     },
     "Chain of code: Reasoning with a language model-augmented code emulator": {
         "type": "article",

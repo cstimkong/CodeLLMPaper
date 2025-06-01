@@ -67,10 +67,10 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (32)
-- [Code Generation](data/papers/labels/code_generation.md)   (203)
+- [Code Generation](data/papers/labels/code_generation.md)   (204)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (83)
   - [Code Completion](data/papers/labels/code_completion.md)   (23)
-  - [Program Repair](data/papers/labels/program_repair.md)   (43)
+  - [Program Repair](data/papers/labels/program_repair.md)   (44)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (34)
 - [Program Testing](data/papers/labels/program_testing.md)   (59)
   - [General Testing](data/papers/labels/general_testing.md)   (1)
@@ -85,11 +85,12 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (10)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (8)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (157)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (158)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
   - [Data-flow Analysis](data/papers/labels/data-flow_analysis.md)   (8)
+  - [Symbolic Execution](data/papers/labels/symbolic_execution.md)   (1)
   - [Type Inference](data/papers/labels/type_inference.md)   (3)
   - [Specification Inference](data/papers/labels/specification_inference.md)   (19)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
@@ -120,14 +121,14 @@ This category concentrates on the LLMs' ability in understanding different forms
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)
   - [Code Model Security](data/papers/labels/code_model_security.md)   (23)
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
-- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (12)
+- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (13)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (58)
-  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (39)
-    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (9)
+- [Agent Design](data/papers/labels/agent_design.md)   (61)
+  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (41)
+    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (11)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
-  - [Planning](data/papers/labels/planning.md)   (9)
+  - [Planning](data/papers/labels/planning.md)   (11)
 
 ### C.3. Research Paradigm
 
@@ -135,7 +136,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 - [Benchmark](data/papers/labels/benchmark.md)   (49)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (80)
-- [Survey](data/papers/labels/survey.md)   (18)
+- [Survey](data/papers/labels/survey.md)   (19)
 
 ## D. How to Contribute
 

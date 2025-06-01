@@ -34,6 +34,7 @@
             "pointer analysis": {},
             "call graph analysis": {},
             "data-flow analysis": {},
+            "symbolic execution": {},
             "type inference": {},
             "specification inference": {},
             "equivalence checking": {},
@@ -69,4 +70,3 @@
         "survey": {}
     }
 }
-  
