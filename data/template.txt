@@ -24,6 +24,7 @@ We have systematically selected papers from the following venues, which are top-
 - Software Engineering (SE)
   - [ICSE2023](data/papers/venues/ICSE2023/README.md), [FSE2023](data/papers/venues/FSE2023/README.md), [ASE2023](data/papers/venues/ASE2023/README.md), [ISSTA2023](data/papers/venues/ISSTA2023/README.md), [TSE2023](data/papers/venues/TSE2023/README.md), [TOSEM2023](data/papers/venues/TOSEM2023/README.md)
   - [ICSE2024](data/papers/venues/ICSE2024/README.md), [FSE2024](data/papers/venues/FSE2024/README.md), [ASE2024](data/papers/venues/ASE2024/README.md), [ISSTA2024](data/papers/venues/ISSTA2024/README.md), [TSE2024](data/papers/venues/TSE2024/README.md), [TOSEM2024](data/papers/venues/TOSEM2024/README.md)
+  - [ICSE2025], [FSE2025], [ISSTA2025]
 
 - Programming Languages (PL)
   - [PLDI2023](data/papers/venues/PLDI2023/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md)
@@ -38,6 +39,7 @@ We have systematically selected papers from the following venues, which are top-
 - Natural Language Processing (NLP)
   - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
   - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
+  - [NAACL2025]
 
 Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
 
