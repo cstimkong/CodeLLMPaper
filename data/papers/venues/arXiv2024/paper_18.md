@@ -1,11 +1,11 @@
-# LLM4Vuln: {A} Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning
+# Your Instructions Are Not Always Helpful: Assessing the Efficacy of Instruction Fine-tuning for Software Vulnerability Detection
 
-**Authors**: Yuqiang Sun and Daoyuan Wu and Yue Xue and Han Liu and Wei Ma and Lyuye Zhang and Miaolei Shi and Yang Liu
+**Authors**: Imam Nur Bani Yusuf and Lingxiao Jiang
 
 **Abstract**:
 
-Large language models (LLMs) have demonstrated significant potential in various tasks, including vulnerability detection. However, current efforts in this area are preliminary, lacking clarity on whether LLMs' vulnerability reasoning capabilities stem from the models themselves or external aids such as knowledge retrieval and tooling support.This paper aims to isolate LLMs' vulnerability reasoning from other capabilities, such as vulnerability knowledge adoption, context information retrieval, and structured output generation. We introduce LLM4Vuln, a unified evaluation framework that separates and assesses LLMs' vulnerability reasoning capabilities and examines improvements when combined with other enhancements.We conducted controlled experiments with 97 ground-truth vulnerabilities and 97 non-vulnerable cases in Solidity and Java, testing them in a total of 9,312 scenarios across four LLMs (GPT-4, GPT-3.5, Mixtral, and Llama 3). Our findings reveal the varying impacts of knowledge enhancement, context supplementation, prompt schemes, and models. Additionally, we identified 14 zero-day vulnerabilities in four pilot bug bounty programs, resulting in $3,576 in bounties.
+Software, while beneficial, poses potential cybersecurity risks due to inherent vulnerabilities. Detecting these vulnerabilities is crucial, and deep learning has shown promise as an effective tool for this task due to its ability to perform well without extensive feature engineering. However, a challenge in deploying deep learning for vulnerability detection is the limited availability of training data. Recent research highlights the deep learning efficacy in diverse tasks. This success is attributed to instruction fine-tuning, a technique that remains under-explored in the context of vulnerability detection. This paper investigates the capability of models, specifically a recent language model, to generalize beyond the programming languages used in their training data. It also examines the role of natural language instructions in enhancing this generalization. Our study evaluates the model performance on a real-world dataset to predict vulnerable code. We present key insights and lessons learned, contributing to understanding the deep learning application in software vulnerability detection.
 
-**Link**: [Read Paper](https://doi.org/10.48550/arXiv.2401.16185)
+**Link**: [Read Paper](https://doi.org/10.48550/arXiv.2401.07466)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [benchmark](../../labels/benchmark.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)

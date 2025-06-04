@@ -1,5 +1,11 @@
 # Call Graph Analysis
 
+- [An Empirical Study of Large Language Models for Type and Call Graph Analysis](../venues/arXiv2024/paper_2.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) are increasingly being explored for their potential in software engineering, particularly in static analysis tasks. In this study, we investigate the potential of current LLMs to enhance call-graph analysis and type inference for Python and JavaScript programs. We empirically evaluated 24 LLMs, including OpenAI's GPT series and open-source models like LLaMA and Mistral, using existing and newly developed benchmarks. Specifically, we enhanced TypeEvalPy, a micro-bench...
+  - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md), [call graph analysis](call_graph_analysis.md)
+
+
 - [LLMs: Understanding Code Syntax and Semantics for Code Analysis](../venues/arXiv2023/paper_1.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: Large language models~(LLMs) demonstrate significant potential to revolutionize software engineering (SE) by exhibiting outstanding performance in SE tasks such as code and document generation. However, the high reliability and risk control requirements in software engineering raise concerns about the lack of interpretability of LLMs. To address this concern, we conducted a study to evaluate the capabilities of LLMs and their limitations for code analysis in SE. We break down the abilities neede...

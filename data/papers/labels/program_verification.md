@@ -42,7 +42,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automated program verification has always been an important component of building trustworthy software. While the analysis of real-world programs remains a theoretical challenge, the automation of loop invariant analysis has effectively resolved the problem. However, real-world programs that often mix complex data structures and control flows pose challenges to traditional loop invariant generation tools. To enhance the applicability of invariant generation techniques, we proposed ACInv, an Auto...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -120,7 +120,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)

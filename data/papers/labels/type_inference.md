@@ -1,5 +1,11 @@
 # Type Inference
 
+- [An Empirical Study of Large Language Models for Type and Call Graph Analysis](../venues/arXiv2024/paper_2.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) are increasingly being explored for their potential in software engineering, particularly in static analysis tasks. In this study, we investigate the potential of current LLMs to enhance call-graph analysis and type inference for Python and JavaScript programs. We empirically evaluated 24 LLMs, including OpenAI's GPT series and open-source models like LLaMA and Mistral, using existing and newly developed benchmarks. Specifically, we enhanced TypeEvalPy, a micro-bench...
+  - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md), [call graph analysis](call_graph_analysis.md)
+
+
 - [Generative Type Inference for Python](../venues/ASE2023/paper_12.md), ([ASE2023](../venues/ASE2023/README.md))
 
   - **Abstract**: Python is a popular dynamic programming language, evidenced by its ranking as the second most commonly used language on GitHub. However, its dynamic type system can lead to potential type errors, leading researchers to explore automatic type inference approaches for Python programs. Existing type inference approaches can be generally grouped into three categories, i.e., rule-based, supervised, and cloze- style approaches. The rule-based type inference approaches can ensure the accuracy of predic...
