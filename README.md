@@ -69,7 +69,7 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (32)
-- [Code Generation](data/papers/labels/code_generation.md)   (206)
+- [Code Generation](data/papers/labels/code_generation.md)   (207)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (83)
   - [Code Completion](data/papers/labels/code_completion.md)   (23)
   - [Program Repair](data/papers/labels/program_repair.md)   (44)
@@ -87,7 +87,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (10)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (8)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (160)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (161)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (3)
@@ -97,9 +97,9 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Specification Inference](data/papers/labels/specification_inference.md)   (19)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (83)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (84)
   - [Program Verification](data/papers/labels/program_verification.md)   (22)
-  - [Program Optimization](data/papers/labels/program_optimization.md)   (4)
+  - [Program Optimization](data/papers/labels/program_optimization.md)   (5)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (9)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (10)
   - [Code Search](data/papers/labels/code_search.md)   (5)
@@ -136,7 +136,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (49)
+- [Benchmark](data/papers/labels/benchmark.md)   (50)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (80)
 - [Survey](data/papers/labels/survey.md)   (19)
 

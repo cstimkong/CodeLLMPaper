@@ -30,7 +30,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](../venues/arXiv2025/paper_12.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](../venues/arXiv2025/paper_13.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and class...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -85,7 +85,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [agent design](agent_design.md)
 
 
-- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_10.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Combining Large Language Models with Static Analyzers for Code Review Generation](../venues/arXiv2025/paper_11.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Code review is a crucial but often complex, subjective, and time-consuming activity in software development. Over the past decades, significant efforts have been made to automate this process. Early approaches focused on knowledge-based systems (KBS) that apply rule-based mechanisms to detect code issues, providing precise feedback but struggling with complex, context-dependent cases. More recent work has shifted toward fine-tuning pre-trained language models for code review, enabling broader is...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -151,7 +151,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_9.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Evaluating the Effectiveness of Small Language Models in Detecting Refactoring Bugs](../venues/arXiv2025/paper_10.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Popular IDEs frequently contain bugs in their refactoring implementations. Ensuring that a transformation preserves a program's behavior is a complex task. Traditional detection methods rely on predefined preconditions for each refactoring type, limiting their scalability and adaptability to new transformations. These methods often require extensive static and dynamic analyses, which are computationally expensive, time-consuming, and may still fail to detect certain refactoring bugs. This study ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -235,13 +235,13 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
 
 
-- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [KNighter: Transforming Static Analysis with LLM-Synthesized Checkers](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, timeconsuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large codebases remains impractical due to computational constraints and contextual limitations. We present KNighter, the first approach that unlocks p...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [LAMD: Context-driven Android Malware Detection and Classification with LLMs](../venues/arXiv2025/paper_2.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [LAMD: Context-driven Android Malware Detection and Classification with LLMs](../venues/arXiv2025/paper_3.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: The rapid growth of mobile applications has escalated Android malware threats. Although there are numerous detection methods, they often struggle with evolving attacks, dataset biases, and limited explainability. Large Language Models (LLMs) offer a promising alternative with their zero-shot inference and reasoning capabilities. However, applying LLMs to Android malware detection presents two key challenges: (1)the extensive support code in Android applications, often spanning thousands of class...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -355,6 +355,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [data-flow analysis](data-flow_analysis.md)
 
 
+- [SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) have shown promise in software engineering tasks, but evaluating their effectiveness in vulnerability detection is challenging due to the lack of high-quality datasets. Most existing datasets are limited to function-level labels, ignoring finer-grained vulnerability patterns and crucial contextual information. Also, poor data quality such as mislabeling, inconsistent annotations, and duplicates can lead to inflated performance and weak generalization. Moreover, by in...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
+
+
 - [Semantic Sleuth: Identifying Ponzi Contracts via Large Language Models](../venues/ASE2024/paper_11.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Smart contracts, self-executing agreements directly encoded in code, are fundamental to blockchain technology, especially in decentralized finance (DeFi) and Web3. However, the rise of Ponzi schemes in smart contracts poses significant risks, leading to substantial financial losses and eroding trust in blockchain systems. Existing detection methods, such as PonziGuard, depend on large amounts of labeled data and struggle to identify unseen Ponzi schemes, limiting their reliability and generaliza...
@@ -397,7 +403,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [The Hitchhiker's Guide to Program Analysis, Part II: Deep Thoughts by LLMs](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [The Hitchhiker's Guide to Program Analysis, Part II: Deep Thoughts by LLMs](../venues/arXiv2025/paper_2.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static analysis is a cornerstone for software vulnerability detection, yet it often struggles with the classic precision-scalability trade-off. In practice, such tools often produce high false positive rates, particularly in large codebases like the Linux kernel. This imprecision can arise from simplified vulnerability modeling and over-approximation of path and data constraints. While large language models (LLMs) show promise in code understanding, their naive application to program analysis yi...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)

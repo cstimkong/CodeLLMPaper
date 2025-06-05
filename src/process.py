@@ -292,44 +292,43 @@ if __name__ == "__main__":
     parser = Parser()
 
     bibs_with_abstract = [
-        # "../data/rawdata/2024/ICSE2024.bib",
-        # "../data/rawdata/2024/FSE2024.bib",
-        # "../data/rawdata/2024/ASE2024.bib",
-        # "../data/rawdata/2024/ISSTA2024.bib",
-        # "../data/rawdata/2024/TOSEM2024.bib",
-        # "../data/rawdata/2024/TSE2024.bib",
-        # "../data/rawdata/2024/PLDI2024.bib",
-        # "../data/rawdata/2024/OOPSLA2024.bib",
-        # "../data/rawdata/2024/S&P2024.bib",
-        # "../data/rawdata/2024/CCS2024.bib",
-
-        # "../data/rawdata/2023/ICSE2023.bib",
-        # "../data/rawdata/2023/FSE2023.bib",
-        # "../data/rawdata/2023/ASE2023.bib",
-        # "../data/rawdata/2023/ISSTA2023.bib",
-        # "../data/rawdata/2023/TOSEM2023.bib",
-        # "../data/rawdata/2023/TSE2023.bib",
-        # "../data/rawdata/2023/PLDI2023.bib",
-        # "../data/rawdata/2023/OOPSLA2023.bib",
-        # "../data/rawdata/2023/S&P2023.bib",   
-        # "../data/rawdata/2023/USENIXSec2023.bib",
-        # "../data/rawdata/2023/CCS2023.bib",
-
+        "../data/rawdata/2023/ICSE2023.bib",
+        "../data/rawdata/2023/FSE2023.bib",
+        "../data/rawdata/2023/ASE2023.bib",
+        "../data/rawdata/2023/ISSTA2023.bib",
+        "../data/rawdata/2023/TOSEM2023.bib",
+        "../data/rawdata/2023/TSE2023.bib",
+        "../data/rawdata/2023/PLDI2023.bib",
+        "../data/rawdata/2023/OOPSLA2023.bib",
+        "../data/rawdata/2023/S&P2023.bib",   
+        "../data/rawdata/2023/USENIXSec2023.bib",
+        "../data/rawdata/2023/CCS2023.bib",
         
-
-        "../data/rawdata/2025/NDSS2025.html",
+        "../data/rawdata/2024/ICSE2024.bib",
+        "../data/rawdata/2024/FSE2024.bib",
+        "../data/rawdata/2024/ASE2024.bib",
+        "../data/rawdata/2024/ISSTA2024.bib",
+        "../data/rawdata/2024/TOSEM2024.bib",
+        "../data/rawdata/2024/TSE2024.bib",
+        "../data/rawdata/2024/PLDI2024.bib",
+        "../data/rawdata/2024/OOPSLA2024.bib",
+        "../data/rawdata/2024/S&P2024.bib",
+        "../data/rawdata/2024/CCS2024.bib"
     ]
+    
+    for bib in bibs_with_abstract:
+        parser.parse_from_bib(bib)
 
+    parser.parse_ndss_html("../data/rawdata/2023/NDSS2023.html")
+    parser.parse_ndss_html("../data/rawdata/2024/NDSS2024.html")
     parser.parse_ndss_html("../data/rawdata/2025/NDSS2025.html")
 
-    # parser.parse_ndss_html("../data/rawdata/2024/NDSS2024.html")
-    # parser.parse_ndss_html("../data/rawdata/2023/NDSS2023.html")
-
     # parser.parse_acl_html("../data/rawdata/2023/ACL2023.html", "ACL", 2023)
-    # parser.parse_acl_html("../data/rawdata/2023/EMNLP2023.html", "EMNLP", 2023)
-
     # parser.parse_acl_html("../data/rawdata/2024/ACL2024.html", "ACL", 2024)
+    # parser.parse_acl_html("../data/rawdata/2023/NAACL2023.html", "NAACL", 2023)
     # parser.parse_acl_html("../data/rawdata/2024/NAACL2024.html", "NAACL", 2024)
+    # parser.parse_acl_html("../data/rawdata/2024/EMNLP-main2024.html", "EMNLP", 2024)
+    # parser.parse_acl_html("../data/rawdata/2024/EMNLP-findings2024.html", "EMNLP", 2024)
 
     print(len(parser.database))
 

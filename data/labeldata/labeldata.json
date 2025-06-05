@@ -5942,6 +5942,41 @@
         ],
         "url": "https://arxiv.org/abs/2410.00603"
     },
+    "SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection": {
+        "type": "article",
+        "key": "SecVulEval_2025",
+        "title": "SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection",
+        "author": "Md Basim Uddin Ahmed, Nima Shiri Harzevili, Jiho Shin, Hung Viet Pham, Song Wang",
+        "journal": "arXiv preprint arXiv:2505.19828",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "arXiv2025",
+        "abstract": "Large Language Models (LLMs) have shown promise in software engineering tasks, but evaluating their effectiveness in vulnerability detection is challenging due to the lack of high-quality datasets. Most existing datasets are limited to function-level labels, ignoring finer-grained vulnerability patterns and crucial contextual information. Also, poor data quality such as mislabeling, inconsistent annotations, and duplicates can lead to inflated performance and weak generalization. Moreover, by including only the functions, these datasets miss broader program context, like data/control dependencies and interprocedural interactions, that are essential for accurately understanding real-world security flaws. Without this context, detection models are evaluated under unrealistic assumptions. To address these limitations, this paper introduces SecVulEval, a benchmark designed to support fine-grained evaluation of LLMs and other detection methods with rich contextual information. SecVulEval focuses on real-world C/C++ vulnerabilities at the statement level. This granularity enables more precise evaluation of a model's ability to localize vulnerabilities, beyond simple binary classification at the function level. By incorporating rich contextual information, SecVulEval sets a new standard for vulnerability detection benchmarks in realistic scenarios. This benchmark includes 25,440 function samples covering 5,867 unique CVEs in C/C++ projects from 1999 to 2024. We evaluated the SOTA LLMs with a multi-agent-based approach. The evaluation on our dataset shows that the models are still far from accurately predicting vulnerable statements in a given function. The best-performing Claude-3.7-Sonnet model achieves 23.83% F1-score for detecting vulnerable statements with correct reasoning. Finally, we analyze the LLM outputs and provide insights into their behavior in vulnerability detection for C/C++.",
+        "labels": [
+            "static analysis",
+            "bug detection",
+            "benchmark"
+        ],
+        "url": "https://arxiv.org/abs/2505.19828"
+    },
+    "CompilerDream: Learning a Compiler World Model for General Code Optimization": {
+        "type": "article",
+        "key": "CompilerDream_2025",
+        "title": "CompilerDream: Learning a Compiler World Model for General Code Optimization",
+        "author": "Chaoyi Deng, Jialong Wu, Ningya Feng, Jianmin Wang, Mingsheng Long",
+        "journal": "arXiv preprint arXiv:2404.16077",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "KDD2025",
+        "abstract": "Effective code optimization in compilers is crucial for computer and software engineering. The success of these optimizations primarily depends on the selection and ordering of the optimization passes applied to the code. While most compilers rely on a fixed sequence of optimization passes, current methods to find the optimal sequence either employ impractically slow search algorithms or learning methods that struggle to generalize to code unseen during training. We introduce CompilerDream, a model-based reinforcement learning approach to general code optimization. CompilerDream comprises a compiler world model that accurately simulates the intrinsic properties of optimization passes and an agent trained on this model to produce effective optimization strategies. By training on a large-scale program dataset, CompilerDream is equipped to serve as a general code optimizer across various application scenarios and source-code languages. Our extensive experiments first highlight CompilerDream's strong optimization capabilities for autotuning, where it leads the CompilerGym leaderboard. More importantly, the zero-shot generalization ability of large-scale trained compiler world model and agent, excels across diverse datasets, surpassing LLVM's built-in optimizations and other state-of-the-art methods in both settings of value prediction and end-to-end code optimization.",
+        "labels": [
+            "code generation",
+            "program optimization"
+        ],
+        "url": "https://arxiv.org/abs/2404.16077"
+    },
     "The Hitchhiker's Guide to Program Analysis, Part II: Deep Thoughts by LLMs": {
         "type": "article",
         "key": "Haonan_arXiv_2025",

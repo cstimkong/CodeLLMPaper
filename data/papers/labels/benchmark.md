@@ -19,7 +19,7 @@
   - **Abstract**: Research in Text-to-SQL conversion has been largely benchmarked against datasets where each text query corresponds to one correct SQL. However, natural language queries over real-life databases frequently involve significant ambiguity about the intended SQL due to overlapping schema names and multiple confusing relationship paths. To bridge this gap, we develop a novel benchmark called AmbiQT with over 3000 examples where each text is interpretable as two plausible SQLs due to lexical and/or str...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [benchmark](benchmark.md)
 
-- [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](../venues/arXiv2025/paper_4.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](../venues/arXiv2025/paper_5.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: C-to-Rust transpilation is essential for modernizing legacy C code while enhancing safety and interoperability with modern Rust ecosystems. However, no dataset currently exists for evaluating whether a system can transpile C into safe Rust that passes a set of test cases. We introduce CRUST-Bench, a dataset of 100 C repositories, each paired with manually-written interfaces in safe Rust as well as test cases that can be used to validate correctness of the transpilation. By considering entire rep...
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -205,7 +205,7 @@
   - **Abstract**: Language Model (LM) agents for cybersecurity that are capable of autonomously identifying vulnerabilities and executing exploits have the potential to cause real-world impact. Policymakers, model providers, and other researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such agents to help mitigate cyberrisk and investigate opportunities for penetration testing. Toward that end, we introduce Cybench, a framework for specifying cybersecurity tasks a...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
 
-- [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](../venues/arXiv2025/paper_14.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](../venues/arXiv2025/paper_15.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Although language model (LM) agents have demonstrated increased performance in multiple domains, including coding and web-browsing, their success in cybersecurity has been limited. We present EnIGMA, an LM agent for autonomously solving Capture The Flag (CTF) challenges. We introduce new tools and interfaces to improve the agent's ability to find and exploit security vulnerabilities, focusing on interactive terminal programs. These novel Interactive Agent Tools enable LM agents, for the first ti...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
@@ -222,7 +222,7 @@
 
 ## Static Analysis
 
-- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Can LLMs Reason About Program Semantics? A Comprehensive Evaluation of LLMs on Formal Specification Inference](../venues/arXiv2025/paper_9.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Large Language Models (LLMs) are increasingly being used to automate programming tasks. Yet, LLMs' capabilities in reasoning about program semantics are still inadequately studied, leaving significant potential for further exploration. This paper introduces FormalBench, a comprehensive benchmark designed to evaluate LLMs' reasoning abilities on program semantics, particularly via the task of synthesizing formal program specifications to assist verifying program correctness. This task requires bo...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
@@ -251,6 +251,11 @@
 
   - **Abstract**: Code summarization aims to automatically generate natural language descriptions for code, and has become a rapidly expanding research area in the past decades. Unfortunately, existing approaches mainly focus on the “one-to-one” mapping from methods to short descriptions, which hinders them from becoming practical tools: 1) The program context is ignored, so they have difficulty in predicting labels outside the target method; 2) They are typically trained to generate brief function descriptions w...
   - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md), [benchmark](benchmark.md)
+
+- [SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) have shown promise in software engineering tasks, but evaluating their effectiveness in vulnerability detection is challenging due to the lack of high-quality datasets. Most existing datasets are limited to function-level labels, ignoring finer-grained vulnerability patterns and crucial contextual information. Also, poor data quality such as mislabeling, inconsistent annotations, and duplicates can lead to inflated performance and weak generalization. Moreover, by in...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
 
 - [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](../venues/EMNLP2024/paper_7.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
