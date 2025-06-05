@@ -3,7 +3,7 @@
 - [CompilerDream: Learning a Compiler World Model for General Code Optimization](../venues/KDD2025/paper_1.md), ([KDD2025](../venues/KDD2025/README.md))
 
   - **Abstract**: Effective code optimization in compilers is crucial for computer and software engineering. The success of these optimizations primarily depends on the selection and ordering of the optimization passes applied to the code. While most compilers rely on a fixed sequence of optimization passes, current methods to find the optimal sequence either employ impractically slow search algorithms or learning methods that struggle to generalize to code unseen during training. We introduce CompilerDream, a mo...
-  - **Labels**: [code generation](code_generation.md), [program optimization](program_optimization.md)
+  - **Labels**: [static analysis](static_analysis.md), [program optimization](program_optimization.md)
 
 
 - [CompilerGym: robust, performant compiler optimization environments for AI research](../venues/CGO2022/paper_1.md), ([CGO2022](../venues/CGO2022/README.md))

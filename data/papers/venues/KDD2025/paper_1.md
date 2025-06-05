@@ -8,4 +8,4 @@ Effective code optimization in compilers is crucial for computer and software en
 
 **Link**: [Read Paper](https://arxiv.org/abs/2404.16077)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program optimization](../../labels/program_optimization.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program optimization](../../labels/program_optimization.md)
