@@ -69,10 +69,10 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (32)
-- [Code Generation](data/papers/labels/code_generation.md)   (206)
+- [Code Generation](data/papers/labels/code_generation.md)   (207)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (83)
   - [Code Completion](data/papers/labels/code_completion.md)   (23)
-  - [Program Repair](data/papers/labels/program_repair.md)   (44)
+  - [Program Repair](data/papers/labels/program_repair.md)   (45)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (34)
 - [Program Testing](data/papers/labels/program_testing.md)   (59)
   - [General Testing](data/papers/labels/general_testing.md)   (1)
@@ -136,7 +136,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (50)
+- [Benchmark](data/papers/labels/benchmark.md)   (51)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (80)
 - [Survey](data/papers/labels/survey.md)   (19)
 

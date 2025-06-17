@@ -1,6 +1,13 @@
 # FSE2025
 
-Number of papers: 1
+Number of papers: 2
+
+## [Agentless: Demystifying LLM-based Software Engineering Agents](paper_2.md)
+- **Authors**: Chunqiu Steven Xia, Yinlin Deng, Soren Dunn, Lingming Zhang
+- **Abstract**: Recent advancements in large language models (LLMs) have significantly advanced the automation of software development tasks, including code synthesis, program repair, and test generation. More recently, researchers and industry practitioners have developed various autonomous LLM agents to perform end-to-end software development tasks. These agents are equipped with the ability to use tools, run commands, observe feedback from the environment, and plan for future actions. However, the complexity...
+- **Link**: [Read Paper](https://arxiv.org/abs/2407.01489)
+- **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
+
 
 ## [AlphaTrans: A Neuro-Symbolic Compositional Approach for Repository-Level Code Translation and Validation](paper_1.md)
 - **Authors**: Ali Reza Ibrahimzada, Kaiyao Ke, Mrigank Pawagi, Muhammad Salman Abid, Rangeet Pan, Saurabh Sinha, Reyhaneh Jabbarvand
