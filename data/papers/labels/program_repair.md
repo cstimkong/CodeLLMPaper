@@ -12,6 +12,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
 
 
+- [Are “Solved Issues” in SWE-bench Really Solved Correctly?](../venues/arXiv2025/paper_15.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Automated issue solving aims to resolve real-world issues in software repositories. The most popular benchmarks for automated issue solving are SWE-bench and its human-filtered subset SWE-bench Verified. These benchmarks leverage testing to validate generated patches. However, because testing is rarely exhaustive, a patch may pass the tests but nevertheless fail to match the developers' expectations. Unfortunately, it is currently unclear to what extent evaluations performed with SWE-bench suffe...
+  - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [AutoCodeRover: Autonomous Program Improvement](../venues/ISSTA2024/paper_20.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
   - **Abstract**: Researchers have made significant progress in automating the software development process in the past decades. Automated techniques for issue summarization, bug reproduction, fault localization, and program repair have been built to ease the workload of developers. Recent progress in Large Language Models (LLMs) has significantly impacted the development process, where developers can use LLM-based programming assistants to achieve automated coding. Nevertheless, software engineering involves the...
@@ -108,7 +114,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](../venues/arXiv2025/paper_16.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](../venues/arXiv2025/paper_17.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: The rapid advancement of bug-finding techniques has led to the discovery of more vulnerabilities than developers can reasonably fix, creating an urgent need for effective Automated Program Repair (APR) methods. However, the complexity of modern bugs often makes precise root cause analysis difficult and unreliable. To address this challenge, we propose crash-site repair to simplify the repair task while still mitigating the risk of exploitation. In addition, we introduce a template-guided patch g...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
