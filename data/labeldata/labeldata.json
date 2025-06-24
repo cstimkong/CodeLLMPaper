@@ -6134,6 +6134,57 @@
         ],
         "url": "https://arxiv.org/abs/2504.15637"
     },
+    "Scalable, Validated Code Translation of Entire Projects using Large Language Models": {
+        "type": "article",
+        "key": "Oxidizer",
+        "title": "Scalable, Validated Code Translation of Entire Projects using Large Language Models",
+        "author": "Hanliang Zhang, Cristina David, Meng Wang, Brandon Paulsen, Daniel Kroening",
+        "journal": "PLDI2025",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "PLDI2025",
+        "abstract": "Large language models (LLMs) show promise in code translation due to their ability to generate idiomatic code. However, a significant limitation when using LLMs for code translation is scalability: existing works have shown a drop in translation success rates for code exceeding around 100 lines. We overcome this limitation by developing a modular approach to translation, where we partition the code into small code fragments which can be translated independently and semantically validated (that is, by checking I/O equivalence). When this approach is applied naively, we discover that LLMs are unreliable when translating features of the source language that do not have a direct mapping to the target language, and that the LLM often gets stuck in repair loops when attempting to fix errors. To address these issues, we introduce two key concepts: (1) feature mapping, which integrates predefined translation rules with LLM-based translation to guide the LLM in navigating subtle language differences and producing semantically accurate code; and (2) type-compatibility, which facilitates localized checks at the function signature level to detect errors early, thereby narrowing the scope of potential repairs. We apply our approach to translating real-world Go codebases to Rust, demonstrating that we can consistently generate reliable Rust translations for projects up to 9,700 lines of code and 780 functions, with an average of 73% of functions successfully validated for I/O equivalence, considerably higher than any existing work.",
+        "labels": [
+            "code generation",
+            "program transformation"
+        ],
+        "url": "https://dl.acm.org/doi/10.1145/3729315"
+    },
+    "Program Skeletons for Automated Program Translation": {
+        "type": "article",
+        "key": "python_js_2025_pldi",
+        "title": "Program Skeletons for Automated Program Translation",
+        "author": "Bo Wang, Tianyu Li, Ruishi Li, Umang Mathur, Prateek Saxena",
+        "journal": "PLDI2025",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "PLDI2025",
+        "abstract": "Translating software between programming languages is a challenging task, for which automated techniques have been elusive and hard to scale up to larger programs. A key difficulty in cross-language translation is that one has to re-express the intended behavior of the source program into idiomatic constructs of a different target language. This task needs abstracting away from the source language-specific details, while keeping the overall functionality the same. In this work, we propose a novel and systematic approach for making such translation amenable to automation based on a framework we call program skeletons. A program skeleton retains the high-level structure of the source program by abstracting away and effectively summarizing lower-level concrete code fragments, which can be mechanically translated to the target programming language. A skeleton, by design, permits many different ways of filling in the concrete implementation for fragments, which can work in conjunction with existing data-driven code synthesizers. Most importantly, skeletons can conceptually enable sound decomposition, i.e., if each individual fragment is correctly translated, taken together with the mechanically translated skeleton, the final translated program is deemed to be correct as a whole. We present a prototype system called SKEL embodying the idea of skeleton-based translation from Python to JavaScript. Our results show promising scalability compared to prior works. For 9 real-world Python programs, some with more than about 1k lines of code, 95% of their code fragments can be automatically translated, while about 5% require manual effort. All the final translations are correct with respect to whole-program test suites.",
+        "labels": [
+            "code generation",
+            "program transformation"
+        ],
+        "url": "https://dl.acm.org/doi/10.1145/3729287"
+    },
+    "Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations": {
+        "type": "article",
+        "key": "shenxipeng2025pldi",
+        "title": "Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations",
+        "author": "Xiangwei Wang, Xinning Hui, Chunhua Liao, Xipeng Shen",
+        "journal": "PLDI2025",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "PLDI2025",
+        "abstract": "Input-centric program optimization aims to optimize code by considering the relations between program inputs and program behaviors. Despite its promise, a long-standing barrier for its adoption is the difficulty of automatically identifying critical features of complex inputs. This paper introduces a novel technique, reductive analysis through compiler-guided Large Language Models (LLMs), to solve the problem through a synergy between compilers and LLMs. It uses a reductive approach to overcome the scalability and other limitations of LLMs in program code analysis. The solution, for the first time, automates the identification of critical input features without heavy instrumentation or profiling, cutting the time needed for input identification by 44× (or 450× for local LLMs), reduced from 9.6 hours to 13 minutes (with remote LLMs) or 77 seconds (with local LLMs) on average, making input characterization possible to be integrated into the workflow of program compilations. Optimizations on those identified input features show similar or even better results than those identified by previous profiling-based methods, leading to optimizations that yield 92.6% accuracy in selecting the appropriate adaptive OpenMP parallelization decisions, and 20–30% performance improvement of serverless computing while reducing resource usage by 50–60%.",
+        "labels": [
+            "static analysis",
+            "program optimization"
+        ],
+        "url": "https://dl.acm.org/doi/10.1145/3729282"
+    },
     "SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI": {
         "type": "article",
         "key": "secdoeplt",

@@ -126,6 +126,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [Program Skeletons for Automated Program Translation](../venues/PLDI2025/paper_3.md), ([PLDI2025](../venues/PLDI2025/README.md))
+
+  - **Abstract**: Translating software between programming languages is a challenging task, for which automated techniques have been elusive and hard to scale up to larger programs. A key difficulty in cross-language translation is that one has to re-express the intended behavior of the source program into idiomatic constructs of a different target language. This task needs abstracting away from the source language-specific details, while keeping the overall functionality the same. In this work, we propose a nove...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [Rectifier: Code translation with corrector via llms](../venues/arXiv2024/paper_13.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Software migration is garnering increasing attention with the evolution of software and society. Early studies mainly relied on handcrafted translation rules to translate between two languages, the translation process is error-prone and time-consuming. In recent years, researchers have begun to explore the use of pre-trained large language models (LLMs) in code translation. However, code translation is a complex task that LLMs would generate mistakes during code translation, they all produce cer...
@@ -153,6 +159,12 @@
 - [Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation](../venues/ICSE2024/paper_11.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: As a relatively new programming language, Rust is designed to provide both memory safety and runtime performance. To achieve this goal, Rust conducts rigorous static checks against its safety rules during compilation, effectively eliminating memory safety issues that plague C/C++ programs. Although useful, the safety rules pose programming challenges to Rust programmers, since programmers can easily violate safety rules when coding in Rust, leading their code to be rejected by the Rust compiler,...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
+- [Scalable, Validated Code Translation of Entire Projects using Large Language Models](../venues/PLDI2025/paper_2.md), ([PLDI2025](../venues/PLDI2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) show promise in code translation due to their ability to generate idiomatic code. However, a significant limitation when using LLMs for code translation is scalability: existing works have shown a drop in translation success rates for code exceeding around 100 lines. We overcome this limitation by developing a modular approach to translation, where we partition the code into small code fragments which can be translated independently and semantically validated (that i...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 

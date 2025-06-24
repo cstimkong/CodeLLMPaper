@@ -967,6 +967,12 @@
   - **Labels**: [static analysis](static_analysis.md), [data-flow analysis](data-flow_analysis.md), [program optimization](program_optimization.md), [code model](code_model.md), [code model training](code_model_training.md), [IR code model](IR_code_model.md)
 
 
+- [Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations](../venues/PLDI2025/paper_4.md), ([PLDI2025](../venues/PLDI2025/README.md))
+
+  - **Abstract**: Input-centric program optimization aims to optimize code by considering the relations between program inputs and program behaviors. Despite its promise, a long-standing barrier for its adoption is the difficulty of automatically identifying critical features of complex inputs. This paper introduces a novel technique, reductive analysis through compiler-guided Large Language Models (LLMs), to solve the problem through a synergy between compilers and LLMs. It uses a reductive approach to overcome ...
+  - **Labels**: [static analysis](static_analysis.md), [program optimization](program_optimization.md)
+
+
 ## Code Summarization
 
 - [Automatic Semantic Augmentation of Language Model Prompts (for Code Summarization)](../venues/ICSE2024/paper_19.md), ([ICSE2024](../venues/ICSE2024/README.md))
