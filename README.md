@@ -41,6 +41,12 @@ We have systematically selected papers from the following venues, which are top-
   - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
   - [NAACL2025](data/papers/venues/NAACL2025/README.md)
 
+- Machine Learning (ML)
+  - [ICML2023](data/papers/venues/ICML2023/README.md), [NeurIPS2023](data/papers/venues/NeurIPS2023/README.md), [ICLR2023](data/papers/venues/ICLR2023/README.md)
+  - [ICML2024](data/papers/venues/ICML2024/README.md), [NeurIPS2024](data/papers/venues/NeurIPS2024/README.md), [ICLR2024](data/papers/venues/ICLR2024/README.md)
+  - [ICML2025](data/papers/venues/ICML2025/README.md), [ICLR2025](data/papers/venues/ICLR2025/README.md)
+
+
 Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
 
 
