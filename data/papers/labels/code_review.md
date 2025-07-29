@@ -6,6 +6,12 @@
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [empirical study](empirical_study.md)
 
 
+- [Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering](../venues/ISSTA2025/paper_30.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Recently, large language models (LLMs) have been deployed to tackle various software engineering (SE) tasks like code generation, significantly advancing the automation of SE tasks. However, assessing the quality of these LLM-generated code and text remains challenging. The commonly used Pass@k metric necessitates extensive unit tests and configured environments, demands a high labor cost, and is not suitable for evaluating LLM-generated text. Conventional metrics like BLEU, which measure only l...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [empirical study](empirical_study.md)
+
+
 - [Code Review Automation: Strengths and Weaknesses of the State of the Art](../venues/TSE2024/paper_9.md), ([TSE2024](../venues/TSE2024/README.md))
 
   - **Abstract**: The automation of code review has been tackled by several researchers with the goal of reducing its cost. The adoption of deep learning in software engineering pushed the automation to new boundaries, with techniques &lt;italic&gt;imitating&lt;/italic&gt; developers in generative tasks, such as commenting on a code change as a reviewer would do or addressing a reviewer's comment by modifying code. The performance of these techniques is usually assessed through quantitative metrics, &lt;italic&gt...
@@ -16,6 +22,12 @@
 
   - **Abstract**: Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive process that the research community is looking to automate. Existing automated methods rely on single input-output generative models and thus generally struggle to emulate the collaborative nature of code review. This work introduces CodeAgent, a novel multi-agent Large Language Model (LLM) system for code re...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [agent design](agent_design.md)
+
+
+- [PatchScope: LLM-Enhanced Fine-Grained Stable Patch Classification for Linux Kernel](../venues/ISSTA2025/paper_21.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Stable patch classification plays a crucial role in vulnerability management for the Linux kernel, significantly contributing to the stability and security of Long-term support(LTS) versions. Although existing tools have effectively assisted in assessing whether patches should be merged into stable versions, they cannot determine which stable patches should be merged into which LTS versions. This process still requires the maintainers of the distribution community to manually screen based on the...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md)
 
 
 - [SCPatcher: Mining Crowd Security Discussions to Enrich Secure Coding Practices](../venues/ASE2023/paper_8.md), ([ASE2023](../venues/ASE2023/README.md))

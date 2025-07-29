@@ -1,5 +1,11 @@
 # Specification Inference
 
+- [AdverIntent-Agent: Adversarial Reasoning for Repair Based on Inferred Program Intent](../venues/ISSTA2025/paper_18.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Automated program repair (APR) has shown promising results, particularly with the use of neural networks. Currently, most APR tools focus on code transformations specified by test suites, rather than reasoning about the program’s intent and the high-level bug specification. Without a proper understanding of program intent, these tools tend to generate patches that overfit incomplete test suites and fail to reflect the developer’s intentions. However, reasoning about program intent is challenging...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
 - [Can LLMs Implicitly Learn Numeric Parameter Constraints in Data Science APIs?](../venues/NeurIPS2024/paper_8.md), ([NeurIPS2024](../venues/NeurIPS2024/README.md))
 
   - **Abstract**: Data science (DS) programs, typically built on popular DS libraries (such as PyTorch and NumPy) with thousands of APIs, serve as the cornerstone for various mission-critical domains such as financial systems, autonomous driving software, and coding assistants. Recently, large language models (LLMs) have been widely applied to generate DS programs across diverse scenarios, such as assisting users for DS programming or detecting critical vulnerabilities in DS frameworks. Such applications have all...
@@ -84,7 +90,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [bug detection](bug_detection.md)
 
 
-- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_26.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limit...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)

@@ -74,6 +74,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
 
 
+- [Causality-Aided Evaluation and Explanation of Large Language Model-Based Code Generation](../venues/ISSTA2025/paper_17.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: While code generation has been widely used in various software development scenarios, the quality of the generated code is not guaranteed. This has been a particular concern in the era of large language models (LLM)-based code generation, where LLMs, deemed a complex and powerful black-box model, are instructed by a high-level natural language specification, namely a prompt, to generate code. Nevertheless, effectively evaluating and explaining the code generation capability of LLMs is inherently...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
 - [Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models](../venues/TSE2024/paper_3.md), ([TSE2024](../venues/TSE2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have demonstrated remarkable potential in code generation. The integration of Chain of Thought (CoT) reasoning can further boost their performance. However, current CoT methods often require manual writing or LLMs with over 100 billion parameters to generate, impeding their applicability in resource-constrained scenarios. In this study, we investigate lightweight Language Models (&lt;inline-formula&gt;&lt;tex-math notation="LaTeX"&gt;$ell$&lt;/tex-math&gt;&lt;alterna...
@@ -132,6 +138,12 @@
 
   - **Abstract**: Software engineering activities such as package migration, fixing error reports from static analysis or testing, and adding type annotations or other specifications to a codebase, involve pervasively editing the entire repository of code.     We formulate these activities as repository-level coding tasks.         Recent tools like GitHub Copilot, which are powered by Large Language Models (LLMs), have succeeded in offering high-quality solutions to localized coding problems.     Repository-level...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [planning](planning.md)
+
+
+- [ConTested: Consistency-Aided Tested Code Generation with LLM](../venues/ISSTA2025/paper_8.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Recent advancements in large language models (LLMs) have significantly improved code generation, which generates code snippets automatically based on natural language requirements. Despite achieving state-of-the-art performance, LLMs often struggle to generate accurate and reliable code, requiring developers to spend substantial effort debugging and evaluating the generated output. Researchers have proposed leveraging Consistency to select code that passes more tests (inter-consistency) and demo...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [program testing](program_testing.md)
 
 
 - [Contextualized Data-Wrangling Code Generation in Computational Notebooks](../venues/ASE2024/paper_19.md), ([ASE2024](../venues/ASE2024/README.md))
@@ -308,6 +320,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
 
+- [MLLM-Based UI2Code Automation Guided by UI Layout Information](../venues/ISSTA2025/paper_14.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Converting user interfaces into code (UI2Code) is a crucial step in website development, which is time-consuming and labor-intensive. The automation of UI2Code is essential to streamline this task, beneficial for improving the development efficiency. There exist deep learning-based methods for the task; however, they heavily rely on a large amount of labeled training data and struggle with generalizing to real-world, unseen web page designs. The advent of Multimodal Large Language Models (MLLMs)...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
 - [MPCoder: Multi-user Personalized Code Generator with Explicit and Implicit Style Representation Learning](../venues/ACL2024/paper_12.md), ([ACL2024](../venues/ACL2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have demonstrated great potential for assisting developers in their daily development. However, most research focuses on generating correct code, how to use LLMs to generate personalized code has seldom been investigated. To bridge this gap, we proposed MPCoder (Multi-user Personalized Code Generator) to generate personalized code for multiple users. To better learn coding style features, we utilize explicit coding style residual learning to capture the syntax code s...
@@ -434,6 +452,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md)
 
 
+- [SWE-GPT: A Process-Centric Language Model for Automated Software Improvement](../venues/ISSTA2025/paper_32.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have demonstrated remarkable performance in code generation, significantly enhancing the coding efficiency of developers. Recent advancements in LLM-based agents have led to significant progress in end-to-end automatic software engineering (ASE), particularly in software maintenance (e.g., fixing software issues) and evolution (e.g., adding new features). Despite these encouraging advances, current research faces two major challenges. First, state-of-the-art performa...
+  - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [program synthesis](program_synthesis.md), [software maintenance and deployment](software_maintenance_and_deployment.md), [agent design](agent_design.md)
+
+
 - [SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI](../venues/arXiv2024/paper_3.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this g...
@@ -491,6 +515,12 @@
 - [Test-Driven Development and LLM-based Code Generation](../venues/ASE2024/paper_25.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Recent Large Language Models (LLMs) have demonstrated significant capabilities in generating code snippets directly from problem statements. This increasingly automated process mirrors traditional human-led software development, where code is often written in response to a requirement. Historically, Test-Driven Development (TDD) has proven its merit, requiring developers to write tests before the functional code, ensuring alignment with the initial problem statements. Applying TDD principles to ...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
+- [The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation](../venues/ISSTA2025/paper_24.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: The capabilities of Large Language Models (LLMs) in code generation have been extensively studied, particularly for implementing target functionalities from natural-language descriptions. As an alternative to natural language, input-output (I/O) examples provide an accessible, unambiguous, and flexible way to describe functionalities. However, their inherent diversity, opaqueness, and incompleteness impose greater challenges for understanding and implementing the target requirements. Therefore, ...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
 
 
@@ -702,6 +732,12 @@
 
 ## Program Repair
 
+- [AdverIntent-Agent: Adversarial Reasoning for Repair Based on Inferred Program Intent](../venues/ISSTA2025/paper_18.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Automated program repair (APR) has shown promising results, particularly with the use of neural networks. Currently, most APR tools focus on code transformations specified by test suites, rather than reasoning about the program’s intent and the high-level bug specification. Without a proper understanding of program intent, these tools tend to generate patches that overfit incomplete test suites and fail to reflect the developer’s intentions. However, reasoning about program intent is challenging...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
 - [Agentless: Demystifying LLM-based Software Engineering Agents](../venues/FSE2025/paper_2.md), ([FSE2025](../venues/FSE2025/README.md))
 
   - **Abstract**: Recent advancements in large language models (LLMs) have significantly advanced the automation of software development tasks, including code synthesis, program repair, and test generation. More recently, researchers and industry practitioners have developed various autonomous LLM agents to perform end-to-end software development tasks. These agents are equipped with the ability to use tools, run commands, observe feedback from the environment, and plan for future actions. However, the complexity...
@@ -912,6 +948,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution](../venues/ISSTA2025/paper_2.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: The GitHub issue resolution task aims to resolve issues reported in repositories automatically. With advances in large language models (LLMs), this task has gained increasing attention, and several benchmarks are proposed to evaluate the issue resolution ability of LLMs. However, existing benchmarks have three main limitations. First, current benchmarks focus on a single programming language, limiting the evaluation of issues from repositories across different languages. Second, they usually cov...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [Out of Context: How important is Local Context in Neural Program Repair?](../venues/ICSE2024/paper_27.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: Deep learning source code models have been applied very successfully to the problem of automated program repair. One of the standing issues is the small input window of current models which often cannot fully fit the context code required for a bug fix (e.g., method or class declarations of a project). Instead, input is often restricted to the local context, that is, the lines below and above the bug location. In this work we study the importance of this local context on repair success: how much...
@@ -1088,13 +1130,19 @@
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [ClassEval-T: Evaluating Large Language Models in Class-Level Code Translation](../venues/ISSTA2025/paper_19.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: In recent years, Large Language Models (LLMs) have dramatically advanced the performance of automated code translation, making their computational accuracy score reach up to over 80\% on many previous benchmarks. However, most code samples in these benchmarks are short, standalone, statement/method-level, and algorithmic, which is not aligned with practical coding tasks. Therefore, it is still unknown the actual capability of LLMs in translating code samples written for daily development.    To ...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [Concrat: An Automatic C-to-Rust Lock API Translator for Concurrent Programs](../venues/ICSE2023/paper_7.md), ([ICSE2023](../venues/ICSE2023/README.md))
 
   - **Abstract**: Concurrent programs suffer from data races. To prevent data races, programmers use locks. However, programs can eliminate data races only when they acquire and release correct locks at correct timing. The lock API of C, in which people have developed a large portion of legacy system programs, does not validate the correct use of locks. On the other hand, Rust, a recently developed system programming language, provides a lock API that guarantees the correct use of locks via type checking. This ma...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: There is strong motivation to translate C code into Rust code due to the continuing threat of memory safety vulnerabilities in existing C programs and the significant attention paid to Rust as an alternative to the C language. While large language models (LLMs) show promise for automating this translation by generating more natural and safer code than rule-based methods, previous studies have shown that LLM-generated Rust code often fails to compile, even for relatively small C programs, due to ...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -1184,6 +1232,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [Porting Software Libraries to OpenHarmony: Transitioning from TypeScript or JavaScript to ArkTS](../venues/ISSTA2025/paper_20.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: OpenHarmony emerges as a potent force in the mobile app domain, poised to stand alongside established industry giants. ArkTS is its main language, enhancing TypeScript (TS) and JavaScript (JS) with strict typing for improved performance. Developers are encouraged to port popular TS/JS libraries to OpenHarmony, supported by detailed guidelines. However, this requires a deep understanding of ArkTS syntax, following porting specifications, and making manual changes. An automated solution is crucial...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [Program Skeletons for Automated Program Translation](../venues/PLDI2025/paper_3.md), ([PLDI2025](../venues/PLDI2025/README.md))
 
   - **Abstract**: Translating software between programming languages is a challenging task, for which automated techniques have been elusive and hard to scale up to larger programs. A key difficulty in cross-language translation is that one has to re-express the intended behavior of the source program into idiomatic constructs of a different target language. This task needs abstracting away from the source language-specific details, while keeping the overall functionality the same. In this work, we propose a nove...
@@ -1250,7 +1304,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -1268,7 +1322,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_34.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -1292,6 +1346,12 @@
 
   - **Abstract**: Reverse engineering is essential in malware analysis, vulnerability discovery, etc. Decompilers assist the reverse engineers by lifting the assembly to the high-level programming language, which highly boosts binary comprehension. However, decompilers suffer from problems such as meaningless variable names, redundant variables, and lacking comments describing the purpose of the code. Previous studies have shown promising performance in refining the decompiler output by training the models with h...
   - **Labels**: [static analysis](static_analysis.md), [program decompilation](program_decompilation.md)
+
+
+- [DecLLM: LLM-Augmented Recompilable Decompilation for Enabling Programmatic Use of Decompiled Code](../venues/ISSTA2025/paper_27.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Decompilers are widely used in reverse engineering (RE) to convert compiled executables into human-readable pseudocode and support various security analysis tasks. Existing decompilers, such as IDA Pro and Ghidra, focus on enhancing the readability of decompiled code rather than its recompilability, which limits further programmatic use, such as for CodeQL-based vulnerability analysis that requires compilable versions of the decompiled code. Recent LLM-based approaches for enhancing decompilatio...
+  - **Labels**: [code generation](code_generation.md), [program decompilation](program_decompilation.md)
 
 
 - [LLM4Decompile: Decompiling Binary Code with Large Language Models](../venues/EMNLP2024/paper_18.md), ([EMNLP2024](../venues/EMNLP2024/README.md))

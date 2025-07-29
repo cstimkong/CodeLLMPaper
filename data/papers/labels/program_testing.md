@@ -2,10 +2,16 @@
 
 ## General Testing
 
-- [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Tratto: A Neuro-Symbolic Approach to Deriving Axiomatic Test Oracles](../venues/ISSTA2025/paper_28.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: This paper presents Tratto, a neuro-symbolic approach that generates assertions (boolean expressions) that can serve as axiomatic oracles, from source code and documentation. The symbolic module of Tratto takes advantage of the grammar of the programming language, the unit under test, and the context of the unit (its class and available APIs) to restrict the search space of the tokens that can be successfully used to generate valid oracles. The neural module of Tratto uses transformers fine-tune...
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md)
+
+
+- [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](../venues/ISSTA2025/paper_1.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
 
   - **Abstract**: The ability to execute the test suite of a project is essential in many scenarios, e.g., to assess code quality and code coverage, to validate code changes made by developers or automated tools, and to ensure compatibility with dependencies. Despite its importance, executing the test suite of a project can be challenging in practice because different projects use different programming languages, software ecosystems, build systems, testing frameworks, and other tools. These challenges make it dif...
-  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md), [agent design](agent_design.md), [planning](planning.md)
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md), [agent design](agent_design.md)
 
 
 - [exLong: Generating Exceptional Behavior Tests with Large Language Models](../venues/ICSE2025/paper_51.md), ([ICSE2025](../venues/ICSE2025/README.md))
@@ -64,7 +70,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_40.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -100,7 +106,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [library testing](library_testing.md)
 
 
-- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)
@@ -112,7 +118,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [Llm4fuzz: Guided fuzzing of smart contracts with large language models](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Llm4fuzz: Guided fuzzing of smart contracts with large language models](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: As blockchain platforms grow exponentially, millions of lines of smart contract code are being deployed to manage extensive digital assets. However, vulnerabilities in this mission-critical code have led to significant exploitations and asset losses. Thorough automated security analysis of smart contracts is thus imperative. This paper introduces LLM4Fuzz to optimize automated smart contract security analysis by leveraging large language models (LLMs) to intelligently guide and prioritize fuzzin...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -160,10 +166,16 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [vulnerability exploitation](vulnerability_exploitation.md)
 
 
-- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
+- [Unlocking Low Frequency Syscalls in Kernel Fuzzing with Dependency-Based RAG](../venues/ISSTA2025/paper_12.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Most coverage-guided kernel fuzzers test operating system kernels based on syscall sequence synthesis. However, there are still syscalls rarely or not covered (called low frequency syscalls, LFS) in a period of fuzzing, meaning the relevant code branches remain unexplored. This is due to the complex dependencies of the LFS and mutation uncertainty, which makes it difficult for fuzzers to generate corresponding syscall sequences. Since many kernel fuzzers can dynamically learn syscall dependencie...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
 - [When fuzzing meets llms: Challenges and opportunities](../venues/FSE2024/paper_27.md), ([FSE2024](../venues/FSE2024/README.md))
@@ -189,6 +201,12 @@
 - [A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs](../venues/ICSE2025/paper_52.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: As modern web services increasingly rely on REST APIs, their thorough testing has become crucial. Furthermore, the advent of REST API documentation languages, such as the OpenAPI Specification, has led to the emergence of many black-box REST API testing tools. However, these tools often focus on individual test elements in isolation (e.g., APIs, parameters, values), resulting in lower coverage and less effectiveness in fault detection. To address these limitations, we present AutoRestTest, the f...
+  - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
+
+
+- [CrossProbe: LLM-Empowered Cross-Project Bug Detection for Deep Learning Frameworks](../venues/ISSTA2025/paper_33.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Deep Learning (DL) models may introduce reliability challenges in the underlying DL frameworks. These frameworks may be prone to bugs that can lead to crash or wrong results, particularly when involving complex model architectures and substantial computational demands. Such framework bugs can disrupt DL applications, impacting customer experience and potentially causing financial losses. Traditional approaches to testing DL frameworks face limitations in adapting to the vast search space of mode...
   - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
 
 
@@ -254,7 +272,7 @@
 
 ## Mutation Testing
 
-- [LLMorpheus: Mutation Testing using Large Language Models](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [LLMorpheus: Mutation Testing using Large Language Models](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In mutation testing, the quality of a test suite is evaluated by introducing faults into a program and determining whether the program's tests detect them. Most existing approaches for mutation testing involve the application of a fixed set of mutation operators, e.g., replacing a "+" with a "-" or removing a function's body. However, certain types of real-world bugs cannot easily be simulated by such approaches, limiting their effectiveness. This paper presents a technique where a Large Languag...
   - **Labels**: [program testing](program_testing.md), [mutation testing](mutation_testing.md)
@@ -267,6 +285,12 @@
 
 
 ## Unit Testing
+
+- [A Large-Scale Empirical Study on Fine-Tuning Large Language Models for Unit Testing](../venues/ISSTA2025/paper_26.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Unit testing plays a pivotal role in software development, improving software quality and reliability. However, generating effective test cases manually is time-consuming, prompting interest in unit testing research.   Recently, Large Language Models (LLMs) have shown potential in various unit testing tasks, including test generation, assertion generation, and test evolution, but existing studies are limited in scope and lack a systematic evaluation of the effectiveness of LLMs.    To bridge thi...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md)
+
 
 - [An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation](../venues/TSE2024/paper_10.md), ([TSE2024](../venues/TSE2024/README.md))
 
@@ -302,6 +326,12 @@
 
   - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [fuzzing](fuzzing.md)
+
+
+- [STRUT: Structured Seed Case Guided Unit Test Generation for C Programs using LLMs](../venues/ISSTA2025/paper_31.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Unit testing plays a crucial role in bug detection and ensuring software correctness. It helps developers identify errors early in development, thereby reducing software defects. In recent years, large language models (LLMs) have demonstrated significant potential in automating unit test generation. However, using LLMs to generate unit tests faces many challenges. 1) The execution pass rate of the test cases generated by LLMs is low. 2) The test case coverage is inadequate, making it challenging...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md)
 
 
 - [Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation](../venues/ASE2024/paper_42.md), ([ASE2024](../venues/ASE2024/README.md))
@@ -345,6 +375,12 @@
 - [Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting](../venues/ASE2023/paper_7.md), ([ASE2023](../venues/ASE2023/README.md))
 
   - **Abstract**: Automated detection of software failures is an important but challenging software engineering task. It involves finding in a vast search space the failure-inducing test cases that contain an input triggering the software fault and an oracle asserting the incorrect execution. We are motivated to study how far this outstanding challenge can be solved by recent advances in large language models (LLMs) such as ChatGPT. However, our study reveals that ChatGPT has a relatively low success rate (28.8%)...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
+
+
+- [OpDiffer: LLM-Assisted Opcode-Level Differential Testing of Ethereum Virtual Machine](../venues/ISSTA2025/paper_23.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: As Ethereum continues to thrive, the Ethereum Virtual Machine (EVM) has become the cornerstone powering tens of millions of active smart contracts. Intuitively, security issues in EVMs could lead to inconsistent behaviors among smart contracts or even denial-of-service of the entire blockchain network. However, to the best of our knowledge, only a limited number of studies focus on the security of EVMs. Moreover, they suffer from 1) insufficient test input diversity and invalid semantics; and 2)...
   - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
 
 
@@ -474,7 +510,7 @@
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md)
 
 
-- [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](../venues/arXiv2024/paper_32.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Language Model (LM) agents for cybersecurity that are capable of autonomously identifying vulnerabilities and executing exploits have the potential to cause real-world impact. Policymakers, model providers, and other researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such agents to help mitigate cyberrisk and investigate opportunities for penetration testing. Toward that end, we introduce Cybench, a framework for specifying cybersecurity tasks a...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
@@ -510,7 +546,7 @@
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
 
 
-- [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: LLM agents have become increasingly sophisticated, especially in the realm of cybersecurity. Researchers have shown that LLM agents can exploit real-world vulnerabilities when given a description of the vulnerability and toy capture-the-flag problems. However, these agents still perform poorly on real-world vulnerabilities that are unknown to the agent ahead of time (zero-day vulnerabilities). In this work, we show that teams of LLM agents can exploit real-world, zero-day vulnerabilities. Prior ...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md)

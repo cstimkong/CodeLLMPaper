@@ -52,3 +52,9 @@
 
   - **Abstract**: Code generation models have achieved impressive performance. However, they tend to be brittle as slight edits to a prompt could lead to very different generations; these robustness properties, critical for user experience when deployed in real-life applications, are not well understood. Most existing works on robustness in text or code tasks have focused on classification, while robustness in generation tasks is an uncharted area and to date there is no comprehensive benchmark for robustness in ...
   - **Labels**: [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
+
+
+- [Robust Vulnerability Detection across Compilations: LLVM-IR vs. Assembly with Transformer Model](../venues/ISSTA2025/paper_9.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Detecting vulnerabilities in binary files is a challenging task in cybersecurity, particularly when source code is unavailable and the compilation process and its parameters are unknown. Existing deep learning-based detection methods often rely on knowing a binary’s specific compilation settings, which may limit their ability to perform well on other types of binaries. In this research, we provide a thorough comparison of assembly representation and LLVM-IR to identify which representation is mo...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)

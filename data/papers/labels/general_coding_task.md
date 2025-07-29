@@ -156,6 +156,12 @@
   - **Labels**: [general coding task](general_coding_task.md), [code model](code_model.md), [code model training](code_model_training.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
 
 
+- [SWE-GPT: A Process-Centric Language Model for Automated Software Improvement](../venues/ISSTA2025/paper_32.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have demonstrated remarkable performance in code generation, significantly enhancing the coding efficiency of developers. Recent advancements in LLM-based agents have led to significant progress in end-to-end automatic software engineering (ASE), particularly in software maintenance (e.g., fixing software issues) and evolution (e.g., adding new features). Despite these encouraging advances, current research faces two major challenges. First, state-of-the-art performa...
+  - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [program synthesis](program_synthesis.md), [software maintenance and deployment](software_maintenance_and_deployment.md), [agent design](agent_design.md)
+
+
 - [SemCoder: Training Code Language Models with Comprehensive Semantics](../venues/NeurIPS2024/paper_1.md), ([NeurIPS2024](../venues/NeurIPS2024/README.md))
 
   - **Abstract**: Code Large Language Models (Code LLMs) have excelled at tasks like code completion but often miss deeper semantics such as execution effects and dynamic states. This paper aims to bridge the gap between Code LLMs' reliance on static text data and the need for semantic understanding for complex tasks like debugging and program repair. We introduce a novel strategy, monologue reasoning, to train Code LLMs to reason comprehensive semantics, encompassing high-level functional descriptions, local exe...

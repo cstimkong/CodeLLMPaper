@@ -104,6 +104,11 @@
   - **Abstract**: While Large language model (LLM)-based programming assistants such as CoPilot and ChatGPT can help improve the productivity of professional software developers, they can also facilitate cheating in introductory computer programming courses. Assuming instructors have limited control over the industrial-strength models, this paper investigates the baseline performance of 5 widely used LLMs on a collection of introductory programming problems, examines adversarial perturbations to degrade their per...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
+- [LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation](../venues/ISSTA2025/paper_7.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Code generation aims to automatically generate code from input requirements, significantly enhancing development efficiency. Recent large language models (LLMs) based approaches have shown promising results and revolutionized code generation task. Despite the promising performance, LLMs often generate contents with hallucinations, especially for the code generation scenario requiring the handling of complex contextual dependencies in practical development process. Although previous study has ana...
+  - **Labels**: [code generation](code_generation.md), [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
+
 - [LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation](../venues/TSE2024/paper_2.md), ([TSE2024](../venues/TSE2024/README.md))
 
   - **Abstract**: Large language models (LLMs) have shown great potential in automating significant aspects of coding by producing natural code from informal natural language (NL) intent. However, given NL is informal, it does not lend easily to checking that the generated code correctly satisfies the user intent. In this paper, we propose a novel interactive workflow &lt;sc&gt;TiCoder&lt;/sc&gt; for guided intent clarification (i.e., partial formalization) through tests to support the generation of more accurate...
@@ -320,12 +325,22 @@
   - **Abstract**: Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. ...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
+- [LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation](../venues/ISSTA2025/paper_7.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Code generation aims to automatically generate code from input requirements, significantly enhancing development efficiency. Recent large language models (LLMs) based approaches have shown promising results and revolutionized code generation task. Despite the promising performance, LLMs often generate contents with hallucinations, especially for the code generation scenario requiring the handling of complex contextual dependencies in practical development process. Although previous study has ana...
+  - **Labels**: [code generation](code_generation.md), [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
+
 - [Self-contradictory hallucinations of large language models: Evaluation, detection and mitigation](../venues/ICLR2024/paper_8.md), ([ICLR2024](../venues/ICLR2024/README.md))
 
   - **Abstract**: Large language models (large LMs) are susceptible to producing text that contains hallucinated content. An important instance of this problem is self-contradiction, where the LM generates two contradictory sentences within the same context. In this work, we present a comprehensive investigation into self-contradiction for various instruction-tuned LMs, covering evaluation, detection, and mitigation. Our primary evaluation task is open-domain text generation, but we also demonstrate the applicabi...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
 ## Program Testing
+
+- [A Large-Scale Empirical Study on Fine-Tuning Large Language Models for Unit Testing](../venues/ISSTA2025/paper_26.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Unit testing plays a pivotal role in software development, improving software quality and reliability. However, generating effective test cases manually is time-consuming, prompting interest in unit testing research.   Recently, Large Language Models (LLMs) have shown potential in various unit testing tasks, including test generation, assertion generation, and test evolution, but existing studies are limited in scope and lack a systematic evaluation of the effectiveness of LLMs.    To bridge thi...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md)
 
 - [An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation](../venues/TSE2024/paper_10.md), ([TSE2024](../venues/TSE2024/README.md))
 
@@ -392,6 +407,16 @@
 - [Automating Zero-Shot Patch Porting for Hard Forks](../venues/ISSTA2024/paper_6.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
   - **Abstract**: Forking is a typical way of code reuse, which provides a simple way for developers to create a variant software (denoted as hard fork) by copying and modifying an existing codebase. Despite of the benefits, forking also leads to duplicate efforts in software maintenance. Developers need to port patches across the hard forks to address similar bugs or implement similar features. Due to the divergence between the source project and the hard fork, patch porting is complicated, which requires an ada...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [empirical study](empirical_study.md)
+
+- [Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering](../venues/ISSTA2025/paper_30.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Recently, large language models (LLMs) have been deployed to tackle various software engineering (SE) tasks like code generation, significantly advancing the automation of SE tasks. However, assessing the quality of these LLM-generated code and text remains challenging. The commonly used Pass@k metric necessitates extensive unit tests and configured environments, demands a high labor cost, and is not suitable for evaluating LLM-generated text. Conventional metrics like BLEU, which measure only l...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [empirical study](empirical_study.md)
+
+- [LLM4SZZ: Enhancing SZZ Algorithm with Context-Enhanced Assessment on Large Language Models](../venues/ISSTA2025/paper_5.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: The SZZ algorithm is the dominant technique for identifying bug-inducing commits and serves as a foundation for many software engineering studies, such as bug prediction and static code analysis, thereby enhancing software quality and facilitating better maintenance practices. Researchers have proposed many variants to enhance the SZZalgorithm’s performance since its introduction. The majority of them rely on static techniques or heuristic assumptions, making them easy to implement, but their pe...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [empirical study](empirical_study.md)
 
 - [Understanding Developer-Analyzer Interactions in Code Reviews](../venues/ASE2024/paper_29.md), ([ASE2024](../venues/ASE2024/README.md))

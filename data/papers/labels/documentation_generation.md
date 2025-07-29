@@ -10,3 +10,9 @@
 
   - **Abstract**: Software documentation captures detailed knowledge about a software product, e.g., code, technologies, and design. It plays an important role in the coordination of development teams and in conveying ideas to various stakeholders. However, software documentation can be hard to comprehend if it is written with jargon and complicated sentence structure. In this study, we explored the potential of text simplification techniques in the domain of software engineering to automatically simplify GitHub ...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [documentation generation](documentation_generation.md)
+
+
+- [VerLog: Enhancing Release Note Generation for Android Apps using Large Language Models](../venues/ISSTA2025/paper_29.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Release notes are essential documents that communicate the details of software updates to users and developers, yet their generation remains a time-consuming and error-prone process. In this paper, we present VerLog, a novel technique that enhances the generation of software release notes using Large Language Models (LLMs). VerLog leverages few-shot in-context learning with adaptive prompting to facilitate the graph reasoning capabilities of LLMs, enabling them to accurately interpret and docume...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [documentation generation](documentation_generation.md)

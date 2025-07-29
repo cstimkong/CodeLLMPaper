@@ -64,9 +64,3 @@
 
   - **Abstract**: Human intelligence thrives on cognitive synergy, where collaboration among different minds yield superior outcomes compared to isolated individuals. In this work, we propose Solo Performance Prompting (SPP), which transforms a single LLM into a cognitive synergist by engaging in multi-turn self-collaboration with multiple personas. A cognitive synergist is an intelligent agent that collaboratively combines multiple minds’ strengths and knowledge to enhance problem-solving in complex tasks. By dy...
   - **Labels**: [agent design](agent_design.md), [planning](planning.md)
-
-
-- [You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects](../venues/arXiv2024/paper_24.md), ([arXiv2024](../venues/arXiv2024/README.md))
-
-  - **Abstract**: The ability to execute the test suite of a project is essential in many scenarios, e.g., to assess code quality and code coverage, to validate code changes made by developers or automated tools, and to ensure compatibility with dependencies. Despite its importance, executing the test suite of a project can be challenging in practice because different projects use different programming languages, software ecosystems, build systems, testing frameworks, and other tools. These challenges make it dif...
-  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md), [agent design](agent_design.md), [planning](planning.md)

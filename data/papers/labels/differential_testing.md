@@ -28,3 +28,9 @@
 
   - **Abstract**: Automated detection of software failures is an important but challenging software engineering task. It involves finding in a vast search space the failure-inducing test cases that contain an input triggering the software fault and an oracle asserting the incorrect execution. We are motivated to study how far this outstanding challenge can be solved by recent advances in large language models (LLMs) such as ChatGPT. However, our study reveals that ChatGPT has a relatively low success rate (28.8%)...
   - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
+
+
+- [OpDiffer: LLM-Assisted Opcode-Level Differential Testing of Ethereum Virtual Machine](../venues/ISSTA2025/paper_23.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: As Ethereum continues to thrive, the Ethereum Virtual Machine (EVM) has become the cornerstone powering tens of millions of active smart contracts. Intuitively, security issues in EVMs could lead to inconsistent behaviors among smart contracts or even denial-of-service of the entire blockchain network. However, to the best of our knowledge, only a limited number of studies focus on the security of EVMs. Moreover, they suffer from 1) insufficient test input diversity and invalid semantics; and 2)...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)

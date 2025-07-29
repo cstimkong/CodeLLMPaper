@@ -1,5 +1,11 @@
 # Code Search
 
+- [BinQuery: A Novel Framework for Natural Language-Based Binary Code Retrieval](../venues/ISSTA2025/paper_15.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Binary Function Retrieval (BFR) is crucial in reverse engineering for identifying specific functions in binary code, especially those associated with malicious behavior or vulnerabilities. Traditional BFR methods rely on heuristics, often lacking the efficiency and adaptability needed for large-scale or diverse binary analysis tasks. To address these challenges, we present BinQuery, a Natural Language-based BFR (NL-based BFR) framework that uses natural language queries to retrieve relevant bina...
+  - **Labels**: [static analysis](static_analysis.md), [code search](code_search.md), [code summarization](code_summarization.md)
+
+
 - [LiSSA: Toward Generic Traceability Link Recovery Through Retrieval- Augmented Generation](../venues/ICSE2025/paper_54.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: There are a multitude of software artifacts which need to be handled during the development and maintenance of a software system. These artifacts interrelate in multiple, complex ways. Therefore, many software engineering tasks are enabled - and even empowered - by a clear understanding of artifact interrelationships and also by the continued advancement of techniques for automated artifact linking. However, current approaches in automatic Traceability Link Recovery (TLR) target mostly the links...

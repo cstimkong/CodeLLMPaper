@@ -18,7 +18,7 @@
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
 
-- [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
@@ -34,6 +34,12 @@
 
   - **Abstract**: Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. ...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
+
+
+- [LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation](../venues/ISSTA2025/paper_7.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Code generation aims to automatically generate code from input requirements, significantly enhancing development efficiency. Recent large language models (LLMs) based approaches have shown promising results and revolutionized code generation task. Despite the promising performance, LLMs often generate contents with hallucinations, especially for the code generation scenario requiring the handling of complex contextual dependencies in practical development process. Although previous study has ana...
+  - **Labels**: [code generation](code_generation.md), [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
 
 - [React: Synergizing reasoning and acting in language models](../venues/NeurIPS2022/paper_1.md), ([NeurIPS2022](../venues/NeurIPS2022/README.md))

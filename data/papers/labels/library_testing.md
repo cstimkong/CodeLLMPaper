@@ -6,6 +6,12 @@
   - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
 
 
+- [CrossProbe: LLM-Empowered Cross-Project Bug Detection for Deep Learning Frameworks](../venues/ISSTA2025/paper_33.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Deep Learning (DL) models may introduce reliability challenges in the underlying DL frameworks. These frameworks may be prone to bugs that can lead to crash or wrong results, particularly when involving complex model architectures and substantial computational demands. Such framework bugs can disrupt DL applications, impacting customer experience and potentially causing financial losses. Traditional approaches to testing DL frameworks face limitations in adapting to the vast search space of mode...
+  - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
+
+
 - [LLM Based Input Space Partitioning Testing for Library APIs](../venues/ICSE2025/paper_45.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Automated library APIs testing is difficult as it requires exploring a vast space of parameter inputs that may involve objects with complex data types. Existing search based approaches, with limited knowledge of relations between object states and program branches, often suffer from the low efficiency issue, i.e., tending to generate invalid inputs. Symbolic execution based approaches can effectively identify such relations, but fail to scale to large programs. In this work, we present an LLM-ba...
