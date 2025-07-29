@@ -34,7 +34,7 @@ We have systematically selected papers from the following venues, which are top-
 - Security (Sec)
   - [S&P2023](data/papers/venues/S&P2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [CCS2023](data/papers/venues/CCS2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md)
   - [S&P2024](data/papers/venues/S&P2024/README.md), [USENIXSec2024](data/papers/venues/USENIXSec2024/README.md), [NDSS2024](data/papers/venues/NDSS2024/README.md), [CCS2024](data/papers/venues/CCS2024/README.md)
-  - [NDSS2025](data/papers/venues/NDSS2025/README.md)
+  - [S&P2025](data/papers/venues/S&P2025/README.md), [NDSS2025](data/papers/venues/NDSS2025/README.md)
 
 - Natural Language Processing (NLP)
   - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
