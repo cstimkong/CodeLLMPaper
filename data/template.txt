@@ -24,7 +24,7 @@ We have systematically selected papers from the following venues, which are top-
 - Software Engineering (SE)
   - [ICSE2023](data/papers/venues/ICSE2023/README.md), [FSE2023](data/papers/venues/FSE2023/README.md), [ASE2023](data/papers/venues/ASE2023/README.md), [ISSTA2023](data/papers/venues/ISSTA2023/README.md), [TSE2023](data/papers/venues/TSE2023/README.md), [TOSEM2023](data/papers/venues/TOSEM2023/README.md)
   - [ICSE2024](data/papers/venues/ICSE2024/README.md), [FSE2024](data/papers/venues/FSE2024/README.md), [ASE2024](data/papers/venues/ASE2024/README.md), [ISSTA2024](data/papers/venues/ISSTA2024/README.md), [TSE2024](data/papers/venues/TSE2024/README.md), [TOSEM2024](data/papers/venues/TOSEM2024/README.md)
-  - [ICSE2025], [FSE2025], [ISSTA2025]
+  - [ICSE2025](data/papers/venues/ICSE2025/README.md), [FSE2025](data/papers/venues/FSE2025/README.md), [ISSTA2025](data/papers/venues/ISSTA2025/README.md)
 
 - Programming Languages (PL)
   - [PLDI2023](data/papers/venues/PLDI2023/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md)
