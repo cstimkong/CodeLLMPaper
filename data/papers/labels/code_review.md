@@ -46,3 +46,9 @@
 
   - **Abstract**: Static code analyzers are now a common part of the codereview process. These automated tools integrate into the code review process by commenting on code changes and suggesting improvements, in the same way as human reviewers. The comments made by static analyzers often trigger a conversation between developers to align on if and how the issue should be fixed. Because developers rarely give feedback directly to the tool, understanding the sentiment and intent in the conversation triggered by the...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [empirical study](empirical_study.md)
+
+
+- [{CRS}core: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells](../venues/NAACL2025/paper_7.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: The task of automated code review has recently gained a lot of attention from the machine learning community. However, current review comment evaluation metrics rely on comparisons with a human-written reference for a given code change (also called a diff ). Furthermore, code review is a one-to-many problem, like generation and summarization, with many ``valid reviews'' for a diff. Thus, we develop CRScore {---} a reference-free metric to measure dimensions of review quality like conciseness, co...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md)

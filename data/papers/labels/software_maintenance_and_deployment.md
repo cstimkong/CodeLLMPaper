@@ -50,6 +50,12 @@
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [empirical study](empirical_study.md)
 
 
+- [{CRS}core: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells](../venues/NAACL2025/paper_7.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: The task of automated code review has recently gained a lot of attention from the machine learning community. However, current review comment evaluation metrics rely on comparisons with a human-written reference for a given code change (also called a diff ). Furthermore, code review is a one-to-many problem, like generation and summarization, with many ``valid reviews'' for a diff. Thus, we develop CRScore {---} a reference-free metric to measure dimensions of review quality like conciseness, co...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md)
+
+
 ## Documentation Generation
 
 - [Cell2Doc: ML Pipeline for Generating Documentation in Computational Notebooks](../venues/ASE2023/paper_17.md), ([ASE2023](../venues/ASE2023/README.md))

@@ -126,6 +126,12 @@
   - **Labels**: [survey](survey.md), [general coding task](general_coding_task.md)
 
 
+- [Mastering the Craft of Data Synthesis for {C}ode{LLM}s](../venues/NAACL2025/paper_10.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have shown impressive performance in \textit{code} understanding and generation, making coding tasks a key focus for researchers due to their practical applications and value as a testbed for LLM evaluation. Data synthesis and filtering techniques have been widely adopted and shown to be highly effective in this context. In this paper, we present a focused survey and taxonomy of these techniques, emphasizing recent advancements. We highlight key challenges, explore f...
+  - **Labels**: [general coding task](general_coding_task.md), [empirical study](empirical_study.md)
+
+
 - [MiniChain: A Small Library for Coding with Large Language Models](../venues/EMNLP2023/paper_12.md), ([EMNLP2023](../venues/EMNLP2023/README.md))
 
   - **Abstract**: Programming augmented by large language models (LLMs) opens up many new application areas, but also requires care. LLMs are accurate enough, on average, to replace core functionality, yet make basic mistakes that demonstrate a lack of robustness. An ecosystem of prompting tools, from intelligent agents to new programming languages, have emerged with different solutions for patching LLMs with other tools. In this work, we introduce MiniChain, an opinionated tool for LLM augmented programming, wit...

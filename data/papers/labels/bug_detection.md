@@ -617,3 +617,9 @@
 
   - **Abstract**: Detecting and refactoring code smells is challenging, laborious, and sustaining. Although large language models have demonstrated potential in identifying various types of code smells, they also have limitations such as input-output token restrictions, difficulty in accessing repository-level knowledge, and performing dynamic source code analysis. Existing learning-based methods or commercial expert toolsets have advantages in handling complex smells. They can analyze project structures and cont...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
+- [{DCE}-{LLM}: Dead Code Elimination with Large Language Models](../venues/NAACL2025/paper_8.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Dead code introduces several challenges in software development, such as increased binary size and maintenance difficulties. It can also obscure logical errors and be exploited for obfuscation in malware. For LLM-based code-related tasks, dead code introduces vulnerabilities that can mislead these models, raising security concerns. Although modern compilers and IDEs offer dead code elimination, sophisticated patterns can bypass these tools. A universal approach that includes classification, loca...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [program optimization](program_optimization.md)

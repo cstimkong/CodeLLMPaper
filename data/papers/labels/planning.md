@@ -70,3 +70,9 @@
 
   - **Abstract**: Human intelligence thrives on cognitive synergy, where collaboration among different minds yield superior outcomes compared to isolated individuals. In this work, we propose Solo Performance Prompting (SPP), which transforms a single LLM into a cognitive synergist by engaging in multi-turn self-collaboration with multiple personas. A cognitive synergist is an intelligent agent that collaboratively combines multiple minds’ strengths and knowledge to enhance problem-solving in complex tasks. By dy...
   - **Labels**: [agent design](agent_design.md), [planning](planning.md)
+
+
+- [{C}ode{T}ree: Agent-guided Tree Search for Code Generation with Large Language Models](../venues/NAACL2025/paper_5.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Pretrained on massive amounts of code and text data, large language models (LLMs) have demonstrated remarkable achievements in performing code generation tasks. With additional execution-based feedback, these models can act as agents with capabilities to self-refine and improve generated code autonomously. However, on challenging coding tasks with extremely large search space, current agentic approaches still struggle with multi-stage planning, generating, and debugging. To address this problem,...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [planning](planning.md)

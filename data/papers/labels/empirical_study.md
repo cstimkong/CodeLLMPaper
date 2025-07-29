@@ -119,6 +119,11 @@
   - **Abstract**: While Large language model (LLM)-based programming assistants such as CoPilot and ChatGPT can help improve the productivity of professional software developers, they can also facilitate cheating in introductory computer programming courses. Assuming instructors have limited control over the industrial-strength models, this paper investigates the baseline performance of 5 widely used LLMs on a collection of introductory programming problems, examines adversarial perturbations to degrade their per...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
+- [Investigating the Transferability of Code Repair for Low-Resource Programming Languages](../venues/NAACL2025/paper_2.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have shown remarkable performance on code generation tasks. A recent use case is iterative code repair, where an LLM fixes an incorrect program by rationalizing about errors and generating new code. Recent works augment the code repair process by integrating modern techniques such as chain-of-thought reasoning or distillation, but only study their benefits on high-resource languages like Python, and ignore low-resource languages like Perl. To address this gap of know...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
 - [LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation](../venues/ISSTA2025/paper_7.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
 
   - **Abstract**: Code generation aims to automatically generate code from input requirements, significantly enhancing development efficiency. Recent large language models (LLMs) based approaches have shown promising results and revolutionized code generation task. Despite the promising performance, LLMs often generate contents with hallucinations, especially for the code generation scenario requiring the handling of complex contextual dependencies in practical development process. Although previous study has ana...
@@ -331,6 +336,11 @@
 - [Integrate the Essence and Eliminate the Dross: Fine-Grained Self-Consistency for Free-Form Language Generation](../venues/ACL2024/paper_22.md), ([ACL2024](../venues/ACL2024/README.md))
 
   - **Abstract**: Self-consistency (SC), leveraging multiple samples from LLMs, shows significant gains on various reasoning tasks but struggles with free-form generation due to the difficulty of aggregating answers. Its variants, UCS and USC, rely on sample selection or voting mechanisms to improve output quality. These methods, however, face limitations due to their inability to fully utilize the nuanced consensus knowledge present within multiple candidate samples, often resulting in suboptimal outputs. We pro...
+  - **Labels**: [general coding task](general_coding_task.md), [empirical study](empirical_study.md)
+
+- [Mastering the Craft of Data Synthesis for {C}ode{LLM}s](../venues/NAACL2025/paper_10.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have shown impressive performance in \textit{code} understanding and generation, making coding tasks a key focus for researchers due to their practical applications and value as a testbed for LLM evaluation. Data synthesis and filtering techniques have been widely adopted and shown to be highly effective in this context. In this paper, we present a focused survey and taxonomy of these techniques, emphasizing recent advancements. We highlight key challenges, explore f...
   - **Labels**: [general coding task](general_coding_task.md), [empirical study](empirical_study.md)
 
 ## Hallucination In Reasoning
@@ -585,6 +595,11 @@
 
   - **Abstract**: Code models have made significant advancements in code intelligence by encoding knowledge about programming languages. While previous studies have explored the capabilities of these models in learning code syntax, there has been limited investigation on their ability to understand code semantics. Additionally, existing analyses assume that the number of edges between nodes at the abstract syntax tree&nbsp;(AST) is related to syntax distance, and also often require transforming the high-dimension...
   - **Labels**: [static analysis](static_analysis.md), [pointer analysis](pointer_analysis.md), [data-flow analysis](data-flow_analysis.md), [empirical study](empirical_study.md)
+
+- [What can Large Language Models Capture about Code Functional Equivalence?](../venues/NAACL2025/paper_13.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Code-LLMs, LLMs pre-trained on large code corpora, have shown great progress in learning rich representations of the structure and syntax of code, successfully using it to generate or classify code fragments. At the same time, understanding if they are able to do so because they capture code semantics, and how well, is still an open question. In this paper, we tackle this problem by introducing SeqCoBench, a benchmark for systematically assessing how Code-LLMs can capture code functional equival...
+  - **Labels**: [static analysis](static_analysis.md), [equivalence checking](equivalence_checking.md), [empirical study](empirical_study.md), [benchmark](benchmark.md)
 
 - [Which Syntactic Capabilities Are Statistically Learned by Masked Language Models for Code?](../venues/ICSE2024/paper_20.md), ([ICSE2024](../venues/ICSE2024/README.md))
 

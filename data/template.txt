@@ -39,7 +39,7 @@ We have systematically selected papers from the following venues, which are top-
 - Natural Language Processing (NLP)
   - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
   - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
-  - [NAACL2025]
+  - [NAACL2025](data/papers/venues/NAACL2025/README.md)
 
 Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
 

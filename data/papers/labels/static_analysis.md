@@ -286,6 +286,12 @@
   - **Labels**: [static analysis](static_analysis.md), [pointer analysis](pointer_analysis.md), [equivalence checking](equivalence_checking.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
+- [What can Large Language Models Capture about Code Functional Equivalence?](../venues/NAACL2025/paper_13.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Code-LLMs, LLMs pre-trained on large code corpora, have shown great progress in learning rich representations of the structure and syntax of code, successfully using it to generate or classify code fragments. At the same time, understanding if they are able to do so because they capture code semantics, and how well, is still an open question. In this paper, we tackle this problem by introducing SeqCoBench, a benchmark for systematically assessing how Code-LLMs can capture code functional equival...
+  - **Labels**: [static analysis](static_analysis.md), [equivalence checking](equivalence_checking.md), [empirical study](empirical_study.md), [benchmark](benchmark.md)
+
+
 ## Code Similarity Analysis
 
 - [A Multiple Representation Transformer with Optimized Abstract Syntax Tree for Efficient Code Clone Detection](../venues/ICSE2025/paper_23.md), ([ICSE2025](../venues/ICSE2025/README.md))
@@ -957,6 +963,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [{DCE}-{LLM}: Dead Code Elimination with Large Language Models](../venues/NAACL2025/paper_8.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Dead code introduces several challenges in software development, such as increased binary size and maintenance difficulties. It can also obscure logical errors and be exploited for obfuscation in malware. For LLM-based code-related tasks, dead code introduces vulnerabilities that can mislead these models, raising security concerns. Although modern compilers and IDEs offer dead code elimination, sophisticated patterns can bypass these tools. A universal approach that includes classification, loca...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [program optimization](program_optimization.md)
+
+
 ## Program Verification
 
 - [Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus](../venues/POPL2025/paper_1.md), ([POPL2025](../venues/POPL2025/README.md))
@@ -1163,6 +1175,12 @@
 
   - **Abstract**: The code written by developers usually suffers from efficiency problems and contain various performance bugs. These inefficiencies necessitate the research of automated refactoring methods for code optimization. Early research in code optimization employs rule-based methods and focuses on specific inefficiency issues, which are labor-intensive and suffer from the low coverage issue. Recent work regards the task as a sequence generation problem, and resorts to deep learning (DL) techniques such a...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program optimization](program_optimization.md)
+
+
+- [{DCE}-{LLM}: Dead Code Elimination with Large Language Models](../venues/NAACL2025/paper_8.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Dead code introduces several challenges in software development, such as increased binary size and maintenance difficulties. It can also obscure logical errors and be exploited for obfuscation in malware. For LLM-based code-related tasks, dead code introduces vulnerabilities that can mislead these models, raising security concerns. Although modern compilers and IDEs offer dead code elimination, sophisticated patterns can bypass these tools. A universal approach that includes classification, loca...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [program optimization](program_optimization.md)
 
 
 ## Code Summarization

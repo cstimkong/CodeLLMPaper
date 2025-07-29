@@ -88,3 +88,9 @@
 
   - **Abstract**: The ability to execute code is a prerequisite for various dynamic program analyses. Learning-guided execution has been proposed as an approach to enable the execution of arbitrary code snippets by letting a neural model predict likely values for any missing variables. Although state-of-the-art learning-guided execution approaches, such as LExecutor, can enable the execution of a relative high amount of code, they are limited to predicting a restricted set of possible values and do not use any fe...
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md)
+
+
+- [{COAST}: Enhancing the Code Debugging Ability of {LLM}s through Communicative Agent Based Data Synthesis](../venues/NAACL2025/paper_12.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Code debugging is a vital stage of software development, essential for ensuring the reliability and performance of Large Language Models (LLMs) in the code generation task. Human debugging typically follows a multi-stage process, which includes Bug Localization, Bug Identification, Code Repair, and Code Recognition. However, existing code debugging benchmarks predominantly focus on the Code Repair stage, which offers only a limited perspective on evaluating the debugging capabilities of LLMs. In...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [agent design](agent_design.md), [code model](code_model.md), [code model training](code_model_training.md)

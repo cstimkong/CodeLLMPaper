@@ -60,6 +60,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
 
 
+- [Benchmarking Language Model Creativity: A Case Study on Code Generation](../venues/NAACL2025/paper_4.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: As LLMs become increasingly prevalent, it is interesting to consider how ``creative'' these models can be. From cognitive science, creativity consists of at least two key characteristics: \textit{convergent} thinking (purposefulness to achieve a given goal) and \textit{divergent} thinking (adaptability to explore new environments or constraints) (CITATION). In this work, we introduce a framework for quantifying LLM creativity that incorporates the two design ingredients: (1) We introduce DENIAL ...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [benchmark](benchmark.md)
+
+
 - [Benchmarking and Improving Text-to-SQL Generation under Ambiguity](../venues/EMNLP2023/paper_3.md), ([EMNLP2023](../venues/EMNLP2023/README.md))
 
   - **Abstract**: Research in Text-to-SQL conversion has been largely benchmarked against datasets where each text query corresponds to one correct SQL. However, natural language queries over real-life databases frequently involve significant ambiguity about the intended SQL due to overlapping schema names and multiple confusing relationship paths. To bridge this gap, we develop a novel benchmark called AmbiQT with over 3000 examples where each text is interpretable as two plausible SQLs due to lexical and/or str...
@@ -240,6 +246,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
 
+- [Few-Shot Natural Language to First-Order Logic Translation via Code Generation](../venues/NAACL2025/paper_9.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Translation of natural language to first-order logical formula (NL-FOL) has recently gained significant attention for its critical role in logic-based NLP applications. Some studies attempt to utilize pretrained language models in a sequence-to-sequence manner for the NL-FOL task. However, these methods encounter challenges such as (1) inconsistency between the training and inference phases and (2) the data-intensive and resource-intensive finetuning process. This paper introduces a novel NL-FOL...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
 - [From Misuse to Mastery: Enhancing Code Generation with Knowledge-Driven AI Chaining](../venues/ASE2023/paper_11.md), ([ASE2023](../venues/ASE2023/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have shown promising results in automatic code generation by improving coding efficiency to a certain extent. However, generating high-quality and reliable code remains a formidable task because of LLMs' lack of good programming practice, especially in exception handling. In this paper, we first conduct an empirical study and summarize three crucial challenges of LLMs in exception handling, i.e., incomplete exception handling, incorrect exception handling and abuse o...
@@ -388,6 +400,12 @@
 
   - **Abstract**: Large language models often struggle to predict runtime behavior in code generation tasks, leading to a reliance on rejection sampling (best-of-n) to generate multiple code snippets then select the best. Our distinction is reducing sampling costs, without compromising generation quality. We introduce EFFICODE, a novel framework that prioritizes sampling on test problems that models can solve. We show how EFFICODE estimates solvability to optimize computational costs during multiple sampling. Bas...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
+- [On the Impacts of Contexts on Repository-Level Code Generation](../venues/NAACL2025/paper_11.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: CodeLLMs are widely used for code generation, yet their ability to handle repository-level dependencies remains underexplored. We introduce RepoExec, a benchmark for evaluating repository-level code generation, focusing on executability, functional correctness, and dependency utilization. Our study evaluates 18 models, revealing that retaining full dependency context yields the best performance, while smaller context sizes can be misleading. Pretrained LLMs excel in correctness but often reimple...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
 
 
 - [Oracle-Guided Program Selection from Large Language Models](../venues/ISSTA2024/paper_9.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
@@ -598,3 +616,21 @@
 
   - **Abstract**: Since the remarkable generation performance of large language models raised ethical and legal concerns, approaches to detect machine-generated text by embedding watermarks are being developed.However, we discover that the existing works fail to function appropriately in code generation tasks due to the task’s nature of having low entropy.Extending a logit-modifying watermark method, we propose Selective WatErmarking via Entropy Thresholding (SWEET), which enhances detection ability and mitigates...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [code model](code_model.md), [code model security](code_model_security.md)
+
+
+- [{C}ode{T}ree: Agent-guided Tree Search for Code Generation with Large Language Models](../venues/NAACL2025/paper_5.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Pretrained on massive amounts of code and text data, large language models (LLMs) have demonstrated remarkable achievements in performing code generation tasks. With additional execution-based feedback, these models can act as agents with capabilities to self-refine and improve generated code autonomously. However, on challenging coding tasks with extremely large search space, current agentic approaches still struggle with multi-stage planning, generating, and debugging. To address this problem,...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [planning](planning.md)
+
+
+- [{D}esign2{C}ode: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](../venues/NAACL2025/paper_6.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Generative AI has made rapid advancements in recent years, achieving unprecedented capabilities in multimodal understanding and code generation. This can enable a new paradigm of front-end development in which multimodal large language models (MLLMs) directly convert visual designs into code implementations. In this work, we construct Design2Code {--} the first real-world benchmark for this task. Specifically, we manually curate 484 diverse real-world webpages as test cases and develop a set of ...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [benchmark](benchmark.md)
+
+
+- [{PLEX}: Adaptive Parameter-Efficient Fine-Tuning for Code {LLM}s using Lottery-Tickets](../venues/NAACL2025/paper_1.md), ([NAACL2025](../venues/NAACL2025/README.md))
+
+  - **Abstract**: Fine-tuning large language models (LLMs) for code generation is challenging due to computational costs and the underrepresentation of some programming languages (PLs) in pre-training. We propose PLEX, a lottery-ticket based parameter-efficient fine-tuning (PEFT) method that adapts LLMs to either well-supported and underrepresented PLs.During lottery ticket selection, PLEX employs a dual strategy: for well-represented PLs, it leverages the LLM{'}s full parametric knowledge by selecting from full ...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [code model](code_model.md), [code model training](code_model_training.md)

@@ -39,7 +39,7 @@ We have systematically selected papers from the following venues, which are top-
 - Natural Language Processing (NLP)
   - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
   - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
-  - [NAACL2025]
+  - [NAACL2025](data/papers/venues/NAACL2025/README.md)
 
 Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
 
@@ -68,13 +68,13 @@ The papers in this repository are categorized along three dimensions: **Applicat
 
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
-- [General Coding Task](data/papers/labels/general_coding_task.md)   (35)
-- [Code Generation](data/papers/labels/code_generation.md)   (263)
-  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (100)
+- [General Coding Task](data/papers/labels/general_coding_task.md)   (36)
+- [Code Generation](data/papers/labels/code_generation.md)   (270)
+  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (106)
   - [Code Completion](data/papers/labels/code_completion.md)   (25)
-  - [Program Repair](data/papers/labels/program_repair.md)   (66)
+  - [Program Repair](data/papers/labels/program_repair.md)   (67)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (42)
-- [Program Testing](data/papers/labels/program_testing.md)   (96)
+- [Program Testing](data/papers/labels/program_testing.md)   (97)
   - [General Testing](data/papers/labels/general_testing.md)   (7)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (29)
   - [Library Testing](data/papers/labels/library_testing.md)   (5)
@@ -85,10 +85,10 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Mutation Testing](data/papers/labels/mutation_testing.md)   (2)
   - [Unit Testing](data/papers/labels/unit_testing.md)   (12)
   - [Differential Testing](data/papers/labels/differential_testing.md)   (6)
-  - [Debugging](data/papers/labels/debugging.md)   (15)
+  - [Debugging](data/papers/labels/debugging.md)   (16)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (6)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (11)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (202)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (204)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (3)
@@ -96,17 +96,17 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Symbolic Execution](data/papers/labels/symbolic_execution.md)   (1)
   - [Type Inference](data/papers/labels/type_inference.md)   (7)
   - [Specification Inference](data/papers/labels/specification_inference.md)   (21)
-  - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
+  - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (2)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (8)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (103)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (104)
   - [Program Verification](data/papers/labels/program_verification.md)   (27)
-  - [Program Optimization](data/papers/labels/program_optimization.md)   (7)
+  - [Program Optimization](data/papers/labels/program_optimization.md)   (8)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (12)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (17)
   - [Code Search](data/papers/labels/code_search.md)   (8)
   - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   (3)
-- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (28)
-  - [Code Review](data/papers/labels/code_review.md)   (8)
+- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (29)
+  - [Code Review](data/papers/labels/code_review.md)   (9)
   - [Documentation Generation](data/papers/labels/documentation_generation.md)   (4)
   - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   (5)
   - [Software Configuration](data/papers/labels/software_configuration.md)   (1)
@@ -118,7 +118,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
 - [Code Model](data/papers/labels/code_model.md)   (4)
-  - [Code Model Training](data/papers/labels/code_model_training.md)   (90)
+  - [Code Model Training](data/papers/labels/code_model_training.md)   (92)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (65)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)
@@ -126,19 +126,19 @@ This category concentrates on the LLMs' ability in understanding different forms
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (11)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (16)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (67)
-  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (42)
-    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (12)
+- [Agent Design](data/papers/labels/agent_design.md)   (71)
+  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (44)
+    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (14)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
-  - [Planning](data/papers/labels/planning.md)   (12)
+  - [Planning](data/papers/labels/planning.md)   (13)
 
 ### C.3. Research Paradigm
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (59)
-- [Empirical Study](data/papers/labels/empirical_study.md)   (105)
+- [Benchmark](data/papers/labels/benchmark.md)   (62)
+- [Empirical Study](data/papers/labels/empirical_study.md)   (108)
 - [Survey](data/papers/labels/survey.md)   (19)
 
 ## D. How to Contribute
