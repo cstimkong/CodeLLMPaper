@@ -11209,5 +11209,117 @@
             "bug detection",
             "program verification"
         ]
+    },
+    "SV-TrustEval-C: Evaluating Structure and Semantic Reasoning in Large Language Models for Source Code Vulnerability Analysis": {
+        "type": "INPROCEEDINGS",
+        "key": "11023455",
+        "venue": "S&P2025",
+        "author": "Li, Yansong and Branco, Paula and Hoole, Alexander M. and Marwah, Manish and Koduvely, Hari Manassery and Jourdan, Guy-Vincent and Jou, Stephan",
+        "booktitle": "2025 IEEE Symposium on Security and Privacy (SP)",
+        "title": "SV-TrustEval-C: Evaluating Structure and Semantic Reasoning in Large Language Models for Source Code Vulnerability Analysis",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "pages": "3014-3032",
+        "abstract": "As Large Language Models (LLMs) evolve in understanding and generating code, accurately evaluating their reliability in analyzing source code vulnerabilities becomes in-creasingly vital. While studies have examined LLM capabilities in tasks like vulnerability detection and repair, they often over-look the importance of both structure and semantic reasoning crucial for trustworthy vulnerability analysis. To address this gap, we introduce SV-TRUSTEVAL-C, a benchmark designed to evaluate LLMs' abilities for vulnerability analysis of code written in the C programming language through two key dimensions: structure reasoning-assessing how models identify relationships between code elements under varying data and control flow complexities; and semantic reasoning-examining their logical consistency in scenarios where code is structurally and semantically perturbed. Our results show that current LLMs are far from satisfactory in understanding complex code relationships and that their vulnerability analyses rely more on pattern matching than on robust logical reasoning. These findings underscore the effectiveness of the SV-TRUSTEVAL-C benchmark and highlight critical areas for enhancing the reasoning capabilities and trustworthiness of LLMs in real-world vulnerability analysis tasks. Our ini-tial benchmark dataset is available at https://huggingface.co/datasets/LLMs4CodeSecurity/SV-TrustEval-C-1.0",
+        "keywords": "Source code vulnerability, Large language model",
+        "doi": "10.1109/SP61157.2025.00191",
+        "ISSN": "2375-1207",
+        "month": "May",
+        "labels": [
+            "static analysis",
+            "bug detection",
+            "benchmark",
+            "empirical study"
+        ],
+        "url": "https://arxiv.org/abs/2505.20630"
+    },
+    "TypeForge: Synthesizing and Selecting Best-Fit Composite Data Types for Stripped Binaries": {
+        "type": "INPROCEEDINGS",
+        "key": "11023499",
+        "venue": "S&P2025",
+        "author": "Wang, Yanzhong and Liang, Ruigang and Li, Yilin and Hu, Peiwei and Chen, Kai and Zhang, Bolun",
+        "booktitle": "2025 IEEE Symposium on Security and Privacy (SP)",
+        "title": "TypeForge: Synthesizing and Selecting Best-Fit Composite Data Types for Stripped Binaries",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "pages": "1-18",
+        "abstract": "Static binary analysis is a widely used approach for ensuring the security of closed-source software. However, the absence of type information in stripped binaries, particularly for composite data types, poses significant challenges for both static analyzers and reverse engineering experts in achieving efficient and accurate analysis. Existing methods often struggle with inaccuracies and scalability limitations when dealing with such data types. To address these problems, we present Typeforge, a novel approach inspired by the workflow of reverse engineering experts, which uses a two-stage synthesis-selection strategy to automate the recovery of composite data types from stripped binaries. We design a new graph structure, the Type Flow Graph (TFG) to represent type information within stripped binaries. In the first stage, TFG-based Type Synthesis focuses on efficiently and accurately building constraints and synthesizing possible composite type declarations from the stripped binaries. In the second stage, we propose an LLM-assisted double-elimination framework to select the best-fit type declaration from the candidates by assessing the readability of the decompiled code. Our comparison with state-of-the-art approaches demonstrates that TYPEFORGE achieves F1 scores of 81.7% and 88.2% in Composite Data Type Identification and Layout Recovery, respectively, substantially outperforming existing methods. Additionally, TYPEFORGE achieves an F1 score of 72.1% in Relationship Recovery, a particularly challenging task for previous approaches. Furthermore, TYPEFORGE has significantly lower time overhead, requiring only about 3.8% of the time taken by OSPREY, the best-performing existing approach, making it a promising solution for various real-world reverse engineering tasks.",
+        "keywords": "Reverse engineering, Binary analysis",
+        "doi": "10.1109/SP61157.2025.00193",
+        "ISSN": "2375-1207",
+        "month": "May",
+        "labels": [
+            "static analysis",
+            "program decompilation"
+        ],
+        "url": "https://noobone123.github.io/papers/typeforge-sp25.pdf"
+    },
+    "My Model is Malware to You: Transforming AI Models into Malware by Abusing TensorFlow APIs": {
+        "type": "INPROCEEDINGS",
+        "key": "11023358",
+        "venue": "S&P2025",
+        "author": "Zhu, Ruofan and Chen, Ganhao and Shen, Wenbo and Xie, Xiaofei and Chang, Rui",
+        "booktitle": "2025 IEEE Symposium on Security and Privacy (SP)",
+        "title": "My Model is Malware to You: Transforming AI Models into Malware by Abusing TensorFlow APIs",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "pages": "486-503",
+        "abstract": "The rapid advancement of AI technologies has significantly increased the demand for AI models across various industries. While model sharing reduces costs and fosters innovation, it also introduces security risks, as attackers can embed malicious code within models, leading to potential undetected attacks when running the model. Despite these risks, the security of model sharing, particularly for TensorFlow, remains under-investigated. To address these security concerns, we present a systematic analysis of the security risks associated with TensorFlow APIs. We introduce the TensorAbuse attack, which exploits hidden capabilities of TensorFlow APIs, such as file access and network messaging, to construct powerful and stealthy attacks. To facilitate this, we developed two novel techniques: one for identifying persistent APIs in TensorFlow and another for leveraging large language models to accurately analyze and classify API capabilities. We applied these techniques to TensorFlow v2.15.0 and identified 1,083 persistent APIs with five main capabilities. We exploited 20 of these APIs to develop five attack primitives and four synthetic attacks, including file leak, IP exposure, arbitrary code execution, and shell access. Our tests revealed that Hugging Face, TensorFlow Hub, and ModelScan could not detect any of these attacks. We have reported these findings to Google, Hugging Face, and ModelScan, and are currently working with them to address these issues.",
+        "keywords": "Code model, Code model security",
+        "doi": "10.1109/SP61157.2025.00012",
+        "ISSN": "2375-1207",
+        "month": "May",
+        "labels": [
+            "code model",
+            "code model security"
+        ],
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11023358"
+    },
+    "Codebreaker: Dynamic Extraction Attacks on Code Language Models": {
+        "type": "INPROCEEDINGS",
+        "key": "11023359",
+        "venue": "S&P2025",
+        "author": "Han, Changzhou and Deng, Zehang and Ma, Wanlun and Zhu, Xiaogang and Xue, Minhui and Zhu, Tianqing and Wen, Sheng and Xiang, Yang",
+        "booktitle": "2025 IEEE Symposium on Security and Privacy (SP)",
+        "title": "Codebreaker: Dynamic Extraction Attacks on Code Language Models",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "pages": "559-575",
+        "abstract": "With the rapid adoption of LLM-based code assistants to enhance programming experiences, concerns over extraction attacks targeting private training data have intensified. These attacks specifically aim to extract Personal Information (PI) embedded within the training data of code generation models (CodeLLMs). Existing methods, using either manual or semi-automated techniques, have successfully extracted sensitive data from these CodeLLMs. However, the limited amount of data currently retrieved by extraction attacks risks significantly underestimating the true extent of training data leakage. In this paper, we propose an automatic PI data extraction attack framework against LLM-based code assistants, named Codebreaker. This framework is built on two core components: (i) the introduction of semantic entropy, which evaluates the likelihood of a prompt triggering the model to respond with training data; and (ii) an automatic dynamic mutation mechanism that seamlessly integrates with Codebreaker, reinforcing the iterative process across the framework and promoting greater interconnection between different PI elements within a single response. This boosts reasoning diversity, model memorization, and finally attack performance. Using six series of open-source CodeLLMs (i.e., CodeParrot, StarCoder2, Code Llama, CodeGemma, DeepSeek-Coder, DeepSeek-V3) and two commercial code assistants (i.e., CodeFuse and GPT), we demonstrate the effectiveness of our proposed framework: (i) Codebreaker outperforms all current state-of-the-art extraction attacks by 6.22% ~ 44.9% (averaging 21.79%); (ii) when PI within a single response originates from the same GitHub repository, our framework - considering multiple interconnections in the response - exceeds others by 3.88% ~ 32.37% (averaging 15.31%). Furthermore, we discuss potential defenses, highlighting the urgent need for stronger measures to prevent PI leakage at the base model level.",
+        "keywords": "Code model, Code model security",
+        "doi": "10.1109/SP61157.2025.00124",
+        "ISSN": "2375-1207",
+        "month": "May",
+        "labels": [
+            "code model",
+            "code model security"
+        ],
+        "url": "https://www.computer.org/csdl/proceedings-article/sp/2025/223600a522/26hiTLYepe8"
+    },
+    "Make a Feint to the East While Attacking in the West: Blinding LLM-Based Code Auditors with Flashboom Attacks": {
+        "type": "INPROCEEDINGS",
+        "key": "11023369",
+        "venue": "S&P2025",
+        "author": "Li, Xiao and Li, Yue and Wu, Hao and Zhang, Yue and Xu, Kaidi and Cheng, Xiuzhen and Zhong, Sheng and Xu, Fengyuan",
+        "booktitle": "2025 IEEE Symposium on Security and Privacy (SP)",
+        "title": "Make a Feint to the East While Attacking in the West: Blinding LLM-Based Code Auditors with Flashboom Attacks",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "pages": "576-594",
+        "abstract": "LLM-based vulnerability auditors (e.g., GitHub Copilot) represent a significant advancement in automated code analysis, offering precise detection of security vulnerabilities. This paper explores the potential to circumvent LLM-based vulnerability auditors by diverting their focus, decided by the LLM attention mechanism, away from real vulnerable code segments. In these LLM-based vulnerability auditors, the attention mechanism is supposed to focus on potentially vulnerable code sections to identify security issues. Our approach introduces high-attention code snippets (code fragments designed to draw focus) into the codebase under review. By strategically diverting the model's focus away from actual vulnerabilities, this technique effectively \u201cblinds\u201d the LLM, resulting in missed detections. To scale this approach, we present Crazy-Ivan11Source code, dataset and attack results are available at https://github.com/oxygen-hunter/Flashboom., an automated system that identifies and seamlessly integrates high-attention code snippets, shifting focus away from genuine vulnerabilities to decoy functions. Through systematic function-level prioritization and refinement, Crazy-Ivan optimizes the blinding effect, producing the Flashboom that can reduce the model's capacity to detect true security risks. Our evaluation underscores the effectiveness of Flashboom, achieving blinding success rates of up to 96.3% on CodeLlama and 83.05% on Gemma, with notable cross-model transferability and applicability across multiple programming languages. In a case study with GitHub Copilot, Flashboom led the tool to overlook a critical blockchain vulnerability, underscoring the security implications of such attention-diverting attacks and the risks inherent in relying solely on LLM-based automated auditing systems. We have reported our findings to the respective LLM-based code auditor vendors, who have acknowledged the issues and are currently working on fixes.",
+        "keywords": "Code model, Code model robustness",
+        "doi": "10.1109/SP61157.2025.00125",
+        "ISSN": "2375-1207",
+        "month": "May",
+        "labels": [
+            "code model",
+            "code model robustness"
+        ],
+        "URL": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11023369"
     }
 }

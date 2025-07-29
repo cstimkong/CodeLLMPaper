@@ -87,7 +87,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (10)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (10)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (164)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (166)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (3)
@@ -97,10 +97,10 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Specification Inference](data/papers/labels/specification_inference.md)   (19)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (85)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (86)
   - [Program Verification](data/papers/labels/program_verification.md)   (22)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (6)
-  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (9)
+  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (10)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (10)
   - [Code Search](data/papers/labels/code_search.md)   (5)
   - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   (3)
@@ -116,13 +116,13 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (115)
+- [Code Model](data/papers/labels/code_model.md)   (118)
   - [Code Model Training](data/papers/labels/code_model_training.md)   (84)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (64)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)
-  - [Code Model Security](data/papers/labels/code_model_security.md)   (25)
-  - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
+  - [Code Model Security](data/papers/labels/code_model_security.md)   (27)
+  - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (5)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (13)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
 - [Agent Design](data/papers/labels/agent_design.md)   (62)
@@ -136,8 +136,8 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (54)
-- [Empirical Study](data/papers/labels/empirical_study.md)   (80)
+- [Benchmark](data/papers/labels/benchmark.md)   (55)
+- [Empirical Study](data/papers/labels/empirical_study.md)   (81)
 - [Survey](data/papers/labels/survey.md)   (19)
 
 ## D. How to Contribute
