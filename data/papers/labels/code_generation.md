@@ -164,6 +164,18 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [benchmark](benchmark.md)
 
 
+- [DeclarUI: Bridging Design and Development with Automated Declarative UI Code Generation](../venues/FSE2025/paper_6.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Declarative UI frameworks have gained widespread adoption in mobile app development, offering benefits such as improved code readability and easier maintenance. Despite these advantages, the process of translating UI designs into functional code remains challenging and time-consuming. Recent advancements in multimodal large language models (MLLMs) have shown promise in directly generating mobile app code from user interface (UI) designs. However, the direct application of MLLMs to this task is l...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
+- [Divide-and-Conquer: Generating UI Code from Screenshots](../venues/FSE2025/paper_28.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Websites are critical in today’s digital world, with over 1.11 billion currently active and approximately 252,000 new sites launched daily. Converting website layout design into functional UI code is a time-consuming yet indispensable step of website development. Manual methods of converting visual designs into functional code present significant challenges, especially for non-experts. To explore automatic design-to-code solutions, we first conduct a motivating study on GPT-4o and identify three...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
 - [Do Large Language Models Pay Similar Attention Like Human Programmers When Generating Code?](../venues/FSE2024/paper_11.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have recently been widely used for code generation. Due to the complexity and opacity of LLMs, little is known about how these models generate code. We made the first attempt to bridge this knowledge gap by investigating whether LLMs attend to the same parts of a task description as human programmers during code generation. An analysis of six LLMs, including GPT-4, on two popular code generation benchmarks revealed a consistent misalignment between LLMs' and programm...
@@ -482,6 +494,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
 
 
+- [Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs](../venues/FSE2025/paper_42.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Large code models (LCMs) have remarkably advanced the field of code generation. Despite their impressive capabilities, they still face practical deployment issues, such as high inference costs, limited accessibility of proprietary LCMs, and adaptability issues of ultra-large LCMs. These issues highlight the critical need for more accessible, lightweight yet effective LCMs. Knowledge distillation (KD) offers a promising solution, which transfers the programming capabilities of larger, advanced LC...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [code model](code_model.md), [code model training](code_model_training.md)
+
+
 - [Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation](../venues/EMNLP2024/paper_21.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) are increasingly used for generating code solutions, empowered by features like self-debugging and self-reflection. However, LLMs often struggle with complex programming problems without human guidance. This paper investigates the strategies employed by expert programmers to steer code-generating LLMs toward successful outcomes. Through a study involving experts using natural language to guide GPT-4, Gemini Ultra, and, Claude 3.5 Sonnet on highly difficult programmin...
@@ -664,6 +682,12 @@
   - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
+- [LLM-Based Method Name Suggestion with Automatically Generated Context-Rich Prompts](../venues/FSE2025/paper_11.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Accurate method naming is crucial for code readability and maintainability. However, manually creating concise and meaningful names remains a significant challenge. To this end, in this paper, we propose an approach based on Large Language Model (LLMs) to suggest method names according to function descriptions. The key of the approach is ContextCraft, an automated algorithm for generating context-rich prompts for LLM that suggests the expected method names according to the prompts. For a given q...
+  - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md)
+
+
 - [LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion](../venues/ICSE2025/paper_68.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Large language models (LLMs), pre-trained or fine-tuned on large code corpora, have shown effectiveness in generating code completions. However, in LLM-based code completion, LLMs may struggle to use correct and up-to-date Application Programming Interfaces (APIs) due to the rapid and continuous evolution of libraries. While existing studies have highlighted issues with predicting incorrect APIs, the specific problem of deprecated API usage in LLM-based code completion has not been thoroughly in...
@@ -792,6 +816,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [Automatically Fixing Dependency Breaking Changes](../venues/FSE2025/paper_29.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Breaking changes in dependencies are a common challenge in software development, requiring manual intervention to resolve. This study examines how well LLM automate the repair of breaking changes caused by dependency updates in Java projects. Although earlier methods have mostly concentrated on detecting breaking changes or investigating their impact, they have not been able to completely automate the repair process. We introduce and compare two new approaches: an agentic system that combines au...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [Benchmarking Automated Program Repair: An Extensive Study on Both Real-World and Artificial Bugs](../venues/ISSTA2024/paper_7.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
   - **Abstract**: As bugs are inevitable and prevalent in real-world programs, many Automated Program Repair (APR) techniques have been proposed to generate patches for them. However, due to the lack of a standard for evaluating APR techniques, prior works tend to use different settings and benchmarks in evaluation, threatening the trustworthiness of the evaluation results. Additionally, they typically only adopt plausibility and genuineness as evaluation metrics, which may potentially mask some underlying issues...
@@ -814,6 +844,12 @@
 
   - **Abstract**: This paper presents the first empirical study of a vulnerability detection and fix tool with professional software developers on real projects that they own. We implemented DeepVulGuard, an IDE-integrated tool based on state-of-the-art detection and fix models, and show that it has promising performance on benchmarks of historic vulnerability data. DeepVulGuard scans code for vulnerabilities (including identifying the vulnerability type and vulnerable region of code), suggests fixes, provides na...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
+
+- [Code Change Intention, Development Artifact, and History Vulnerability: Putting Them Together for Vulnerability Fix Detection by LLM](../venues/FSE2025/paper_8.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Detecting vulnerability fix commits in open-source software is crucial for maintaining software security. To help OSS identify vulnerability fix commits, several automated approaches are developed. However, existing approaches like VulFixMiner and CoLeFunDa, focus solely on code changes, neglecting essential context from development artifacts. Tools like Vulcurator, which integrates issue reports, fail to leverage semantic associations between different development artifacts (e.g., pull requests...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 - [Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code](../venues/EMNLP2024/paper_38.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
@@ -846,10 +882,28 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [Demystifying Memorization in LLM-Based Program Repair via a General Hypothesis Testing Framework](../venues/FSE2025/paper_35.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) have achieved remarkable success in various applications, particularly in code-related tasks such as code generation and program repair, setting new performance benchmarks. However, the extensive use of large training corpora raises concerns about whether these achievements stem from genuine understanding or mere memorization of training data—a question often overlooked in current research. This paper aims to study the memorization issue within LLM-based program repa...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
+
 - [DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models](../venues/ICSE2025/paper_36.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: The rise of Large Language Models (LLMs) has streamlined frontend interface creation through tools like Vercel's v0, yet surfaced challenges in design quality (e.g., accessibility, and usability). Current solutions, often limited by their focus, generalisability, or data dependency, fall short in addressing these complexities. Moreover, none of them examine the quality of LLM-generated UI design. In this work, we introduce DesignRepair, a novel dual-stream design guideline-aware system to examin...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [Element-Based Automated DNN Repair with Fine-Tuned Masked Language Model](../venues/FSE2025/paper_3.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Deep Neural Networks (DNNs) are prevalent across a wide range of applications. Despite their success, the complexity and opaque nature of DNNs pose significant challenges in debugging and repairing DNN models, limiting their reliability and broader adoption. In this paper, we propose MLM4DNN, an element-based automated DNN repair method. Unlike previous techniques that focus on post-training adjustments or rely heavily on predefined bug patterns, MLM4DNN repairs DNNs by leveraging a fine-tuned M...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [Error Delayed Is Not Error Handled: Understanding and Fixing Propagated Error-Handling Bugs](../venues/FSE2025/paper_33.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Error handling is critical for software reliability. In software systems, error handling may be delayed to other functions. Such propagated error handling (PEH) could easily be missed and lead to bugs. Our research reveals that PEH bugs are prevalent in software systems and, on average, take 44.1 days to fully address. Existing approaches have primarily focused on the error-handling bug within individual functions, which makes it difficult to fully address PEH bugs. In this paper, we conducted t...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
 - [Exploring Parameter-Efficient Fine-Tuning of Large Language Model on Automated Program Repair](../venues/ASE2024/paper_14.md), ([ASE2024](../venues/ASE2024/README.md))
@@ -934,6 +988,12 @@
 
   - **Abstract**: Defect reduction planning plays a vital role in enhancing software quality and minimizing software maintenance costs. By training a black box machine learning model and “explaining” its predictions, explainable AI for software engineering aims to identify the code characteristics that impact maintenance risks. However, post-hoc explanations do not always faithfully reflect what the original model computes. In this paper, we introduce CounterACT, a Counterfactual ACTion rule mining approach that ...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
+
+- [Mystique: Automated Vulnerability Patch Porting with Semantic and Syntactic-Enhanced LLM](../venues/FSE2025/paper_4.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Branching repositories facilitates efficient software development but can also inadvertently propagate vulnerabilities. When an original branch is patched, other unfixed branches remain vulnerable unless the patch is successfully ported. However, due to inherent discrepancies between branches, many patches cannot be directly applied and require manual intervention, which is time-consuming and leads to delays in patch porting, increasing vulnerability risks. Existing automated patch porting appro...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 - [NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent](../venues/ICSE2025/paper_61.md), ([ICSE2025](../venues/ICSE2025/README.md))
@@ -1106,6 +1166,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
+- [Automated Unit Test Refactoring](../venues/FSE2025/paper_10.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Test smells arise from poor design practices and insufficient domain knowledge, which can lower the quality of test code and make it harder to maintain and update. Manually refactoring of test smells is time-consuming and error-prone, highlighting the necessity for automated approaches. Current rule-based refactoring methods often struggle in scenarios not covered by predefined rules and lack the flexibility needed to handle diverse cases effectively. In this paper, we propose a novel approach c...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [Automated Validation of COBOL to Java Transformation](../venues/ASE2024/paper_38.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Recent advances in Large Language Model (LLM) based Generative AI techniques have made it feasible to translate enterpriselevel code from legacy languages such as COBOL to modern languages such as Java or Python. While the results of LLM-based automatic transformation are encouraging, the resulting code cannot be trusted to correctly translate the original code. We propose a framework and a tool to help validate the equivalence of COBOL and translated Java. The results can also help repair the c...
@@ -1116,6 +1182,12 @@
 
   - **Abstract**: When using large language models (LLMs) for code translation of complex software, numerous compilation and runtime errors can occur due to insufficient context awareness. To address this issue, this paper presents a code translation method based on call graphs and bridged debuggers: TransGraph. TransGraph first obtains the call graph of the entire code project using the Language Server Protocol, which provides a detailed description of the function call relationships in the program. Through this...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
+- [Bridging Operator Semantic Inconsistencies: A Source-Level Cross-Framework Model Conversion Approach](../venues/FSE2025/paper_27.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: As deep learning (DL) frameworks become widely used, converting models between frameworks is crucial for ecosystem flexibility. However, interestingly, existing model converters commonly focus on syntactic operator API mapping—transpiling operator names and parameters—which results in API compatibility issues (i.e., incompatible parameters, missing operators). These issues arise from semantic inconsistencies due to differences in operator implementation, causing conversion failure or performance...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [empirical study](empirical_study.md)
 
 
 - [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_25.md), ([arXiv2025](../venues/arXiv2025/README.md))
@@ -1351,6 +1423,12 @@
 - [DecLLM: LLM-Augmented Recompilable Decompilation for Enabling Programmatic Use of Decompiled Code](../venues/ISSTA2025/paper_27.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
 
   - **Abstract**: Decompilers are widely used in reverse engineering (RE) to convert compiled executables into human-readable pseudocode and support various security analysis tasks. Existing decompilers, such as IDA Pro and Ghidra, focus on enhancing the readability of decompiled code rather than its recompilability, which limits further programmatic use, such as for CodeQL-based vulnerability analysis that requires compilable versions of the decompiled code. Recent LLM-based approaches for enhancing decompilatio...
+  - **Labels**: [code generation](code_generation.md), [program decompilation](program_decompilation.md)
+
+
+- [DiSCo: Towards Decompiling EVM Bytecode to Source Code using Large Language Models](../venues/FSE2025/paper_31.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Understanding the Ethereum smart contract bytecode is essential for ensuring cryptoeconomics security. However, existing decompilers primarily convert bytecode into pseudocode, which is not easily comprehensible for general users, potentially leading to misunderstanding of contract behavior and increased vulnerability to scams or exploits. In this paper, we propose DiSCo, the first LLMs-based EVM decompilation pipeline, which aims to enable LLMs to understand the opaque bytecode and lift it into...
   - **Labels**: [code generation](code_generation.md), [program decompilation](program_decompilation.md)
 
 

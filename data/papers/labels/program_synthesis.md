@@ -162,6 +162,18 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [benchmark](benchmark.md)
 
 
+- [DeclarUI: Bridging Design and Development with Automated Declarative UI Code Generation](../venues/FSE2025/paper_6.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Declarative UI frameworks have gained widespread adoption in mobile app development, offering benefits such as improved code readability and easier maintenance. Despite these advantages, the process of translating UI designs into functional code remains challenging and time-consuming. Recent advancements in multimodal large language models (MLLMs) have shown promise in directly generating mobile app code from user interface (UI) designs. However, the direct application of MLLMs to this task is l...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
+- [Divide-and-Conquer: Generating UI Code from Screenshots](../venues/FSE2025/paper_28.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Websites are critical in today’s digital world, with over 1.11 billion currently active and approximately 252,000 new sites launched daily. Converting website layout design into functional UI code is a time-consuming yet indispensable step of website development. Manual methods of converting visual designs into functional code present significant challenges, especially for non-experts. To explore automatic design-to-code solutions, we first conduct a motivating study on GPT-4o and identify three...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
 - [Do Large Language Models Pay Similar Attention Like Human Programmers When Generating Code?](../venues/FSE2024/paper_11.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have recently been widely used for code generation. Due to the complexity and opacity of LLMs, little is known about how these models generate code. We made the first attempt to bridge this knowledge gap by investigating whether LLMs attend to the same parts of a task description as human programmers during code generation. An analysis of six LLMs, including GPT-4, on two popular code generation benchmarks revealed a consistent misalignment between LLMs' and programm...
@@ -478,6 +490,12 @@
 
   - **Abstract**: Large Language Models (LLMs), such as GPT-4, StarCoder, and Code Llama, are transforming the way developers approach programming by automatically generating code based on given contexts, such as natural language descriptions or incomplete surrounding code. Despite advancements, generating syntactically and semantically correct code remains challenging, especially for complex programming tasks. Existing approaches typically generate multiple candidate solutions using LLMs to increase the likeliho...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
+
+
+- [Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs](../venues/FSE2025/paper_42.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Large code models (LCMs) have remarkably advanced the field of code generation. Despite their impressive capabilities, they still face practical deployment issues, such as high inference costs, limited accessibility of proprietary LCMs, and adaptability issues of ultra-large LCMs. These issues highlight the critical need for more accessible, lightweight yet effective LCMs. Knowledge distillation (KD) offers a promising solution, which transfers the programming capabilities of larger, advanced LC...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [code model](code_model.md), [code model training](code_model_training.md)
 
 
 - [Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation](../venues/EMNLP2024/paper_21.md), ([EMNLP2024](../venues/EMNLP2024/README.md))

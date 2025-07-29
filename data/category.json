@@ -7,6 +7,7 @@
             "library testing": {},
             "DBMS testing": {},
             "compiler testing": {},
+            "GUI testing": {},
             "protocol fuzzing": {},
             "mutation testing": {},
             "unit testing": {},

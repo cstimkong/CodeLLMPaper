@@ -12,6 +12,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
+- [Automated Unit Test Refactoring](../venues/FSE2025/paper_10.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Test smells arise from poor design practices and insufficient domain knowledge, which can lower the quality of test code and make it harder to maintain and update. Manually refactoring of test smells is time-consuming and error-prone, highlighting the necessity for automated approaches. Current rule-based refactoring methods often struggle in scenarios not covered by predefined rules and lack the flexibility needed to handle diverse cases effectively. In this paper, we propose a novel approach c...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [Automated Validation of COBOL to Java Transformation](../venues/ASE2024/paper_38.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Recent advances in Large Language Model (LLM) based Generative AI techniques have made it feasible to translate enterpriselevel code from legacy languages such as COBOL to modern languages such as Java or Python. While the results of LLM-based automatic transformation are encouraging, the resulting code cannot be trusted to correctly translate the original code. We propose a framework and a tool to help validate the equivalence of COBOL and translated Java. The results can also help repair the c...
@@ -22,6 +28,12 @@
 
   - **Abstract**: When using large language models (LLMs) for code translation of complex software, numerous compilation and runtime errors can occur due to insufficient context awareness. To address this issue, this paper presents a code translation method based on call graphs and bridged debuggers: TransGraph. TransGraph first obtains the call graph of the entire code project using the Language Server Protocol, which provides a detailed description of the function call relationships in the program. Through this...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
+- [Bridging Operator Semantic Inconsistencies: A Source-Level Cross-Framework Model Conversion Approach](../venues/FSE2025/paper_27.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: As deep learning (DL) frameworks become widely used, converting models between frameworks is crucial for ecosystem flexibility. However, interestingly, existing model converters commonly focus on syntactic operator API mapping—transpiling operator names and parameters—which results in API compatibility issues (i.e., incompatible parameters, missing operators). These issues arise from semantic inconsistencies due to differences in operator implementation, causing conversion failure or performance...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [empirical study](empirical_study.md)
 
 
 - [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_25.md), ([arXiv2025](../venues/arXiv2025/README.md))

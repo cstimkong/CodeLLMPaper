@@ -18,6 +18,12 @@
   - **Labels**: [code generation](code_generation.md), [program decompilation](program_decompilation.md)
 
 
+- [DiSCo: Towards Decompiling EVM Bytecode to Source Code using Large Language Models](../venues/FSE2025/paper_31.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Understanding the Ethereum smart contract bytecode is essential for ensuring cryptoeconomics security. However, existing decompilers primarily convert bytecode into pseudocode, which is not easily comprehensible for general users, potentially leading to misunderstanding of contract behavior and increased vulnerability to scams or exploits. In this paper, we propose DiSCo, the first LLMs-based EVM decompilation pipeline, which aims to enable LLMs to understand the opaque bytecode and lift it into...
+  - **Labels**: [code generation](code_generation.md), [program decompilation](program_decompilation.md)
+
+
 - [LLM4Decompile: Decompiling Binary Code with Large Language Models](../venues/EMNLP2024/paper_18.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Decompilation aims to convert binary code to high-level source code, but traditional tools like Ghidra often produce results that are difficult to read and execute. Motivated by the advancements in Large Language Models (LLMs), we propose LLM4Decompile, the first and largest open-source LLM series (1.3B to 33B) trained to decompile binary code. We optimize the LLM training process and introduce the LLM4Decompile-End models to decompile binary directly. The resulting models significantly outperfo...

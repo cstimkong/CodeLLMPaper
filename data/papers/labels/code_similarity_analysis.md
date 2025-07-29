@@ -40,3 +40,9 @@
 
   - **Abstract**: Binary code similarity detection(BCSD), as a fundamental technique in software security, has various applications, including malware family detection, known vulnerability detection and code plagiarism detection. Recent deep learning-based BCSD approaches have demonstrated promising performance. However, they face two significant challenges that limit detection performance. First, most approaches that use sequence networks (like RNN and Transformer) utilize coarse-grained tokenization methods, wh...
   - **Labels**: [static analysis](static_analysis.md), [code similarity analysis](code_similarity_analysis.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
+
+
+- [The Struggles of LLMs in Cross-Lingual Code Clone Detection](../venues/FSE2025/paper_15.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: With the involvement of multiple programming languages in modern software development, cross-lingual code clone detection has gained traction within the software engineering community. Numerous studies have explored this topic, proposing various promising approaches. Inspired by the significant advances in machine learning in recent years, particularly Large Language Models (LLMs), which have demonstrated their ability to tackle various tasks, this paper revisits cross-lingual code clone detecti...
+  - **Labels**: [empirical study](empirical_study.md), [static analysis](static_analysis.md), [code similarity analysis](code_similarity_analysis.md)

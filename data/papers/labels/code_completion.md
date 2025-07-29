@@ -78,6 +78,12 @@
   - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
+- [LLM-Based Method Name Suggestion with Automatically Generated Context-Rich Prompts](../venues/FSE2025/paper_11.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Accurate method naming is crucial for code readability and maintainability. However, manually creating concise and meaningful names remains a significant challenge. To this end, in this paper, we propose an approach based on Large Language Model (LLMs) to suggest method names according to function descriptions. The key of the approach is ContextCraft, an automated algorithm for generating context-rich prompts for LLM that suggests the expected method names according to the prompts. For a given q...
+  - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md)
+
+
 - [LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion](../venues/ICSE2025/paper_68.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Large language models (LLMs), pre-trained or fine-tuned on large code corpora, have shown effectiveness in generating code completions. However, in LLM-based code completion, LLMs may struggle to use correct and up-to-date Application Programming Interfaces (APIs) due to the rapid and continuous evolution of libraries. While existing studies have highlighted issues with predicting incorrect APIs, the specific problem of deprecated API usage in LLM-based code completion has not been thoroughly in...

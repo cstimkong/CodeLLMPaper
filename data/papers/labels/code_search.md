@@ -40,3 +40,9 @@
 
   - **Abstract**: Assembly code search is vital for reducing the burden on reverse engineers, allowing them to quickly identify specific functions using natural language within vast binary programs.Despite its significance, this critical task is impeded by the complexities involved in building high-quality datasets. This paper explores training a Large Language Model (LLM) to emulate a general compiler. By leveraging Ubuntu packages to compile a dataset of 20 billion tokens, we further continue pre-train CodeLlam...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [code search](code_search.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
+
+
+- [Zero-Shot Cross-Domain Code Search without Fine-Tuning](../venues/FSE2025/paper_26.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Code search is a crucial task in software engineering, aiming to retrieve code snippets that are semantically relevant to a natural language query. Recently, Pre-trained Language Models (PLMs) have shown remarkable success and are widely adopted for code search tasks. However, PLM-based methods often struggle in cross-domain scenarios. When applied to a new domain, they typically require extensive fine-tuning with substantial data. Even worse, the data scarcity problem in new domains often force...
+  - **Labels**: [static analysis](static_analysis.md), [code search](code_search.md)

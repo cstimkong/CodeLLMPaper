@@ -12,6 +12,12 @@
   - **Labels**: [static analysis](static_analysis.md), [code search](code_search.md), [code summarization](code_summarization.md)
 
 
+- [Calibration of Large Language Models on Code Summarization](../venues/FSE2025/paper_38.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: A brief, fluent, and relevant summary can be helpful during program comprehension; however, such a summary does require significant human effort to produce. Often, good summaries are unavailable in software projects, which makes maintenance more difficult. There has been a considerable body of research into automated AI-based methods, using Large Language models (LLMs), to generate summaries of code; there also has been quite a bit of work on ways to measure the performance of such summarization...
+  - **Labels**: [static analysis](static_analysis.md), [code summarization](code_summarization.md)
+
+
 - [CoSS: Leveraging Statement Semantics for Code Summarization](../venues/TSE2023/paper_4.md), ([TSE2023](../venues/TSE2023/README.md))
 
   - **Abstract**: Automated code summarization tools allow generating descriptions for code snippets in natural language, which benefits software development and maintenance. Recent studies demonstrate that the quality of generated summaries can be improved by using additional code representations beyond token sequences. The majority of contemporary approaches mainly focus on extracting code syntactic and structural information from abstract syntax trees (ASTs). However, from the view of macro-structures, it is c...

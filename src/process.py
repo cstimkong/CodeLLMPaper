@@ -315,7 +315,9 @@ if __name__ == "__main__":
         # "../data/rawdata/2024/S&P2024.bib",
         # "../data/rawdata/2024/CCS2024.bib",
         # "../data/rawdata/2025/S&P2025.bib",
-        "../data/rawdata/2025/ICSE2025.bib"
+        # "../data/rawdata/2025/ICSE2025.bib",
+        # "../data/rawdata/2025/ISSTA2025.bib",
+        "../data/rawdata/2025/FSE2025.bib"
     ]
     
     for bib in bibs_with_abstract:

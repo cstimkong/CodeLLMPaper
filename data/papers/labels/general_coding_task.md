@@ -24,6 +24,12 @@
   - **Labels**: [general coding task](general_coding_task.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md), [empirical study](empirical_study.md)
 
 
+- [CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software Building](../venues/FSE2025/paper_34.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Project building is pivotal to support various program analysis tasks, such as generating intermediate representation code for static analysis and preparing binary code for vulnerability reproduction. However, automating the building process for C/C++ projects is a highly complex endeavor, involving tremendous technical challenges, such as intricate dependency management, diverse build systems, varied toolchains, and multifaceted error handling mechanisms. Consequently, building C/C++ projects o...
+  - **Labels**: [general coding task](general_coding_task.md), [agent design](agent_design.md)
+
+
 - [ChatDev: Communicative Agents for Software Development](../venues/ACL2024/paper_5.md), ([ACL2024](../venues/ACL2024/README.md))
 
   - **Abstract**: Software development is a complex task that necessitates cooperation among multiple members with diverse skills. Numerous studies used deep learning to improve specific phases in a waterfall model, such as design, coding, and testing. However, the deep learning model in each phase requires unique designs, leading to technical inconsistencies across various phases, which results in a fragmented and ineffective development process. In this paper, we introduce ChatDev, a chat-powered software devel...

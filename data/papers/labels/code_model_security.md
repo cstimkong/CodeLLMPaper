@@ -42,6 +42,12 @@
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
 
 
+- [Code Red! On the Harmfulness of Applying Off-the-Shelf Large Language Models to Programming Tasks](../venues/FSE2025/paper_32.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Nowadays, developers increasingly rely on solutions powered by Large Language Models (LLM) to assist them with their coding tasks. This makes it crucial to align these tools with human values to prevent malicious misuse.   In this paper,   we propose a comprehensive framework   for assessing the potential harmfulness   of LLMs within the software engineering domain.   We begin by developing a taxonomy of potentially harmful software engineering scenarios  and subsequently, create a dataset of pr...
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [empirical study](empirical_study.md)
+
+
 - [CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code](../venues/EMNLP2024/paper_9.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have achieved remarkable progress in code generation. It now becomes crucial to identify whether the code is AI-generated and to determine the specific model used, particularly for purposes such as protecting Intellectual Property (IP) in industry and preventing cheating in programming exercises. To this end, several attempts have been made to insert watermarks into machine-generated code. However, existing approaches are limited to inserting only a single bit of inf...
@@ -75,6 +81,18 @@
 - [Demystifying RCE Vulnerabilities in LLM-Integrated Apps](../venues/CCS2024/paper_3.md), ([CCS2024](../venues/CCS2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) show promise in transforming software development, with a growing interest in integrating them into more intelligent apps. Frameworks like LangChain aid LLM-integrated app development, offering code execution utility/APIs for custom actions. However, these capabilities theoretically introduce Remote Code Execution (RCE) vulnerabilities, enabling remote code execution through prompt injections. No prior research systematically investigates these frameworks' RCE vulner...
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
+
+
+- [Eliminating Backdoors in Neural Code Models for Secure Code Understanding](../venues/FSE2025/paper_19.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Neural code models (NCMs) have been widely used to address various code understanding tasks, such as defect detection. However, numerous recent studies reveal that such models are vulnerable to backdoor attacks. Backdoored NCMs function normally on normal/clean code snippets, but exhibit adversary-expected behavior on poisoned code snippets injected with the adversary-crafted trigger. It poses a significant security threat. For example, a backdoored defect detection model may misclassify user-su...
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
+
+
+- [Has My Code Been Stolen for Model Training? A Naturalness Based Approach to Code Contamination Detection](../venues/FSE2025/paper_16.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: It is often valuable to know whether a given piece of source code has or hasn’t been used to train a given deep learning model. On one side, it helps avoid data contamination problems that may exaggerate the performance of evaluated models. Conversely, it facilitates copyright protection by identifying private or protected code leveraged for model training without permission. To this end, automated approaches have been proposed for the detection, known as data contamination detection. Such appro...
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md)
 
 

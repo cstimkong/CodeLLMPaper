@@ -64,6 +64,12 @@
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [documentation generation](documentation_generation.md)
 
 
+- [SmartNote: An LLM-Powered, Personalised Release Note Generator That Just Works](../venues/FSE2025/paper_22.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: The release note is a crucial document outlining changes in new software versions. It plays a key role in helping stakeholders recognise important changes and understand the implications behind them. Despite this fact, many developers view the process of writing software release notes as a tedious and dreadful task. Consequently, numerous tools (e.g., DeepRelease and Conventional Changelog) have been developed by researchers and practitioners to automate the generation of software release notes....
+  - **Labels**: [documentation generation](documentation_generation.md), [software maintenance and deployment](software_maintenance_and_deployment.md)
+
+
 - [VerLog: Enhancing Release Note Generation for Android Apps using Large Language Models](../venues/ISSTA2025/paper_29.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
 
   - **Abstract**: Release notes are essential documents that communicate the details of software updates to users and developers, yet their generation remains a time-consuming and error-prone process. In this paper, we present VerLog, a novel technique that enhances the generation of software release notes using Large Language Models (LLMs). VerLog leverages few-shot in-context learning with adaptive prompting to facilitate the graph reasoning capabilities of LLMs, enabling them to accurately interpret and docume...

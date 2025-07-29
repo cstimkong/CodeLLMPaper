@@ -2,6 +2,30 @@
 
 ## General Testing
 
+- [Blended Analysis for Predictive Execution](../venues/FSE2025/paper_40.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Although Large Language Models (LLMs) are highly proficient in understanding source code and descriptive texts, they have limitations in reasoning on dynamic program behaviors, such as execution trace and code coverage prediction, and runtime error prediction, which usually require actual program execution. To advance the ability of LLMs in predicting dynamic behaviors, we leverage the strengths of both approaches, Program Analysis (PA) and LLM, in building PredEx, a predictive executor for Pyth...
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md)
+
+
+- [CRISPE: Semantic-Guided Execution Planning and Dynamic Reasoning for Enhancing Code Coverage Prediction](../venues/FSE2025/paper_39.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: While LLMs excel in understanding source code and descriptive texts for tasks like code generation, code completion, etc., they exhibit weaknesses in predicting dynamic program behavior, such as code coverage and runtime error detection, which typically require program execution. Aiming to advance the capability of LLMs in reasoning and predicting the program behavior at runtime, we present CRISPE (short for Coverage Rationalization and Intelligent Selection ProcedurE), a novel approach for code...
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md)
+
+
+- [CoverUp: Effective High Coverage Test Generation for Python](../venues/FSE2025/paper_36.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Testing is an essential part of software development. Test generation tools attempt to automate the otherwise labor-intensive task of test creation, but generating high-coverage tests remains challenging. This paper proposes CoverUp, a novel approach to driving the generation of high-coverage Python regression tests. CoverUp combines coverage analysis, code context, and feedback in prompts that iteratively guide the LLM to generate tests that improve line and branch coverage.   We evaluate our p...
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md)
+
+
+- [Doc2OracLL: Investigating the Impact of Documentation on LLM-Based Test Oracle Generation](../venues/FSE2025/paper_23.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Code documentation is a critical artifact of software development, bridging human understanding and machine-   readable code. Beyond aiding developers in code comprehension and maintenance, documentation also plays   a critical role in automating various software engineering tasks, such as test oracle generation (TOG). In Java,   Javadoc comments offer structured, natural language documentation embedded directly within the source   code, typically describing functionality, usage, parameters, ret...
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md), [empirical study](empirical_study.md)
+
+
 - [Tratto: A Neuro-Symbolic Approach to Deriving Axiomatic Test Oracles](../venues/ISSTA2025/paper_28.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
 
   - **Abstract**: This paper presents Tratto, a neuro-symbolic approach that generates assertions (boolean expressions) that can serve as axiomatic oracles, from source code and documentation. The symbolic module of Tratto takes advantage of the grammar of the programming language, the unit under test, and the context of the unit (its class and available APIs) to restrict the search space of the tokens that can be successfully used to generate valid oracles. The neural module of Tratto uses transformers fine-tune...
@@ -222,6 +246,12 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [library testing](library_testing.md)
 
 
+- [LlamaRestTest: Effective REST API Testing with Small Language Models](../venues/FSE2025/paper_7.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Modern web services rely heavily on REST APIs, typically documented using the OpenAPI specification. The widespread adoption of this standard has resulted in the development of many black-box testing tools that generate tests based on OpenAPI specifications. Although Large Language Models (LLMs) have shown promising test-generation abilities, their application to REST API testing remains mostly unexplored. We present LlamaRestTest, a novel approach that employs two custom LLMs-created by fine-tu...
+  - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
+
+
 ## DBMS Testing
 
 - [Sedar: Obtaining High-Quality Seeds for DBMS Fuzzing via Cross-DBMS SQL Transfer](../venues/ICSE2024/paper_16.md), ([ICSE2024](../venues/ICSE2024/README.md))
@@ -262,6 +292,14 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
 
 
+## Gui Testing
+
+- [LLMDroid: Enhancing Automated Mobile App GUI Testing Coverage with Large Language Model Guidance](../venues/FSE2025/paper_14.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: With the rapid development of Large Language Models (LLMs), their integration into automated mobile GUI testing has emerged as a promising research direction. However, existing LLM-based testing approaches face significant challenges, including time inefficiency and high costs due to constant LLM querying. To address these issues, this paper introduces LLMDroid, a novel testing framework designed to enhance existing automated mobile GUI testing tools by leveraging LLMs more efficiently. The work...
+  - **Labels**: [program testing](program_testing.md), [GUI testing](GUI_testing.md)
+
+
 ## Protocol Fuzzing
 
 - [Large Language Model guided Protocol Fuzzing](../venues/NDSS2024/paper_2.md), ([NDSS2024](../venues/NDSS2024/README.md))
@@ -298,6 +336,12 @@
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md)
 
 
+- [Automated Unit Test Refactoring](../venues/FSE2025/paper_10.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Test smells arise from poor design practices and insufficient domain knowledge, which can lower the quality of test code and make it harder to maintain and update. Manually refactoring of test smells is time-consuming and error-prone, highlighting the necessity for automated approaches. Current rule-based refactoring methods often struggle in scenarios not covered by predefined rules and lack the flexibility needed to handle diverse cases effectively. In this paper, we propose a novel approach c...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [ChatGPT vs SBST: A Comparative Assessment of Unit Test Suite Generation](../venues/TSE2024/paper_5.md), ([TSE2024](../venues/TSE2024/README.md))
 
   - **Abstract**: Recent advancements in large language models (LLMs) have demonstrated exceptional success in a wide range of general domain tasks, such as question answering and following instructions. Moreover, LLMs have shown potential in various software engineering applications. In this study, we present a systematic comparison of test suites generated by the ChatGPT LLM and the state-of-the-art SBST tool EvoSuite. Our comparison is based on several critical factors, including correctness, readability, code...
@@ -314,6 +358,12 @@
 
   - **Abstract**: Unit testing plays an essential role in detecting bugs in functionally-discrete program units (e.g., methods). Manually writing high-quality unit tests is time-consuming and laborious. Although the traditional techniques are able to generate tests with reasonable coverage, they are shown to exhibit low readability and still cannot be directly adopted by developers in practice. Recent work has shown the large potential of large language models (LLMs) in unit test generation. By being pre-trained ...
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md), [code generation](code_generation.md)
+
+
+- [Less Is More: On the Importance of Data Quality for Unit Test Generation](../venues/FSE2025/paper_18.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Unit testing is crucial for software development and maintenance. Effective unit testing ensures and improves software quality, but writing unit tests is time-consuming and labor-intensive. Recent studies have proposed deep learning (DL) techniques or large language models (LLMs) to automate unit test generation. These models are usually trained or fine-tuned on large-scale datasets. Despite growing awareness of the importance of data quality, there has been limited research on the quality of da...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md)
 
 
 - [On the Evaluation of Large Language Models in Unit Test Generation](../venues/ASE2024/paper_26.md), ([ASE2024](../venues/ASE2024/README.md))
@@ -398,6 +448,12 @@
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md)
 
 
+- [ChatDBG: Augmenting Debugging with Large Language Models](../venues/FSE2025/paper_24.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Debugging is a critical but challenging task for programmers. This paper proposes ChatDBG, an AI-powered debugging assistant. ChatDBG integrates large language models (LLMs) to significantly enhance the capabilities and user-friendliness of conventional debuggers. ChatDBG lets programmers engage in a collaborative dialogue with the debugger, allowing them to pose complex questions about program state, perform root cause analysis for crashes or assertion failures, and explore open-ended queries l...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md)
+
+
 - [Effective Large Language Model Debugging with Best-first Tree Search](../venues/NVDIA2024/paper_1.md), ([NVDIA2024](../venues/NVDIA2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) show promise in code generation tasks. However, their code-writing abilities are often limited in scope: while they can successfully implement simple functions, they struggle with more complex tasks. A fundamental difference with how an LLM writes code, compared to a human programmer, is that it cannot consistently spot and fix bugs. Debugging is a crucial skill for programmers and it enables iterative code refinement towards a correct implementation. In this work, w...
@@ -472,6 +528,12 @@
 
 ## Bug Reproduction
 
+- [A Knowledge Enhanced Large Language Model for Bug Localization](../venues/FSE2025/paper_25.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: A significant number of bug reports are generated every day as software systems continue to develop. Large Language Models (LLMs) have been used to correlate bug reports with source code to locate bugs automatically. The existing research has shown that LLMs are effective for bug localization and can increase software development efficiency. However, these studies still have two limitations. First, these models fail to capture context information about bug reports and source code. Second, these ...
+  - **Labels**: [program testing](program_testing.md), [bug reproduction](bug_reproduction.md)
+
+
 - [COCA: Generative Root Cause Analysis for Distributed Systems with Code Knowledge](../venues/ICSE2025/paper_66.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Runtime failures are commonplace in modern distributed systems. When such issues arise, users often turn to platforms such as Github or JIRA to report them and request assistance. Automatically identifying the root cause of these failures is critical for ensuring high reliability and availability. However, prevailing automatic root cause analysis (RCA) approaches rely significantly on comprehensive runtime monitoring data, which is often not fully available in issue platforms. Recent methods lev...
@@ -494,6 +556,12 @@
 
   - **Abstract**: Flaky tests, characterized by inconsistent results across repeated executions, present significant challenges in software testing, especially during regression testing. Recently, there has been emerging research interest in non-idempotentoutcome (NIO) flaky tests-tests that pass on the initial run but fail on subsequent executions within the same environment. Despite progress in utilizing Large Language Models (LLMs) to address flaky tests, existing methods have not tackled NIO flaky tests. The ...
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md), [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [ReproCopilot: LLM-Driven Failure Reproduction with Dynamic Refinement](../venues/FSE2025/paper_37.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Failure reproduction is a crucial step for debugging software systems, but it is often challenging and time-consuming, especially when the failures are caused by complex inputs, states, or environments. In this paper, we present ReproCopilot, a tool that leverages program analysis and a large language model (LLM) to generate a workload (i.e., code and inputs) that can reproduce a given failure. ReproCopilot proposes two novel techniques: state-oriented code generation and dynamic refinement. The...
+  - **Labels**: [program testing](program_testing.md), [bug reproduction](bug_reproduction.md)
 
 
 ## Vulnerability Exploitation

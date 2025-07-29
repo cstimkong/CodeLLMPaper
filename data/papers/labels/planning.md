@@ -24,6 +24,12 @@
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [agent design](agent_design.md), [planning](planning.md)
 
 
+- [Integrating Large Language Models and Reinforcement Learning for Non-linear Reasoning](../venues/FSE2025/paper_13.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) were shown to struggle with long-term planning, which may be caused by the limited way in which they explore the space of possible solutions. We propose an architecture where a Reinforcement Learning (RL) Agent guides an LLM's space exploration: (1) the Agent has access to domain-specific information, and can therefore make decisions about the quality of candidate solutions based on specific and relevant metrics, which were not explicitly considered by the LLM's trai...
+  - **Labels**: [agent design](agent_design.md), [planning](planning.md), [hallucination in reasoning](hallucination_in_reasoning.md)
+
+
 - [LocAgent: Graph-Guided LLM Agents for Code Localization](../venues/ACL2025/paper_1.md), ([ACL2025](../venues/ACL2025/README.md))
 
   - **Abstract**: Code localization--identifying precisely where in a codebase changes need to be made--is a fundamental yet challenging task in software maintenance. Existing approaches struggle to efficiently navigate complex codebases when identifying relevant code sections. The challenge lies in bridging natural language problem descriptions with the appropriate code elements, often requiring reasoning across hierarchical structures and multiple dependencies. We introduce LocAgent, a framework that addresses ...

@@ -18,6 +18,12 @@
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
 
+- [Detecting and Reducing the Factual Hallucinations of Large Language Models with Metamorphic Testing](../venues/FSE2025/paper_20.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Question answering (QA) is a fundamental task of large language models (LLMs), which requires LLMs to automatically answer human-posed questions in natural language. However, LLMs are known to distort facts and make non-factual statements (i.e., hallucinations) when dealing with QA tasks, which may affect the deployment of LLMs in real-life situations. In this work, we propose DrHall, a framework for detecting and reducing the factual hallucinations of black-box LLMs with metamorphic testing (MT...
+  - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md)
+
+
 - [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
@@ -34,6 +40,12 @@
 
   - **Abstract**: Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. ...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
+
+
+- [Integrating Large Language Models and Reinforcement Learning for Non-linear Reasoning](../venues/FSE2025/paper_13.md), ([FSE2025](../venues/FSE2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) were shown to struggle with long-term planning, which may be caused by the limited way in which they explore the space of possible solutions. We propose an architecture where a Reinforcement Learning (RL) Agent guides an LLM's space exploration: (1) the Agent has access to domain-specific information, and can therefore make decisions about the quality of candidate solutions based on specific and relevant metrics, which were not explicitly considered by the LLM's trai...
+  - **Labels**: [agent design](agent_design.md), [planning](planning.md), [hallucination in reasoning](hallucination_in_reasoning.md)
 
 
 - [LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation](../venues/ISSTA2025/paper_7.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
