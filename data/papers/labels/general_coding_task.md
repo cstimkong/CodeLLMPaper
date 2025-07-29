@@ -30,6 +30,12 @@
   - **Labels**: [general coding task](general_coding_task.md)
 
 
+- [CodeImprove: Program Adaptation for Deep Code Models](../venues/ICSE2025/paper_42.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Leveraging deep learning (DL)-based code analysis tools to solve software engineering tasks is becoming increasingly popular. Code models often suffer performance degradation due to various reasons (e.g., code data shifts). Retraining is often required to address these issues, but frequent model updates are costly in labeling and deployment. In this paper, we explore an alternative solution: Adapting the program inputs to the code models. This can be achieved by two steps: 1) input validation th...
+  - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
+
+
 - [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](../venues/ACL2024/paper_18.md), ([ACL2024](../venues/ACL2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have demonstrated remarkable performance on assisting humans in programming and facilitating programming automation. However, existing benchmarks for evaluating the code understanding and generation capacities of LLMs suffer from severe limitations. First, most benchmarks are insufficient as they focus on a narrow range of popular programming languages and specific tasks, whereas real-world software development scenarios show a critical need to implement systems with...

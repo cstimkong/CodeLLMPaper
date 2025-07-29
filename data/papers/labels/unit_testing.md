@@ -30,6 +30,12 @@
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md)
 
 
+- [Rug: Turbo Llm for Rust Unit Test Generation](../venues/ICSE2025/paper_31.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [fuzzing](fuzzing.md)
+
+
 - [Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation](../venues/ASE2024/paper_42.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Automatic testing has garnered significant attention and success over the past few decades. Techniques such as unit testing and coverage-guided fuzzing have revealed numerous critical software bugs and vulnerabilities. However, a long-standing, formidable challenge for existing techniques is how to achieve higher testing coverage. Constraint-based techniques, such as symbolic execution and concolic testing, have been well-explored and integrated into the existing approaches. With the popularity ...

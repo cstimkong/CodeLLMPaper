@@ -1,5 +1,11 @@
 # Code Similarity Analysis
 
+- [A Multiple Representation Transformer with Optimized Abstract Syntax Tree for Efficient Code Clone Detection](../venues/ICSE2025/paper_23.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Over the past decade, the application of deep learning in code clone detection has produced remarkable results. However, the current approaches have two limitations: (a) code representation approaches with low information utilization, such as vanilla Abstract Syntax Tree (AST), leading to information redundancy which results in performance degradation; (b) low efficiency of clone detection on evaluation, resulting in excessive time costs during practical use. In this paper, we propose a Multiple...
+  - **Labels**: [code model](code_model.md), [code model training](code_model_training.md), [static analysis](static_analysis.md), [code similarity analysis](code_similarity_analysis.md)
+
+
 - [BinCola: Diversity-Sensitive Contrastive Learning for Binary Code Similarity Detection](../venues/TSE2024/paper_14.md), ([TSE2024](../venues/TSE2024/README.md))
 
   - **Abstract**: Binary Code Similarity Detection (BCSD) is a fundamental binary analysis technique in the area of software security. Recently, advanced deep learning algorithms are integrated into BCSD platforms to achieve superior performance on well-known benchmarks. However, real-world large programs embed more complex diversities due to different compilers, various optimization levels, multiple architectures and even obfuscations. Existing BCSD solutions suffer from low accuracy issues in such complicated r...

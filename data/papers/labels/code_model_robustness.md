@@ -1,9 +1,27 @@
 # Code Model Robustness
 
+- [Calibration and Correctness of Language Models for Code](../venues/ICSE2025/paper_20.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Machine learning models are widely used, but can also often be wrong. Users would benefit from a reliable indication of whether a given output from a given model should be trusted, so a rational decision can be made whether to use the output or not. For example, outputs can be associated with a confidence measure; if this confidence measure is strongly associated with likelihood of correctness, then the model is said to be well-calibrated. A well-calibrated confidence measure can serve as a basi...
+  - **Labels**: [code model](code_model.md), [code model robustness](code_model_robustness.md)
+
+
 - [CodeFort: Robust Training for Code Generation Models](../venues/EMNLP2024/paper_39.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Code generation models are not robust to small perturbations, which often lead to inconsistent and incorrect generations and significantly degrade the performance of these models. Improving the robustness of code generation models is crucial to better user experience when these models are deployed in real-world applications. However, existing efforts have not addressed this issue for code generation models. To fill this gap, we propose CodeFort, a framework to improve the robustness of code gene...
   - **Labels**: [code generation](code_generation.md), [code model](code_model.md), [code model training](code_model_training.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
+
+
+- [CodeImprove: Program Adaptation for Deep Code Models](../venues/ICSE2025/paper_42.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Leveraging deep learning (DL)-based code analysis tools to solve software engineering tasks is becoming increasingly popular. Code models often suffer performance degradation due to various reasons (e.g., code data shifts). Retraining is often required to address these issues, but frequent model updates are costly in labeling and deployment. In this paper, we explore an alternative solution: Adapting the program inputs to the code models. This can be achieved by two steps: 1) input validation th...
+  - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
+
+
+- [Iterative Generation of Adversarial Example for Deep Code Models](../venues/ICSE2025/paper_27.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Deep code models are vulnerable to adversarial attacks, making it possible for semantically identical inputs to trigger different responses. Current black-box attack methods typically prioritize the impact of identifiers on the model based on custom importance scores or program context and incrementally replace identifiers to generate adversarial examples. However, these methods often fail to fully leverage feedback from failed attacks to guide subsequent attacks, resulting in problems such as l...
+  - **Labels**: [code model](code_model.md), [code model robustness](code_model_robustness.md)
 
 
 - [LLMEffiChecker: Understanding and Testing Efficiency Degradation of Large Language Models](../venues/TOSEM2024/paper_4.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
@@ -16,6 +34,12 @@
 
   - **Abstract**: LLM-based vulnerability auditors (e.g., GitHub Copilot) represent a significant advancement in automated code analysis, offering precise detection of security vulnerabilities. This paper explores the potential to circumvent LLM-based vulnerability auditors by diverting their focus, decided by the LLM attention mechanism, away from real vulnerable code segments. In these LLM-based vulnerability auditors, the attention mechanism is supposed to focus on potentially vulnerable code sections to ident...
   - **Labels**: [code model](code_model.md), [code model robustness](code_model_robustness.md)
+
+
+- [Metamorphic-Based Many-Objective Distillation of LLMs for Code-Related Tasks](../venues/ICSE2025/paper_64.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Knowledge distillation compresses large language models (LLMs) into more compact and efficient versions that achieve similar accuracy on code-related tasks. However, as we demonstrate in this study, compressed models are four times less robust than the original LLMs when evaluated with metamorphic code. They exhibit a $\mathbf{4 4 0 \%}$ higher probability of misclassifying code clones due to minor changes in the code fragment under analysis, such as replacing parameter names with synonyms. To a...
+  - **Labels**: [code model](code_model.md), [code model training](code_model_training.md), [code model robustness](code_model_robustness.md)
 
 
 - [RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code](../venues/ASE2024/paper_18.md), ([ASE2024](../venues/ASE2024/README.md))

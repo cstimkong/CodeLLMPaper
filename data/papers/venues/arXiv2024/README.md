@@ -1,6 +1,6 @@
 # arXiv2024
 
-Number of papers: 41
+Number of papers: 40
 
 ## [A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection](paper_16.md)
 - **Authors**: Benjamin Steenhoek and Md Mahbubur Rahman and Monoshi Kumar Roy and Mirza Sanjida Alam and Earl T. Barr and Wei Le
@@ -51,14 +51,14 @@ Number of papers: 41
 - **Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
-## [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](paper_37.md)
+## [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](paper_36.md)
 - **Authors**: Momoko Shiraishi and Takahiro Shinagawa
 - **Abstract**: There is strong motivation to translate C code into Rust code due to the continuing threat of memory safety vulnerabilities in existing C programs and the significant attention paid to Rust as an alternative to the C language. While large language models (LLMs) show promise for automating this translation by generating more natural and safer code than rule-based methods, previous studies have shown that LLM-generated Rust code often fails to compile, even for relatively small C programs, due to ...
 - **Link**: [Read Paper](https://arxiv.org/abs/2409.10506v1)
 - **Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md)
 
 
-## [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](paper_33.md)
+## [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](paper_32.md)
 - **Authors**: Zhang, Andy K and Perry, Neil and Dulepet, Riya and Ji, Joey and Lin, Justin W and Jones, Eliot and Menders, Celeste and Hussein, Gashon and Liu, Samantha and Jasper, Donovan and others
 - **Abstract**: Language Model (LM) agents for cybersecurity that are capable of autonomously identifying vulnerabilities and executing exploits have the potential to cause real-world impact. Policymakers, model providers, and other researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such agents to help mitigate cyberrisk and investigate opportunities for penetration testing. Toward that end, we introduce Cybench, a framework for specifying cybersecurity tasks a...
 - **Link**: [Read Paper](https://arxiv.org/abs/2408.08926)
@@ -93,21 +93,21 @@ Number of papers: 41
 - **Labels**: [benchmark](../../labels/benchmark.md), [code generation](../../labels/code_generation.md)
 
 
-## [Formal Mathematical Reasoning: A New Frontier in AI](paper_29.md)
+## [Formal Mathematical Reasoning: A New Frontier in AI](paper_28.md)
 - **Authors**: Kaiyu Yang, Gabriel Poesia, Jingxuan He, Wenda Li, Kristin Lauter, Swarat Chaudhuri, Dawn Song
 - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2412.16075)
 - **Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)
 
 
-## [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](paper_35.md)
+## [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](paper_34.md)
 - **Authors**: Yang, Ke and Liu, Jiateng and Wu, John and Yang, Chaoqi and Fung, Yi R and Li, Sha and Huang, Zixuan and Cao, Xu and Wang, Xingyao and Wang, Yiquan and others
 - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2401.00812.pdf)
 - **Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md), [reason with code](../../labels/reason_with_code.md)
 
 
-## [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](paper_41.md)
+## [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](paper_40.md)
 - **Authors**: Chenyuan Yang, Zijie Zhao and Lingming Zhang
 - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2401.00563)
@@ -128,7 +128,7 @@ Number of papers: 41
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [benchmark](../../labels/benchmark.md)
 
 
-## [LLMorpheus: Mutation Testing using Large Language Models](paper_31.md)
+## [LLMorpheus: Mutation Testing using Large Language Models](paper_30.md)
 - **Authors**: Tip, Frank and Bell, Jonathan and Sch{\"a}fer, Max
 - **Abstract**: In mutation testing, the quality of a test suite is evaluated by introducing faults into a program and determining whether the program's tests detect them. Most existing approaches for mutation testing involve the application of a fixed set of mutation operators, e.g., replacing a "+" with a "-" or removing a function's body. However, certain types of real-world bugs cannot easily be simulated by such approaches, limiting their effectiveness. This paper presents a technique where a Large Languag...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2404.09952)
@@ -142,28 +142,28 @@ Number of papers: 41
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
-## [Large Language Models Based Fuzzing Techniques: A Survey](paper_40.md)
+## [Large Language Models Based Fuzzing Techniques: A Survey](paper_39.md)
 - **Authors**: Misu, Md Rakib Hossain and Lopes, Cristina V. and Ma, Iris and Noble, James
 - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2402.00350)
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md), [survey](../../labels/survey.md)
 
 
-## [Large language model-based agents for software engineering: A survey](paper_34.md)
+## [Large language model-based agents for software engineering: A survey](paper_33.md)
 - **Authors**: Liu, Junwei and Wang, Kaixin and Chen, Yixuan and Peng, Xin and Chen, Zhenpeng and Zhang, Lingming and Lou, Yiling
 - **Abstract**: The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2409.02977)
 - **Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md)
 
 
-## [Llm4fuzz: Guided fuzzing of smart contracts with large language models](paper_30.md)
+## [Llm4fuzz: Guided fuzzing of smart contracts with large language models](paper_29.md)
 - **Authors**: Shou, Chaofan and Liu, Jing and Lu, Doudou and Sen, Koushik
 - **Abstract**: As blockchain platforms grow exponentially, millions of lines of smart contract code are being deployed to manage extensive digital assets. However, vulnerabilities in this mission-critical code have led to significant exploitations and asset losses. Thorough automated security analysis of smart contracts is thus imperative. This paper introduces LLM4Fuzz to optimize automated smart contract security analysis by leveraging large language models (LLMs) to intelligently guide and prioritize fuzzin...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2401.11108.pdf)
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
-## [Program Slicing in the Era of Large Language Models](paper_28.md)
+## [Program Slicing in the Era of Large Language Models](paper_27.md)
 - **Authors**: Shahandashti, Kimya Khakzad and Mohajer, Mohammad Mahdi and Belle, Alvine Boaye and Wang, Song and Hemmati, Hadi
 - **Abstract**: Program slicing is a critical technique in software engineering, enabling developers to isolate relevant portions of code for tasks such as bug detection, code comprehension, and debugging. In this study, we investigate the application of large language models (LLMs) to both static and dynamic program slicing, with a focus on Java programs. We evaluate the performance of four state-of-the-art LLMs- GPT-4o, GPT-3.5 Turbo, Llama-2, and Gemma-7B leveraging advanced prompting techniques, including f...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2409.12369)
@@ -212,17 +212,10 @@ Number of papers: 41
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)
 
 
-## [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](paper_27.md)
+## [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](paper_26.md)
 - **Authors**: Ma, Lezhi and Liu, Shangqing and Bu, Lei and Li, Shangru and Wang, Yida and Liu, Yang
 - **Abstract**: Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limit...
 - **Link**: [Read Paper](https://arxiv.org/abs/2409.12866)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [specification inference](../../labels/specification_inference.md)
-
-
-## [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](paper_26.md)
-- **Authors**: Ma, Lezhi and Liu, Shangqing and Li, Yi and Xie, Xiaofei and Bu, Lei
-- **Abstract**: In software development, formal program specifications play a crucial role in various stages. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated specification generation methods have emerged. However, existing methods usually ...
-- **Link**: [Read Paper](https://arxiv.org/pdf/2401.08807.pdf)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [specification inference](../../labels/specification_inference.md)
 
 
@@ -233,7 +226,7 @@ Number of papers: 41
 - **Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md)
 
 
-## [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](paper_32.md)
+## [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](paper_31.md)
 - **Authors**: Fang, Richard and Bindu, Rohan and Gupta, Akul and Zhan, Qiusi and Kang, Daniel
 - **Abstract**: LLM agents have become increasingly sophisticated, especially in the realm of cybersecurity. Researchers have shown that LLM agents can exploit real-world vulnerabilities when given a description of the vulnerability and toy capture-the-flag problems. However, these agents still perform poorly on real-world vulnerabilities that are unknown to the agent ahead of time (zero-day vulnerabilities). In this work, we show that teams of LLM agents can exploit real-world, zero-day vulnerabilities. Prior ...
 - **Link**: [Read Paper](https://arxiv.org/abs/2406.01637)
@@ -247,21 +240,21 @@ Number of papers: 41
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](paper_38.md)
+## [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](paper_37.md)
 - **Authors**: Hasan Ferit Eniser, Hanliang Zhang, Cristina David, Meng Wang, Maria Christakis, Brandon Paulsen, Joey Dodds, and Daniel Kroening
 - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
 - **Link**: [Read Paper](https://arxiv.org/abs/2405.11514)
 - **Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md), [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
-## [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](paper_39.md)
+## [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](paper_38.md)
 - **Authors**: Jinbao Chen, Hongjing Xiang, Luhao Li, Yu Zhang, Boyao Ding, Qingwei Li
 - **Abstract**: Static Application Security Testing(SAST) tools are crucial for early bug detection and code quality but often generate false positives that slow development. Automating false positive mitigation is thus essential for advancing SAST tools. Past efforts use static/dynamic analysis or machine learning. The advent of Large Language Models, adept at understanding natural language and code, offers promising ways to improve the accuracy and usability of SAST tools. However, existing LLM-based methods ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2411.03079)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](paper_36.md)
+## [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](paper_35.md)
 - **Authors**: Aidan Z.H. Yang, Yoshiki Takashima, Brandon Paulsen, Josiah Dodds, and Daniel Kroening
 - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
 - **Link**: [Read Paper](https://arxiv.org/abs/2404.18852)

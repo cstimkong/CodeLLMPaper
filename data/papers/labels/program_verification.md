@@ -66,9 +66,21 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
+- [LLM-Aided Automatic Modeling for Security Protocol Verification](../venues/ICSE2025/paper_56.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Symbolic protocol analysis serves as a pivotal technique for protocol design, security analysis, and the safeguarding of information assets. Several modern tools such as Tamarin and ProVerif have been proven successful in modeling and verifying real-world protocols, including complex protocols like TLS 1.3 and 5G AKA. However, developing formal models for protocol verification is a non-trivial task, which hinders the wide adoption of these powerful tools in practical protocol analysis. In this w...
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
+
+
 - [LLM-Generated Invariants for Bounded Model Checking Without Loop Unrolling](../venues/ASE2024/paper_23.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: We investigate a modification of the classical Bounded Model Checking (BMC) procedure that does not handle loops through unrolling but via modifications to the control flow graph (CFG). A portion of the CFG representing a loop is replaced by a node asserting invariants of the loop. We generate these invariants using Large Language Models (LLMs) and use a first-order theorem prover to ensure the correctness of the generated statements. We thus transform programs to loop-free variants in a sound m...
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
+
+
+- [Large Language Models for Safe Minimization](../venues/ICSE2025/paper_57.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Several tasks in program analysis, verification, and testing are modeled as constraint solving problems, utilizing SMT solvers as the reasoning engine. In this work, we aim to investigate the reasoning capabilities of large language models (LLMs) toward reducing the size of an infeasible string constraint system by exploiting inter-constraint interactions such that the remaining ones are still unsatisfiable. We term this safe minimization. Motivated by preliminary observations of hallucination a...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
@@ -108,6 +120,12 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [sampling and ranking](sampling_and_ranking.md)
 
 
+- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/ICSE2025/paper_7.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: In the software development process, formal program specifications play a crucial role in various stages, including requirement analysis, software testing, and verification. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated s...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md), [program verification](program_verification.md)
+
+
 - [Towards AI-Assisted Synthesis of Verified Dafny Methods](../venues/FSE2024/paper_23.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: Large language models show great promise in many domains, including programming. A promise is easy to make but hard to keep, and language models often fail to keep their promises, generating erroneous code. A promising avenue to keep models honest is to incorporate formal verification: generating programs’ specifications as well as code so that the code can be proved correct with respect to the specifications. Unfortunately, existing large language models show a severe lack of proficiency in ver...
@@ -120,7 +138,13 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Towards Neural Synthesis for SMT-Assisted Proof-Oriented Programming](../venues/ICSE2025/paper_8.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Proof-oriented programs mix computational content with proofs of program correctness. However, the human effort involved in programming and proving is still substantial, despite the use of Satisfiability Modulo Theories (SMT) solvers to automate proofs in languages such as F*. Seeking to spur research on using AI to automate the construction of proof-oriented programs, we curate a dataset of 600K lines of open-source F* programs and proofs, including software used in production systems ranging f...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
+
+
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)

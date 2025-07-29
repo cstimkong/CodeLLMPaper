@@ -1,5 +1,11 @@
 # Fuzzing
 
+- [Clozemaster: Fuzzing Rust Compiler by Harnessing Llms for Infilling Masked Real Programs](../venues/ICSE2025/paper_50.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Ensuring the reliability of the Rust compiler is of paramount importance, given increasing adoption of Rust for critical systems development, due to its emphasis on memory and thread safety. However, generating valid test programs for the Rust compiler poses significant challenges, given Rust's complex syntax and strict requirements. With the growing popularity of large language models (LLMs), much research in software testing has explored using LLMs to generate test cases. Still, directly using...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
+
+
 - [CodaMosa: Escaping Coverage Plateaus in Test Generation with Pre-Trained Large Language Models](../venues/ICSE2023/paper_1.md), ([ICSE2023](../venues/ICSE2023/README.md))
 
   - **Abstract**: Search-based software testing (SBST) generates high-coverage test cases for programs under test with a combination of test case generation and mutation. SBST's performance relies on there being a reasonable probability of generating test cases that exercise the core logic of the program under test. Given such test cases, SBST can then explore the space around them to exercise various parts of the program. This paper explores whether Large Language Models (LLMs) of code, such as OpenAI's Codex, c...
@@ -42,7 +48,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_41.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_40.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -78,7 +84,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [library testing](library_testing.md)
 
 
-- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_40.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)
@@ -90,7 +96,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [Llm4fuzz: Guided fuzzing of smart contracts with large language models](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Llm4fuzz: Guided fuzzing of smart contracts with large language models](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: As blockchain platforms grow exponentially, millions of lines of smart contract code are being deployed to manage extensive digital assets. However, vulnerabilities in this mission-critical code have led to significant exploitations and asset losses. Thorough automated security analysis of smart contracts is thus imperative. This paper introduces LLM4Fuzz to optimize automated smart contract security analysis by leveraging large language models (LLMs) to intelligently guide and prioritize fuzzin...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -106,6 +112,12 @@
 
   - **Abstract**: Vulnerabilities related to option combinations pose a significant challenge in software security testing due to their vast search space. Previous research primarily addressed this challenge through mutation or filtering techniques, which inefficiently treated all option combinations as having equal potential for vulnerabilities, thus wasting considerable time on non-vulnerable targets and resulting in low testing efficiency. In this paper, we utilize carefully designed prompt engineering to driv...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
+- [Rug: Turbo Llm for Rust Unit Test Generation](../venues/ICSE2025/paper_31.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [fuzzing](fuzzing.md)
 
 
 - [SMT Solver Validation Empowered by Large Pre-Trained Language Models](../venues/ASE2023/paper_3.md), ([ASE2023](../venues/ASE2023/README.md))
@@ -126,7 +138,13 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
 
 
-- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [The Seeds of the Future Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries](../venues/ICSE2025/paper_39.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The widespread application of large language models (LLMs) underscores the importance of deep learning (DL) technologies that rely on foundational DL libraries such as PyTorch and TensorFlow. Despite their robust features, these libraries face challenges with scalability and adaptation to rapid advancements in the LLM community. In response, tech giants like Apple and Huawei are developing their own DL libraries to enhance performance, increase scalability, and safeguard intellectual property. E...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [vulnerability exploitation](vulnerability_exploitation.md)
+
+
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -142,3 +160,9 @@
 
   - **Abstract**: Compiler correctness is crucial, as miscompilation can falsify program behaviors, leading to serious consequences over the software supply chain. In the literature, fuzzing has been extensively studied to uncover compiler defects. However, compiler fuzzing remains challenging: Existing arts focus on black- and grey-box fuzzing, which generates test programs without sufficient understanding of internal compiler behaviors. As such, they often fail to construct test programs to exercise intricate o...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
+
+
+- [Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](../venues/ICSE2025/paper_21.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Deep learning (DL) libraries are widely used to form the basis of various AI applications in computer vision, natural language processing, and software engineering domains. Despite their popularity, DL libraries are known to have vulnerabilities, such as buffer overflows, use-after-free, and integer overflows, that can be exploited to compromise the security or effectiveness of the underlying libraries. While traditional fuzzing techniques have been used to find bugs in software, they are not we...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)

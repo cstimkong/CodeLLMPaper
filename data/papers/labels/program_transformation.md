@@ -42,7 +42,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: There is strong motivation to translate C code into Rust code due to the continuing threat of memory safety vulnerabilities in existing C programs and the significant attention paid to Rust as an alternative to the C language. While large language models (LLMs) show promise for automating this translation by generating more natural and safer code than rule-based methods, previous studies have shown that LLM-generated Rust code often fails to compile, even for relatively small C programs, due to ...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -82,6 +82,12 @@
 
   - **Abstract**: Compilers are complex software containing millions of lines of code, taking years to develop. This paper investigates to what extent Large Language Models (LLMs) can replace hand-crafted compilers in translating high-level programming languages to machine instructions, using C to x86 assembly as a case study. We identify two challenges of using LLMs for code translation and introduce two novel data pre-processing techniques to address the challenges: numerical value conversion and training data ...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
+- [LLM Assistance for Memory Safety](../venues/ICSE2025/paper_15.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Memory safety violations in low-level code, written in languages like C, continues to remain one of the major sources of software vulnerabilities. One method of removing such violations by construction is to port C code to a safe C dialect. Such dialects rely on programmer-supplied annotations to guarantee safety with minimal runtime overhead. This porting, however, is a manual process that imposes significant burden on the programmer and, hence, there has been limited adoption of this technique...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
 - [LLM-Based Java Concurrent Program to ArkTS Converter](../venues/ASE2024/paper_37.md), ([ASE2024](../venues/ASE2024/README.md))
@@ -168,6 +174,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [Search-Based LLMs for Code Optimization](../venues/ICSE2025/paper_13.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The code written by developers usually suffers from efficiency problems and contain various performance bugs. These inefficiencies necessitate the research of automated refactoring methods for code optimization. Early research in code optimization employs rule-based methods and focuses on specific inefficiency issues, which are labor-intensive and suffer from the low coverage issue. Recent work regards the task as a sequence generation problem, and resorts to deep learning (DL) techniques such a...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program optimization](program_optimization.md)
+
+
 - [Semi-Supervised Code Translation Overcoming the Scarcity of Parallel Code Data](../venues/ASE2024/paper_24.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Neural code translation is the task of converting source code from one programming language to another. One of the main challenges is the scarcity of parallel code data, which hinders the ability of translation models to learn accurate cross-language alignments. In this paper, we introduce MIRACLE, a semi-supervised approach that improves code translation through synthesizing high-quality parallel code data and curriculum learning on code data with ascending alignment levels. MIRACLE leverages s...
@@ -186,7 +198,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -204,7 +216,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_36.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_35.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)

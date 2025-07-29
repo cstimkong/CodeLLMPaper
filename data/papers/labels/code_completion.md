@@ -78,6 +78,12 @@
   - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
+- [LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-Based Code Completion](../venues/ICSE2025/paper_68.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Large language models (LLMs), pre-trained or fine-tuned on large code corpora, have shown effectiveness in generating code completions. However, in LLM-based code completion, LLMs may struggle to use correct and up-to-date Application Programming Interfaces (APIs) due to the rapid and continuous evolution of libraries. While existing studies have highlighted issues with predicting incorrect APIs, the specific problem of deprecated API usage in LLM-based code completion has not been thoroughly in...
+  - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md)
+
+
 - [Language Models for Code Completion: A Practical Evaluation](../venues/ICSE2024/paper_26.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: Transformer-based language models for automatic code completion have shown great promise so far, yet the evaluation of these models rarely uses real data. This study provides both quantitative and qualitative assessments of three public code language models when completing real-world code. We first developed an open-source IDE extension, Code4Me, for the online evaluation of the models. We collected real auto-completion usage data for over a year from more than 1200 users, resulting in over 600K...

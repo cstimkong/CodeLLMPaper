@@ -34,3 +34,9 @@
 
   - **Abstract**: Input-centric program optimization aims to optimize code by considering the relations between program inputs and program behaviors. Despite its promise, a long-standing barrier for its adoption is the difficulty of automatically identifying critical features of complex inputs. This paper introduces a novel technique, reductive analysis through compiler-guided Large Language Models (LLMs), to solve the problem through a synergy between compilers and LLMs. It uses a reductive approach to overcome ...
   - **Labels**: [static analysis](static_analysis.md), [program optimization](program_optimization.md)
+
+
+- [Search-Based LLMs for Code Optimization](../venues/ICSE2025/paper_13.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The code written by developers usually suffers from efficiency problems and contain various performance bugs. These inefficiencies necessitate the research of automated refactoring methods for code optimization. Early research in code optimization employs rule-based methods and focuses on specific inefficiency issues, which are labor-intensive and suffer from the low coverage issue. Recent work regards the task as a sequence generation problem, and resorts to deep learning (DL) techniques such a...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program optimization](program_optimization.md)

@@ -8,7 +8,19 @@
   - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md), [agent design](agent_design.md), [planning](planning.md)
 
 
+- [exLong: Generating Exceptional Behavior Tests with Large Language Models](../venues/ICSE2025/paper_51.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Many popular programming languages, including C#, Java, and Python, support exceptions. Exceptions are thrown during program execution if an unwanted event happens, e.g., a method is invoked with an illegal argument value. Software developers write exceptional behavior tests (EBTs) to check that their code detects unwanted events and throws appropriate exceptions. Prior research studies have shown the importance of EBTs, but those studies also highlighted that developers put most of their effort...
+  - **Labels**: [program testing](program_testing.md), [general testing](general_testing.md)
+
+
 ## Fuzzing
+
+- [Clozemaster: Fuzzing Rust Compiler by Harnessing Llms for Infilling Masked Real Programs](../venues/ICSE2025/paper_50.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Ensuring the reliability of the Rust compiler is of paramount importance, given increasing adoption of Rust for critical systems development, due to its emphasis on memory and thread safety. However, generating valid test programs for the Rust compiler poses significant challenges, given Rust's complex syntax and strict requirements. With the growing popularity of large language models (LLMs), much research in software testing has explored using LLMs to generate test cases. Still, directly using...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
+
 
 - [CodaMosa: Escaping Coverage Plateaus in Test Generation with Pre-Trained Large Language Models](../venues/ICSE2023/paper_1.md), ([ICSE2023](../venues/ICSE2023/README.md))
 
@@ -52,7 +64,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_41.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_40.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -88,7 +100,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [library testing](library_testing.md)
 
 
-- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_40.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)
@@ -100,7 +112,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [Llm4fuzz: Guided fuzzing of smart contracts with large language models](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Llm4fuzz: Guided fuzzing of smart contracts with large language models](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: As blockchain platforms grow exponentially, millions of lines of smart contract code are being deployed to manage extensive digital assets. However, vulnerabilities in this mission-critical code have led to significant exploitations and asset losses. Thorough automated security analysis of smart contracts is thus imperative. This paper introduces LLM4Fuzz to optimize automated smart contract security analysis by leveraging large language models (LLMs) to intelligently guide and prioritize fuzzin...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -116,6 +128,12 @@
 
   - **Abstract**: Vulnerabilities related to option combinations pose a significant challenge in software security testing due to their vast search space. Previous research primarily addressed this challenge through mutation or filtering techniques, which inefficiently treated all option combinations as having equal potential for vulnerabilities, thus wasting considerable time on non-vulnerable targets and resulting in low testing efficiency. In this paper, we utilize carefully designed prompt engineering to driv...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
+- [Rug: Turbo Llm for Rust Unit Test Generation](../venues/ICSE2025/paper_31.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [fuzzing](fuzzing.md)
 
 
 - [SMT Solver Validation Empowered by Large Pre-Trained Language Models](../venues/ASE2023/paper_3.md), ([ASE2023](../venues/ASE2023/README.md))
@@ -136,7 +154,13 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
 
 
-- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [The Seeds of the Future Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries](../venues/ICSE2025/paper_39.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The widespread application of large language models (LLMs) underscores the importance of deep learning (DL) technologies that rely on foundational DL libraries such as PyTorch and TensorFlow. Despite their robust features, these libraries face challenges with scalability and adaptation to rapid advancements in the LLM community. In response, tech giants like Apple and Huawei are developing their own DL libraries to enhance performance, increase scalability, and safeguard intellectual property. E...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [vulnerability exploitation](vulnerability_exploitation.md)
+
+
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_37.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -154,7 +178,25 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
 
 
+- [Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](../venues/ICSE2025/paper_21.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Deep learning (DL) libraries are widely used to form the basis of various AI applications in computer vision, natural language processing, and software engineering domains. Despite their popularity, DL libraries are known to have vulnerabilities, such as buffer overflows, use-after-free, and integer overflows, that can be exploited to compromise the security or effectiveness of the underlying libraries. While traditional fuzzing techniques have been used to find bugs in software, they are not we...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
 ## Library Testing
+
+- [A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs](../venues/ICSE2025/paper_52.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: As modern web services increasingly rely on REST APIs, their thorough testing has become crucial. Furthermore, the advent of REST API documentation languages, such as the OpenAPI Specification, has led to the emergence of many black-box REST API testing tools. However, these tools often focus on individual test elements in isolation (e.g., APIs, parameters, values), resulting in lower coverage and less effectiveness in fault detection. To address these limitations, we present AutoRestTest, the f...
+  - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
+
+
+- [LLM Based Input Space Partitioning Testing for Library APIs](../venues/ICSE2025/paper_45.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Automated library APIs testing is difficult as it requires exploring a vast space of parameter inputs that may involve objects with complex data types. Existing search based approaches, with limited knowledge of relations between object states and program branches, often suffer from the low efficiency issue, i.e., tending to generate invalid inputs. Symbolic execution based approaches can effectively identify such relations, but fail to scale to large programs. In this work, we present an LLM-ba...
+  - **Labels**: [program testing](program_testing.md), [library testing](library_testing.md)
+
 
 - [Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models](../venues/ISSTA2023/paper_2.md), ([ISSTA2023](../venues/ISSTA2023/README.md))
 
@@ -171,6 +213,12 @@
 
 
 ## Compiler Testing
+
+- [Clozemaster: Fuzzing Rust Compiler by Harnessing Llms for Infilling Masked Real Programs](../venues/ICSE2025/paper_50.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Ensuring the reliability of the Rust compiler is of paramount importance, given increasing adoption of Rust for critical systems development, due to its emphasis on memory and thread safety. However, generating valid test programs for the Rust compiler poses significant challenges, given Rust's complex syntax and strict requirements. With the growing popularity of large language models (LLMs), much research in software testing has explored using LLMs to generate test cases. Still, directly using...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
+
 
 - [Fuzzing JavaScript Interpreters with Coverage-Guided Reinforcement Learning for LLM-Based Mutation](../venues/ISSTA2024/paper_22.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
@@ -206,7 +254,7 @@
 
 ## Mutation Testing
 
-- [LLMorpheus: Mutation Testing using Large Language Models](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [LLMorpheus: Mutation Testing using Large Language Models](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In mutation testing, the quality of a test suite is evaluated by introducing faults into a program and determining whether the program's tests detect them. Most existing approaches for mutation testing involve the application of a fixed set of mutation operators, e.g., replacing a "+" with a "-" or removing a function's body. However, certain types of real-world bugs cannot easily be simulated by such approaches, limiting their effectiveness. This paper presents a technique where a Large Languag...
   - **Labels**: [program testing](program_testing.md), [mutation testing](mutation_testing.md)
@@ -250,6 +298,12 @@
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [empirical study](empirical_study.md)
 
 
+- [Rug: Turbo Llm for Rust Unit Test Generation](../venues/ICSE2025/paper_31.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
+  - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [fuzzing](fuzzing.md)
+
+
 - [Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation](../venues/ASE2024/paper_42.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Automatic testing has garnered significant attention and success over the past few decades. Techniques such as unit testing and coverage-guided fuzzing have revealed numerous critical software bugs and vulnerabilities. However, a long-standing, formidable challenge for existing techniques is how to achieve higher testing coverage. Constraint-based techniques, such as symbolic execution and concolic testing, have been well-explored and integrated into the existing approaches. With the popularity ...
@@ -264,10 +318,22 @@
 
 ## Differential Testing
 
+- [Chatgpt-Based Test Generation for Refactoring Engines Enhanced by Feature Analysis on Examples](../venues/ICSE2025/paper_58.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Software refactoring is widely employed to improve software quality. However, conducting refactorings manually is tedious, time-consuming, and error-prone. Consequently, automated and semi-automated tool support is highly desirable for software refactoring in the industry, and most of the main-stream IDEs provide powerful tool support for refactoring. However, complex refactoring engines are prone to errors, which in turn may result in imperfect and incorrect refactorings. To this end, in this p...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
+
+
 - [DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts](../venues/arXiv2024/paper_23.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Differential testing can be an effective way to find bugs in software systems with multiple implementations that conform to the same specification, like compilers, network protocol parsers, and language runtimes. Specifications for such systems are often standardized in natural language documents, like Instruction Set Architecture (ISA) specifications, Wasm specifications or IETF RFC's. Large Language Models (LLMs) have demonstrated potential in both generating tests and handling large volumes o...
   - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
+- [LWDIFF: an LLM-Assisted Differential Testing Framework for Webassembly Runtimes](../venues/ICSE2025/paper_65.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: WebAssembly (Wasm) runtimes execute Wasm programs, a popular low-level language for efficiently executing high-level languages in browsers, with broad applications across diverse domains. The correctness of those runtimes is critical for both functionality and security of Wasm execution, motivating testing approaches that target Wasm runtimes specifically. However, existing Wasm testing frameworks fail to generate test cases that effectively test all three phases of runtime, i.e., decoding, vali...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
 
 
 - [METAMON: Finding Inconsistencies between Program Documentation and Behavior using Metamorphic LLM Queries](../venues/LLM4Code2025/paper_1.md), ([LLM4Code2025](../venues/LLM4Code2025/README.md))
@@ -288,6 +354,12 @@
 
   - **Abstract**: Fault Localization (FL), in which a developer seeks to identify which part of the code is malfunctioning and needs to be fixed, is a recurring challenge in debugging. To reduce developer burden, many automated FL techniques have been proposed. However, prior work has noted that existing techniques fail to provide rationales for the suggested locations, hindering developer adoption of these techniques. With this in mind, we propose AutoFL, a Large Language Model (LLM)-based FL technique that gene...
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md)
+
+
+- [COCA: Generative Root Cause Analysis for Distributed Systems with Code Knowledge](../venues/ICSE2025/paper_66.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Runtime failures are commonplace in modern distributed systems. When such issues arise, users often turn to platforms such as Github or JIRA to report them and request assistance. Automatically identifying the root cause of these failures is critical for ensuring high reliability and availability. However, prevailing automatic root cause analysis (RCA) approaches rely significantly on comprehensive runtime monitoring data, which is often not fully available in issue platforms. Recent methods lev...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md)
 
 
 - [Effective Large Language Model Debugging with Best-first Tree Search](../venues/NVDIA2024/paper_1.md), ([NVDIA2024](../venues/NVDIA2024/README.md))
@@ -320,10 +392,22 @@
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
+- [NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent](../venues/ICSE2025/paper_61.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Flaky tests, characterized by inconsistent results across repeated executions, present significant challenges in software testing, especially during regression testing. Recently, there has been emerging research interest in non-idempotentoutcome (NIO) flaky tests-tests that pass on the initial run but fail on subsequent executions within the same environment. Despite progress in utilizing Large Language Models (LLMs) to address flaky tests, existing methods have not tackled NIO flaky tests. The ...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md), [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [Predictive Program Slicing via Execution Knowledge-Guided Dynamic Dependence Learning](../venues/FSE2024/paper_29.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: Program slicing, the process of extracting program statements that influence values at a designated location (known as the slicing criterion), is helpful in both manual and automated debugging. However, such slicing techniques prove ineffective in scenarios where executing specific inputs is prohibitively expensive, or even impossible, as with partial code. In this paper, we introduce ND-Slicer, a predictive slicing methodology that caters to specific executions based on a particular input, over...
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
+
+
+- [Reasoning Runtime Behavior of a Program with LLM: How Far are We?](../venues/ICSE2025/paper_10.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Large language models for code (i.e., code LLMs) have shown strong code understanding and generation capabilities. To evaluate the capabilities of code LLMs in various aspects, many benchmarks have been proposed (e.g., HumanEval and ClassEval). Code reasoning is one of the most essential abilities of code LLMs (i.e., predicting code execution behaviors such as program output and execution path), but existing benchmarks for code reasoning are not sufficient. Typically, they focus on predicting th...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
 
 
 - [SelfPiCo: Self-Guided Partial Code Execution with LLMs](../venues/ISSTA2024/paper_16.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
@@ -344,7 +428,19 @@
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md)
 
 
+- [Treefix: Enabling Execution with a Tree of Prefixes](../venues/ICSE2025/paper_59.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The ability to execute code is a prerequisite for various dynamic program analyses. Learning-guided execution has been proposed as an approach to enable the execution of arbitrary code snippets by letting a neural model predict likely values for any missing variables. Although state-of-the-art learning-guided execution approaches, such as LExecutor, can enable the execution of a relative high amount of code, they are limited to predicting a restricted set of possible values and do not use any fe...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md)
+
+
 ## Bug Reproduction
+
+- [COCA: Generative Root Cause Analysis for Distributed Systems with Code Knowledge](../venues/ICSE2025/paper_66.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Runtime failures are commonplace in modern distributed systems. When such issues arise, users often turn to platforms such as Github or JIRA to report them and request assistance. Automatically identifying the root cause of these failures is critical for ensuring high reliability and availability. However, prevailing automatic root cause analysis (RCA) approaches rely significantly on comprehensive runtime monitoring data, which is often not fully available in issue platforms. Recent methods lev...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md)
+
 
 - [Evaluating Diverse Large Language Models for Automatic and General Bug Reproduction](../venues/TSE2024/paper_13.md), ([TSE2024](../venues/TSE2024/README.md))
 
@@ -356,6 +452,12 @@
 
   - **Abstract**: Many automated test generation techniques have been developed to aid developers with writing tests. To facilitate full automation, most existing techniques aim to either increase coverage, or generate exploratory inputs. However, existing test generation techniques largely fall short of achieving more semantic objectives, such as generating tests to reproduce a given bug report. Reproducing bugs is nonetheless important, as our empirical study shows that the number of tests added in open source ...
   - **Labels**: [program testing](program_testing.md), [bug reproduction](bug_reproduction.md)
+
+
+- [NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent](../venues/ICSE2025/paper_61.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Flaky tests, characterized by inconsistent results across repeated executions, present significant challenges in software testing, especially during regression testing. Recently, there has been emerging research interest in non-idempotentoutcome (NIO) flaky tests-tests that pass on the initial run but fail on subsequent executions within the same environment. Despite progress in utilizing Large Language Models (LLMs) to address flaky tests, existing methods have not tackled NIO flaky tests. The ...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md), [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 ## Vulnerability Exploitation
@@ -372,7 +474,7 @@
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md)
 
 
-- [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](../venues/arXiv2024/paper_33.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](../venues/arXiv2024/paper_32.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Language Model (LM) agents for cybersecurity that are capable of autonomously identifying vulnerabilities and executing exploits have the potential to cause real-world impact. Policymakers, model providers, and other researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such agents to help mitigate cyberrisk and investigate opportunities for penetration testing. Toward that end, we introduce Cybench, a framework for specifying cybersecurity tasks a...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
@@ -408,10 +510,16 @@
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
 
 
-- [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](../venues/arXiv2024/paper_32.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: LLM agents have become increasingly sophisticated, especially in the realm of cybersecurity. Researchers have shown that LLM agents can exploit real-world vulnerabilities when given a description of the vulnerability and toy capture-the-flag problems. However, these agents still perform poorly on real-world vulnerabilities that are unknown to the agent ahead of time (zero-day vulnerabilities). In this work, we show that teams of LLM agents can exploit real-world, zero-day vulnerabilities. Prior ...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md)
+
+
+- [The Seeds of the Future Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries](../venues/ICSE2025/paper_39.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The widespread application of large language models (LLMs) underscores the importance of deep learning (DL) technologies that rely on foundational DL libraries such as PyTorch and TensorFlow. Despite their robust features, these libraries face challenges with scalability and adaptation to rapid advancements in the LLM community. In response, tech giants like Apple and Huawei are developing their own DL libraries to enhance performance, increase scalability, and safeguard intellectual property. E...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [vulnerability exploitation](vulnerability_exploitation.md)
 
 
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](../venues/ProtectAI2024/paper_1.md), ([ProtectAI2024](../venues/ProtectAI2024/README.md))

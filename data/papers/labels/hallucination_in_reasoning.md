@@ -18,7 +18,7 @@
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
 
-- [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Formal Mathematical Reasoning: A New Frontier in AI](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)

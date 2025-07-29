@@ -1,9 +1,21 @@
 # Differential Testing
 
+- [Chatgpt-Based Test Generation for Refactoring Engines Enhanced by Feature Analysis on Examples](../venues/ICSE2025/paper_58.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Software refactoring is widely employed to improve software quality. However, conducting refactorings manually is tedious, time-consuming, and error-prone. Consequently, automated and semi-automated tool support is highly desirable for software refactoring in the industry, and most of the main-stream IDEs provide powerful tool support for refactoring. However, complex refactoring engines are prone to errors, which in turn may result in imperfect and incorrect refactorings. To this end, in this p...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
+
+
 - [DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts](../venues/arXiv2024/paper_23.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Differential testing can be an effective way to find bugs in software systems with multiple implementations that conform to the same specification, like compilers, network protocol parsers, and language runtimes. Specifications for such systems are often standardized in natural language documents, like Instruction Set Architecture (ISA) specifications, Wasm specifications or IETF RFC's. Large Language Models (LLMs) have demonstrated potential in both generating tests and handling large volumes o...
   - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
+
+
+- [LWDIFF: an LLM-Assisted Differential Testing Framework for Webassembly Runtimes](../venues/ICSE2025/paper_65.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: WebAssembly (Wasm) runtimes execute Wasm programs, a popular low-level language for efficiently executing high-level languages in browsers, with broad applications across diverse domains. The correctness of those runtimes is critical for both functionality and security of Wasm execution, motivating testing approaches that target Wasm runtimes specifically. However, existing Wasm testing frameworks fail to generate test cases that effectively test all three phases of runtime, i.e., decoding, vali...
+  - **Labels**: [program testing](program_testing.md), [differential testing](differential_testing.md)
 
 
 - [METAMON: Finding Inconsistencies between Program Documentation and Behavior using Metamorphic LLM Queries](../venues/LLM4Code2025/paper_1.md), ([LLM4Code2025](../venues/LLM4Code2025/README.md))

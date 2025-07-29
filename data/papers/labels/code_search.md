@@ -1,5 +1,11 @@
 # Code Search
 
+- [LiSSA: Toward Generic Traceability Link Recovery Through Retrieval- Augmented Generation](../venues/ICSE2025/paper_54.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: There are a multitude of software artifacts which need to be handled during the development and maintenance of a software system. These artifacts interrelate in multiple, complex ways. Therefore, many software engineering tasks are enabled - and even empowered - by a clear understanding of artifact interrelationships and also by the continued advancement of techniques for automated artifact linking. However, current approaches in automatic Traceability Link Recovery (TLR) target mostly the links...
+  - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [static analysis](static_analysis.md), [code summarization](code_summarization.md), [code search](code_search.md)
+
+
 - [Natural Is the Best: Model-Agnostic Code Simplification for Pre-trained Large Language Models](../venues/FSE2024/paper_17.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: Pre-trained Large Language Models (LLM) have achieved remarkable successes in several domains. However, code-oriented LLMs are often heavy in computational complexity, and quadratically with the length of the input code sequence. Toward simplifying the input program of an LLM, the state-of-the-art approach has the strategies to filter the input code tokens based on the attention scores given by the LLM. The decision to simplify the input program should not rely on the attention patterns of an LL...

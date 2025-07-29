@@ -18,6 +18,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization](../venues/ICSE2025/paper_33.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Maintaining software design quality is crucial for the long-term maintainability and evolution of systems. However, design issues such as poor modularity and excessive complexity often emerge as codebases grow. Developers rely on external tools, such as program analysis techniques, to identify such issues. This work leverages Large Language Models (LLMs) to develop an automated approach for analyzing and localizing design issues. Large language models have demonstrated significant performance on...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis](../venues/OOPSLA2025/paper_2.md), ([OOPSLA2025](../venues/OOPSLA2025/README.md))
 
   - **Abstract**: Server-side request forgery (SSRF) vulnerabilities are inevitable in PHP web applications. Existing static tools in detecting vulnerabilities in PHP web applications neither contain SSRF-related features to enhance detection accuracy nor consider PHP’s dynamic type features. In this paper, we present Artemis, a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications. First, Artemis extracts both PHP built-in and third-party functions as candidate source and sink fun...
@@ -49,6 +55,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [Boosting Static Resource Leak Detection via LLM-based Resource-Oriented Intention Inference](../venues/ICSE2025/paper_38.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Resource leaks, caused by resources not being released after acquisition, often lead to performance issues and system crashes. Existing static detection techniques rely on mechanical matching of predefined resource acquisition/release APIs and null-checking conditions to find unreleased resources, suffering from both (1) false negatives caused by the incompleteness of predefined resource acquisition/release APIs and (2) false positives caused by the incompleteness of resource reachability valida...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [CORE: Resolving Code Quality Issues using LLMs](../venues/FSE2024/paper_22.md), ([FSE2024](../venues/FSE2024/README.md))
 
   - **Abstract**: As software projects progress, quality of code assumes paramount importance as it affects reliability, maintainability and security of software. For this reason, static analysis tools are used in developer workflows to flag code quality issues. However, developers need to spend extra efforts to revise their code to improve code quality based on the tool findings. In this work, we investigate the use of (instruction-following) large language models (LLMs) to assist developers in revising code to ...
@@ -67,6 +79,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
 
 
+- [Code Comment Inconsistency Detection and Rectification Using a Large Language Model](../venues/ICSE2025/paper_19.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Comments are widely used in source code. If a comment is consistent with the code snippet it intends to annotate, it would aid code comprehension. Otherwise, Code Comment Inconsistency (CCI) is not only detrimental to the understanding of code, but more importantly, it would negatively impact the development, testing, and maintenance of software. To tackle this issue, existing research has been primarily focused on detecting inconsistencies with varied performance. It is evident that detection a...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [CoderUJB: An Executable and Unified Java Benchmark for Practical Programming Scenarios](../venues/ISSTA2024/paper_3.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
   - **Abstract**: In the evolving landscape of large language models (LLMs) tailored for software engineering, the need for benchmarks that accurately reflect real-world development scenarios is paramount. Current benchmarks are either too simplistic or fail to capture the multi-tasking nature of software development. To address this, we introduce CoderUJB, a new benchmark designed to evaluate LLMs across diverse Java programming tasks that are executable and reflective of actual development scenarios, acknowledg...
@@ -77,6 +95,12 @@
 
   - **Abstract**: Large Language Model (LLM)-based methods have proven to be effective for many software engineering domains, with a potential for substantial productivity effective for software vulnerability detection.    However, due to the limitation of the length of input contexts of LLM, the existing LLM-based methods mainly focus on detecting function-level and leveraging the in-file context information for vulnerability detection (i.e., intra-procedural vulnerabilities), ignoring the more complex inter-pro...
   - **Labels**: [code generation](code_generation.md), [bug detection](bug_detection.md)
+
+
+- [Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications](../venues/ICSE2025/paper_16.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Smart contracts are decentralized applications built atop blockchains like Ethereum. Recent research has shown that large language models (LLMs) have potential in auditing smart contracts, but the state-of-the-art indicates that even GPT-4 can achieve only 30% precision (when both decision and justification are correct). This is likely because off-the-shelf LLMs were primarily pre-trained on a general text/code corpus and not fine-tuned on the specific domain of Solidity smart contract auditing....
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
 - [Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications](../venues/ICSE2025/paper_6.md), ([ICSE2025](../venues/ICSE2025/README.md))
@@ -217,6 +241,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
 
 
+- [Hyperion: Unveiling DApp Inconsistencies Using LLM and Dataflow-Guided Symbolic Execution](../venues/ICSE2025/paper_11.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The rapid advancement of blockchain platforms has significantly accelerated the growth of decentralized applications (DApps). Similar to traditional applications, DApps integrate front-end descriptions that showcase their features to attract users, and back-end smart contracts for executing their business logic. However, inconsistencies between the features promoted in front-end descriptions and those actually implemented in the contract can confuse users and undermine DApps's trustworthiness. I...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
 - [If At First You Don’t Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems](../venues/SOSP2024/paper_1.md), ([SOSP2024](../venues/SOSP2024/README.md))
 
   - **Abstract**: Retry—the re-execution of a task on failure—is a common mechanism to enable resilient software systems. Yet, despite its commonality and long history, retry remains difficult to implement and test. Guided by our study of real-world retry issues, we propose a novel suite of static and dynamic techniques to detect retry problems in software. We find that the ad-hoc nature of retry implementation poses challenges for traditional program analysis but can be well suited for large language models; and...
@@ -307,6 +337,12 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
+- [Leveraging Large Language Models to Detect NPM Malicious Packages](../venues/ICSE2025/paper_44.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Existing malicious code detection techniques demand the integration of multiple tools to detect different malware patterns, often suffering from high misclassification rates. Therefore, malicious code detection techniques could be enhanced by adopting advanced, more automated approaches to achieve high accuracy and a low misclassification rate. The goal of this study is to aid security analysts in detecting malicious packages by empirically studying the effectiveness of Large Language Models (LL...
+  - **Labels**: [program testing](program_testing.md), [bug detection](bug_detection.md)
+
+
 - [Leveraging Semantic Relations in Code and Data to Enhance Taint Analysis of Embedded Systems](../venues/USENIXSec2024/paper_2.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
 
   - **Abstract**: IoT devices have significantly impacted our daily lives, and detecting vulnerabilities in embedded systems early on is critical for ensuring their security. Among the existing vulnerability detection techniques for embedded systems, static taint analysis has been proven effective in detecting severe vulnerabilities, such as command injection vulnerabilities, which can cause remote code execution. Nevertheless, static taint analysis is faced with the problem of identifying sources comprehensively...
@@ -316,6 +352,12 @@
 - [Minimizing False Positives in Static Bug Detection via LLM-Enhanced Path Feasibility Analysis](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static bug analyzers play a crucial role in ensuring software quality. However, existing analyzers for bug detection in large codebases often suffer from high false positive rates. This is primarily due to the limited capabilities of analyzers in path feasibility validation with multiple conditional branches and complex data dependencies. While current LLM-based approaches attempt to address this issue, their effectiveness remains limited due to insufficient constraint cascade analysis and scala...
+  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+
+
+- [Planning a Large Language Model for Static Detection of Runtime Errors in Code Snippets](../venues/ICSE2025/paper_34.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) have been excellent in generating and reasoning about source code and natural-language texts. They can recognize patterns, syntax, and semantics in code, making them effective in several software engineering tasks. However, they exhibit weaknesses in reasoning about the program execution. They primarily operate on static code representations, failing to capture the dynamic behavior and state changes that occur during program execution. In this paper, we advance the c...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
@@ -329,6 +371,12 @@
 
   - **Abstract**: Formal verification is a technique that can prove the correctness of a system with respect to a certain specification or property. It is especially valuable for security-sensitive smart contracts that manage billions in cryptocurrency assets. Although existing research has developed various static verification tools (or provers) for smart contracts, a key missing component is theautomated generation of comprehensive properties, including invariants, pre-/post-conditions, and rules. Hence, indust...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [program verification](program_verification.md)
+
+
+- [ROCODE: Integrating Backtracking Mechanism and Program Analysis in Large Language Models for Code Generation](../venues/ICSE2025/paper_40.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have achieved impressive performance in code generation recently, offering programmers revolutionary assistance in software development. However, due to the auto-regressive nature of LLMs, they are susceptible to error accumulation during code generation. Once an error is produced, LLMs can merely continue to generate the subsequent code conditioned on it, given their inability to adjust previous outputs. Existing LLM-based approaches typically consider post-revising...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
 - [RealVul: Can We Detect Vulnerabilities in Web Applications with LLM?](../venues/EMNLP2024/paper_24.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
@@ -445,7 +493,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Utilizing Precise and Complete Code Context to Guide LLM in Automatic False Positive Mitigation](../venues/arXiv2024/paper_38.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Static Application Security Testing(SAST) tools are crucial for early bug detection and code quality but often generate false positives that slow development. Automating false positive mitigation is thus essential for advancing SAST tools. Past efforts use static/dynamic analysis or machine learning. The advent of Large Language Models, adept at understanding natural language and code, offers promising ways to improve the accuracy and usability of SAST tools. However, existing LLM-based methods ...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)

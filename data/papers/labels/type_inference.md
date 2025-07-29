@@ -12,6 +12,12 @@
   - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md)
 
 
+- [Neurosymbolic Modular Refinement Type Inference](../venues/ICSE2025/paper_29.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Refinement types, a type-based generalization of Floyd-Hoare logics, are an expressive and modular means of statically ensuring a wide variety of correctness, safety, and security properties of software. However, their expressiveness and modularity means that to use them, a developer must laboriously annotate all the functions in their code with potentially complex type specifications that specify the contract for that function. We present LHC, a neurosymbolic agent that uses LLMs to automatical...
+  - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md)
+
+
 - [PyTy: Repairing Static Type Errors in Python](../venues/ICSE2024/paper_12.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: Gradual typing enables developers to annotate types of their own choosing, offering a flexible middle ground between no type annotations and a fully statically typed language. As more and more code bases get type-annotated, static type checkers detect an increasingly large number of type errors. Unfortunately, fixing these errors requires manual effort, hampering the adoption of gradual typing in practice. This paper presents PyTy, an automated program repair approach targeted at statically dete...
@@ -22,3 +28,9 @@
 
   - **Abstract**: Python’s dynamic typing nature provides developers with powerful programming abstractions. However, many type-related bugs are accumulated in code bases of Python due to the misuse of dynamic typing. The goal of this article is to aid in the understanding of developers’ high-risk practices toward dynamic typing and the early detection of type-related bugs. We first formulate the rules of six types of risky dynamic typing-related practices (type smells for short) in Python. We then develop a rule...
   - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
+
+
+- [TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference](../venues/ICSE2025/paper_12.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Python's dynamic typing system offers flexibility and expressiveness but can lead to type-related errors, prompting the need for automated type inference to enhance type hinting. While existing learning-based approaches show promising inference accuracy, they struggle with practical challenges in comprehensively handling various types, including complex parameterized types and (unseen) user-defined types. In this paper, we introduce TIGER, a two-stage generating-then-ranking (GTR) framework, des...
+  - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md)

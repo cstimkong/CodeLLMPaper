@@ -6,6 +6,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [Aligning the Objective of LLM-Based Program Repair](../venues/ICSE2025/paper_49.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Large language models (LLMs) have achieved decent results on automated program repair (APR). However, the next token prediction training objective of decoder-only LLMs (e.g., GPT-4) is misaligned with the masked span prediction objective of current infilling-style methods, which impedes LLMs from fully leveraging pre-trained knowledge for program repair. In addition, while some LLMs can locate and repair bugs in certain functions using the related artifacts (e.g., test cases), existing methods s...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [An Empirical Study on Fine-Tuning Large Language Models of Code for Automated Program Repair](../venues/ASE2023/paper_2.md), ([ASE2023](../venues/ASE2023/README.md))
 
   - **Abstract**: The advent of large language models (LLMs) has opened up new opportunities for automated program repair (APR). In particular, some recent studies have explored how to leverage large language models of code (LLMCs) for program repair tasks and show promising results. However, most of them adopt the zero/few-shot learning paradigm for APR, which directly use LLMCs to generate the possibly correct code given its surrounding context. Though effective, the repair capabilities of LLMCs based on the fi...
@@ -102,10 +108,22 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models](../venues/ICSE2025/paper_36.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The rise of Large Language Models (LLMs) has streamlined frontend interface creation through tools like Vercel's v0, yet surfaced challenges in design quality (e.g., accessibility, and usability). Current solutions, often limited by their focus, generalisability, or data dependency, fall short in addressing these complexities. Moreover, none of them examine the quality of LLM-generated UI design. In this work, we introduce DesignRepair, a novel dual-stream design guideline-aware system to examin...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [Exploring Parameter-Efficient Fine-Tuning of Large Language Model on Automated Program Repair](../venues/ASE2024/paper_14.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Automated Program Repair (APR) aims to fix bugs by generating patches. And existing work has demonstrated that "pre-training and fine-tuning" paradigm enables Large Language Models (LLMs) improve fixing capabilities on APR. However, existing work mainly focuses on Full-Model Fine-Tuning (FMFT) for APR and limited research has been conducted on the execution-based evaluation of Parameter-Efficient Fine-Tuning (PEFT) for APR. Comparing to FMFT, PEFT can reduce computing resource consumption withou...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
+
+
+- [FIXDRIVE: Automatically Repairing Autonomous Vehicle Driving Behaviour for $0.08 per Violation](../venues/ICSE2025/paper_60.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Autonomous Vehicles (AVs) are advancing rapidly, with Level-4 AVs already operating in real-world conditions. Current AVs, however, still lag behind human drivers in adaptability and performance, often exhibiting overly conservative behaviours and occasionally violating traffic laws. Existing solutions, such as runtime enforcement, mitigate this by automatically repairing the AV's planned trajectory at runtime, but such approaches lack transparency and should be a measure of last resort. It woul...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 - [FastFixer: An Efficient and Effective Approach for Repairing Programming Assignments](../venues/ASE2024/paper_12.md), ([ASE2024](../venues/ASE2024/README.md))
@@ -117,6 +135,12 @@
 - [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](../venues/arXiv2025/paper_17.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: The rapid advancement of bug-finding techniques has led to the discovery of more vulnerabilities than developers can reasonably fix, creating an urgent need for effective Automated Program Repair (APR) methods. However, the complexity of modern bugs often makes precise root cause analysis difficult and unreliable. To address this challenge, we propose crash-site repair to simplify the repair task while still mitigating the risk of exploitation. In addition, we introduce a template-guided patch g...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [Fixing Large Language Models' Specification Misunderstanding for Better Code Generation](../venues/ICSE2025/paper_35.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Code generation is to automatically generate source code conforming to a given programming specification, which has received extensive attention especially with the development of large language models (LLMs). Due to the inherent difficulty of code generation, the code generated by LLMs may not be aligned with the specification. Although thought-eliciting prompting techniques have been proposed to enhance the code generation performance of LLMs, producing correct understanding for complicated pr...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
@@ -144,9 +168,21 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [Intention is All you Need: Refining your Code from your Intention](../venues/ICSE2025/paper_55.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Code refinement aims to enhance existing code by addressing issues, refactoring, and optimizing to improve quality and meet specific requirements. As software projects scale in size and complexity, the traditional iterative exchange between re-viewers and developers becomes increasingly burdensome. While recent deep learning techniques have been explored to accelerate this process, their performance remains limited, primarily due to challenges in accurately understanding reviewers' intents. This...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [code summarization](code_summarization.md)
+
+
 - [Is Self-Repair a Silver Bullet for Code Generation?](../venues/ICLR2023/paper_1.md), ([ICLR2023](../venues/ICLR2023/README.md))
 
   - **Abstract**: Large language models have shown remarkable aptitude in code generation, but still struggle to perform complex tasks. Self-repair---in which the model debugs and repairs its own code---has recently become a popular way to boost performance in these settings. However, despite its increasing popularity, existing studies of self-repair have been limited in scope; in many settings, its efficacy thus remains poorly understood. In this paper, we analyze Code Llama, GPT-3.5 and GPT-4's ability to perfo...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [Knowledge-Enhanced Program Repair for Data Science Code](../venues/ICSE2025/paper_69.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: This paper introduces DSrepair, a knowledge-enhanced program repair approach designed to repair the buggy code generated by LLMs in the data science domain. DSrepair uses knowledge graph based RAG for API knowledge retrieval and bug knowledge enrichment to construct repair prompts for LLMs. Specifically, to enable knowledge graph-based API retrieval, we construct DS-KG (Data Science Knowledge Graph) for widely used data science libraries. For bug knowledge enrichment, we employ an abstract synta...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
@@ -160,6 +196,12 @@
 
   - **Abstract**: Defect reduction planning plays a vital role in enhancing software quality and minimizing software maintenance costs. By training a black box machine learning model and “explaining” its predictions, explainable AI for software engineering aims to identify the code characteristics that impact maintenance risks. However, post-hoc explanations do not always faithfully reflect what the original model computes. In this paper, we introduce CounterACT, a Counterfactual ACTion rule mining approach that ...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
+
+- [NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent](../venues/ICSE2025/paper_61.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Flaky tests, characterized by inconsistent results across repeated executions, present significant challenges in software testing, especially during regression testing. Recently, there has been emerging research interest in non-idempotentoutcome (NIO) flaky tests-tests that pass on the initial run but fail on subsequent executions within the same environment. Despite progress in utilizing Large Language Models (LLMs) to address flaky tests, existing methods have not tackled NIO flaky tests. The ...
+  - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [bug reproduction](bug_reproduction.md), [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 - [Neurosymbolic Repair of Test Flakiness](../venues/ISSTA2024/paper_17.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
@@ -198,6 +240,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [type inference](type_inference.md)
 
 
+- [RepairAgent: An Autonomous, LLM-Based Agent for Program Repair](../venues/ICSE2025/paper_46.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience. This paper introduces Repair Agent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM). Unlike existing deep learning-based approaches, which prompt a model with a fixed prompt or in a fixed feedback loop, our work treats the LLM as an agent capable of autonomously planning and executi...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [agent design](agent_design.md)
+
+
 - [Repairagent: An autonomous, llm-based agent for program repair](../venues/arXiv2024/paper_11.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience. This paper introduces RepairAgent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM). Unlike existing deep learning-based approaches, which prompt a model with a fixed prompt or in a fixed feedback loop, our work treats the LLM as an agent capable of autonomously planning and executin...
@@ -207,6 +255,18 @@
 - [Repairing Bugs with the Introduction of New Variables: A Multi-Agent Large Language Model](../venues/CCS2024/paper_6.md), ([CCS2024](../venues/CCS2024/README.md))
 
   - **Abstract**: Trained on billions of tokens, large language models (LLMs) have a broad range of empirical knowledge which enables them to generate software patches with complex repair patterns. We leverage the powerful code-fixing capabilities of LLMs and propose VarPatch, a multi-agent conversational automated program repair (APR) technique that iteratively queries the LLM to generate software patches by providing various prompts and context information. VarPatch focuses on the variable addition repair patte...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](../venues/ICSE2025/paper_28.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The problem of software quality has motivated the development of a variety of techniques for Automatic Program Repair (APR). Meanwhile, recent advances in AI and Large Language Models (LLMs) have produced orders of magnitude performance improvements over previous code generation techniques, affording promising opportunities for program repair and its constituent subproblems (e.g., fault localization, patch generation). Because models are trained on large volumes of code in which defects are rela...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
+- [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](../venues/ICSE2025/paper_14.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: The Rust programming language, with its safety guarantees, has established itself as a viable choice for low-level systems programming language over the traditional, unsafe alternatives like C/C++. These guarantees come from a strong ownership-based type system, as well as primitive support for features like closures, pattern matching, etc., that make the code more concise and amenable to reasoning. These unique Rust features also pose a steep learning curve for programmers. This paper presents ...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
@@ -225,7 +285,7 @@
 - [SpecRover: Code Intent Extraction via LLMs](../venues/ICSE2025/paper_2.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Autonomous program improvement typically involves automatically producing bug fixes and feature additions. Such program improvement can be accomplished by a combination of large language model (LLM) and program analysis capabilities, in the form of an LLM agent. Since program repair or program improvement typically requires a specification of intended behavior - specification inference can be useful for producing high quality program patches. In this work, we examine efficient and low-cost workf...
-  - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md), [code generation](code_generation.md), [program repair](program_repair.md)
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
 - [Swe-bench: Can language models resolve real-world github issues?](../venues/ICLR2024/paper_1.md), ([ICLR2024](../venues/ICLR2024/README.md))
@@ -234,10 +294,22 @@
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [Template-Guided Program Repair in the Era of Large Language Models](../venues/ICSE2025/paper_17.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Recent advancements in automated program repair (APR) have been significantly driven by the application of Large Language Models (LLMs). In particular, the integration of LLMs with traditional template-based repair methods has demonstrated effective outcomes. Despite this, the synergy between the strengths of traditional methods and LLMs remains underexploited. This oversight originates from the indiscriminate use of templates and their insufficient coverage. Also, using small-scale LLMs within ...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
+
+
 - [The Best of Both Worlds: Combining Learned Embeddings with Engineered Features for Accurate Prediction of Correct Patches](../venues/TOSEM2023/paper_2.md), ([TOSEM2023](../venues/TOSEM2023/README.md))
 
   - **Abstract**: A large body of the literature on automated program repair develops approaches where patches are automatically generated to be validated against an oracle (e.g., a test suite). Because such an oracle can be imperfect, the generated patches, although validated by the oracle, may actually be incorrect. While the state-of-the-art explores research directions that require dynamic information or rely on manually-crafted heuristics, we study the benefit of learning code representations in order to lea...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
+
+- [The Fact Selection Problem in LLM-Based Program Repair](../venues/ICSE2025/paper_47.md), ([ICSE2025](../venues/ICSE2025/README.md))
+
+  - **Abstract**: Recent research has shown that incorporating bug-related facts, such as stack traces and GitHub issues, into prompts enhances the bug-fixing capabilities of large language models (LLMs). Considering the ever-increasing context window of these models, a critical question arises: what and how many facts should be included in prompts to maximise the chance of correctly fixing bugs? To answer this question, we conducted a large-scale study, employing over 19K prompts featuring various combinations o...
+  - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
 - [The Plastic Surgery Hypothesis in the Era of Large Language Models](../venues/ASE2023/paper_9.md), ([ASE2023](../venues/ASE2023/README.md))
