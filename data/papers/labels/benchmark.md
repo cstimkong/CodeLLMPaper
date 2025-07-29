@@ -134,6 +134,11 @@
   - **Abstract**: Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of 2,294 software engineering problems drawn from real GitHub issues and corresponding pull requests across 12 popul...
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program repair](program_repair.md)
 
+- [Unlocking Low Frequency Syscalls in Kernel Fuzzing with Dependency-Based RAG](../venues/ISSTA2025/paper_1.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Most coverage-guided kernel fuzzers test operating system kernels based on syscall sequence synthesis. However, there are still syscalls rarely or not covered (called low frequency syscalls, LFS) in a period of fuzzing, meaning the relevant code branches remain unexplored. This is due to the complexity dependencies of the LFS and mutation uncertainty, which makes it difficult for fuzzers to generate corresponding syscall sequences. Since many kernel fuzzers can dynamically learn syscall dependen...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [code generation](code_generation.md), [benchmark](benchmark.md)
+
 ## Code Model
 
 - [Follow-Up Attention: An Empirical Study of Developer and Neural Model Code Exploration](../venues/TSE2024/paper_12.md), ([TSE2024](../venues/TSE2024/README.md))
@@ -234,6 +239,11 @@
 
   - **Abstract**: The remarkable capability of large language models (LLMs) in generating high-quality code has drawn increasing attention in the software testing community. However, existing code LLMs often demonstrate unsatisfactory capabilities in generating accurate, complete tests since they were trained on code snippets collected without differentiating between code for testing and for other purposes. In this paper, we present a large-scale dataset, UniTSyn, which can enhance LLMs for Unit Test Synthesis. A...
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [benchmark](benchmark.md)
+
+- [Unlocking Low Frequency Syscalls in Kernel Fuzzing with Dependency-Based RAG](../venues/ISSTA2025/paper_1.md), ([ISSTA2025](../venues/ISSTA2025/README.md))
+
+  - **Abstract**: Most coverage-guided kernel fuzzers test operating system kernels based on syscall sequence synthesis. However, there are still syscalls rarely or not covered (called low frequency syscalls, LFS) in a period of fuzzing, meaning the relevant code branches remain unexplored. This is due to the complexity dependencies of the LFS and mutation uncertainty, which makes it difficult for fuzzers to generate corresponding syscall sequences. Since many kernel fuzzers can dynamically learn syscall dependen...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [code generation](code_generation.md), [benchmark](benchmark.md)
 
 ## Static Analysis
 
